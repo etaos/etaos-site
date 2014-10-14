@@ -1,46 +1,82 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: ETA/OS
+tagline: ETA/OS reference
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## About
 
-## Update Author Attributes
+ETA/OS is a small scale, embedded kernel and/or operating system. It provides
+basic hardware abstraction allowing an application programmer to build somewhat
+portable embedded applications. Some of its features:
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+  * Memory management
+  * Scheduler (semi-SMP ready)
+  * Driver core
+  * Bunch of basic drivers (USART etc..)
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+## License
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+ETA/OS is licenced as GNU General Public Licence version 3 or newer. 
+The COPYING file should contian more information about the licence, or
+if it's not included, look at http://www.gnu.org/licences/.
 
-    $ rm -rf _posts/core-samples
+    ETA/OS
+    Copyright (C) 2014
 
-Here's a sample "posts list".
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-## To-Do
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+## Compiling ETA/OS
 
+To retrieve and build ETA/OS the following tools are required:
 
+Retreiving:
+  * Git
+or
+  * a tarball download
+
+Build tools:
+  * GCC tool chain (binutils and gcc)
+    - gcc
+    - ld
+    - as
+    - objcopy
+  * A working Linux distribution (windows isn't supported (yet))
+
+To test:
+  * simulavr
+or
+  * embedded hardware (arduino's etc..)
+
+Before you can build ETA/OS you have to configure it. Run
+    make menuconfig ARCH=<archname>
+to start the configuration process.
+
+When you are finished configuring the project run the following make commands
+to fully build ETA/OS:
+    make prepare ARCH=<archname>
+    make all ARCH=<archname>
+    make modules_install ARCH=<archname> INSTALL_MOD_PATH=<path>
+
+After that, you are ready to compile an application. To compile an application
+you need application sources and Kbuild file in a sepperate directory (anywhere).
+See the usr/tests/ directory for some examples.
+
+## Contributing
+
+ETA/OS is free software, and anyone is more then welcome to contribute to this
+project. If you have written a patch, you can send this patch or pull request to 
+etaos@googlegroups.com. Pull requests using GitHub are not preferred.
