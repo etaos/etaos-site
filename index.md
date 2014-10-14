@@ -44,29 +44,27 @@ if it's not included, look at http://www.gnu.org/licences/.
 To retrieve and build ETA/OS the following tools are required:
 
 Retreiving:
-  * Git
-or
+
+  * Git or
   * a tarball download
 
 Build tools:
-  * GCC tool chain (binutils and gcc)
-    - gcc
-    - ld
-    - as
-    - objcopy
-  * A working Linux distribution (windows isn't supported (yet))
 
-To test:
-  * simulavr
-or
-  * embedded hardware (arduino's etc..)
+  * gcc
+  * as
+  * ld
+  * objcopy
+  * a working linux distro
 
 Before you can build ETA/OS you have to configure it. Run
+
     make menuconfig ARCH=<archname>
+
 to start the configuration process.
 
 When you are finished configuring the project run the following make commands
 to fully build ETA/OS:
+
     make prepare ARCH=<archname>
     make all ARCH=<archname>
     make modules_install ARCH=<archname> INSTALL_MOD_PATH=<path>
