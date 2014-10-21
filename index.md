@@ -78,3 +78,13 @@ See the usr/tests/ directory for some examples.
 ETA/OS is free software, and anyone is more then welcome to contribute to this
 project. If you have written a patch, you can send this patch or pull request to 
 etaos@googlegroups.com. Pull requests using GitHub are not preferred.
+
+## Help
+
+If you need ANY kind of help, and with any kind we mean any kind, you can contact us
+in the following ways:
+
+  * Using the mailing list (etaos@googlegroups.com)
+  * on our IRC channel (network: irc.michelmegens.net :: channel: #etaos)
+
+Feel free to ask all your questions there.
