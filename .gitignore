@@ -8,6 +8,7 @@ Thumbs.db
 !.gitkeep
 .rbenv-version
 .rvmrc
+.vimproject
 
 arch/
 scripts/
