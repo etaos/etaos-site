@@ -14,14 +14,16 @@ author :
   name : Michel Megens
   email : dev@bietje.net
   github : https://github.com/bietje
+  gitlab : https://git.bietje.net
   twitter : micheeeelm
   feedburner :
 
 project :
-  download : https://github.com/bietje/etaos/archive/master.zip
+  download : https://git.bietje.net/etaos/etaos/repository/archive.zip?ref=v4.4.0
   github : https://github.com/bietje/etaos
-  issue : http://bugs.michelmegens.net/enter_bug.cgi?product=etaos
-  browse : http://git.michelmegens.net/etaos/etaos.git/
+  gitlab : https://git.bietje.net/etaos/etaos
+  issue : https://git.bietje.net/etaos/etaos/issues/new
+  browse : https://git.bietje.net/etaos/etaos
 
 leftmenu:
   url1:
