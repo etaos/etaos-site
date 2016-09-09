@@ -23,7 +23,6 @@ project :
   github : https://github.com/bietje/etaos
   gitlab : https://git.bietje.net/etaos/etaos
   issue : https://git.bietje.net/etaos/etaos/issues/new
-  browse : https://git.bietje.net/etaos/etaos
 
 leftmenu:
   url1:
