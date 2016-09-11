@@ -12,8 +12,8 @@ ETA/OS is a small scale, embedded kernel and/or operating system. It provides
 basic hardware abstraction allowing an application programmer to build somewhat
 portable embedded applications. Some of its features:
 
-  * Memory management
   * Scheduler (semi-SMP ready)
+  * Memory management
   * Driver core
   * Bunch of basic drivers (USART etc..)
 
@@ -24,7 +24,7 @@ The COPYING file should contian more information about the licence, or
 if it's not included, look at http://www.gnu.org/licences/.
 
     ETA/OS
-    Copyright (C) 2014
+    Copyright (C) 2014 2015 2016
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -48,7 +48,7 @@ Retreiving:
   * Git or
   * a tarball download
 
-Build tools:
+Build tools (for the host and target system):
 
   * gcc
   * as
@@ -77,7 +77,8 @@ See the usr/tests/ directory for some examples.
 
 ETA/OS is free software, and anyone is more then welcome to contribute to this
 project. If you have written a patch, you can send this patch or pull request to 
-etaos@googlegroups.com. Pull requests using GitHub are not preferred.
+etaos@googlegroups.com. For more information on how to contribute to etaos,
+please read our [contribution guide](contrib.html).
 
 ## Help
 
@@ -85,6 +86,6 @@ If you need ANY kind of help, and with any kind we mean any kind, you can contac
 in the following ways:
 
   * Using the mailing list (etaos@googlegroups.com)
-  * on our IRC channel (network: irc.michelmegens.net :: channel: #etaos)
 
 Feel free to ask all your questions there.
+
