@@ -1,0 +1,18 @@
+<map id="eeprom_24c02_write_byte" name="eeprom_24c02_write_byte">
+<area shape="rect" id="node3" href="$group__dev-core.html#ga5232d0e524b1611748943aa408444911" title="Lock a device with synchronization. " alt="" coords="236,94,345,127"/>
+<area shape="rect" id="node29" href="$group__i2c.html#ga284ee10c46e23d6f5678217d97e1c58a" title="Sent a single buffer to a chip in master mode. " alt="" coords="231,157,351,190"/>
+<area shape="rect" id="node35" href="$group__dev-core.html#gaceb0363f7690f83ebde2dc871f55f31d" title="Unlock a dev locked with dev_sync_lock. " alt="" coords="229,213,352,246"/>
+<area shape="rect" id="node5" href="$group__libctime.html#ga41213015bed9d9d3191a724a41518963" title="Get the sytem time. " alt="" coords="425,11,471,45"/>
+<area shape="rect" id="node9" href="$group__thread.html#ga7cb51f5c2b5cad3766f19eb69c92793b" title="Yield the current thread, if necessary. " alt="" coords="424,94,472,127"/>
+<area shape="rect" id="node7" href="$group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5" title="Get the system tick in seconds. " alt="" coords="545,5,689,38"/>
+<area shape="rect" id="node11" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="1131,99,1259,133"/>
+<area shape="rect" id="node13" href="$group__sched.html#ga16b0328d8a4b4db8c6eb2733218d625e" title="API interface for `yield()&#39;. " alt="" coords="572,167,663,201"/>
+<area shape="rect" id="node15" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="775,111,892,145"/>
+<area shape="rect" id="node17" href="$group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="748,167,919,201"/>
+<area shape="rect" id="node19" href="$group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212" title="Check if the current thread should be rescheduled. " alt="" coords="751,223,916,257"/>
+<area shape="rect" id="node24" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="999,250,1060,283"/>
+<area shape="rect" id="node27" href="$group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="740,330,927,363"/>
+<area shape="rect" id="node21" href="$group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="977,139,1081,173"/>
+<area shape="rect" id="node31" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="400,170,496,203"/>
+<area shape="rect" id="node33" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="565,223,669,257"/>
+</map>

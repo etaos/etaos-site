@@ -1,0 +1,10 @@
+<map id="ETA/OS kernel" name="ETA/OS kernel">
+<area shape="rect" id="node2" href="$group__sched.html" title="ETA/OS scheduling support. " alt="" coords="188,5,303,38"/>
+<area shape="rect" id="node3" href="$group__irq.html" title="Interrupt support. " alt="" coords="183,61,308,94"/>
+<area shape="rect" id="node4" href="$group__evm.html" title="ETA/OS thread synchronisation. " alt="" coords="179,117,312,150"/>
+<area shape="rect" id="node5" href="$group__fs.html" title="Filesystem management" alt="" coords="163,173,328,206"/>
+<area shape="rect" id="node6" href="$group__mm.html" title="Dynamic memory management. " alt="" coords="172,229,319,262"/>
+<area shape="rect" id="node7" href="$group__thread.html" title="Cooperative multi&#45;threading support. " alt="" coords="175,285,316,318"/>
+<area shape="rect" id="node8" href="$group__sem.html" title="Semaphore API. " alt="" coords="199,341,292,374"/>
+<area shape="rect" id="node9" href="$group__tm.html" title="Asynchronous timer support. " alt="" coords="179,397,312,430"/>
+</map>

@@ -82,7 +82,8 @@ please read our [contribution guide](contrib.html).
 
 ## Help
 
-If you need ANY kind of help, and with any kind we mean any kind, you can contact us
+The full documentation of ETA/OS is available [here](docs). If you need any kind
+of further help, and with any kind we mean any kind, you can contact us
 in the following ways:
 
   * Using the mailing list (etaos@googlegroups.com)

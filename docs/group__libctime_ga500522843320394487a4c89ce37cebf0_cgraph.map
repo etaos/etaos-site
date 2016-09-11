@@ -1,0 +1,5 @@
+<map id="localtime" name="localtime">
+<area shape="rect" id="node3" href="$group__libctime.html#ga8045e89ab1e54677da109e1562e1e47e" title="Get the localtime, keeping the timezone and DST in mind. " alt="" coords="128,33,213,66"/>
+<area shape="rect" id="node5" href="$group__libctime.html#gacc202793fe079a9a5555faa8023686f1" title="Convert a time value. " alt="" coords="271,5,345,38"/>
+<area shape="rect" id="node7" href="$group__libctime.html#ga8787426542c5f4fed0751c49d1561970" title="Check if the a time structure points to a time within DST. " alt="" coords="263,61,353,94"/>
+</map>

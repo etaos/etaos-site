@@ -1,0 +1,11 @@
+<map id="Device drivers" name="Device drivers">
+<area shape="rect" id="node1" href="$group__spi.html" title="SPI core driver. " alt="" coords="179,5,264,38"/>
+<area shape="rect" id="node3" href="$group__dev-core.html" title="Device driver core. " alt="" coords="176,61,267,94"/>
+<area shape="rect" id="node4" href="$group__analog.html" title="Platform independent analog to digital conversion. " alt="" coords="196,117,247,150"/>
+<area shape="rect" id="node5" href="$group__sram.html" title="SRAM core API. " alt="" coords="169,173,273,206"/>
+<area shape="rect" id="node6" href="$group__gpiolib.html" title="GPIO core library. " alt="" coords="175,229,268,262"/>
+<area shape="rect" id="node7" href="$group__i2c.html" title="I2C core driver. " alt="" coords="179,285,264,318"/>
+<area shape="rect" id="node8" href="$group__usart-core.html" title="USART device core. " alt="" coords="175,341,268,374"/>
+<area shape="rect" id="node9" href="$group__ee.html" title="EEPROM core API. " alt="" coords="160,397,283,430"/>
+<area shape="rect" id="node10" href="$group__platform.html" title="Platform device drivers. " alt="" coords="164,453,279,486"/>
+</map>

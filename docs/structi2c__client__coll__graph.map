@@ -1,0 +1,8 @@
+<map id="i2c_client" name="i2c_client">
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="28,113,102,210"/>
+<area shape="rect" id="node5" href="$structdevice.html" title="Device driver descriptor. " alt="" coords="208,398,293,559"/>
+<area shape="rect" id="node15" href="$structi2c__bus.html" title="I2C bus descriptor. " alt="" coords="106,387,184,570"/>
+<area shape="rect" id="node8" href="$structplatform__device.html" title="Platform device structure. " alt="" coords="188,102,302,221"/>
+<area shape="rect" id="node10" href="$structvfile.html" title="File definition. " alt="" coords="326,6,425,317"/>
+<area shape="rect" id="node13" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="510,102,606,221"/>
+</map>

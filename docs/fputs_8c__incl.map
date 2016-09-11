@@ -1,0 +1,16 @@
+<map id="lib/stdio/fputs.c" name="lib/stdio/fputs.c">
+<area shape="rect" id="node3" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="336,419,440,453"/>
+<area shape="rect" id="node15" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="491,89,587,122"/>
+<area shape="rect" id="node40" href="$string_8h_source.html" title="etaos/string.h" alt="" coords="824,171,925,205"/>
+<area shape="rect" id="node7" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="659,502,760,535"/>
+<area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="336,502,440,535"/>
+<area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="464,502,581,535"/>
+<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="663,585,756,618"/>
+<area shape="rect" id="node19" href="$include_2etaos_2spinlock_8h_source.html" title="etaos/spinlock.h" alt="" coords="375,254,492,287"/>
+<area shape="rect" id="node33" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="551,171,657,205"/>
+<area shape="rect" id="node23" href="$include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="616,337,699,370"/>
+<area shape="rect" id="node27" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="376,337,491,370"/>
+<area shape="rect" id="node29" href="$arch_2avr_2include_2asm_2spinlock_8h_source.html" title="asm/spinlock.h" alt="" coords="93,337,203,370"/>
+<area shape="rect" id="node31" href="$arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="227,337,301,370"/>
+<area shape="rect" id="node37" href="$arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="597,254,699,287"/>
+</map>

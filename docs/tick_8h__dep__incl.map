@@ -1,0 +1,5 @@
+<map id="include/etaos/tick.h" name="include/etaos/tick.h">
+<area shape="rect" id="node3" href="$spidev_8c.html" title="drivers/spi/spidev.c" alt="" coords="5,89,139,122"/>
+<area shape="rect" id="node5" href="$systick_8c.html" title="kernel/time/systick.c" alt="" coords="163,89,304,122"/>
+<area shape="rect" id="node7" href="$kernel_2time_2time_8c.html" title="kernel/time/time.c" alt="" coords="328,89,453,122"/>
+</map>

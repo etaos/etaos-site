@@ -1,0 +1,9 @@
+<map id="sched_class" name="sched_class">
+<area shape="rect" id="node18" href="$structrq.html" title="Run queue descriptor. " alt="" coords="223,481,332,621"/>
+<area shape="rect" id="node2" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="99,745,197,1034"/>
+<area shape="rect" id="node14" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="56,1105,125,1202"/>
+<area shape="rect" id="node21" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="247,1105,295,1202"/>
+<area shape="rect" id="node5" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="356,470,441,631"/>
+<area shape="rect" id="node8" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="232,174,323,399"/>
+<area shape="rect" id="node10" href="$structlist__head.html" title="Linked list structure. " alt="" coords="47,6,121,103"/>
+</map>

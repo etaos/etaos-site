@@ -1,0 +1,4 @@
+<map id="sched_init" name="sched_init">
+<area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="141,5,269,38"/>
+<area shape="rect" id="node5" href="$group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="136,61,275,94"/>
+</map>

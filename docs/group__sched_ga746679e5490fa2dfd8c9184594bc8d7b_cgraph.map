@@ -1,0 +1,6 @@
+<map id="thread_add_to_wake_q" name="thread_add_to_wake_q">
+<area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="451,5,579,38"/>
+<area shape="rect" id="node5" href="$group__sched.html#ga0ef97c57a13bfb6960d699dc4fca5af0" title="Add a wake thread to the current RQ. " alt="" coords="211,58,395,91"/>
+<area shape="rect" id="node8" href="$group__sched.html#gab0e552c895a2aedba3709bf10dc5d23f" title="Add a wake thread. " alt="" coords="444,61,585,94"/>
+<area shape="rect" id="node10" href="$group__sched.html#ga301d246794be6810e401a05368e8f43e" title="Add a thread to rq_list. " alt="" coords="635,61,720,94"/>
+</map>

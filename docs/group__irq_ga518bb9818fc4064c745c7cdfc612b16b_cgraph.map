@@ -1,0 +1,4 @@
+<map id="irq_save_and_disable" name="irq_save_and_disable">
+<area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="200,5,328,38"/>
+<area shape="rect" id="node5" href="$group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="207,61,321,94"/>
+</map>

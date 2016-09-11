@@ -1,0 +1,10 @@
+<map id="spidev" name="spidev">
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="475,113,549,210"/>
+<area shape="rect" id="node10" href="$structdevice.html" title="Device driver descriptor. " alt="" coords="305,462,391,623"/>
+<area shape="rect" id="node20" href="$structspi__driver.html" title="SPI driver structure. Represents an SPI bus. " alt="" coords="565,451,643,634"/>
+<area shape="rect" id="node5" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="715,102,784,221"/>
+<area shape="rect" id="node7" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="667,430,792,655"/>
+<area shape="rect" id="node13" href="$structplatform__device.html" title="Platform device structure. " alt="" coords="5,102,120,221"/>
+<area shape="rect" id="node15" href="$structvfile.html" title="File definition. " alt="" coords="144,6,243,317"/>
+<area shape="rect" id="node18" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="328,102,424,221"/>
+</map>

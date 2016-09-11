@@ -1,0 +1,4 @@
+<map id="spi_set_speed" name="spi_set_speed">
+<area shape="rect" id="node3" href="$group__dev-core.html#gaa68f55efa4e0475f3c340d4b5712b429" title="Lock a device mutex. " alt="" coords="167,5,241,38"/>
+<area shape="rect" id="node5" href="$group__dev-core.html#gae0865c7fcb090118a4d15b451bf5fe02" title="Unlock the mutex of a device. " alt="" coords="160,61,248,94"/>
+</map>

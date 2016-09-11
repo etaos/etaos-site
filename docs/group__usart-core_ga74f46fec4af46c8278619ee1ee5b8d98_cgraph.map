@@ -1,0 +1,5 @@
+<map id="usart_initialise" name="usart_initialise">
+<area shape="rect" id="node3" href="$group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da" title="Initialise a device structure. " alt="" coords="160,33,275,66"/>
+<area shape="rect" id="node5" href="$group__vfs.html#ga0efaa1d4e8e3dde72a746677b359b368" title="Add a file to the virtual file system. " alt="" coords="340,5,407,38"/>
+<area shape="rect" id="node7" href="$group__dev-core.html#gac76b262985cf792b5feb9748b98f3bba" title="Change the file operations of a device. " alt="" coords="324,61,423,94"/>
+</map>

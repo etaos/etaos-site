@@ -1,4 +1,9 @@
-# Contributing to ETA/OS
+---
+layout: page
+title: Contribution guide
+tagline: ETA/OS contribution guide
+---
+{% include JB/setup %}
 
 First off, thanks for taking the time to contribute to ETA/OS. Below you'll find
 a set of guidelines for contributing to ETA/OS (and any of its side 
@@ -6,7 +11,7 @@ projects/scripts). The first thing to note is that these are project guidelines,
 not strict rules, if you feel like something needs to change within this document;
 propose it on the mailing list or sent in a pull request with your changes.
 
-#### Table of contents
+### Table of contents
 [Before you start](#before-you-start)
 * [Code of Conduct](#code-of-conduct)
 
@@ -21,13 +26,15 @@ propose it on the mailing list or sent in a pull request with your changes.
   * [C/C++](#cc)
   * [Documentation](#documentation)
 
-## Before you start
+Before you start
+----------------
 
 ### Code of conduct
 ETA/OS adheres to the Contributor Covenant code of conduct. By contributing, you are
 expected to uphold this code.
 
-## How to contribute
+How to contribute
+-----------------
 
 ### Reporting bugs
 This section will guide you through to steps to create a proper bug report. These
@@ -35,7 +42,7 @@ steps are created to make it easier for the mainainers and developers to underst
 your bug report, reproduce the wrongful behaviour and find possibly related bug
 reports.
 
-#### Filing a bug report
+### Filing a bug report
 Bugs in the ETA/OS project are tracked using the GitLab issue tracker. Once 
 you've opened up a new issue, follow the checklist below to create the bug report.
 
@@ -70,7 +77,7 @@ the [mailing list](mailto:etaos@googlegroups.com). Please note that public API
 functions should not be changed. Their internals can be changed, but not the
 return value or its parameters.
 
-#### How to submit a proper suggestion
+### How to submit a proper suggestion
 
   * **Use a clear and descriptive title** for the issue
   * **Provide a step by step description of the suggested feature**. Use as much
@@ -102,7 +109,8 @@ close as possible when submitting a new patch.
   * Supply your code with test(s).
   * Describe which hardware you have used to test your patch.
 
-## Style guide
+Style guide
+-----------
 
 Please try and follow the style guides below at all times. Keep in mind that patches
 **can be rejected** based on style errors.

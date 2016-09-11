@@ -1,0 +1,20 @@
+<map id="kernel/time/systick.c" name="kernel/time/systick.c">
+<area shape="rect" id="node3" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="881,585,985,618"/>
+<area shape="rect" id="node7" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="287,667,388,701"/>
+<area shape="rect" id="node16" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="93,337,200,370"/>
+<area shape="rect" id="node22" href="$include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="296,502,379,535"/>
+<area shape="rect" id="node26" href="$include_2etaos_2time_8h.html" title="etaos/time.h" alt="" coords="601,171,695,205"/>
+<area shape="rect" id="node53" href="$tick_8h.html" title="etaos/tick.h" alt="" coords="675,89,765,122"/>
+<area shape="rect" id="node58" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="240,254,336,287"/>
+<area shape="rect" id="node64" href="$math_8h_source.html" title="etaos/math.h" alt="" coords="1179,89,1277,122"/>
+<area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="1029,667,1133,701"/>
+<area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="720,667,837,701"/>
+<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="291,750,384,783"/>
+<area shape="rect" id="node20" href="$arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="296,419,397,453"/>
+<area shape="rect" id="node29" href="$timer_8h_source.html" title="etaos/timer.h" alt="" coords="515,254,611,287"/>
+<area shape="rect" id="node34" href="$include_2etaos_2spinlock_8h_source.html" title="etaos/spinlock.h" alt="" coords="544,419,661,453"/>
+<area shape="rect" id="node46" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="727,337,865,370"/>
+<area shape="rect" id="node39" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="552,502,667,535"/>
+<area shape="rect" id="node41" href="$arch_2avr_2include_2asm_2spinlock_8h_source.html" title="asm/spinlock.h" alt="" coords="691,502,800,535"/>
+<area shape="rect" id="node43" href="$arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="453,502,528,535"/>
+</map>

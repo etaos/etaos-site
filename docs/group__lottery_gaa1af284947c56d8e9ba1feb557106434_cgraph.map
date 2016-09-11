@@ -1,0 +1,7 @@
+<map id="lottery_add_thread" name="lottery_add_thread">
+<area shape="rect" id="node3" href="$list_8h.html#a6601e54d8f27ab290ee6819f7e2127b7" title="Check if a list is empty. " alt="" coords="403,5,485,38"/>
+<area shape="rect" id="node5" href="$group__math.html#ga6eb04604d801054c5a2afe195d1dd75d" title="Rounds __x to the nearest integer. " alt="" coords="223,31,276,65"/>
+<area shape="rect" id="node7" href="$group__lottery.html#ga3bf5a37ae75bb6941d73854e2fe6a390" title="Allocate a lottery ticket. " alt="" coords="185,87,313,121"/>
+<area shape="rect" id="node10" href="$group__lottery.html#ga9e1a729ab81d7ae0721261c97f7247bc" title="Generate new lottery tickets. " alt="" coords="364,74,524,107"/>
+<area shape="rect" id="node12" href="$list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="413,130,475,163"/>
+</map>

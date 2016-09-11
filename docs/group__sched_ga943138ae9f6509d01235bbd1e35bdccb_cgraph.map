@@ -1,0 +1,6 @@
+<map id="thread_add_to_kill_q" name="thread_add_to_kill_q">
+<area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="413,5,541,38"/>
+<area shape="rect" id="node5" href="$group__sched.html#ga8cf0a4f4c107b862043c281c6ca09ed0" title="Add a kill thread to the current RQ. " alt="" coords="196,58,364,91"/>
+<area shape="rect" id="node8" href="$group__sched.html#gaa119db667033233b449e211df34dc4c3" title="Add a kill thread. " alt="" coords="415,61,540,94"/>
+<area shape="rect" id="node10" href="$group__sched.html#ga301d246794be6810e401a05368e8f43e" title="Add a thread to rq_list. " alt="" coords="589,61,675,94"/>
+</map>
