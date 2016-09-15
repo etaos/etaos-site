@@ -4,6 +4,7 @@
 <area shape="rect" id="node16" href="$include_2etaos_2time_8h.html" title="etaos/time.h" alt="" coords="616,171,709,205"/>
 <area shape="rect" id="node45" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="625,337,764,370"/>
 <area shape="rect" id="node52" href="$tick_8h.html" title="etaos/tick.h" alt="" coords="700,89,791,122"/>
+<area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="147,667,291,701"/>
 <area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="315,667,419,701"/>
 <area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="5,667,123,701"/>
 <area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="877,750,971,783"/>

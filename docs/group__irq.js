@@ -45,11 +45,16 @@ var group__irq =
     [ "irq_chip_set_resume", "group__irq.html#gad13adea29e7c50b491c0e36ab79ef695", null ],
     [ "irq_chip_set_sleep", "group__irq.html#gaae474ddbbd8aaa64f1b33c67551c481c", null ],
     [ "irq_handle", "group__irq.html#gad8e072612e98b45b6c5230cf3676ac34", null ],
+    [ "irq_handle_fn", "group__irq.html#ga3bc3313bad893c5e73c47dbdf69d3bbe", null ],
     [ "irq_handle_hard_irq", "group__irq.html#gaeef2d552ee81c4cb13ca06f6442d6ba1", null ],
     [ "irq_request", "group__irq.html#gaf252b5c7a187a0356f735aba6d0ff400", null ],
+    [ "irq_request_threaded_irq", "group__irq.html#gac8ec6092c9a81ba2a57af33ac377420f", null ],
     [ "irq_restore", "group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae", null ],
     [ "irq_save_and_disable", "group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b", null ],
     [ "irq_set_handle", "group__irq.html#ga5f0b1c13d842f4ebef69017d66bdf6f0", null ],
     [ "irq_store_data", "group__irq.html#ga85b649a9096d68d76ce6589cacb20e36", null ],
-    [ "irq_to_data", "group__irq.html#gaa4d321638b5448beba42d336903e0c93", null ]
+    [ "irq_to_data", "group__irq.html#gaa4d321638b5448beba42d336903e0c93", null ],
+    [ "irqs_disabled", "group__irq.html#gac58ee1975e3e81fbac7035b029ce8872", null ],
+    [ "local_irq_disable", "group__irq.html#gaa11d4c3eea0645f001887fa1d4d35fbb", null ],
+    [ "local_irq_enable", "group__irq.html#gac066711b49669512add5b001bba1d72a", null ]
 ];

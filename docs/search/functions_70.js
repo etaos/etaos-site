@@ -19,5 +19,6 @@ var searchData=
   ['preempt_5fshould_5fresched',['preempt_should_resched',['../group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212',1,'preempt_should_resched(void):&#160;core.c'],['../group__sched.html#gaa93580e45d2e6c581a96c72bfbd51212',1,'preempt_should_resched(void):&#160;core.c']]],
   ['preempt_5ftest',['preempt_test',['../group__preempt.html#ga30a3151baa4664f4c58d9f6e04c4df0e',1,'preempt.h']]],
   ['printf',['printf',['../group__libcio.html#ga55f3d956bb2ba20b5059e9e25484a47f',1,'printf.c']]],
+  ['prio',['prio',['../group__sched.html#ga9a8ff49b1aeeb5a84a73ac172e1d57d5',1,'core.c']]],
   ['putc',['putc',['../group__libcio.html#gaab0c28a38adcc802c8abf4f255bf6024',1,'putc.c']]]
 ];

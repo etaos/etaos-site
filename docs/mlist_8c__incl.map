@@ -4,6 +4,7 @@
 <area shape="rect" id="node16" href="$mem_8h.html" title="etaos/mem.h" alt="" coords="955,337,1053,370"/>
 <area shape="rect" id="node20" href="$include_2etaos_2spinlock_8h_source.html" title="etaos/spinlock.h" alt="" coords="575,419,692,453"/>
 <area shape="rect" id="node34" href="$include_2etaos_2bitops_8h.html" title="etaos/bitops.h" alt="" coords="385,89,489,122"/>
+<area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="475,667,619,701"/>
 <area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="643,667,747,701"/>
 <area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="771,667,888,701"/>
 <area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="161,750,255,783"/>

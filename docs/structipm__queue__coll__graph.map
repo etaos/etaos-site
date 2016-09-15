@@ -1,3 +1,12 @@
 <map id="ipm_queue" name="ipm_queue">
-<area shape="rect" id="node2" href="$structipm.html" title="IPM message structure. " alt="" coords="19,6,77,125"/>
+<area shape="rect" id="node2" href="$structipm.html" title="IPM message structure. " alt="" coords="5,1169,64,1287"/>
+<area shape="rect" id="node4" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="88,1179,187,1277"/>
+<area shape="rect" id="node6" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="153,174,281,421"/>
+<area shape="rect" id="node24" href="$structrq.html" title="Run queue descriptor. " alt="" coords="335,502,444,642"/>
+<area shape="rect" id="node8" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="244,766,343,1098"/>
+<area shape="rect" id="node20" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="281,1179,351,1277"/>
+<area shape="rect" id="node27" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="408,1179,456,1277"/>
+<area shape="rect" id="node11" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="468,491,553,653"/>
+<area shape="rect" id="node14" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="477,185,568,410"/>
+<area shape="rect" id="node16" href="$structlist__head.html" title="Linked list structure. " alt="" coords="571,6,645,103"/>
 </map>

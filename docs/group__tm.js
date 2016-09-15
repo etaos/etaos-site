@@ -20,6 +20,8 @@ var group__tm =
     [ "clocksource_get_by_name", "group__tm.html#ga3a4a9f13745bdf16b0c88b1018b9c183", null ],
     [ "clocksource_init", "group__tm.html#ga4e10bb7a0a1ed6912358daf0d8684af9", null ],
     [ "clocksource_update", "group__tm.html#ga3817a7c75cd4be46bb92c9aa608cdbec", null ],
+    [ "delay", "group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71", null ],
+    [ "delay_us", "group__tm.html#ga834d7c6c28e84d4e64dd096e651c2463", null ],
     [ "sys_get_clock", "group__tm.html#gad7753fdcc44ef21b90f460deca48f182", null ],
     [ "systick_get_seconds", "group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5", null ],
     [ "systick_irq_handle", "group__tm.html#ga8792d30a4c8b2bc7bd73fcbb1c5c735c", null ],

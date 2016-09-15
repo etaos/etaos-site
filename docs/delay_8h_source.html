@@ -28,10 +28,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="etaos.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.0</span>
+   &#160;<span id="projectnumber">4.4.1</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -122,23 +122,25 @@ $(document).ready(function(){initNavTree('delay_8h_source.html','');});
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifndef __DELAY_H__</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __DELAY_H__</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__arch_a_p_i.html#gac4164aa469d190964a6def1e29650e90">arch_delay_us</a>(<span class="keywordtype">double</span> us);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__atmega.html#ga1184747f0327e7b083b5d7bf4bd17d03">arch_delay_us</a>(<span class="keywordtype">double</span> us);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifdef CONFIG_DELAY_US</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> delay_us(<span class="keywordtype">double</span> us);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__tm.html#ga834d7c6c28e84d4e64dd096e651c2463">delay_us</a>(<span class="keywordtype">double</span> us);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef CONFIG_DELAY_MS</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> delay(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ms);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71">delay</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ms);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="group__arch_a_p_i_html_gac4164aa469d190964a6def1e29650e90"><div class="ttname"><a href="group__arch_a_p_i.html#gac4164aa469d190964a6def1e29650e90">arch_delay_us</a></div><div class="ttdeci">void arch_delay_us(double us)</div><div class="ttdoc">Arch backend for micro second delays. </div></div>
+<div class="ttc" id="group__tm_html_ga834d7c6c28e84d4e64dd096e651c2463"><div class="ttname"><a href="group__tm.html#ga834d7c6c28e84d4e64dd096e651c2463">delay_us</a></div><div class="ttdeci">void delay_us(double us)</div><div class="ttdoc">Delay for a certain amount of micro seconds. </div><div class="ttdef"><b>Definition:</b> delay.c:35</div></div>
+<div class="ttc" id="group__atmega_html_ga1184747f0327e7b083b5d7bf4bd17d03"><div class="ttname"><a href="group__atmega.html#ga1184747f0327e7b083b5d7bf4bd17d03">arch_delay_us</a></div><div class="ttdeci">void arch_delay_us(double __us)</div><div class="ttdoc">Arch backend for micro second delays. </div><div class="ttdef"><b>Definition:</b> time.c:95</div></div>
+<div class="ttc" id="group__tm_html_gafff3055bcb127ea4f7f8381c3cf10b71"><div class="ttname"><a href="group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71">delay</a></div><div class="ttdeci">void delay(unsigned int ms)</div><div class="ttdoc">Delay for a certain amount of miliseconds. </div><div class="ttdef"><b>Definition:</b> delay.c:48</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_43f48f0eb971b7a6be04843955ed4b11.html">include</a></li><li class="navelem"><a class="el" href="dir_5f016852faef642804b49e57a42ecdbe.html">etaos</a></li><li class="navelem"><a class="el" href="delay_8h.html">delay.h</a></li>
-    <li class="footer">Generated on Sun Sep 11 2016 19:44:19 for ETA/OS by
+    <li class="navelem"><a class="el" href="dir_1dd79d4dca7038082c645a7093a3b4d1.html">include</a></li><li class="navelem"><a class="el" href="dir_dbe5e85425d75c6c461b8c8b341ec4b6.html">etaos</a></li><li class="navelem"><a class="el" href="delay_8h.html">delay.h</a></li>
+    <li class="footer">Generated on Thu Sep 15 2016 14:14:54 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

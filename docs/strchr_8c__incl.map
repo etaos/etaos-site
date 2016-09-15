@@ -1,6 +1,7 @@
 <map id="lib/string/strchr.c" name="lib/string/strchr.c">
 <area shape="rect" id="node3" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="151,89,255,122"/>
 <area shape="rect" id="node15" href="$string_8h_source.html" title="etaos/string.h" alt="" coords="16,89,117,122"/>
+<area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="131,171,275,205"/>
 <area shape="rect" id="node7" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="5,171,107,205"/>
 <area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="299,171,403,205"/>
 <area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="427,171,544,205"/>

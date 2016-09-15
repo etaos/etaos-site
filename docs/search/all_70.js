@@ -58,7 +58,7 @@ var searchData=
   ['prev',['prev',['../structtimer.html#a7b2343683040124347c5d5818f57b507',1,'timer::prev()'],['../structlist__head.html#a792765e96094df4bbaac005e8af89f38',1,'list_head::prev()']]],
   ['printf',['printf',['../group__libcio.html#ga55f3d956bb2ba20b5059e9e25484a47f',1,'printf.c']]],
   ['printf_2ec',['printf.c',['../printf_8c.html',1,'']]],
-  ['prio',['prio',['../structthread.html#af4316365ea48cec8ddaac0563492358f',1,'thread']]],
+  ['prio',['prio',['../structthread.html#af4316365ea48cec8ddaac0563492358f',1,'thread::prio()'],['../group__sched.html#ga9a8ff49b1aeeb5a84a73ac172e1d57d5',1,'prio():&#160;core.c']]],
   ['priv',['priv',['../structeeprom.html#a8b6505c37d4ff95854b8b00527e4d9fa',1,'eeprom::priv()'],['../structsram.html#a8b6505c37d4ff95854b8b00527e4d9fa',1,'sram::priv()']]],
   ['priv_5fdata',['priv_data',['../structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5',1,'timer']]],
   ['private_5fdata',['private_data',['../structirq__data.html#ad517770dac2061381b2008850ff12e6c',1,'irq_data']]],

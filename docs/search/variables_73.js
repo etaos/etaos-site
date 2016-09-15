@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['sched_5fclass',['sched_class',['../structrq.html#ad0486fc61e7f3eb706d02e60125c91f7',1,'rq']]],
+  ['sched_5fclass',['sched_class',['../structrq.html#ad0486fc61e7f3eb706d02e60125c91f7',1,'rq::sched_class()'],['../structthread__queue.html#ad0486fc61e7f3eb706d02e60125c91f7',1,'thread_queue::sched_class()']]],
   ['se',['se',['../structthread.html#ad1b07e992bb2d608a79b3941d8a1059e',1,'thread']]],
   ['set',['set',['../structgpio__chip.html#ae796d40134d221b8b72c031d1645eb2f',1,'gpio_chip']]],
   ['size',['size',['../structheap__node.html#a854352f53b148adc24983a58a1866d66',1,'heap_node']]],

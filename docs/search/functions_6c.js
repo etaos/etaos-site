@@ -6,6 +6,8 @@ var searchData=
   ['list_5fis_5flast',['list_is_last',['../list_8h.html#ad5c0c492cf872313e8ffceba701139f1',1,'list.h']]],
   ['lm35_5fread',['lm35_read',['../group__lm35.html#ga8f4f716d81c3797ffb4d89d0e35652db',1,'lm35.c']]],
   ['lm35_5fset_5fanalog_5fdevice',['lm35_set_analog_device',['../group__lm35.html#ga84385347b503f3aec36d20b3404cc50d',1,'lm35.c']]],
+  ['local_5firq_5fdisable',['local_irq_disable',['../group__irq.html#gaa11d4c3eea0645f001887fa1d4d35fbb',1,'irq.h']]],
+  ['local_5firq_5fenable',['local_irq_enable',['../group__irq.html#gac066711b49669512add5b001bba1d72a',1,'irq.h']]],
   ['localtime',['localtime',['../group__libctime.html#ga500522843320394487a4c89ce37cebf0',1,'localtime.c']]],
   ['localtime_5fr',['localtime_r',['../group__libctime.html#ga8045e89ab1e54677da109e1562e1e47e',1,'localtime.c']]],
   ['log',['log',['../group__math.html#ga7f7d556ab6b6235777a179647c152126',1,'math.h']]],

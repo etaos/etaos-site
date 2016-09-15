@@ -31,6 +31,7 @@ var group__analog =
     [ "analog_ctl", "group__analog.html#gaac724b9b4c1811aa4d01e2ca8bbe512a", null ],
     [ "analog_get", "group__analog.html#gac87e54b3303a5ca0ad6882ddfacfd06d", null ],
     [ "analog_open", "group__analog.html#ga6c44cbfb0964e74373e70e7560a91b5d", null ],
+    [ "analog_read", "group__analog.html#ga52916dc9f10e4cfa3641b474bbf20cd1", null ],
     [ "analog_syschip", "group__analog.html#ga676ac99f27eeaef888243b1b04b3d368", null ],
     [ "analog_syschip", "group__analog.html#ga676ac99f27eeaef888243b1b04b3d368", null ]
 ];

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['tc_5fupdate',['tc_update',['../structclocksource.html#a73453ce8e13954ce9e56032961edbbd0',1,'clocksource']]],
+  ['thread_5fafter',['thread_after',['../structsched__class.html#ac2682f32a764b57969499dba5f5e492c',1,'sched_class']]],
   ['ticks',['ticks',['../structtimer.html#a7204e5acba6fa12ae6f2b03ed64b7684',1,'timer']]],
   ['timeout',['timeout',['../structi2c__bus.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'i2c_bus::timeout()'],['../structspi__driver.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'spi_driver::timeout()'],['../structusart.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'usart::timeout()']]],
   ['timer',['timer',['../structthread.html#ab463f927d6f0fc323a2e4f31a4c46fd8',1,'thread']]],

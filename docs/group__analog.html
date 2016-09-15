@@ -28,10 +28,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="etaos.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.0</span>
+   &#160;<span id="projectnumber">4.4.1</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -147,6 +147,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gac87e54b3303a5ca0ad6882ddfacfd06d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__analog.html#gac87e54b3303a5ca0ad6882ddfacfd06d">analog_get</a> (struct <a class="el" href="structvfile.html">vfile</a> *file)</td></tr>
 <tr class="memdesc:gac87e54b3303a5ca0ad6882ddfacfd06d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read from the ADC.  <a href="#gac87e54b3303a5ca0ad6882ddfacfd06d">More...</a><br/></td></tr>
 <tr class="separator:gac87e54b3303a5ca0ad6882ddfacfd06d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52916dc9f10e4cfa3641b474bbf20cd1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__analog.html#ga52916dc9f10e4cfa3641b474bbf20cd1">analog_read</a> (struct <a class="el" href="structanalog__pin.html">analog_pin</a> *pin)</td></tr>
+<tr class="memdesc:ga52916dc9f10e4cfa3641b474bbf20cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read from the ADC.  <a href="#ga52916dc9f10e4cfa3641b474bbf20cd1">More...</a><br/></td></tr>
+<tr class="separator:ga52916dc9f10e4cfa3641b474bbf20cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaac724b9b4c1811aa4d01e2ca8bbe512a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__analog.html#gaac724b9b4c1811aa4d01e2ca8bbe512a">analog_ctl</a> (struct <a class="el" href="structvfile.html">vfile</a> *file, unsigned long reg, void *arg)</td></tr>
 <tr class="memdesc:gaac724b9b4c1811aa4d01e2ca8bbe512a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the ADC.  <a href="#gaac724b9b4c1811aa4d01e2ca8bbe512a">More...</a><br/></td></tr>
 <tr class="separator:gaac724b9b4c1811aa4d01e2ca8bbe512a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -512,12 +515,39 @@ Analog pins</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga52916dc9f10e4cfa3641b474bbf20cd1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int analog_read </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structanalog__pin.html">analog_pin</a> *&#160;</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read from the ADC. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin</td><td>Analog pin to read from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value read from the ADC. </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__analog.html#gac87e54b3303a5ca0ad6882ddfacfd06d" title="Read from the ADC. ">analog_get</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This is an API alternative to analog_get (using the device tree). </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Sep 11 2016 19:44:19 for ETA/OS by
+    <li class="footer">Generated on Thu Sep 15 2016 14:14:55 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

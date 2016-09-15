@@ -28,10 +28,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="etaos.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.0</span>
+   &#160;<span id="projectnumber">4.4.1</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -92,6 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_m"><span>m</span></a></li>
       <li><a href="#index_n"><span>n</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
       <li><a href="#index_t"><span>t</span></a></li>
@@ -232,6 +233,12 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <li>dev_get_iobase()
 : <a class="el" href="group__dev-core.html#gafdc9b77a84d81a41805a82e2f39cd03b">device.h</a>
 </li>
+<li>dyn_prio_reset()
+: <a class="el" href="group__sched.html#ga9424b03c1fd27d84ac97b69873078376">core.c</a>
+</li>
+<li>dyn_prio_update()
+: <a class="el" href="group__sched.html#gac785ae41ce6d0f268bd39497fc873b68">core.c</a>
+</li>
 </ul>
 
 
@@ -280,11 +287,23 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <li>ipm_reset_queue()
 : <a class="el" href="group__ipm.html#ga2ac76e823da0fcf94e9f32cfe937ee70">ipm.h</a>
 </li>
+<li>irq_handle_fn()
+: <a class="el" href="group__sched.html#ga3bc3313bad893c5e73c47dbdf69d3bbe">core.c</a>
+</li>
 <li>irq_handle_hard_irq()
 : <a class="el" href="group__irq.html#gaeef2d552ee81c4cb13ca06f6442d6ba1">handle.c</a>
 </li>
+<li>irq_request_threaded_irq()
+: <a class="el" href="group__irq.html#gac8ec6092c9a81ba2a57af33ac377420f">irq.c</a>
+</li>
+<li>irq_signal_threads()
+: <a class="el" href="group__sched.html#ga03112ca86b69fbd1f65033163c3b9676">core.c</a>
+</li>
 <li>irq_store_data()
 : <a class="el" href="group__irq.html#ga85b649a9096d68d76ce6589cacb20e36">irq.c</a>
+</li>
+<li>irq_thread_wait()
+: <a class="el" href="group__sched.html#gaee692d7e66f769977248b9a0ac03bed2">core.c</a>
 </li>
 </ul>
 
@@ -434,10 +453,29 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <li>preempt_test()
 : <a class="el" href="group__preempt.html#ga30a3151baa4664f4c58d9f6e04c4df0e">preempt.h</a>
 </li>
+<li>prio()
+: <a class="el" href="group__sched.html#ga9a8ff49b1aeeb5a84a73ac172e1d57d5">sched.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>queue_add_thread()
+: <a class="el" href="group__sched.html#ga72ca187dd5dd0ac19af98da3ea9b56e4">sched.h</a>
+</li>
+<li>queue_remove_thread()
+: <a class="el" href="group__sched.html#gaa468a0cc0864610b821b2730abe5c182">sched.h</a>
+</li>
 </ul>
 
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>raw_queue_add_thread()
+: <a class="el" href="group__sched.html#ga979f19c1ce60dbbff56185ffb9b5df74">core.c</a>
+</li>
+<li>raw_queue_remove_thread()
+: <a class="el" href="group__sched.html#gadb1050b54e2329c8c86ca1a7a3bbc0dc">core.c</a>
+</li>
 <li>raw_rq_add_thread()
 : <a class="el" href="group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1">core.c</a>
 </li>
@@ -488,6 +526,12 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 </li>
 <li>rq_remove_wake_thread()
 : <a class="el" href="group__sched.html#ga90b5e9ac2b30f1b518a6d2136caf3a07">sched.h</a>
+</li>
+<li>rq_signal_event_queue()
+: <a class="el" href="group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa">core.c</a>
+</li>
+<li>rq_signal_threads()
+: <a class="el" href="group__sched.html#ga017c639d6dbf8710ad60a22985116618">core.c</a>
 </li>
 <li>rq_switch_context()
 : <a class="el" href="group__sched.html#ga761312d2768cc26c49b7f53de33c8477">core.c</a>
@@ -641,11 +685,18 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <li>thread_initialise()
 : <a class="el" href="group__thread.html#ga7a58f6105b0e8ab06bffff191cbb36df">thread.h</a>
 </li>
+<li>thread_queue_init()
+: <a class="el" href="group__thread.html#ga512d7ca8d457038cebefec83b3b02065">thread.h</a>
+, <a class="el" href="group__sched.html#ga512d7ca8d457038cebefec83b3b02065">core.c</a>
+</li>
 <li>thread_remove_from_kill_q()
 : <a class="el" href="group__sched.html#ga3a14953a27abbba377438f48843c7b03">sched.h</a>
 </li>
 <li>thread_remove_from_wake_q()
 : <a class="el" href="group__sched.html#gadaa0c197333ed35a35e52e8b6a4160d2">sched.h</a>
+</li>
+<li>thread_to_queue()
+: <a class="el" href="group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50">core.c</a>
 </li>
 <li>time()
 : <a class="el" href="group__libctime.html#ga41213015bed9d9d3191a724a41518963">time.h</a>
@@ -708,7 +759,7 @@ $(document).ready(function(){initNavTree('globals_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Sep 11 2016 19:44:23 for ETA/OS by
+    <li class="footer">Generated on Thu Sep 15 2016 14:14:56 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

@@ -1,12 +1,12 @@
 <map id="irq_thread_data" name="irq_thread_data">
 <area shape="rect" id="node2" href="$structirq__data.html" title="Interrupt descriptor. " alt="" coords="5,470,109,631"/>
-<area shape="rect" id="node4" href="$structlist__head.html" title="Linked list structure. " alt="" coords="204,6,279,103"/>
+<area shape="rect" id="node4" href="$structlist__head.html" title="Linked list structure. " alt="" coords="197,6,272,103"/>
 <area shape="rect" id="node8" href="$structirq__chip.html" title="IRQ chip descriptor. " alt="" coords="132,206,233,367"/>
 <area shape="rect" id="node17" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="257,174,348,399"/>
-<area shape="rect" id="node21" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="721,1105,791,1202"/>
-<area shape="rect" id="node11" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="391,702,489,991"/>
-<area shape="rect" id="node25" href="$structrq.html" title="Run queue descriptor. " alt="" coords="361,1315,471,1455"/>
-<area shape="rect" id="node27" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="464,1062,581,1245"/>
-<area shape="rect" id="node30" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="605,1105,653,1202"/>
+<area shape="rect" id="node21" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="721,1201,791,1298"/>
+<area shape="rect" id="node11" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="391,702,489,1034"/>
+<area shape="rect" id="node25" href="$structrq.html" title="Run queue descriptor. " alt="" coords="361,1443,471,1583"/>
+<area shape="rect" id="node27" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="464,1126,592,1373"/>
+<area shape="rect" id="node30" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="616,1201,664,1298"/>
 <area shape="rect" id="node14" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="336,470,421,631"/>
 </map>

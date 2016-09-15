@@ -28,10 +28,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="etaos.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.0</span>
+   &#160;<span id="projectnumber">4.4.1</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <h2>License </h2>
 <p>ETA/OS is licenced as GNU General Public Licence version 3 or newer. The COPYING file should contian more information about the licence, or if it's not included, look at <a href="http://www.gnu.org/licences/">http://www.gnu.org/licences/</a>. </p>
 <pre class="fragment">ETA/OS
-Copyright (C) 2014, 2015, 2016
+Copyright (C) 2014, 2015, 2016  ETA/OS developers
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -135,7 +135,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
 <li>Git or</li>
 <li>a tarball download</li>
 </ul>
-<p>Build tools:</p>
+<p>Build tools (for the host and target system):</p>
 <ul>
 <li>GCC tool chain (binutils and gcc)<ul>
 <li>gcc</li>
@@ -160,13 +160,13 @@ make all ARCH=archname
 make modules_install ARCH=archname INSTALL_MOD_PATH=path
 </pre><p>After that, you are ready to compile an application. To compile an application you need application sources and Kbuild file in a sepperate directory (anywhere). See the usr/tests/ directory for some examples.</p>
 <h2>Contributing </h2>
-<p>ETA/OS is free software, and anyone is more then welcome to contribute to this project. If you have written a patch, you can send this patch or pull request to <a href="#" onclick="location.href='mai'+'lto:'+'eta'+'os'+'@go'+'og'+'leg'+'ro'+'ups'+'.c'+'om'; return false;">etaos<span style="display: none;">.nosp@m.</span>@goo<span style="display: none;">.nosp@m.</span>glegr<span style="display: none;">.nosp@m.</span>oups<span style="display: none;">.nosp@m.</span>.com</a>. Pull requests using GitHub are not preferred. </p>
+<p>To see how you can help improving ETA/OS, read the contribution guide. You can find it in the CONTRIBUTING.md file in the repository or on the <a href="http://bietje.net/etaos-site/contrib.html">web</a>. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Sep 11 2016 19:44:23 for ETA/OS by
+    <li class="footer">Generated on Thu Sep 15 2016 14:14:56 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>
