@@ -27,15 +27,15 @@ project :
 
 leftmenu:
   url1:
-    url: /projects.html
+    url: http://bietje.net/projects.html
     text-main: Open source projects
     text-small: Projects I am maintaining right now
   url2:
-    url: /supported.html
+    url: http://bietje.net/supported.html
     text-main: Projects I support
     text-small: Stuff you might like
   url3:
-    url: /archive.html
+    url: http://bietje.net/archive.html
     text-main: Posts archive
     text-small: Stuff I've written in the past.
 
