@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -122,23 +122,28 @@ $(document).ready(function(){initNavTree('math_8h_source.html','');});
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifndef __MATH_H__</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __MATH_H__</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga6eb04604d801054c5a2afe195d1dd75d">round</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga542f5e42e0d3b5df63de0e34ec06bb40">cos</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga46e799ece7e1dd323d22cdb53c81cd73">sin</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#gaa2c2303658b8b2555bc97cce3f806bda">tan</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#gae9c5790d8a29cbee8f54f8eb522decbc">acos</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga98384ad60834911ec93ac5ae1af4cf0a">asin</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga3abd1a0b68d157914a0ee01acaedfe5e">atan</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga054230cd7e4c12958dbfac75ab6886e5">atan2</a>(<span class="keywordtype">double</span> __y, <span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#gadd1e40e370b2165c186f72ec631b1853">sqrt</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga61470611f23ceef5d3e9cf63d84cd8a7">ceil</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga0f0bf9ac2651b80846a9d9d89bd4cb85">floor</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga7f7d556ab6b6235777a179647c152126">log</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga3630cb8cef4560cf0d92e82ae05b03f0">log10</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga4ea549372745dda4018ab4b5a94483a6">exp</a>(<span class="keywordtype">double</span> __x);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga6eb04604d801054c5a2afe195d1dd75d">round</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga542f5e42e0d3b5df63de0e34ec06bb40">cos</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga46e799ece7e1dd323d22cdb53c81cd73">sin</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#gaa2c2303658b8b2555bc97cce3f806bda">tan</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#gae9c5790d8a29cbee8f54f8eb522decbc">acos</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga98384ad60834911ec93ac5ae1af4cf0a">asin</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga3abd1a0b68d157914a0ee01acaedfe5e">atan</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga054230cd7e4c12958dbfac75ab6886e5">atan2</a>(<span class="keywordtype">double</span> __y, <span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#gadd1e40e370b2165c186f72ec631b1853">sqrt</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga61470611f23ceef5d3e9cf63d84cd8a7">ceil</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga0f0bf9ac2651b80846a9d9d89bd4cb85">floor</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga7f7d556ab6b6235777a179647c152126">log</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga3630cb8cef4560cf0d92e82ae05b03f0">log10</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga4ea549372745dda4018ab4b5a94483a6">exp</a>(<span class="keywordtype">double</span> __x);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="group__math.html#gac7a4583d7a0d257f87483b1b2d9f95e3">  114</a></span>&#160;<span class="preprocessor">#define to_ns(__s) (__s * 1E9) </span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="group__math.html#gafb61ba15d070b9583d00e1c539d8d8a0">  115</a></span>&#160;<span class="preprocessor">#define to_us(__s) (__s * 1E6) </span></div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="group__math.html#gac3b827d0a22846348cdb92962059ff1f">  116</a></span>&#160;<span class="preprocessor">#define to_ms(__s) (__s * 1E3) </span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor"></span></div>
 <div class="ttc" id="group__math_html_ga46e799ece7e1dd323d22cdb53c81cd73"><div class="ttname"><a href="group__math.html#ga46e799ece7e1dd323d22cdb53c81cd73">sin</a></div><div class="ttdeci">double sin(double __x)</div><div class="ttdoc">Compute the sine of __x. </div></div>
 <div class="ttc" id="group__math_html_ga61470611f23ceef5d3e9cf63d84cd8a7"><div class="ttname"><a href="group__math.html#ga61470611f23ceef5d3e9cf63d84cd8a7">ceil</a></div><div class="ttdeci">double ceil(double __x)</div><div class="ttdoc">Round a number up. </div></div>
 <div class="ttc" id="group__math_html_ga054230cd7e4c12958dbfac75ab6886e5"><div class="ttname"><a href="group__math.html#ga054230cd7e4c12958dbfac75ab6886e5">atan2</a></div><div class="ttdeci">double atan2(double __y, double __x)</div><div class="ttdoc">Compute the arc tangent of __y / __x. </div></div>
@@ -159,7 +164,7 @@ $(document).ready(function(){initNavTree('math_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1dd79d4dca7038082c645a7093a3b4d1.html">include</a></li><li class="navelem"><a class="el" href="dir_dbe5e85425d75c6c461b8c8b341ec4b6.html">etaos</a></li><li class="navelem"><b>math.h</b></li>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:54 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:03 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

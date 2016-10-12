@@ -4,7 +4,7 @@
 <area shape="rect" id="node16" href="$list_8h.html" title="etaos/list.h" alt="" coords="999,419,1084,453"/>
 <area shape="rect" id="node20" href="$error_8h_source.html" title="etaos/error.h" alt="" coords="1195,89,1288,122"/>
 <area shape="rect" id="node22" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="455,254,593,287"/>
-<area shape="rect" id="node40" href="$include_2etaos_2time_8h.html" title="etaos/time.h" alt="" coords="629,89,723,122"/>
+<area shape="rect" id="node40" href="$time_8h.html" title="etaos/time.h" alt="" coords="629,89,723,122"/>
 <area shape="rect" id="node58" href="$string_8h_source.html" title="etaos/string.h" alt="" coords="1144,171,1245,205"/>
 <area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="275,585,419,618"/>
 <area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="5,585,109,618"/>
@@ -15,7 +15,7 @@
 <area shape="rect" id="node34" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="601,419,716,453"/>
 <area shape="rect" id="node36" href="$arch_2avr_2include_2asm_2spinlock_8h_source.html" title="asm/spinlock.h" alt="" coords="369,419,479,453"/>
 <area shape="rect" id="node38" href="$arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="503,419,577,453"/>
-<area shape="rect" id="node43" href="$timer_8h_source.html" title="etaos/timer.h" alt="" coords="668,171,764,205"/>
+<area shape="rect" id="node43" href="$include_2etaos_2timer_8h_source.html" title="etaos/timer.h" alt="" coords="668,171,764,205"/>
 <area shape="rect" id="node49" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="769,254,876,287"/>
 <area shape="rect" id="node53" href="$arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="772,337,873,370"/>
 </map>

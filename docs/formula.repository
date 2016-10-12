@@ -2,6 +2,9 @@
 \form#1:$x_r$
 \form#2:$f_c$
 \form#3:$n$
-\form#4:$ x \lor y $
-\form#5:$f(x) = \frac{1}{25}x+10$
-\form#6:$x$
+\form#4:$ f(rv) = x \lor y$
+\form#5:$x$
+\form#6:$y$
+\form#7:$f(p) = \frac{13p}{24} + 10$
+\form#8:$D = t + f(p)$
+\form#9:$f(x) = \frac{1}{25}x+10$

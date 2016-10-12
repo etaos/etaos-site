@@ -1,9 +1,9 @@
 <map id="rr_entity" name="rr_entity">
-<area shape="rect" id="node5" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="144,702,243,1034"/>
-<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="226,6,300,103"/>
-<area shape="rect" id="node11" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="276,174,367,399"/>
-<area shape="rect" id="node16" href="$structrq.html" title="Run queue descriptor. " alt="" coords="255,1443,364,1583"/>
-<area shape="rect" id="node18" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="130,1126,258,1373"/>
-<area shape="rect" id="node21" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="282,1201,330,1298"/>
-<area shape="rect" id="node8" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="255,470,340,631"/>
+<area shape="rect" id="node2" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="164,702,263,1013"/>
+<area shape="rect" id="node15" href="$structrq.html" title="Run queue descriptor. " alt="" coords="248,1358,358,1498"/>
+<area shape="rect" id="node17" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="128,1083,246,1287"/>
+<area shape="rect" id="node20" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="270,1137,318,1234"/>
+<area shape="rect" id="node5" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="239,470,324,631"/>
+<area shape="rect" id="node8" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="316,174,407,399"/>
+<area shape="rect" id="node10" href="$structlist__head.html" title="Linked list structure. " alt="" coords="324,6,399,103"/>
 </map>

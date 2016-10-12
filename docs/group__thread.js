@@ -3,14 +3,8 @@ var group__thread =
     [ "rr_entity", "structrr__entity.html", [
       [ "next", "structrr__entity.html#a61f580a4141de6d8cbde8e41f101ca9b", null ]
     ] ],
-    [ "thread_queue", "structthread__queue.html", [
-      [ "lock", "structthread__queue.html#a79cda015c79ff2b4c1444e3070f0bb5d", null ],
-      [ "qhead", "structthread__queue.html#a7df81fd2f3d22cd08401fab25f55e609", null ],
-      [ "sched_class", "structthread__queue.html#ad0486fc61e7f3eb706d02e60125c91f7", null ]
-    ] ],
     [ "thread", "structthread.html", [
-      [ "dprio", "structthread.html#a84e8a9830b0d0fb245f760d45be599e1", null ],
-      [ "ec", "structthread.html#af7a47249796052ed7622ad017dc4556a", null ],
+      [ "cpu_state", "structthread.html#acd2b8f4bb987e94927841856b321e1b6", null ],
       [ "flags", "structthread.html#a9e339c2784bd040b26a5112866700bff", null ],
       [ "name", "structthread.html#acd328517a6cf718155c2e6e22b671ca9", null ],
       [ "on_rq", "structthread.html#a2e6393cdb81a13782e5b4acee6608409", null ],
@@ -27,8 +21,6 @@ var group__thread =
       [ "stack_size", "structthread.html#a83dd59dda8568c45f603e4c4b50d2e33", null ],
       [ "timer", "structthread.html#ab463f927d6f0fc323a2e4f31a4c46fd8", null ]
     ] ],
-    [ "DEFINE_THREAD_QUEUE", "group__thread.html#gae01ffae51cc14590cef5e3b7af14bac0", null ],
-    [ "INIT_THREAD_QUEUE", "group__thread.html#ga29ce8b5f2d508acb9147baf0bcb0bd44", null ],
     [ "PREEMPT_NEED_RESCHED_FLAG", "group__thread.html#gab361d52a0303f005e9684817a77d1e52", null ],
     [ "THREAD", "group__thread.html#ga0997164986a1455f439bfa7e62df0faf", null ],
     [ "THREAD_EXIT_FLAG", "group__thread.html#gaa2e7d05a028948d1278a5153a46343ce", null ],
@@ -46,7 +38,6 @@ var group__thread =
     [ "sleep", "group__thread.html#gad6030c18a18c28e7b660172bf521b384", null ],
     [ "thread_create", "group__thread.html#ga8588bf0609ad15a77f841f0ec7d90fb4", null ],
     [ "thread_initialise", "group__thread.html#ga7a58f6105b0e8ab06bffff191cbb36df", null ],
-    [ "thread_queue_init", "group__thread.html#ga512d7ca8d457038cebefec83b3b02065", null ],
     [ "wait", "group__thread.html#ga82d2d74cac6ae7b30bbdc2b303adec95", null ],
     [ "yield", "group__thread.html#ga7cb51f5c2b5cad3766f19eb69c92793b", null ],
     [ "fifo_class", "group__thread.html#ga239d36b7b879f39bcd1c2866bfe77ab7", null ]

@@ -9,6 +9,8 @@ var group__preempt =
     [ "preempt_disable", "group__preempt.html#gae772fcbd15beae355371d56d6f443566", null ],
     [ "preempt_enable", "group__preempt.html#ga74ed4ec841ea18a152916f55920b9a9e", null ],
     [ "preempt_enable_no_resched", "group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b", null ],
+    [ "preempt_schedule", "group__preempt.html#ga4e684afa3732b2e8b2f3bc70f055e1a2", null ],
+    [ "preempt_schedule_irq", "group__preempt.html#gad617f8d3f4bc68722e597787b960cde6", null ],
     [ "preempt_should_resched", "group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212", null ],
     [ "preempt_test", "group__preempt.html#ga30a3151baa4664f4c58d9f6e04c4df0e", null ]
 ];

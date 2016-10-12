@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['deadline',['deadline',['../group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463',1,'edf.c']]],
   ['delay',['delay',['../group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71',1,'delay.c']]],
   ['delay_5fus',['delay_us',['../group__tm.html#ga834d7c6c28e84d4e64dd096e651c2463',1,'delay.c']]],
   ['dev_5fcore_5finit',['dev_core_init',['../group__dev-core.html#ga345f8b0742c154cb4036d28f3edca984',1,'core.c']]],
@@ -13,7 +14,5 @@ var searchData=
   ['dev_5fsync_5fwait',['dev_sync_wait',['../group__dev-core.html#ga7eec45cc879362cb449a4f47dbacfb6b',1,'core.c']]],
   ['dev_5funlock',['dev_unlock',['../group__dev-core.html#gae0865c7fcb090118a4d15b451bf5fe02',1,'core.c']]],
   ['device_5fcreate',['device_create',['../group__dev-core.html#gae77e5c7996b7cea008468dbf16626ed5',1,'core.c']]],
-  ['device_5finitialize',['device_initialize',['../group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da',1,'core.c']]],
-  ['dyn_5fprio_5freset',['dyn_prio_reset',['../group__sched.html#ga9424b03c1fd27d84ac97b69873078376',1,'core.c']]],
-  ['dyn_5fprio_5fupdate',['dyn_prio_update',['../group__sched.html#gac785ae41ce6d0f268bd39497fc873b68',1,'core.c']]]
+  ['device_5finitialize',['device_initialize',['../group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da',1,'core.c']]]
 ];

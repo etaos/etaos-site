@@ -1,0 +1,33 @@
+<map id="drivers/spi/spi&#45;core.c" name="drivers/spi/spi&#45;core.c">
+<area shape="rect" id="node3" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="1033,667,1137,701"/>
+<area shape="rect" id="node7" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="1344,750,1445,783"/>
+<area shape="rect" id="node15" href="$error_8h_source.html" title="etaos/error.h" alt="" coords="1564,254,1657,287"/>
+<area shape="rect" id="node18" href="$spi_8h.html" title="etaos/spi.h" alt="" coords="1321,171,1407,205"/>
+<area shape="rect" id="node74" href="$include_2etaos_2bitops_8h.html" title="etaos/bitops.h" alt="" coords="1756,171,1860,205"/>
+<area shape="rect" id="node82" href="$include_2etaos_2init_8h_source.html" title="etaos/init.h" alt="" coords="2048,89,2133,122"/>
+<area shape="rect" id="node87" href="$time_8h.html" title="etaos/time.h" alt="" coords="427,254,520,287"/>
+<area shape="rect" id="node103" href="$tick_8h.html" title="etaos/tick.h" alt="" coords="351,171,441,205"/>
+<area shape="rect" id="node108" href="$gpio_8h.html" title="etaos/gpio.h" alt="" coords="1425,89,1519,122"/>
+<area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="939,750,1083,783"/>
+<area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="1107,750,1211,783"/>
+<area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="1787,750,1904,783"/>
+<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="1348,833,1441,866"/>
+<area shape="rect" id="node22" href="$mem_8h.html" title="etaos/mem.h" alt="" coords="668,419,767,453"/>
+<area shape="rect" id="node40" href="$device_8h.html" title="etaos/device.h" alt="" coords="1419,254,1525,287"/>
+<area shape="rect" id="node56" href="$include_2etaos_2mutex_8h_source.html" title="etaos/mutex.h" alt="" coords="1271,337,1375,370"/>
+<area shape="rect" id="node26" href="$include_2etaos_2spinlock_8h_source.html" title="etaos/spinlock.h" alt="" coords="659,502,776,535"/>
+<area shape="rect" id="node30" href="$include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="1123,585,1205,618"/>
+<area shape="rect" id="node34" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="597,585,712,618"/>
+<area shape="rect" id="node36" href="$arch_2avr_2include_2asm_2spinlock_8h_source.html" title="asm/spinlock.h" alt="" coords="736,585,845,618"/>
+<area shape="rect" id="node38" href="$arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="499,585,573,618"/>
+<area shape="rect" id="node44" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="1569,337,1665,370"/>
+<area shape="rect" id="node61" href="$thread_8h.html" title="etaos/thread.h" alt="" coords="1500,419,1604,453"/>
+<area shape="rect" id="node49" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="1268,419,1375,453"/>
+<area shape="rect" id="node53" href="$arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="1155,502,1256,535"/>
+<area shape="rect" id="node70" href="$arch_2avr_2include_2asm_2mutex_8h_source.html" title="asm/mutex.h" alt="" coords="1044,419,1143,453"/>
+<area shape="rect" id="node66" href="$list_8h.html" title="etaos/list.h" alt="" coords="1483,585,1568,618"/>
+<area shape="rect" id="node77" href="$arch_2avr_2include_2asm_2bitops_8h.html" title="asm/bitops.h" alt="" coords="1760,254,1856,287"/>
+<area shape="rect" id="node85" href="$arch_2avr_2include_2asm_2init_8h_source.html" title="asm/init.h" alt="" coords="2048,171,2125,205"/>
+<area shape="rect" id="node90" href="$include_2etaos_2timer_8h_source.html" title="etaos/timer.h" alt="" coords="425,337,521,370"/>
+<area shape="rect" id="node97" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="347,419,485,453"/>
+</map>

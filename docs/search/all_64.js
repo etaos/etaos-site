@@ -1,7 +1,7 @@
 var searchData=
 [
   ['data',['data',['../structipm.html#a0d49d74db4c035719c3867723cf7e779',1,'ipm::data()'],['../structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095',1,'romfs::data()'],['../structvfile.html#a735984d41155bc1032e09bece8f8d66d',1,'vfile::data()']]],
-  ['define_5fthread_5fqueue',['DEFINE_THREAD_QUEUE',['../group__thread.html#gae01ffae51cc14590cef5e3b7af14bac0',1,'thread.h']]],
+  ['deadline',['deadline',['../group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463',1,'edf.c']]],
   ['delay',['delay',['../group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71',1,'delay.c']]],
   ['delay_2eh',['delay.h',['../delay_8h.html',1,'']]],
   ['delay_5fus',['delay_us',['../group__tm.html#ga834d7c6c28e84d4e64dd096e651c2463',1,'delay.c']]],
@@ -29,8 +29,5 @@ var searchData=
   ['devs',['devs',['../structdevice.html#ab63a1027889ec7cbc8840c82d8028636',1,'device']]],
   ['direction_5finput',['direction_input',['../structgpio__chip.html#a1f588d03acb6672517600be19e7a3a25',1,'gpio_chip']]],
   ['direction_5foutput',['direction_output',['../structgpio__chip.html#a9b1c5e9f59817fbd85aaf8095c049b2c',1,'gpio_chip']]],
-  ['disable',['disable',['../structclocksource.html#a313b4cb0f5b62908bfc7da718e31def7',1,'clocksource']]],
-  ['dprio',['dprio',['../structthread.html#a84e8a9830b0d0fb245f760d45be599e1',1,'thread']]],
-  ['dyn_5fprio_5freset',['dyn_prio_reset',['../group__sched.html#ga9424b03c1fd27d84ac97b69873078376',1,'core.c']]],
-  ['dyn_5fprio_5fupdate',['dyn_prio_update',['../structsched__class.html#a7985a419531d64d070a2b5dee52ffaef',1,'sched_class::dyn_prio_update()'],['../group__sched.html#gac785ae41ce6d0f268bd39497fc873b68',1,'dyn_prio_update():&#160;core.c']]]
+  ['disable',['disable',['../structclocksource.html#a313b4cb0f5b62908bfc7da718e31def7',1,'clocksource']]]
 ];

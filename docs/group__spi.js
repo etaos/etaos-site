@@ -10,6 +10,7 @@ var group__spi =
       [ "clk", "structspi__driver.html#ab83892a0c4877cd9fdd0498126f20d19", null ],
       [ "ctrl", "structspi__driver.html#ad705af46d9bcf6c6b49a42e2aea9ed0b", null ],
       [ "devices", "structspi__driver.html#af7e77a67049a4baa91fc207ec1e483b9", null ],
+      [ "lock", "structspi__driver.html#af302237f7e2352081ec19fe14f11a646", null ],
       [ "miso", "structspi__driver.html#a4636d8a241843c600e6d2f34c62785f8", null ],
       [ "mosi", "structspi__driver.html#a3d3367378616f37e3ec399b2a9e4eb3e", null ],
       [ "name", "structspi__driver.html#a8f8f80d37794cde9472343e4487ba3eb", null ],

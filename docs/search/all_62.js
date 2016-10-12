@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['base',['base',['../structhrtimer__source.html#a6b20d15719e012886b7f6d885fff499e',1,'hrtimer_source::base()'],['../structhrtimer.html#a6c6453a50a7f8c17d53612b4e1cb8460',1,'hrtimer::base()']]],
   ['best_20fit_20allocator',['Best fit allocator',['../group__bf.html',1,'']]],
   ['bitops_2eh',['bitops.h',['../include_2etaos_2bitops_8h.html',1,'']]],
   ['bitops_2eh',['bitops.h',['../arch_2avr_2include_2asm_2bitops_8h.html',1,'']]],

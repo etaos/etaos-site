@@ -1,3 +1,4 @@
 <map id="__schedule_need_resched" name="__schedule_need_resched">
 <area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7" title="Clear a bit in register and return the value of nr before clearing. " alt="" coords="229,5,357,38"/>
+<area shape="rect" id="node5" href="$group__sched.html#ga0e68a5e318862b42f5472c212668056e" title="Check whether a thread is the idle thread or not. " alt="" coords="243,61,344,94"/>
 </map>

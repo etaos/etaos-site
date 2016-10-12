@@ -11,7 +11,10 @@ var searchData=
   ['close',['close',['../group__vfs.html#ga5bbe56a416af8f77723b652362f742f7',1,'close(int fd):&#160;close.c'],['../group__libcio.html#ga5bbe56a416af8f77723b652362f742f7',1,'close(int fd):&#160;close.c']]],
   ['cos',['cos',['../group__math.html#ga542f5e42e0d3b5df63de0e34ec06bb40',1,'math.h']]],
   ['cpu_5fget_5fid',['cpu_get_id',['../group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127',1,'cpu_get_id(void):&#160;cpu.c'],['../group__arch_a_p_i.html#ga45e277ef6f2d431ec2bf827fe3fe1127',1,'cpu_get_id(void):&#160;cpu.c']]],
+  ['cpu_5fget_5fstate',['cpu_get_state',['../group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9',1,'cpu.c']]],
+  ['cpu_5fnotify',['cpu_notify',['../group__kernel.html#ga38f4f8022778edff29606cec22897bfc',1,'cpu.c']]],
   ['cpu_5frequest_5firq',['cpu_request_irq',['../group__arch_a_p_i.html#ga09fe2982d63e7311c8b6ce8a7238bf23',1,'cpu_request_irq(struct irq_data *data):&#160;irq.c'],['../group__arch_a_p_i.html#ga09fe2982d63e7311c8b6ce8a7238bf23',1,'cpu_request_irq(struct irq_data *data):&#160;irq.c']]],
+  ['cpu_5fset_5fstate',['cpu_set_state',['../group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3',1,'cpu.c']]],
   ['cpu_5fswitch_5fcontext',['cpu_switch_context',['../group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b',1,'cpu_switch_context(struct rq *rq, struct thread *prev, struct thread *next):&#160;sched.c'],['../group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b',1,'cpu_switch_context(struct rq *rq, struct thread *prev, struct thread *next):&#160;sched.c']]],
   ['cpu_5fto_5frq',['cpu_to_rq',['../group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8',1,'cpu_to_rq(int cpu):&#160;sched.c'],['../group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8',1,'cpu_to_rq(int cpu):&#160;sched.c']]],
   ['current_5fthread',['current_thread',['../group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5',1,'thread.c']]]

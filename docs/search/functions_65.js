@@ -1,5 +1,10 @@
 var searchData=
 [
+  ['edf_5fadd_5fthread',['edf_add_thread',['../group__edf.html#gae22b1a568a69431604d8a8757398b13b',1,'edf.c']]],
+  ['edf_5fnext_5frunnable',['edf_next_runnable',['../group__edf.html#gaeeff9109092b6c95569eee4c692f345f',1,'edf.c']]],
+  ['edf_5fpreempt_5fchk',['edf_preempt_chk',['../group__edf.html#ga177370072b179a0e57365d0da9d3dee4',1,'edf.c']]],
+  ['edf_5frm_5fthread',['edf_rm_thread',['../group__edf.html#ga2bb0acf8f625ab5b2a4cf7a4637f3c8e',1,'edf.c']]],
+  ['edf_5fsort_5fbefore',['edf_sort_before',['../group__edf.html#gacd0b123b5be831d783e3907ca37026b9',1,'edf.c']]],
   ['eeprom_5f24c02_5fread_5fbyte',['eeprom_24c02_read_byte',['../group__ee-24c02.html#gad571c57b218c744a8369fc8d56bd529e',1,'eeprom_24c02_read_byte(unsigned char addr, unsigned char *storage):&#160;24c02.c'],['../group__ee-24c02.html#gad571c57b218c744a8369fc8d56bd529e',1,'eeprom_24c02_read_byte(unsigned char addr, unsigned char *storage):&#160;24c02.c']]],
   ['eeprom_5f24c02_5fwrite_5fbyte',['eeprom_24c02_write_byte',['../group__ee-24c02.html#gaad106e2c46e86cc6db54c6cd0e84155b',1,'eeprom_24c02_write_byte(unsigned char addr, unsigned char data):&#160;24c02.c'],['../group__ee-24c02.html#gaad106e2c46e86cc6db54c6cd0e84155b',1,'eeprom_24c02_write_byte(unsigned char addr, unsigned char data):&#160;24c02.c']]],
   ['eeprom_5fchip_5finit',['eeprom_chip_init',['../group__ee.html#ga70b3a1287ac2c2a0e4436fa42588a60c',1,'eeprom.c']]],

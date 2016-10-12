@@ -17,6 +17,7 @@ var group__arch_a_p_i =
     [ "raw_irq_enabled_flags", "group__arch_a_p_i.html#ga3a7979c2e0c424ad4dd857e4fa455a12", null ],
     [ "sched_create_stack_frame", "group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a", null ],
     [ "sched_free_stack_frame", "group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2", null ],
+    [ "sched_get_clock", "group__arch_a_p_i.html#ga3ca01585011904bb8042cbb540be767e", null ],
     [ "sched_get_cpu_rq", "group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe", null ],
     [ "sched_select_rq", "group__arch_a_p_i.html#gab090ee79717fcdd58de691ed935f6445", null ]
 ];

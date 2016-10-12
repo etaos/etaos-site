@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['sched_5fenter',['SCHED_ENTER',['../group__kernel.html#ggad6d9db91247652a54cb6b13d774d61eba630d89f35fb8be013da09770b1856898',1,'cpu.h']]],
+  ['sched_5fexit',['SCHED_EXIT',['../group__kernel.html#ggad6d9db91247652a54cb6b13d774d61eba916df0aca5de2181be89fb332f0a4ce4',1,'cpu.h']]],
   ['seek_5fcur',['SEEK_CUR',['../group__vfs.html#ggabdacf35cb07671247a632325a53c0450af3091144c125782cf17bcd3eb84e454c',1,'vfs.h']]],
   ['seek_5fend',['SEEK_END',['../group__vfs.html#ggabdacf35cb07671247a632325a53c0450a060e45245be703e272d7264bafcfdc63',1,'vfs.h']]],
   ['seek_5fset',['SEEK_SET',['../group__vfs.html#ggabdacf35cb07671247a632325a53c0450a7f53e3798ec48e79c0897ba5138f9b05',1,'vfs.h']]],

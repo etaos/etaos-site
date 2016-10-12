@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -120,12 +120,6 @@ $(document).ready(function(){initNavTree('group__rr.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6bd23940300fe6478924b7a714251b3a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rr.html#ga6bd23940300fe6478924b7a714251b3a">rr_thread_queue_add</a> (struct <a class="el" href="structthread__queue.html">thread_queue</a> *qp, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
-<tr class="memdesc:ga6bd23940300fe6478924b7a714251b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new thread to a queue.  <a href="#ga6bd23940300fe6478924b7a714251b3a">More...</a><br/></td></tr>
-<tr class="separator:ga6bd23940300fe6478924b7a714251b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4407ce3592abf6a938f15ad4fa0b9e2b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rr.html#ga4407ce3592abf6a938f15ad4fa0b9e2b">rr_thread_queue_remove</a> (struct <a class="el" href="structthread__queue.html">thread_queue</a> *qp, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
-<tr class="memdesc:ga4407ce3592abf6a938f15ad4fa0b9e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a thread from a queue.  <a href="#ga4407ce3592abf6a938f15ad4fa0b9e2b">More...</a><br/></td></tr>
-<tr class="separator:ga4407ce3592abf6a938f15ad4fa0b9e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3592c13b878bc6cc36f8b39d61b6d31b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rr.html#ga3592c13b878bc6cc36f8b39d61b6d31b">rr_add_thread</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
 <tr class="memdesc:ga3592c13b878bc6cc36f8b39d61b6d31b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new thread to the run queue.  <a href="#ga3592c13b878bc6cc36f8b39d61b6d31b">More...</a><br/></td></tr>
 <tr class="separator:ga3592c13b878bc6cc36f8b39d61b6d31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,12 +129,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0d3a6126978732211867618512e989fe"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structthread.html">thread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rr.html#ga0d3a6126978732211867618512e989fe">rr_next_runnable</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>)</td></tr>
 <tr class="memdesc:ga0d3a6126978732211867618512e989fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next runnable thread on the run queue.  <a href="#ga0d3a6126978732211867618512e989fe">More...</a><br/></td></tr>
 <tr class="separator:ga0d3a6126978732211867618512e989fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e4f9071da582598366b5cdf8bd9146f"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structthread.html">thread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rr.html#ga5e4f9071da582598366b5cdf8bd9146f">rr_thread_after</a> (struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
-<tr class="memdesc:ga5e4f9071da582598366b5cdf8bd9146f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next runnable thread after <code>tp</code>.  <a href="#ga5e4f9071da582598366b5cdf8bd9146f">More...</a><br/></td></tr>
-<tr class="separator:ga5e4f9071da582598366b5cdf8bd9146f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8a46d44317c45d1996e80d2ba7387e23"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rr.html#ga8a46d44317c45d1996e80d2ba7387e23">rr_update_dyn_prio</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, int num)</td></tr>
-<tr class="memdesc:ga8a46d44317c45d1996e80d2ba7387e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the dynamic prio of all threads in the run queue.  <a href="#ga8a46d44317c45d1996e80d2ba7387e23">More...</a><br/></td></tr>
-<tr class="separator:ga8a46d44317c45d1996e80d2ba7387e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -295,191 +283,12 @@ struct <a class="el" href="structsched__class.html">sched_class</a>&#160;</td><t
 
 </div>
 </div>
-<a class="anchor" id="ga5e4f9071da582598366b5cdf8bd9146f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static struct <a class="el" href="structthread.html">thread</a>* rr_thread_after </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structthread.html">thread</a> *&#160;</td>
-          <td class="paramname"><em>tp</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the next runnable thread after <code>tp</code>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to get the 'next' of. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The next of <code>tp</code>. </dd></dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">NULL</td><td>if <code>tp</code> has no next thread. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="ga6bd23940300fe6478924b7a714251b3a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void rr_thread_queue_add </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structthread__queue.html">thread_queue</a> *&#160;</td>
-          <td class="paramname"><em>qp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct <a class="el" href="structthread.html">thread</a> *&#160;</td>
-          <td class="paramname"><em>tp</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add a new thread to a queue. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">qp</td><td>Queue to add the thread to. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="ga4407ce3592abf6a938f15ad4fa0b9e2b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void rr_thread_queue_remove </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structthread__queue.html">thread_queue</a> *&#160;</td>
-          <td class="paramname"><em>qp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct <a class="el" href="structthread.html">thread</a> *&#160;</td>
-          <td class="paramname"><em>tp</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Remove a thread from a queue. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">qp</td><td>Queue to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="ga8a46d44317c45d1996e80d2ba7387e23"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void rr_update_dyn_prio </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structrq.html">rq</a> *&#160;</td>
-          <td class="paramname"><em>rq</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update the dynamic prio of all threads in the run queue. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rq</td><td>Run queue which has to be updated. </td></tr>
-    <tr><td class="paramname">num</td><td>Numeral value that is added to struct <a class="el" href="structthread.html#a84e8a9830b0d0fb245f760d45be599e1" title="Dynamic thread priority. ">thread::dprio</a>. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__rr_ga8a46d44317c45d1996e80d2ba7387e23_cgraph.png" border="0" usemap="#group__rr_ga8a46d44317c45d1996e80d2ba7387e23_cgraph" alt=""/></div>
-<map name="group__rr_ga8a46d44317c45d1996e80d2ba7387e23_cgraph" id="group__rr_ga8a46d44317c45d1996e80d2ba7387e23_cgraph">
-<area shape="rect" id="node3" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="188,5,252,38"/></map>
-</div>
-</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:55 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:04 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

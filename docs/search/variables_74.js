@@ -1,10 +1,11 @@
 var searchData=
 [
   ['tc_5fupdate',['tc_update',['../structclocksource.html#a73453ce8e13954ce9e56032961edbbd0',1,'clocksource']]],
-  ['thread_5fafter',['thread_after',['../structsched__class.html#ac2682f32a764b57969499dba5f5e492c',1,'sched_class']]],
-  ['ticks',['ticks',['../structtimer.html#a7204e5acba6fa12ae6f2b03ed64b7684',1,'timer']]],
+  ['ticks',['ticks',['../structhrtimer.html#a7204e5acba6fa12ae6f2b03ed64b7684',1,'hrtimer::ticks()'],['../structtimer.html#a7204e5acba6fa12ae6f2b03ed64b7684',1,'timer::ticks()']]],
   ['timeout',['timeout',['../structi2c__bus.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'i2c_bus::timeout()'],['../structspi__driver.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'spi_driver::timeout()'],['../structusart.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'usart::timeout()']]],
   ['timer',['timer',['../structthread.html#ab463f927d6f0fc323a2e4f31a4c46fd8',1,'thread']]],
+  ['timer_5fonce',['timer_once',['../structhrtimer.html#aaee3b07d7ad86c5f84eb503381120537',1,'hrtimer']]],
+  ['timers',['timers',['../structhrtimer__source.html#afecbe65cacf55c70f5da11c6fd46c4b9',1,'hrtimer_source']]],
   ['tleft',['tleft',['../structtimer.html#a7d55571f3bfe843d12d791f5e5fbd02c',1,'timer']]],
   ['tm_5fhour',['tm_hour',['../structtm.html#a4d171061df9e012fcfbd1172b8440d5f',1,'tm']]],
   ['tm_5fisdst',['tm_isdst',['../structtm.html#a7d102a87f898878ebf37ebd87504e099',1,'tm']]],

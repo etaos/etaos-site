@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('structsched__class.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="structsched__class__coll__graph.png" border="0" usemap="#sched__class_coll__map" alt="Collaboration graph"/></div>
 <map name="sched__class_coll__map" id="sched__class_coll__map">
-<area shape="rect" id="node18" href="structrq.html" title="Run queue descriptor. " alt="" coords="223,502,332,642"/><area shape="rect" id="node2" href="structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="99,766,197,1098"/><area shape="rect" id="node14" href="structrr__entity.html" title="Round robin entity. " alt="" coords="56,1169,125,1266"/><area shape="rect" id="node21" href="structrr__rq.html" title="Round robin run queue. " alt="" coords="247,1169,295,1266"/><area shape="rect" id="node5" href="structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="356,491,441,653"/><area shape="rect" id="node8" href="structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="236,185,327,410"/><area shape="rect" id="node10" href="structlist__head.html" title="Linked list structure. " alt="" coords="48,6,123,103"/></map>
+<area shape="rect" id="node17" href="structrq.html" title="Run queue descriptor. " alt="" coords="5,534,115,674"/><area shape="rect" id="node2" href="structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="115,787,213,1098"/><area shape="rect" id="node14" href="structrr__entity.html" title="Round robin entity. " alt="" coords="157,1169,227,1266"/><area shape="rect" id="node20" href="structrr__rq.html" title="Round robin run queue. " alt="" coords="15,1169,63,1266"/><area shape="rect" id="node5" href="structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="128,6,213,167"/><area shape="rect" id="node8" href="structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="43,238,133,463"/><area shape="rect" id="node10" href="structlist__head.html" title="Linked list structure. " alt="" coords="353,38,428,135"/></map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -133,24 +133,15 @@ void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <tr class="memitem:a8a1c60922a67827dab586c7f23a730bc"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsched__class.html#a8a1c60922a67827dab586c7f23a730bc">post_schedule</a> )(struct <a class="el" href="structrq.html">rq</a> *)</td></tr>
 <tr class="memdesc:a8a1c60922a67827dab586c7f23a730bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Post schedule.  <a href="#a8a1c60922a67827dab586c7f23a730bc">More...</a><br/></td></tr>
 <tr class="separator:a8a1c60922a67827dab586c7f23a730bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7985a419531d64d070a2b5dee52ffaef"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsched__class.html#a7985a419531d64d070a2b5dee52ffaef">dyn_prio_update</a> )(struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, int num)</td></tr>
-<tr class="memdesc:a7985a419531d64d070a2b5dee52ffaef"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the dynamic priority of all threads on the given rq.  <a href="#a7985a419531d64d070a2b5dee52ffaef">More...</a><br/></td></tr>
-<tr class="separator:a7985a419531d64d070a2b5dee52ffaef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bba13411bc41d7a4d04a03f20be86c9"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsched__class.html#a2bba13411bc41d7a4d04a03f20be86c9">add_thread</a> )(struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
 <tr class="memdesc:a2bba13411bc41d7a4d04a03f20be86c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new thread to the run queue.  <a href="#a2bba13411bc41d7a4d04a03f20be86c9">More...</a><br/></td></tr>
 <tr class="separator:a2bba13411bc41d7a4d04a03f20be86c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43307eb0742b086fa326202322d14702"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsched__class.html#a43307eb0742b086fa326202322d14702">rm_thread</a> )(struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
 <tr class="memdesc:a43307eb0742b086fa326202322d14702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a thread from the run queue.  <a href="#a43307eb0742b086fa326202322d14702">More...</a><br/></td></tr>
 <tr class="separator:a43307eb0742b086fa326202322d14702"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2682f32a764b57969499dba5f5e492c"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structthread.html">thread</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsched__class.html#ac2682f32a764b57969499dba5f5e492c">thread_after</a> )(struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
-<tr class="memdesc:ac2682f32a764b57969499dba5f5e492c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next thread after <code>tp</code>.  <a href="#ac2682f32a764b57969499dba5f5e492c">More...</a><br/></td></tr>
-<tr class="separator:ac2682f32a764b57969499dba5f5e492c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adee341017b5515048e1fe886fe9030eb"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsched__class.html#adee341017b5515048e1fe886fe9030eb">queue_add</a> )(struct <a class="el" href="structthread__queue.html">thread_queue</a> *q, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
-<tr class="memdesc:adee341017b5515048e1fe886fe9030eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a thread to the queue.  <a href="#adee341017b5515048e1fe886fe9030eb">More...</a><br/></td></tr>
-<tr class="separator:adee341017b5515048e1fe886fe9030eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfc99a7d9861c31d8ff53cc0e2c5cd93"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsched__class.html#acfc99a7d9861c31d8ff53cc0e2c5cd93">queue_rm</a> )(struct <a class="el" href="structthread__queue.html">thread_queue</a> *q, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
-<tr class="memdesc:acfc99a7d9861c31d8ff53cc0e2c5cd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a thread from a queue.  <a href="#acfc99a7d9861c31d8ff53cc0e2c5cd93">More...</a><br/></td></tr>
-<tr class="separator:acfc99a7d9861c31d8ff53cc0e2c5cd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a547f341a5ab61671512093e35b3aa2ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsched__class.html#a547f341a5ab61671512093e35b3aa2ab">preempt_chk</a> )(struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *cur)</td></tr>
+<tr class="memdesc:a547f341a5ab61671512093e35b3aa2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a thread needs to be preempted.  <a href="#a547f341a5ab61671512093e35b3aa2ab">More...</a><br/></td></tr>
+<tr class="separator:a547f341a5ab61671512093e35b3aa2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Scheduling class descriptor. </p>
@@ -171,27 +162,6 @@ void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to add to. </td></tr>
     <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a7985a419531d64d070a2b5dee52ffaef"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* dyn_prio_update)(struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, int num)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>update the dynamic priority of all threads on the given rq. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rq</td><td>Run queue to update. </td></tr>
-    <tr><td class="paramname">num</td><td>Numeral value that is added to struct <a class="el" href="structthread.html#a84e8a9830b0d0fb245f760d45be599e1" title="Dynamic thread priority. ">thread::dprio</a>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -260,45 +230,25 @@ void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 
 </div>
 </div>
-<a class="anchor" id="adee341017b5515048e1fe886fe9030eb"></a>
+<a class="anchor" id="a547f341a5ab61671512093e35b3aa2ab"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* queue_add)(struct <a class="el" href="structthread__queue.html">thread_queue</a> *q, struct <a class="el" href="structthread.html">thread</a> *tp)</td>
+          <td class="memname"><a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a>(* preempt_chk)(struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *cur)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Add a thread to the queue. </p>
+<p>Check if a thread needs to be preempted. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">q</td><td>Queue to add to. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">rq</td><td>Run queue we're on. </td></tr>
+    <tr><td class="paramname">cur</td><td>Current thread which could be preempted </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a class="anchor" id="acfc99a7d9861c31d8ff53cc0e2c5cd93"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* queue_rm)(struct <a class="el" href="structthread__queue.html">thread_queue</a> *q, struct <a class="el" href="structthread.html">thread</a> *tp)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Remove a thread from a queue. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">q</td><td>Queue to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if we need to preempt, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -331,26 +281,6 @@ void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 
 </div>
 </div>
-<a class="anchor" id="ac2682f32a764b57969499dba5f5e492c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="structthread.html">thread</a>*(* thread_after)(struct <a class="el" href="structthread.html">thread</a> *tp)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the next thread after <code>tp</code>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to get the 'next' of. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/etaos/<a class="el" href="include_2etaos_2sched_8h_source.html">sched.h</a></li>
 </ul>
@@ -360,7 +290,7 @@ void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="st
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structsched__class.html">sched_class</a></li>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:55 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:04 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

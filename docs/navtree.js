@@ -84,9 +84,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "coc.html",
-"group__irq.html#gad13adea29e7c50b491c0e36ab79ef695",
-"group__spi.html#ga0c5e2c4ec0fc0956d0618ec44e41d2ad",
-"structsram.html#a8b6505c37d4ff95854b8b00527e4d9fa"
+"group__irq.html#ga4df2a90c530f5d98742963027729ec30",
+"group__sched.html#gab377aa939771256f71f426bd7650b01a",
+"structspi__driver.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

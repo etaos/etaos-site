@@ -1,0 +1,7 @@
+<map id="cpu_notify" name="cpu_notify">
+<area shape="rect" id="node3" href="$group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="188,5,273,38"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="200,61,261,94"/>
+<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="196,117,265,150"/>
+<area shape="rect" id="node9" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="172,173,289,206"/>
+<area shape="rect" id="node11" href="$group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="137,229,324,262"/>
+</map>

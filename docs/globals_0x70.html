@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -94,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_0x6d.html#index_m"><span>m</span></a></li>
       <li><a href="globals_0x6e.html#index_n"><span>n</span></a></li>
       <li class="current"><a href="globals_0x70.html#index_p"><span>p</span></a></li>
-      <li><a href="globals_0x71.html#index_q"><span>q</span></a></li>
       <li><a href="globals_0x72.html#index_r"><span>r</span></a></li>
       <li><a href="globals_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="globals_0x74.html#index_t"><span>t</span></a></li>
@@ -234,8 +233,8 @@ $(document).ready(function(){initNavTree('globals_0x70.html','');});
 : <a class="el" href="group__preempt.html#gade4c97a2c2f6f07c15fdf04f06ae677e">preempt.h</a>
 </li>
 <li>preempt_counter_ptr()
-: <a class="el" href="group__preempt.html#gab377aa939771256f71f426bd7650b01a">preempt.h</a>
-, <a class="el" href="group__sched.html#gab377aa939771256f71f426bd7650b01a">core.c</a>
+: <a class="el" href="group__sched.html#gab377aa939771256f71f426bd7650b01a">core.c</a>
+, <a class="el" href="group__preempt.html#gab377aa939771256f71f426bd7650b01a">preempt.h</a>
 </li>
 <li>preempt_dec_and_test()
 : <a class="el" href="group__preempt.html#gaaa367ac52b57070819284f18643cc0a9">preempt.h</a>
@@ -252,15 +251,20 @@ $(document).ready(function(){initNavTree('globals_0x70.html','');});
 <li>PREEMPT_NEED_RESCHED_FLAG
 : <a class="el" href="group__thread.html#gab361d52a0303f005e9684817a77d1e52">thread.h</a>
 </li>
+<li>preempt_schedule()
+: <a class="el" href="group__preempt.html#ga4e684afa3732b2e8b2f3bc70f055e1a2">preempt.h</a>
+, <a class="el" href="group__sched.html#ga066f92644adbfa1f42b75cdaaaa5ef47">core.c</a>
+</li>
+<li>preempt_schedule_irq()
+: <a class="el" href="group__sched.html#ga974353847ed3f08a28c54aa2aa9046a1">core.c</a>
+, <a class="el" href="group__preempt.html#gad617f8d3f4bc68722e597787b960cde6">preempt.h</a>
+</li>
 <li>preempt_should_resched()
-: <a class="el" href="group__sched.html#gaa93580e45d2e6c581a96c72bfbd51212">core.c</a>
-, <a class="el" href="group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212">preempt.h</a>
+: <a class="el" href="group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212">preempt.h</a>
+, <a class="el" href="group__sched.html#gaa93580e45d2e6c581a96c72bfbd51212">core.c</a>
 </li>
 <li>preempt_test()
 : <a class="el" href="group__preempt.html#ga30a3151baa4664f4c58d9f6e04c4df0e">preempt.h</a>
-</li>
-<li>prio()
-: <a class="el" href="group__sched.html#ga9a8ff49b1aeeb5a84a73ac172e1d57d5">sched.h</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -268,7 +272,7 @@ $(document).ready(function(){initNavTree('globals_0x70.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:56 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:08 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

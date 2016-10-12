@@ -1,6 +1,7 @@
 var searchData=
 [
   ['calloc',['calloc',['../group__libc.html#ga7b3d8b7cea59b137b167878ec88eb8d6',1,'kcalloc.c']]],
+  ['calypso_5fexit',['CALYPSO_EXIT',['../test_8h.html#a7388cb673892b7540f9e4eec1af89226',1,'test.h']]],
   ['ceil',['ceil',['../group__math.html#ga61470611f23ceef5d3e9cf63d84cd8a7',1,'math.h']]],
   ['chip',['chip',['../structanalog__pin.html#aaced795ac0237930b2eac79a6de85d3f',1,'analog_pin::chip()'],['../structgpio__pin.html#a9cfdb423ee349c2d564ff8c288471bcc',1,'gpio_pin::chip()'],['../structirq__data.html#a02fa817f49ef1beb07bd08d7a1e06d8b',1,'irq_data::chip()']]],
   ['chip_5fhandle',['chip_handle',['../structirq__chip.html#a7fdcac7f043a554bfd9f8bb18eb88e1c',1,'irq_chip']]],
@@ -24,8 +25,14 @@ var searchData=
   ['core_2ec',['core.c',['../kernel_2sched_2core_8c.html',1,'']]],
   ['cos',['cos',['../group__math.html#ga542f5e42e0d3b5df63de0e34ec06bb40',1,'math.h']]],
   ['count',['count',['../structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c',1,'clocksource']]],
+  ['cpu_2eh',['cpu.h',['../cpu_8h.html',1,'']]],
   ['cpu_5fget_5fid',['cpu_get_id',['../group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127',1,'cpu_get_id(void):&#160;cpu.c'],['../group__arch_a_p_i.html#ga45e277ef6f2d431ec2bf827fe3fe1127',1,'cpu_get_id(void):&#160;cpu.c']]],
+  ['cpu_5fget_5fstate',['cpu_get_state',['../group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9',1,'cpu.c']]],
+  ['cpu_5fnotify',['cpu_notify',['../group__kernel.html#ga38f4f8022778edff29606cec22897bfc',1,'cpu.c']]],
   ['cpu_5frequest_5firq',['cpu_request_irq',['../group__arch_a_p_i.html#ga09fe2982d63e7311c8b6ce8a7238bf23',1,'cpu_request_irq(struct irq_data *data):&#160;irq.c'],['../group__arch_a_p_i.html#ga09fe2982d63e7311c8b6ce8a7238bf23',1,'cpu_request_irq(struct irq_data *data):&#160;irq.c']]],
+  ['cpu_5fset_5fstate',['cpu_set_state',['../group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3',1,'cpu.c']]],
+  ['cpu_5fstate',['cpu_state',['../structthread.html#acd2b8f4bb987e94927841856b321e1b6',1,'thread']]],
+  ['cpu_5fstate_5ft',['cpu_state_t',['../group__kernel.html#gad6d9db91247652a54cb6b13d774d61eb',1,'cpu.h']]],
   ['cpu_5fswitch_5fcontext',['cpu_switch_context',['../group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b',1,'cpu_switch_context(struct rq *rq, struct thread *prev, struct thread *next):&#160;sched.c'],['../group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b',1,'cpu_switch_context(struct rq *rq, struct thread *prev, struct thread *next):&#160;sched.c']]],
   ['cpu_5fto_5frq',['cpu_to_rq',['../group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8',1,'cpu_to_rq(int cpu):&#160;sched.c'],['../group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8',1,'cpu_to_rq(int cpu):&#160;sched.c']]],
   ['cs',['cs',['../structspidev.html#a7058b77ee83524c214267b12e6911065',1,'spidev']]],

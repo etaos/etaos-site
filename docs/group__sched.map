@@ -1,8 +1,9 @@
 <map id="Scheduling core" name="Scheduling core">
-<area shape="rect" id="node1" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,117,115,150"/>
-<area shape="rect" id="node2" href="$group__lottery.html" title="Probabilistic lottery scheduling. " alt="" coords="361,5,484,38"/>
-<area shape="rect" id="node4" href="$group__fifo.html" title="First&#45;in First&#45;out scheduler. " alt="" coords="367,61,479,94"/>
-<area shape="rect" id="node5" href="$group__ipm.html" title="Inter&#45;Process messages. " alt="" coords="327,117,519,150"/>
-<area shape="rect" id="node6" href="$group__rr.html" title="The round robin scheduling algorithm. " alt="" coords="347,173,499,206"/>
-<area shape="rect" id="node7" href="$group__preempt.html" title="Preemption API. " alt="" coords="379,229,467,262"/>
+<area shape="rect" id="node1" href="$group__edf.html" title="Documentation for the (virtual) earliest deadline first algorithm. " alt="" coords="348,5,497,59"/>
+<area shape="rect" id="node2" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,166,115,199"/>
+<area shape="rect" id="node3" href="$group__lottery.html" title="Probabilistic lottery scheduling. " alt="" coords="361,82,484,115"/>
+<area shape="rect" id="node5" href="$group__fifo.html" title="First&#45;in First&#45;out scheduler. " alt="" coords="367,138,479,171"/>
+<area shape="rect" id="node6" href="$group__ipm.html" title="Inter&#45;Process messages. " alt="" coords="327,194,519,227"/>
+<area shape="rect" id="node7" href="$group__rr.html" title="The round robin scheduling algorithm. " alt="" coords="347,250,499,283"/>
+<area shape="rect" id="node8" href="$group__preempt.html" title="Preemption API. " alt="" coords="379,306,467,339"/>
 </map>

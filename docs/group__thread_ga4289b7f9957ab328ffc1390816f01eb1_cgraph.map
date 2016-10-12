@@ -1,8 +1,7 @@
 <map id="raw_thread_init" name="raw_thread_init">
 <area shape="rect" id="node3" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="199,5,271,38"/>
 <area shape="rect" id="node5" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="208,61,261,94"/>
-<area shape="rect" id="node7" href="$group__sched.html#ga9a8ff49b1aeeb5a84a73ac172e1d57d5" title="Get the priority of a thread. " alt="" coords="213,117,256,150"/>
-<area shape="rect" id="node9" href="$list_8h.html#a1a568374cf24e55d65a537408bd323e4" title="Dynamic list initialiser. " alt="" coords="185,173,284,206"/>
-<area shape="rect" id="node11" href="$group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a" title="Setup the stack from of a thread. " alt="" coords="165,229,304,283"/>
-<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="204,306,265,339"/>
+<area shape="rect" id="node7" href="$list_8h.html#a1a568374cf24e55d65a537408bd323e4" title="Dynamic list initialiser. " alt="" coords="185,117,284,150"/>
+<area shape="rect" id="node9" href="$group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a" title="Setup the stack from of a thread. " alt="" coords="165,173,304,227"/>
+<area shape="rect" id="node11" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="204,250,265,283"/>
 </map>

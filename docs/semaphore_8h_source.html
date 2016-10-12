@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('semaphore_8h_source.html','');});
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="evm_8h.html">etaos/evm.h</a>&gt;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="structsem__t.html">   38</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>semaphore {</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structsem__t.html#a4a8e297584c64128b91c4cfe9400c73c">   39</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structthread__queue.html">thread_queue</a> qp; </div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structsem__t.html#a4a8e297584c64128b91c4cfe9400c73c">   39</a></span>&#160;        <span class="keyword">struct </span>thread_queue qp; </div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structsem__t.html#a96e2c7878a59414fb461fac716124f6d">   40</a></span>&#160;        <span class="keywordtype">short</span> <a class="code" href="structsem__t.html#a96e2c7878a59414fb461fac716124f6d">value</a>; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;} <a class="code" href="structsem__t.html">sem_t</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
@@ -145,7 +145,6 @@ $(document).ready(function(){initNavTree('semaphore_8h_source.html','');});
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">/* @} */</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span></div>
-<div class="ttc" id="structthread__queue_html"><div class="ttname"><a href="structthread__queue.html">thread_queue</a></div><div class="ttdoc">Thread queue descriptor. </div><div class="ttdef"><b>Definition:</b> thread.h:109</div></div>
 <div class="ttc" id="evm_8h_html"><div class="ttname"><a href="evm_8h.html">evm.h</a></div></div>
 <div class="ttc" id="group__sem_html_gab5921c00ddae13d24a436fc06d57b1e4"><div class="ttname"><a href="group__sem.html#gab5921c00ddae13d24a436fc06d57b1e4">sem_try_wait</a></div><div class="ttdeci">int sem_try_wait(sem_t *sem)</div><div class="ttdoc">Try to lock a semaphore without waiting. </div><div class="ttdef"><b>Definition:</b> semaphore.c:83</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
@@ -162,7 +161,7 @@ $(document).ready(function(){initNavTree('semaphore_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1dd79d4dca7038082c645a7093a3b4d1.html">include</a></li><li class="navelem"><a class="el" href="dir_dbe5e85425d75c6c461b8c8b341ec4b6.html">etaos</a></li><li class="navelem"><a class="el" href="semaphore_8h.html">semaphore.h</a></li>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:54 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:03 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

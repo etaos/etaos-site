@@ -9,7 +9,7 @@ var searchData=
   ['rm_5fthread',['rm_thread',['../structsched__class.html#a43307eb0742b086fa326202322d14702',1,'sched_class']]],
   ['rq',['rq',['../structthread.html#a944189d6913e48909b439453f278f53e',1,'thread']]],
   ['rq_5fnext',['rq_next',['../structthread.html#a04e09e1cf7094253594718b632f0565f',1,'thread']]],
-  ['rr_5fclass',['rr_class',['../group__sched.html#ga89bc3f7e7e6c0042ad508637e5db5b59',1,'rr_class():&#160;rr.c'],['../group__rr.html#ga89bc3f7e7e6c0042ad508637e5db5b59',1,'rr_class():&#160;rr.c']]],
+  ['rr_5fclass',['rr_class',['../group__rr.html#ga89bc3f7e7e6c0042ad508637e5db5b59',1,'rr.c']]],
   ['rr_5frq',['rr_rq',['../structrq.html#ab0d6f613bfa5e6b05a29e4330031b974',1,'rq']]],
   ['run_5fqueue',['run_queue',['../structrr__rq.html#ae060bbe32dab0d2100ab040123351f7b',1,'rr_rq']]],
   ['rx',['rx',['../structspi__msg.html#a1ba3576bdd05536aab734f002627747d',1,'spi_msg']]]

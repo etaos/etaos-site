@@ -6,5 +6,6 @@ var modules =
     [ "Architecture API", "group__arch_a_p_i.html", "group__arch_a_p_i" ],
     [ "Architectures", "group__arch.html", "group__arch" ],
     [ "Power management", "group__power.html", "group__power" ],
-    [ "Device drivers", "group__dev.html", "group__dev" ]
+    [ "Device drivers", "group__dev.html", "group__dev" ],
+    [ "Hrtimer", "group__hrtimer.html", "group__hrtimer" ]
 ];

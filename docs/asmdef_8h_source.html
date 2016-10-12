@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('asmdef_8h_source.html','');});
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define SPL_IO_ADDR     0x3D</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SPH_IO_ADDR     0x3E</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;.macro  FUNCTION <a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;.macro  FUNCTION <a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  .ifdef  .Lfunction</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    .err        <span class="comment">/* FUNCTION is defined already. */</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  .endif</div>
@@ -170,20 +170,20 @@ $(document).ready(function(){initNavTree('asmdef_8h_source.html','');});
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span>        .text</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor"></span>        .type   _U(\<a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>), <span class="stringliteral">&quot;function&quot;</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor"></span>        .type   _U(\<a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>), <span class="stringliteral">&quot;function&quot;</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  .ifdef   .LEND</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    .err        <span class="comment">/* .LEND is defined already. */</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  .endif</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        .size   _U(\<a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>), .LEND - .</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        .size   _U(\<a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>), .LEND - .</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;.endm</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#define FUNCTION  FUNCTION      </span><span class="comment">/* for CPP conditional expressions      */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;.macro  ENTRY   <a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;.macro  ENTRY   <a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  .ifndef .Lfunction</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;FUNCTION \name</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  .endif</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        .global _U(\<a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;_U(\<a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>):</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        .global _U(\<a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;_U(\<a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>):</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;.endm</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* Because we define the double type to have the same representation as</span></div>
@@ -193,9 +193,9 @@ $(document).ready(function(){initNavTree('asmdef_8h_source.html','');});
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">   it is preferable to provide actual symbols in the library, so</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">   that code that expects to be able to use them directly -</span></div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">   like gcc/gcc/testsuite/gcc.dg/pr41963.c using sqrtf - will work.  */</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;.macro  ALIAS_ENTRY     <a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        .global _U(\<a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;_U(\<a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>):</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;.macro  ALIAS_ENTRY     <a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        .global _U(\<a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;_U(\<a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>):</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;.endm</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;.macro  ENDFUNC</div>
@@ -207,7 +207,7 @@ $(document).ready(function(){initNavTree('asmdef_8h_source.html','');});
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">   number (0..31). If &#39;reg&#39; is not a valid register, compilation error.</span></div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">   Valid regs are: r0..r31, R0..R31 and 0..31</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;.macro  REGNO   <a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>, reg</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;.macro  REGNO   <a class="code" href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>, reg</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  \name = -1</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  .L__regno = 0</div>
@@ -346,14 +346,14 @@ $(document).ready(function(){initNavTree('asmdef_8h_source.html','');});
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;.endm   <span class="comment">/* X_lpm */</span></div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">/* !_ASMDEF_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="structclocksource_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">clocksource::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">Timer name. </div><div class="ttdef"><b>Definition:</b> clocksource.h:32</div></div>
+<div class="ttc" id="structirq__chip_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">irq_chip::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">Chip name. </div><div class="ttdef"><b>Definition:</b> irq.h:210</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0aea65eb75864cc63d538c774a8d173e.html">arch</a></li><li class="navelem"><a class="el" href="dir_dc4ae8d1337d55a8218aa6a6530b8c5b.html">avr</a></li><li class="navelem"><a class="el" href="dir_b1b99babe31311deacb2e52a616b5f40.html">libflt</a></li><li class="navelem"><b>asmdef.h</b></li>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:54 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:03 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

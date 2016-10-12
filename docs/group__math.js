@@ -1,5 +1,8 @@
 var group__math =
 [
+    [ "to_ms", "group__math.html#gac3b827d0a22846348cdb92962059ff1f", null ],
+    [ "to_ns", "group__math.html#gac7a4583d7a0d257f87483b1b2d9f95e3", null ],
+    [ "to_us", "group__math.html#gafb61ba15d070b9583d00e1c539d8d8a0", null ],
     [ "acos", "group__math.html#gae9c5790d8a29cbee8f54f8eb522decbc", null ],
     [ "asin", "group__math.html#ga98384ad60834911ec93ac5ae1af4cf0a", null ],
     [ "atan", "group__math.html#ga3abd1a0b68d157914a0ee01acaedfe5e", null ],

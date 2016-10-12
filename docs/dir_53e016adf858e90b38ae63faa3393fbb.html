@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -108,12 +108,18 @@ $(document).ready(function(){initNavTree('dir_53e016adf858e90b38ae63faa3393fbb.h
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="dir_53e016adf858e90b38ae63faa3393fbb_dep.png" border="0" usemap="#dir__53e016adf858e90b38ae63faa3393fbb__dep" alt="arch/avr/kernel"/></div>
 <map name="dir__53e016adf858e90b38ae63faa3393fbb__dep" id="dir__53e016adf858e90b38ae63faa3393fbb__dep">
-<area shape="rect" id="node2" href="dir_53e016adf858e90b38ae63faa3393fbb.html" title="kernel" alt="" coords="27,59,99,107"/><area shape="rect" id="node3" href="dir_1dd79d4dca7038082c645a7093a3b4d1.html" title="include" alt="" coords="27,155,99,203"/><area shape="rect" id="edge3" href="dir_000006_000004.html" title="26" alt="" coords="64,125,78,147"/><area shape="rect" id="graph2" href="dir_dc4ae8d1337d55a8218aa6a6530b8c5b.html" title="avr" alt="" coords="16,16,109,117"/></map>
+<area shape="rect" id="node2" href="dir_53e016adf858e90b38ae63faa3393fbb.html" title="kernel" alt="" coords="27,59,99,107"/><area shape="rect" id="node3" href="dir_1dd79d4dca7038082c645a7093a3b4d1.html" title="include" alt="" coords="27,155,99,203"/><area shape="rect" id="edge3" href="dir_000006_000004.html" title="43" alt="" coords="64,125,78,147"/><area shape="rect" id="graph2" href="dir_dc4ae8d1337d55a8218aa6a6530b8c5b.html" title="avr" alt="" coords="16,16,109,117"/></map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
+<tr class="memitem:adc_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>adc.c</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:arch_2avr_2kernel_2cpu_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>cpu.c</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:arch_2avr_2kernel_2hrtimer_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>hrtimer.c</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:i2c_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>i2c.c</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:arch_2avr_2kernel_2init_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>init.c</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,7 +131,11 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:simulavr_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>simulavr.c</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:arch_2avr_2kernel_2time_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>time.c</b></td></tr>
+<tr class="memitem:spi_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>spi.c</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:arch_2avr_2kernel_2timer_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>timer.c</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:usart_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>usart.c</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -134,7 +144,7 @@ Files</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0aea65eb75864cc63d538c774a8d173e.html">arch</a></li><li class="navelem"><a class="el" href="dir_dc4ae8d1337d55a8218aa6a6530b8c5b.html">avr</a></li><li class="navelem"><a class="el" href="dir_53e016adf858e90b38ae63faa3393fbb.html">kernel</a></li>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:55 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:04 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

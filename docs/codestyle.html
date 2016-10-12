@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -202,11 +202,11 @@ Patches</h1>
 Creating patches</h2>
 <p>An explanation on how you should create your patch patch. Lets say, that your patch is 2 commits long and you want to generate the .patch files.</p>
 <p>Enter the following command: </p>
-<div class="fragment"><div class="line">git format-patch --to etaos@michelmegens.net HEAD~2..HEAD</div>
+<div class="fragment"><div class="line">git format-patch --to etaos@googlegroups.net HEAD~2..HEAD</div>
 </div><!-- fragment --><p>git format-patch will generate a patch-file-per-commit of the given range (which is HEAD-2 to HEAD in our case). The &ndash;to argument is used to set a receiver which will be used later on by git send-email.</p>
 <h2><a class="anchor" id="snt-patch"></a>
 Sending patches</h2>
-<p>Once your patch has been created sent them <b>inline</b> to the ETA/OS mailing list (<a href="#" onclick="location.href='mai'+'lto:'+'eta'+'os'+'@mi'+'ch'+'elm'+'eg'+'ens'+'.n'+'et'; return false;">etaos<span style="display: none;">.nosp@m.</span>@mic<span style="display: none;">.nosp@m.</span>helme<span style="display: none;">.nosp@m.</span>gens<span style="display: none;">.nosp@m.</span>.net</a>). If you want to you can also CC the maintainer of the file you have patched, his or her email should be in the top of the file.</p>
+<p>Once your patch has been created sent them <b>inline</b> to the ETA/OS mailing list (<a href="#" onclick="location.href='mai'+'lto:'+'eta'+'os'+'@go'+'og'+'leg'+'ro'+'ups'+'.n'+'et'; return false;">etaos<span style="display: none;">.nosp@m.</span>@goo<span style="display: none;">.nosp@m.</span>glegr<span style="display: none;">.nosp@m.</span>oups<span style="display: none;">.nosp@m.</span>.net</a>). If you want to you can also CC the maintainer of the file you have patched, his or her email should be in the top of the file.</p>
 <p>To send your email using git, run the following command:</p>
 <div class="fragment"><div class="line">git send-email *.patch</div>
 </div><!-- fragment --><p>To use git send-email, you need to have it configured. To do so, please read the git scm documentation on `git send-email'.</p>
@@ -254,7 +254,7 @@ Thunderbird</h3>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:54 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:04 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

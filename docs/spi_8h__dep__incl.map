@@ -1,5 +1,5 @@
 <map id="include/etaos/spi.h" name="include/etaos/spi.h">
 <area shape="rect" id="node3" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="5,89,133,143"/>
-<area shape="rect" id="node5" href="$spidev_8c.html" title="drivers/spi/spidev.c" alt="" coords="157,99,291,133"/>
-<area shape="rect" id="node7" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="315,99,464,133"/>
+<area shape="rect" id="node5" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="157,99,299,133"/>
+<area shape="rect" id="node7" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="323,99,472,133"/>
 </map>

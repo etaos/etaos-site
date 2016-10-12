@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('group__math.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Math library<div class="ingroups"><a class="el" href="group__libc.html">C runtime library</a></div></div>  </div>
@@ -117,6 +118,21 @@ $(document).ready(function(){initNavTree('group__math.html','');});
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gac7a4583d7a0d257f87483b1b2d9f95e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac7a4583d7a0d257f87483b1b2d9f95e3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__math.html#gac7a4583d7a0d257f87483b1b2d9f95e3">to_ns</a>(__s)&#160;&#160;&#160;(__s * 1E9)</td></tr>
+<tr class="memdesc:gac7a4583d7a0d257f87483b1b2d9f95e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert seconds to nanoseconds. <br/></td></tr>
+<tr class="separator:gac7a4583d7a0d257f87483b1b2d9f95e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb61ba15d070b9583d00e1c539d8d8a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafb61ba15d070b9583d00e1c539d8d8a0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__math.html#gafb61ba15d070b9583d00e1c539d8d8a0">to_us</a>(__s)&#160;&#160;&#160;(__s * 1E6)</td></tr>
+<tr class="memdesc:gafb61ba15d070b9583d00e1c539d8d8a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert seconds to microseconds. <br/></td></tr>
+<tr class="separator:gafb61ba15d070b9583d00e1c539d8d8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac3b827d0a22846348cdb92962059ff1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac3b827d0a22846348cdb92962059ff1f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__math.html#gac3b827d0a22846348cdb92962059ff1f">to_ms</a>(__s)&#160;&#160;&#160;(__s * 1E3)</td></tr>
+<tr class="memdesc:gac3b827d0a22846348cdb92962059ff1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert seconds to miliseconds. <br/></td></tr>
+<tr class="separator:gac3b827d0a22846348cdb92962059ff1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga6eb04604d801054c5a2afe195d1dd75d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__math.html#ga6eb04604d801054c5a2afe195d1dd75d">round</a> (double __x)</td></tr>
@@ -187,6 +203,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The inverse cosine of __x. </dd></dl>
 
 </div>
 </div>
@@ -211,6 +228,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The inverse sine of __x. </dd></dl>
 
 </div>
 </div>
@@ -235,6 +253,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The inverse tangent of __x. </dd></dl>
 
 </div>
 </div>
@@ -270,6 +289,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The inverse tan2 of __y and __x. </dd></dl>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
     <tr><td class="paramname">is</td><td>in the range [-pi, +pi]. </td></tr>
@@ -300,6 +320,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The ceiling of __x. </dd></dl>
 
 </div>
 </div>
@@ -324,6 +345,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The cosine of __x. </dd></dl>
 
 </div>
 </div>
@@ -348,6 +370,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The exponential value of __x. </dd></dl>
 
 </div>
 </div>
@@ -372,6 +395,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The floor of __x. </dd></dl>
 
 </div>
 </div>
@@ -396,6 +420,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The natural log of __x. </dd></dl>
 
 </div>
 </div>
@@ -420,6 +445,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The log10 of __x. </dd></dl>
 
 </div>
 </div>
@@ -444,6 +470,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The rounded number. </dd></dl>
 
 </div>
 </div>
@@ -468,6 +495,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The sine of __x. </dd></dl>
 
 </div>
 </div>
@@ -492,6 +520,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The square root of __x. </dd></dl>
 
 </div>
 </div>
@@ -516,6 +545,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>The tangent of __x. </dd></dl>
 
 </div>
 </div>
@@ -524,7 +554,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:55 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:04 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

@@ -6,6 +6,7 @@ var searchData=
   ['clk',['clk',['../structspi__driver.html#ab83892a0c4877cd9fdd0498126f20d19',1,'spi_driver']]],
   ['close',['close',['../structdev__file__ops.html#a14b4360e24f959e9fe718607a1a94733',1,'dev_file_ops::close()'],['../structvfile.html#a14b4360e24f959e9fe718607a1a94733',1,'vfile::close()']]],
   ['count',['count',['../structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c',1,'clocksource']]],
+  ['cpu_5fstate',['cpu_state',['../structthread.html#acd2b8f4bb987e94927841856b321e1b6',1,'thread']]],
   ['cs',['cs',['../structspidev.html#a7058b77ee83524c214267b12e6911065',1,'spidev']]],
   ['ctrl',['ctrl',['../structi2c__bus.html#a1e6b395d5b77e914747167dcddfce938',1,'i2c_bus::ctrl()'],['../structspi__driver.html#ad705af46d9bcf6c6b49a42e2aea9ed0b',1,'spi_driver::ctrl()']]],
   ['current',['current',['../structrq.html#a006833fbfb5936947e52ef23a343b4d4',1,'rq']]]

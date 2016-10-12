@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="etaos-logo.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ETA/OS
-   &#160;<span id="projectnumber">4.4.1</span>
+   &#160;<span id="projectnumber">4.5.0</span>
    </div>
    <div id="projectbrief">API reference</div>
   </td>
@@ -106,7 +106,8 @@ $(document).ready(function(){initNavTree('systick_8c.html','');});
 <div class="textblock"><code>#include &lt;<a class="el" href="kernel_8h_source.html">etaos/kernel.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="include_2etaos_2types_8h_source.html">etaos/types.h</a>&gt;</code><br/>
 <code>#include &lt;etaos/atomic.h&gt;</code><br/>
-<code>#include &lt;<a class="el" href="include_2etaos_2time_8h_source.html">etaos/time.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="time_8h_source.html">etaos/time.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="preempt_8h_source.html">etaos/preempt.h</a>&gt;</code><br/>
 <code>#include &lt;etaos/irq.h&gt;</code><br/>
 <code>#include &lt;<a class="el" href="tick_8h_source.html">etaos/tick.h</a>&gt;</code><br/>
 <code>#include &lt;etaos/stdio.h&gt;</code><br/>
@@ -118,7 +119,7 @@ $(document).ready(function(){initNavTree('systick_8c.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="systick_8c__incl.png" border="0" usemap="#kernel_2time_2systick_8c" alt=""/></div>
 <map name="kernel_2time_2systick_8c" id="kernel_2time_2systick_8c">
-<area shape="rect" id="node3" href="kernel_8h.html" title="etaos/kernel.h" alt="" coords="881,585,985,618"/><area shape="rect" id="node7" href="include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="287,667,388,701"/><area shape="rect" id="node16" href="include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="93,337,200,370"/><area shape="rect" id="node22" href="include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="296,502,379,535"/><area shape="rect" id="node26" href="include_2etaos_2time_8h.html" title="etaos/time.h" alt="" coords="601,171,695,205"/><area shape="rect" id="node53" href="tick_8h.html" title="etaos/tick.h" alt="" coords="675,89,765,122"/><area shape="rect" id="node58" href="stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="240,254,336,287"/><area shape="rect" id="node64" href="math_8h_source.html" title="etaos/math.h" alt="" coords="1179,89,1277,122"/><area shape="rect" id="node5" href="autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="861,667,1005,701"/><area shape="rect" id="node11" href="stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="1029,667,1133,701"/><area shape="rect" id="node13" href="compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="720,667,837,701"/><area shape="rect" id="node9" href="arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="291,750,384,783"/><area shape="rect" id="node20" href="arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="296,419,397,453"/><area shape="rect" id="node29" href="timer_8h_source.html" title="etaos/timer.h" alt="" coords="515,254,611,287"/><area shape="rect" id="node34" href="include_2etaos_2spinlock_8h_source.html" title="etaos/spinlock.h" alt="" coords="544,419,661,453"/><area shape="rect" id="node46" href="clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="727,337,865,370"/><area shape="rect" id="node39" href="preempt_8h.html" title="etaos/preempt.h" alt="" coords="552,502,667,535"/><area shape="rect" id="node41" href="arch_2avr_2include_2asm_2spinlock_8h_source.html" title="asm/spinlock.h" alt="" coords="691,502,800,535"/><area shape="rect" id="node43" href="arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="453,502,528,535"/></map>
+<area shape="rect" id="node3" href="kernel_8h.html" title="etaos/kernel.h" alt="" coords="443,585,547,618"/><area shape="rect" id="node7" href="include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="860,667,961,701"/><area shape="rect" id="node16" href="include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="781,337,888,370"/><area shape="rect" id="node22" href="include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="869,502,952,535"/><area shape="rect" id="node26" href="time_8h.html" title="etaos/time.h" alt="" coords="672,171,765,205"/><area shape="rect" id="node39" href="preempt_8h.html" title="etaos/preempt.h" alt="" coords="245,502,360,535"/><area shape="rect" id="node54" href="tick_8h.html" title="etaos/tick.h" alt="" coords="835,89,925,122"/><area shape="rect" id="node59" href="stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="296,254,392,287"/><area shape="rect" id="node65" href="math_8h_source.html" title="etaos/math.h" alt="" coords="1267,89,1365,122"/><area shape="rect" id="node5" href="autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="275,667,419,701"/><area shape="rect" id="node11" href="stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="443,667,547,701"/><area shape="rect" id="node13" href="compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="571,667,688,701"/><area shape="rect" id="node9" href="arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="864,750,957,783"/><area shape="rect" id="node20" href="arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="787,419,888,453"/><area shape="rect" id="node29" href="include_2etaos_2timer_8h_source.html" title="etaos/timer.h" alt="" coords="671,254,767,287"/><area shape="rect" id="node34" href="include_2etaos_2spinlock_8h_source.html" title="etaos/spinlock.h" alt="" coords="461,419,579,453"/><area shape="rect" id="node46" href="clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="619,337,757,370"/><area shape="rect" id="node41" href="arch_2avr_2include_2asm_2spinlock_8h_source.html" title="asm/spinlock.h" alt="" coords="435,502,544,535"/><area shape="rect" id="node43" href="arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="568,502,643,535"/></map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -139,7 +140,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_22cfc61921e7541059a7f845acecfe50.html">kernel</a></li><li class="navelem"><a class="el" href="dir_971a19ad538c42671d6799cfa45645e2.html">time</a></li><li class="navelem"><a class="el" href="systick_8c.html">systick.c</a></li>
-    <li class="footer">Generated on Thu Sep 15 2016 14:14:54 for ETA/OS by
+    <li class="footer">Generated on Wed Oct 12 2016 21:26:04 for ETA/OS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>
