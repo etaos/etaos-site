@@ -13,18 +13,21 @@ propose it on the mailing list or sent in a pull request with your changes.
 
 ### Table of contents
 [Before you start](#before-you-start)
+
 * [Code of Conduct](#code-of-conduct)
 
 [How to contribute](#how-to-contribute)
-  * [Reporting bugs](#reporting-bugs)
-  * [Suggestions](#suggestions)
-  * [Code contributions](#code-contributions)
-  * [Patches and pull requests](#patches-and-pull-requests)
+
+* [Reporting bugs](#reporting-bugs)
+* [Suggestions](#suggestions)
+* [Code contributions](#code-contributions)
+* [Patches and pull requests](#patches-and-pull-requests)
 
 [Style guide](#style-guide)
-  * [Git](#git-commit-messages)
-  * [C/C++](#cc)
-  * [Documentation](#documentation)
+
+* [Git](#git-commit-messages)
+* [C/C++](#cc)
+* [Documentation](#documentation)
 
 Before you start
 ----------------
