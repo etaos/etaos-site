@@ -6,5 +6,6 @@
 <area shape="rect" id="node6" href="$group__mm.html" title="Dynamic memory management. " alt="" coords="172,229,319,262"/>
 <area shape="rect" id="node7" href="$group__thread.html" title="Cooperative multi&#45;threading support. " alt="" coords="175,285,316,318"/>
 <area shape="rect" id="node8" href="$group__sem.html" title="Semaphore API. " alt="" coords="199,341,292,374"/>
-<area shape="rect" id="node9" href="$group__tm.html" title="Asynchronous timer support. " alt="" coords="179,397,312,430"/>
+<area shape="rect" id="node9" href="$group__hrtimer.html" title="Asynchronous high resolution timer support. " alt="" coords="175,397,316,451"/>
+<area shape="rect" id="node10" href="$group__tm.html" title="Asynchronous timer support. " alt="" coords="179,474,312,507"/>
 </map>

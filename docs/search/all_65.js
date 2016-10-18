@@ -4,7 +4,7 @@ var searchData=
   ['edf_5fadd_5fthread',['edf_add_thread',['../group__edf.html#gae22b1a568a69431604d8a8757398b13b',1,'edf.c']]],
   ['edf_5fclass',['edf_class',['../group__edf.html#ga4b488aff64490029135f4b78e523b07f',1,'edf.c']]],
   ['edf_5fnext_5frunnable',['edf_next_runnable',['../group__edf.html#gaeeff9109092b6c95569eee4c692f345f',1,'edf.c']]],
-  ['edf_5fpreempt_5fchk',['edf_preempt_chk',['../group__edf.html#ga177370072b179a0e57365d0da9d3dee4',1,'edf.c']]],
+  ['edf_5fpreempt_5fchk',['edf_preempt_chk',['../group__edf.html#gaa4478c4a5442ff99b13ed0f467f7a719',1,'edf.c']]],
   ['edf_5frm_5fthread',['edf_rm_thread',['../group__edf.html#ga2bb0acf8f625ab5b2a4cf7a4637f3c8e',1,'edf.c']]],
   ['edf_5fsort_5fbefore',['edf_sort_before',['../group__edf.html#gacd0b123b5be831d783e3907ca37026b9',1,'edf.c']]],
   ['eeprom_20drivers',['EEPROM drivers',['../group__ee.html',1,'']]],

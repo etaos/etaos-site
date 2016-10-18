@@ -4,7 +4,7 @@ var searchData=
   ['pdev',['pdev',['../structdevice.html#a6fb27e0c8e2d8544acca44725266b5d3',1,'device']]],
   ['pins',['pins',['../structgpio__chip.html#ab269cecffad98d6c415d9c18a9365115',1,'gpio_chip']]],
   ['post_5fschedule',['post_schedule',['../structsched__class.html#a8a1c60922a67827dab586c7f23a730bc',1,'sched_class']]],
-  ['preempt_5fchk',['preempt_chk',['../structsched__class.html#a547f341a5ab61671512093e35b3aa2ab',1,'sched_class']]],
+  ['preempt_5fchk',['preempt_chk',['../structsched__class.html#a8f9d4cb584a13dd0bb59dd8d42aa866a',1,'sched_class']]],
   ['preemt_5fcnt',['preemt_cnt',['../structthread.html#a449510b1270b20ea278fcb3ae871f3d3',1,'thread']]],
   ['prev',['prev',['../structhrtimer.html#ae98a9a825ab6ec6d5cc5a9af892e53b8',1,'hrtimer::prev()'],['../structtimer.html#a7b2343683040124347c5d5818f57b507',1,'timer::prev()'],['../structlist__head.html#a792765e96094df4bbaac005e8af89f38',1,'list_head::prev()']]],
   ['prio',['prio',['../structthread.html#af4316365ea48cec8ddaac0563492358f',1,'thread']]],

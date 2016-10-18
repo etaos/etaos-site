@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hrtimer',['Hrtimer',['../group__hrtimer.html',1,'']]]
+  ['high_20resolution_20timer_20management_2e',['High resolution timer management.',['../group__hrtimer.html',1,'']]]
 ];

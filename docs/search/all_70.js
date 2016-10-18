@@ -44,7 +44,7 @@ var searchData=
   ['power_5fstandby',['POWER_STANDBY',['../group__power.html#gafd79ef79e5360a5156b7da09736d8aa7',1,'power.h']]],
   ['preemption',['Preemption',['../group__preempt.html',1,'']]],
   ['preempt_2eh',['preempt.h',['../preempt_8h.html',1,'']]],
-  ['preempt_5fchk',['preempt_chk',['../structsched__class.html#a547f341a5ab61671512093e35b3aa2ab',1,'sched_class']]],
+  ['preempt_5fchk',['preempt_chk',['../structsched__class.html#a8f9d4cb584a13dd0bb59dd8d42aa866a',1,'sched_class']]],
   ['preempt_5fcount_5fdec',['preempt_count_dec',['../group__preempt.html#ga3573895fae182f132ad53c9c74268dbe',1,'preempt.h']]],
   ['preempt_5fcount_5finc',['preempt_count_inc',['../group__preempt.html#gade4c97a2c2f6f07c15fdf04f06ae677e',1,'preempt.h']]],
   ['preempt_5fcounter_5fptr',['preempt_counter_ptr',['../group__preempt.html#gab377aa939771256f71f426bd7650b01a',1,'preempt_counter_ptr(void):&#160;core.c'],['../group__sched.html#gab377aa939771256f71f426bd7650b01a',1,'preempt_counter_ptr(void):&#160;core.c']]],
