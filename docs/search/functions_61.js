@@ -1,6 +1,7 @@
 var searchData=
 [
   ['acos',['acos',['../group__math.html#gae9c5790d8a29cbee8f54f8eb522decbc',1,'math.h']]],
+  ['adc_5fread',['adc_read',['../group__stl.html#ga85726fd22ea1528e5de6ae4d70552b40',1,'CPU']]],
   ['analog_5fchip_5finit',['analog_chip_init',['../group__analog.html#gaadcbb6165bb31a24e5d679b5e3ff0b79',1,'analog.c']]],
   ['analog_5fchip_5fto_5fname',['analog_chip_to_name',['../group__analog.html#ga268d54a08be0f9f8cb8fbdf166136523',1,'analog.h']]],
   ['analog_5fclose',['analog_close',['../group__analog.html#ga2cc8d30b8627ad3e6450221528faa848',1,'analog.c']]],

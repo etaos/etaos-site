@@ -1,5 +1,6 @@
 <map id="preempt_should_resched" name="preempt_should_resched">
 <area shape="rect" id="node3" href="$group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="223,5,327,38"/>
-<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="244,61,305,94"/>
+<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="244,61,305,94"/>
 <area shape="rect" id="node5" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="376,5,504,38"/>
+<area shape="rect" id="node7" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="552,5,659,38"/>
 </map>

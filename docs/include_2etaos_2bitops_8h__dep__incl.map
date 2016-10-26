@@ -2,13 +2,14 @@
 <area shape="rect" id="node3" href="$include_2etaos_2sched_8h.html" title="include/etaos/sched.h" alt="" coords="144,89,293,122"/>
 <area shape="rect" id="node5" href="$handle_8c.html" title="kernel/irq/handle.c" alt="" coords="5,182,133,215"/>
 <area shape="rect" id="node7" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="157,182,293,215"/>
-<area shape="rect" id="node9" href="$gpio_8h.html" title="include/etaos/gpio.h" alt="" coords="419,89,557,122"/>
+<area shape="rect" id="node9" href="$gpio_8h.html" title="include/etaos/gpio.h" alt="" coords="469,89,608,122"/>
 <area shape="rect" id="node11" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="317,171,445,226"/>
-<area shape="rect" id="node13" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="643,182,784,215"/>
-<area shape="rect" id="node20" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="632,89,736,122"/>
-<area shape="rect" id="node23" href="$kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="760,89,888,122"/>
-<area shape="rect" id="node25" href="$fputc_8c.html" title="lib/stdio/fputc.c" alt="" coords="912,89,1021,122"/>
-<area shape="rect" id="node27" href="$first-fit_8c.html" title="mm/first&#45;fit.c" alt="" coords="1045,89,1141,122"/>
-<area shape="rect" id="node29" href="$mlist_8c.html" title="mm/mlist.c" alt="" coords="1165,89,1251,122"/>
-<area shape="rect" id="node15" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="469,182,619,215"/>
+<area shape="rect" id="node13" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="469,182,611,215"/>
+<area shape="rect" id="node22" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="632,89,736,122"/>
+<area shape="rect" id="node25" href="$kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="760,89,888,122"/>
+<area shape="rect" id="node27" href="$fputc_8c.html" title="lib/stdio/fputc.c" alt="" coords="912,89,1021,122"/>
+<area shape="rect" id="node29" href="$first-fit_8c.html" title="mm/first&#45;fit.c" alt="" coords="1045,89,1141,122"/>
+<area shape="rect" id="node31" href="$mlist_8c.html" title="mm/mlist.c" alt="" coords="1165,89,1251,122"/>
+<area shape="rect" id="node15" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="635,182,784,215"/>
+<area shape="rect" id="node17" href="$stl_2cpu_8h.html" title="include/etaos/stl/cpu.h" alt="" coords="808,182,960,215"/>
 </map>

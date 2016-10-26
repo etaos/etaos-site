@@ -2,6 +2,7 @@ var searchData=
 [
   ['data',['data',['../structipm.html#a0d49d74db4c035719c3867723cf7e779',1,'ipm::data()'],['../structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095',1,'romfs::data()'],['../structvfile.html#a735984d41155bc1032e09bece8f8d66d',1,'vfile::data()']]],
   ['deadline',['deadline',['../group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463',1,'edf.c']]],
+  ['define_5fthread_5fqueue',['DEFINE_THREAD_QUEUE',['../group__thread.html#gae01ffae51cc14590cef5e3b7af14bac0',1,'thread.h']]],
   ['delay',['delay',['../group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71',1,'delay.c']]],
   ['delay_2eh',['delay.h',['../delay_8h.html',1,'']]],
   ['delay_5fus',['delay_us',['../group__tm.html#ga834d7c6c28e84d4e64dd096e651c2463',1,'delay.c']]],

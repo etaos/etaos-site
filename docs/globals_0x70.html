@@ -26,9 +26,14 @@
     <body>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand">ETA/OS 4.5.1</a>
-                </div>
+		<div class="row">
+		    <div class="col-sm-2 logo">
+			<img alt="Logo" src="etaos-logo.svg"/>
+		    </div>
+		    <div class="col-sm-2 project-number">
+                        <a class="navbar-brand">4.5.2</a>
+		    </div>
+	        </div>
             </div>
         </nav>
         <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -89,6 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_0x62.html#index_b"><span>b</span></a></li>
       <li><a href="globals_0x63.html#index_c"><span>c</span></a></li>
       <li><a href="globals_0x64.html#index_d"><span>d</span></a></li>
+      <li><a href="globals_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="globals_0x66.html#index_f"><span>f</span></a></li>
       <li><a href="globals_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="globals_0x68.html#index_h"><span>h</span></a></li>
@@ -98,6 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_0x6d.html#index_m"><span>m</span></a></li>
       <li><a href="globals_0x6e.html#index_n"><span>n</span></a></li>
       <li class="current"><a href="globals_0x70.html#index_p"><span>p</span></a></li>
+      <li><a href="globals_0x71.html#index_q"><span>q</span></a></li>
       <li><a href="globals_0x72.html#index_r"><span>r</span></a></li>
       <li><a href="globals_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="globals_0x74.html#index_t"><span>t</span></a></li>
@@ -216,6 +223,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>POWER_STANDBY
 : <a class="el" href="group__power.html#gafd79ef79e5360a5156b7da09736d8aa7">power.h</a>
 </li>
+<li>preempt_chk()
+: <a class="el" href="group__sched.html#gabb16e47cc3e478d76f303be5bbacde1c">core.c</a>
+</li>
 <li>preempt_count_dec
 : <a class="el" href="group__preempt.html#ga3573895fae182f132ad53c9c74268dbe">preempt.h</a>
 </li>
@@ -223,8 +233,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="group__preempt.html#gade4c97a2c2f6f07c15fdf04f06ae677e">preempt.h</a>
 </li>
 <li>preempt_counter_ptr()
-: <a class="el" href="group__sched.html#gab377aa939771256f71f426bd7650b01a">core.c</a>
-, <a class="el" href="group__preempt.html#gab377aa939771256f71f426bd7650b01a">preempt.h</a>
+: <a class="el" href="group__preempt.html#gab377aa939771256f71f426bd7650b01a">preempt.h</a>
+, <a class="el" href="group__sched.html#gab377aa939771256f71f426bd7650b01a">core.c</a>
 </li>
 <li>preempt_dec_and_test()
 : <a class="el" href="group__preempt.html#gaaa367ac52b57070819284f18643cc0a9">preempt.h</a>
@@ -241,13 +251,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>PREEMPT_NEED_RESCHED_FLAG
 : <a class="el" href="group__thread.html#gab361d52a0303f005e9684817a77d1e52">thread.h</a>
 </li>
+<li>preempt_reset_slice()
+: <a class="el" href="group__sched.html#ga70e974d78d84a3ef849f69893ed2ca39">core.c</a>
+</li>
 <li>preempt_schedule()
 : <a class="el" href="group__preempt.html#ga4e684afa3732b2e8b2f3bc70f055e1a2">preempt.h</a>
 , <a class="el" href="group__sched.html#ga066f92644adbfa1f42b75cdaaaa5ef47">core.c</a>
 </li>
 <li>preempt_schedule_irq()
-: <a class="el" href="group__sched.html#ga974353847ed3f08a28c54aa2aa9046a1">core.c</a>
-, <a class="el" href="group__preempt.html#gad617f8d3f4bc68722e597787b960cde6">preempt.h</a>
+: <a class="el" href="group__preempt.html#gad617f8d3f4bc68722e597787b960cde6">preempt.h</a>
+, <a class="el" href="group__sched.html#ga974353847ed3f08a28c54aa2aa9046a1">core.c</a>
 </li>
 <li>preempt_should_resched()
 : <a class="el" href="group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212">preempt.h</a>
@@ -266,7 +279,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 18 2016 20:19:52 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 26 2016 11:51:06 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

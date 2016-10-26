@@ -1,6 +1,7 @@
 var searchData=
 [
   ['panic_2eh',['panic.h',['../panic_8h.html',1,'']]],
+  ['platform_2eh',['platform.h',['../stl_2platform_8h.html',1,'']]],
   ['platform_2eh',['platform.h',['../platform_8h.html',1,'']]],
   ['power_2eh',['power.h',['../include_2etaos_2power_8h.html',1,'']]],
   ['preempt_2eh',['preempt.h',['../preempt_8h.html',1,'']]],

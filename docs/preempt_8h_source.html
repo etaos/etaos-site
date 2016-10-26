@@ -26,9 +26,14 @@
     <body>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand">ETA/OS 4.5.1</a>
-                </div>
+		<div class="row">
+		    <div class="col-sm-2 logo">
+			<img alt="Logo" src="etaos-logo.svg"/>
+		    </div>
+		    <div class="col-sm-2 project-number">
+                        <a class="navbar-brand">4.5.2</a>
+		    </div>
+	        </div>
             </div>
         </nav>
         <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -194,22 +199,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="comment">/* @} */</span></div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __PREEMPT_H__ */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor"></span></div>
-<div class="ttc" id="group__preempt_html_gab377aa939771256f71f426bd7650b01a"><div class="ttname"><a href="group__preempt.html#gab377aa939771256f71f426bd7650b01a">preempt_counter_ptr</a></div><div class="ttdeci">int * preempt_counter_ptr(void)</div><div class="ttdoc">Get the preemption counter pointer of the current thread. </div><div class="ttdef"><b>Definition:</b> core.c:1192</div></div>
-<div class="ttc" id="group__preempt_html_ga4e684afa3732b2e8b2f3bc70f055e1a2"><div class="ttname"><a href="group__preempt.html#ga4e684afa3732b2e8b2f3bc70f055e1a2">preempt_schedule</a></div><div class="ttdeci">void preempt_schedule(void)</div><div class="ttdoc">Reschedule the current run queue with preemption in mind. </div><div class="ttdef"><b>Definition:</b> core.c:1117</div></div>
+<div class="ttc" id="group__preempt_html_gab377aa939771256f71f426bd7650b01a"><div class="ttname"><a href="group__preempt.html#gab377aa939771256f71f426bd7650b01a">preempt_counter_ptr</a></div><div class="ttdeci">int * preempt_counter_ptr(void)</div><div class="ttdoc">Get the preemption counter pointer of the current thread. </div><div class="ttdef"><b>Definition:</b> core.c:1212</div></div>
+<div class="ttc" id="group__preempt_html_ga4e684afa3732b2e8b2f3bc70f055e1a2"><div class="ttname"><a href="group__preempt.html#ga4e684afa3732b2e8b2f3bc70f055e1a2">preempt_schedule</a></div><div class="ttdeci">void preempt_schedule(void)</div><div class="ttdoc">Reschedule the current run queue with preemption in mind. </div><div class="ttdef"><b>Definition:</b> core.c:1138</div></div>
 <div class="ttc" id="group__preempt_html_ga3573895fae182f132ad53c9c74268dbe"><div class="ttname"><a href="group__preempt.html#ga3573895fae182f132ad53c9c74268dbe">preempt_count_dec</a></div><div class="ttdeci">#define preempt_count_dec</div><div class="ttdoc">Decrease the preemption counter of the current thread by 1. </div><div class="ttdef"><b>Definition:</b> preempt.h:67</div></div>
-<div class="ttc" id="group__preempt_html_gaa93580e45d2e6c581a96c72bfbd51212"><div class="ttname"><a href="group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212">preempt_should_resched</a></div><div class="ttdeci">bool preempt_should_resched(void)</div><div class="ttdoc">Check if the current thread should be rescheduled. </div><div class="ttdef"><b>Definition:</b> core.c:1256</div></div>
+<div class="ttc" id="group__preempt_html_gaa93580e45d2e6c581a96c72bfbd51212"><div class="ttname"><a href="group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212">preempt_should_resched</a></div><div class="ttdeci">bool preempt_should_resched(void)</div><div class="ttdoc">Check if the current thread should be rescheduled. </div><div class="ttdef"><b>Definition:</b> core.c:1276</div></div>
 <div class="ttc" id="group__preempt_html_ga0be0edad7c14b013f7a4083b645fed6b"><div class="ttname"><a href="group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b">preempt_enable_no_resched</a></div><div class="ttdeci">static void preempt_enable_no_resched(void)</div><div class="ttdoc">Enable preemption, but do never reschedule. </div><div class="ttdef"><b>Definition:</b> preempt.h:110</div></div>
-<div class="ttc" id="group__preempt_html_gae2e616c556fe40f3c614208e8b38c9a5"><div class="ttname"><a href="group__preempt.html#gae2e616c556fe40f3c614208e8b38c9a5">__preempt_add</a></div><div class="ttdeci">void __preempt_add(int num)</div><div class="ttdoc">Add to the preemption counter of the current thread. </div><div class="ttdef"><b>Definition:</b> core.c:1204</div></div>
-<div class="ttc" id="group__preempt_html_ga958d7a379aac8fbb7b2b40902c406855"><div class="ttname"><a href="group__preempt.html#ga958d7a379aac8fbb7b2b40902c406855">__preempt_sub</a></div><div class="ttdeci">void __preempt_sub(int num)</div><div class="ttdoc">Subtract from the preemption counter of the current thread. </div><div class="ttdef"><b>Definition:</b> core.c:1217</div></div>
+<div class="ttc" id="group__preempt_html_gae2e616c556fe40f3c614208e8b38c9a5"><div class="ttname"><a href="group__preempt.html#gae2e616c556fe40f3c614208e8b38c9a5">__preempt_add</a></div><div class="ttdeci">void __preempt_add(int num)</div><div class="ttdoc">Add to the preemption counter of the current thread. </div><div class="ttdef"><b>Definition:</b> core.c:1224</div></div>
+<div class="ttc" id="group__preempt_html_ga958d7a379aac8fbb7b2b40902c406855"><div class="ttname"><a href="group__preempt.html#ga958d7a379aac8fbb7b2b40902c406855">__preempt_sub</a></div><div class="ttdeci">void __preempt_sub(int num)</div><div class="ttdoc">Subtract from the preemption counter of the current thread. </div><div class="ttdef"><b>Definition:</b> core.c:1237</div></div>
 <div class="ttc" id="group__preempt_html_gae772fcbd15beae355371d56d6f443566"><div class="ttname"><a href="group__preempt.html#gae772fcbd15beae355371d56d6f443566">preempt_disable</a></div><div class="ttdeci">static void preempt_disable(void)</div><div class="ttdoc">Disable preemption. </div><div class="ttdef"><b>Definition:</b> preempt.h:118</div></div>
 <div class="ttc" id="structthread_html"><div class="ttname"><a href="structthread.html">thread</a></div><div class="ttdoc">Thread descriptor.All information available for a thread is stored in this structure. </div><div class="ttdef"><b>Definition:</b> thread.h:139</div></div>
-<div class="ttc" id="group__preempt_html_gada97a499438abc44548acb43e582dc73"><div class="ttname"><a href="group__preempt.html#gada97a499438abc44548acb43e582dc73">should_resched</a></div><div class="ttdeci">bool should_resched(void)</div><div class="ttdoc">Check if a reschedule is needed. </div><div class="ttdef"><b>Definition:</b> core.c:1286</div></div>
+<div class="ttc" id="group__preempt_html_gada97a499438abc44548acb43e582dc73"><div class="ttname"><a href="group__preempt.html#gada97a499438abc44548acb43e582dc73">should_resched</a></div><div class="ttdeci">bool should_resched(void)</div><div class="ttdoc">Check if a reschedule is needed. </div><div class="ttdef"><b>Definition:</b> core.c:1306</div></div>
 <div class="ttc" id="group__preempt_html_ga30a3151baa4664f4c58d9f6e04c4df0e"><div class="ttname"><a href="group__preempt.html#ga30a3151baa4664f4c58d9f6e04c4df0e">preempt_test</a></div><div class="ttdeci">static int preempt_test(void)</div><div class="ttdoc">Test if preemption is enabled. </div><div class="ttdef"><b>Definition:</b> preempt.h:89</div></div>
 <div class="ttc" id="group__preempt_html_gade4c97a2c2f6f07c15fdf04f06ae677e"><div class="ttname"><a href="group__preempt.html#gade4c97a2c2f6f07c15fdf04f06ae677e">preempt_count_inc</a></div><div class="ttdeci">#define preempt_count_inc</div><div class="ttdoc">Increase the preemption counter of the current thread by 1. </div><div class="ttdef"><b>Definition:</b> preempt.h:61</div></div>
-<div class="ttc" id="group__preempt_html_gad617f8d3f4bc68722e597787b960cde6"><div class="ttname"><a href="group__preempt.html#gad617f8d3f4bc68722e597787b960cde6">preempt_schedule_irq</a></div><div class="ttdeci">void preempt_schedule_irq(void)</div><div class="ttdoc">Preempt a thread from IRQ context. </div><div class="ttdef"><b>Definition:</b> core.c:1090</div></div>
+<div class="ttc" id="group__preempt_html_gad617f8d3f4bc68722e597787b960cde6"><div class="ttname"><a href="group__preempt.html#gad617f8d3f4bc68722e597787b960cde6">preempt_schedule_irq</a></div><div class="ttdeci">void preempt_schedule_irq(void)</div><div class="ttdoc">Preempt a thread from IRQ context. </div><div class="ttdef"><b>Definition:</b> core.c:1111</div></div>
 <div class="ttc" id="group__preempt_html_ga74ed4ec841ea18a152916f55920b9a9e"><div class="ttname"><a href="group__preempt.html#ga74ed4ec841ea18a152916f55920b9a9e">preempt_enable</a></div><div class="ttdeci">static void preempt_enable(void)</div><div class="ttdoc">Enable preemption. </div><div class="ttdef"><b>Definition:</b> preempt.h:98</div></div>
 <div class="ttc" id="group__preempt_html_gaaa367ac52b57070819284f18643cc0a9"><div class="ttname"><a href="group__preempt.html#gaaa367ac52b57070819284f18643cc0a9">preempt_dec_and_test</a></div><div class="ttdeci">static int preempt_dec_and_test(void)</div><div class="ttdoc">Decrease the preemption counter of the current thread and test it. </div><div class="ttdef"><b>Definition:</b> preempt.h:79</div></div>
-<div class="ttc" id="group__preempt_html_gac48128e72b303ea22d8ec641a9516b15"><div class="ttname"><a href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15">schedule</a></div><div class="ttdeci">void schedule(void)</div><div class="ttdoc">Reschedule the current run queue. </div><div class="ttdef"><b>Definition:</b> core.c:1074</div></div>
+<div class="ttc" id="group__preempt_html_gac48128e72b303ea22d8ec641a9516b15"><div class="ttname"><a href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15">schedule</a></div><div class="ttdeci">void schedule(void)</div><div class="ttdoc">Reschedule the current run queue. </div><div class="ttdef"><b>Definition:</b> core.c:1095</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -219,7 +224,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 18 2016 20:19:48 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 26 2016 11:50:58 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

@@ -14,6 +14,7 @@ var searchData=
   ['clocksource_5fadd_5ftimer',['clocksource_add_timer',['../group__tm.html#ga6501ffdc00b89b8308bc225e1182f213',1,'clocksource_add_timer(struct clocksource *cs, struct timer *t):&#160;clocksource.c'],['../group__tm.html#ga6501ffdc00b89b8308bc225e1182f213',1,'clocksource_add_timer(struct clocksource *cs, struct timer *timer):&#160;clocksource.c']]],
   ['clocksource_5fdelete_5ftimer',['clocksource_delete_timer',['../group__tm.html#ga20e856ccf8bbf02684d1c75f61914940',1,'clocksource_delete_timer(struct clocksource *cs, struct timer *timer):&#160;clocksource.c'],['../group__tm.html#ga20e856ccf8bbf02684d1c75f61914940',1,'clocksource_delete_timer(struct clocksource *cs, struct timer *timer):&#160;clocksource.c']]],
   ['clocksource_5fget_5fby_5fname',['clocksource_get_by_name',['../group__tm.html#ga3a4a9f13745bdf16b0c88b1018b9c183',1,'clocksource.c']]],
+  ['clocksource_5fget_5fseconds',['clocksource_get_seconds',['../group__tm.html#ga05fdfd13f6665f01fb26189f7202e668',1,'clocksource_get_seconds(struct clocksource *src):&#160;clocksource.c'],['../group__tm.html#ga05fdfd13f6665f01fb26189f7202e668',1,'clocksource_get_seconds(struct clocksource *src):&#160;clocksource.c']]],
   ['clocksource_5finit',['clocksource_init',['../group__tm.html#ga4e10bb7a0a1ed6912358daf0d8684af9',1,'clocksource_init(const char *name, struct clocksource *cs, unsigned long freq, int(*enable)(struct clocksource *cs), void(*disable)(struct clocksource *cs)):&#160;clocksource.c'],['../group__tm.html#ga4e10bb7a0a1ed6912358daf0d8684af9',1,'clocksource_init(const char *name, struct clocksource *cs, unsigned long freq, int(*enable)(struct clocksource *cs), void(*disable)(struct clocksource *cs)):&#160;clocksource.c']]],
   ['clocksource_5fupdate',['clocksource_update',['../group__tm.html#ga3817a7c75cd4be46bb92c9aa608cdbec',1,'clocksource_update(struct clocksource *cs):&#160;clocksource.c'],['../group__tm.html#ga3817a7c75cd4be46bb92c9aa608cdbec',1,'clocksource_update(struct clocksource *cs):&#160;clocksource.c']]],
   ['close',['close',['../structdev__file__ops.html#a14b4360e24f959e9fe718607a1a94733',1,'dev_file_ops::close()'],['../structvfile.html#a14b4360e24f959e9fe718607a1a94733',1,'vfile::close()'],['../group__vfs.html#ga5bbe56a416af8f77723b652362f742f7',1,'close(int fd):&#160;close.c'],['../group__libcio.html#ga5bbe56a416af8f77723b652362f742f7',1,'close(int fd):&#160;close.c']]],
@@ -25,7 +26,9 @@ var searchData=
   ['core_2ec',['core.c',['../kernel_2sched_2core_8c.html',1,'']]],
   ['cos',['cos',['../group__math.html#ga542f5e42e0d3b5df63de0e34ec06bb40',1,'math.h']]],
   ['count',['count',['../structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c',1,'clocksource']]],
+  ['cpu',['CPU',['../class_c_p_u.html',1,'']]],
   ['cpu_2eh',['cpu.h',['../cpu_8h.html',1,'']]],
+  ['cpu_2eh',['cpu.h',['../stl_2cpu_8h.html',1,'']]],
   ['cpu_5fget_5fid',['cpu_get_id',['../group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127',1,'cpu_get_id(void):&#160;cpu.c'],['../group__arch_a_p_i.html#ga45e277ef6f2d431ec2bf827fe3fe1127',1,'cpu_get_id(void):&#160;cpu.c']]],
   ['cpu_5fget_5fstate',['cpu_get_state',['../group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9',1,'cpu.c']]],
   ['cpu_5fnotify',['cpu_notify',['../group__kernel.html#ga38f4f8022778edff29606cec22897bfc',1,'cpu.c']]],
@@ -40,5 +43,6 @@ var searchData=
   ['ctrl',['ctrl',['../structi2c__bus.html#a1e6b395d5b77e914747167dcddfce938',1,'i2c_bus::ctrl()'],['../structspi__driver.html#ad705af46d9bcf6c6b49a42e2aea9ed0b',1,'spi_driver::ctrl()']]],
   ['current',['current',['../structrq.html#a006833fbfb5936947e52ef23a343b4d4',1,'rq::current()'],['../group__sched.html#ga5964c01d85a3421a529b5f3de617a492',1,'current():&#160;core.c']]],
   ['current_5fthread',['current_thread',['../group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5',1,'thread.c']]],
-  ['c_20runtime_20library',['C runtime library',['../group__libc.html',1,'']]]
+  ['c_20runtime_20library',['C runtime library',['../group__libc.html',1,'']]],
+  ['c_2b_2b_20runtime_20library',['C++ runtime library',['../group__stl.html',1,'']]]
 ];

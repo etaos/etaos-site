@@ -26,9 +26,14 @@
     <body>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand">ETA/OS 4.5.1</a>
-                </div>
+		<div class="row">
+		    <div class="col-sm-2 logo">
+			<img alt="Logo" src="etaos-logo.svg"/>
+		    </div>
+		    <div class="col-sm-2 project-number">
+                        <a class="navbar-brand">4.5.2</a>
+		    </div>
+	        </div>
             </div>
         </nav>
         <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -135,6 +140,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gab350542fd64b19de3dc1d15463980c4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libctime.html#gab350542fd64b19de3dc1d15463980c4e">time_set_clocksource</a> (struct <a class="el" href="structclocksource.html">clocksource</a> *src)</td></tr>
+<tr class="memdesc:gab350542fd64b19de3dc1d15463980c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the clock source to use for the time API.  <a href="#gab350542fd64b19de3dc1d15463980c4e">More...</a><br/></td></tr>
+<tr class="separator:gab350542fd64b19de3dc1d15463980c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab3b4bc501fc6be8bf0f654f06e4710f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__libctime.html#gab3b4bc501fc6be8bf0f654f06e4710f1">stime</a> (<a class="el" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a> <a class="el" href="group__libctime.html#ga41213015bed9d9d3191a724a41518963">time</a>)</td></tr>
 <tr class="memdesc:gab3b4bc501fc6be8bf0f654f06e4710f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the system time.  <a href="#gab3b4bc501fc6be8bf0f654f06e4710f1">More...</a><br/></td></tr>
 <tr class="separator:gab3b4bc501fc6be8bf0f654f06e4710f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -436,7 +444,7 @@ long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libctime_gab3b4bc501fc6be8bf0f654f06e4710f1_cgraph.png" border="0" usemap="#group__libctime_gab3b4bc501fc6be8bf0f654f06e4710f1_cgraph" alt=""/></div>
 <map name="group__libctime_gab3b4bc501fc6be8bf0f654f06e4710f1_cgraph" id="group__libctime_gab3b4bc501fc6be8bf0f654f06e4710f1_cgraph">
-<area shape="rect" id="node3" href="group__libctime.html#ga41213015bed9d9d3191a724a41518963" title="Get the sytem time. " alt="" coords="111,5,156,38"/><area shape="rect" id="node5" href="group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5" title="Get the system tick in seconds. " alt="" coords="207,5,351,38"/></map>
+<area shape="rect" id="node3" href="group__libctime.html#ga41213015bed9d9d3191a724a41518963" title="Get the sytem time. " alt="" coords="111,5,156,38"/><area shape="rect" id="node5" href="group__tm.html#ga05fdfd13f6665f01fb26189f7202e668" title="Get the clock count of a clocksource in seconds. " alt="" coords="205,5,379,38"/></map>
 </div>
 </p>
 
@@ -473,7 +481,7 @@ long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__libctime_ga41213015bed9d9d3191a724a41518963_cgraph.png" border="0" usemap="#group__libctime_ga41213015bed9d9d3191a724a41518963_cgraph" alt=""/></div>
 <map name="group__libctime_ga41213015bed9d9d3191a724a41518963_cgraph" id="group__libctime_ga41213015bed9d9d3191a724a41518963_cgraph">
-<area shape="rect" id="node3" href="group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5" title="Get the system tick in seconds. " alt="" coords="103,5,247,38"/></map>
+<area shape="rect" id="node3" href="group__tm.html#ga05fdfd13f6665f01fb26189f7202e668" title="Get the clock count of a clocksource in seconds. " alt="" coords="101,5,275,38"/></map>
 </div>
 </p>
 
@@ -504,6 +512,30 @@ long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 
 </div>
 </div>
+<a class="anchor" id="gab350542fd64b19de3dc1d15463980c4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void time_set_clocksource </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structclocksource.html">clocksource</a> *&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the clock source to use for the time API. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">src</td><td>Clock source to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -513,7 +545,7 @@ long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 18 2016 20:19:48 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 26 2016 11:50:59 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

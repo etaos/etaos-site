@@ -5,6 +5,9 @@
 \form#4:$ f(rv) = x \lor y$
 \form#5:$x$
 \form#6:$y$
-\form#7:$f(p) = \frac{13p}{24} + 10$
-\form#8:$D = t + f(p)$
-\form#9:$f(x) = \frac{1}{25}x+10$
+\form#7:$f(p) = \frac{13}{24}p + 10$
+\form#8:$f(p)$
+\form#9:$p$
+\form#10:$f(p) = \frac{13p}{24} + 10$
+\form#11:$D = t + f(p)$
+\form#12:$f(x) = \frac{1}{25}x+10$

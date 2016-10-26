@@ -1,9 +1,9 @@
 <map id="rq" name="rq">
-<area shape="rect" id="node4" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="88,787,187,1098"/>
-<area shape="rect" id="node2" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="103,1169,220,1373"/>
-<area shape="rect" id="node16" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="5,1222,75,1319"/>
-<area shape="rect" id="node20" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="348,1222,396,1319"/>
-<area shape="rect" id="node7" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="136,6,221,167"/>
-<area shape="rect" id="node10" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="212,238,303,463"/>
-<area shape="rect" id="node12" href="$structlist__head.html" title="Linked list structure. " alt="" coords="307,38,381,135"/>
+<area shape="rect" id="node4" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="96,787,195,1119"/>
+<area shape="rect" id="node2" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="112,1211,229,1458"/>
+<area shape="rect" id="node16" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="5,1286,88,1383"/>
+<area shape="rect" id="node20" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="356,1286,404,1383"/>
+<area shape="rect" id="node7" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="144,6,229,167"/>
+<area shape="rect" id="node10" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="220,238,311,463"/>
+<area shape="rect" id="node12" href="$structlist__head.html" title="Linked list structure. " alt="" coords="315,38,389,135"/>
 </map>

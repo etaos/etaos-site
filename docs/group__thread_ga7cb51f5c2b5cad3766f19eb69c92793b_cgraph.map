@@ -1,10 +1,11 @@
 <map id="yield" name="yield">
 <area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="635,9,763,42"/>
-<area shape="rect" id="node5" href="$group__sched.html#ga16b0328d8a4b4db8c6eb2733218d625e" title="API interface for `yield()&#39;. " alt="" coords="104,105,195,138"/>
-<area shape="rect" id="node7" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="279,21,396,54"/>
-<area shape="rect" id="node9" href="$group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="252,77,423,110"/>
-<area shape="rect" id="node11" href="$group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212" title="Check if the current thread should be rescheduled. " alt="" coords="255,133,420,166"/>
-<area shape="rect" id="node16" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="503,159,564,193"/>
-<area shape="rect" id="node19" href="$group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="244,239,431,273"/>
-<area shape="rect" id="node13" href="$group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="481,49,585,82"/>
+<area shape="rect" id="node7" href="$group__sched.html#ga16b0328d8a4b4db8c6eb2733218d625e" title="API interface for `yield()&#39;. " alt="" coords="104,105,195,138"/>
+<area shape="rect" id="node5" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="811,9,917,42"/>
+<area shape="rect" id="node9" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="279,21,396,54"/>
+<area shape="rect" id="node11" href="$group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="252,77,423,110"/>
+<area shape="rect" id="node13" href="$group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212" title="Check if the current thread should be rescheduled. " alt="" coords="255,133,420,166"/>
+<area shape="rect" id="node18" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="503,159,564,193"/>
+<area shape="rect" id="node21" href="$group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="244,239,431,273"/>
+<area shape="rect" id="node15" href="$group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="481,49,585,82"/>
 </map>

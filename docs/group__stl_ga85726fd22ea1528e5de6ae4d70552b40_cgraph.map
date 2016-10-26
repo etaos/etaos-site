@@ -1,0 +1,13 @@
+<map id="adc_read" name="adc_read">
+<area shape="rect" id="node3" href="$group__analog.html#ga268d54a08be0f9f8cb8fbdf166136523" title="Get the name of an ADC. " alt="" coords="129,6,276,39"/>
+<area shape="rect" id="node5" href="$group__vfs.html#ga0b5471640e66a70163f75a05748bfa40" title="Open a file on the virtual file system. " alt="" coords="177,62,228,95"/>
+<area shape="rect" id="node13" href="$group__libcio.html#ga56865b9034604d347e6e1e961797d73c" title="Drive file control options. " alt="" coords="348,117,393,150"/>
+<area shape="rect" id="node17" href="$group__libcio.html#ga57f04d9ad3a286a639912a2035cc6b39" title="Read a single byte from a file. " alt="" coords="180,170,225,203"/>
+<area shape="rect" id="node22" href="$group__vfs.html#ga5bbe56a416af8f77723b652362f742f7" title="Close a file. " alt="" coords="176,227,229,261"/>
+<area shape="rect" id="node7" href="$group__vfs.html#ga5421eb1dfee9e935d70bc1f06fb88542" title="Find a file in the VFS. " alt="" coords="337,5,404,38"/>
+<area shape="rect" id="node11" href="$group__vfs.html#ga63b814433c7e12a5a97c46c0b62de1b5" title="Add a file to the file descriptor array. " alt="" coords="337,61,404,94"/>
+<area shape="rect" id="node9" href="$group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d" title="Compare two strings. " alt="" coords="467,5,528,38"/>
+<area shape="rect" id="node15" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="465,145,529,178"/>
+<area shape="rect" id="node19" href="$group__libcio.html#ga46c11b0d2de8afadb2445672ce8402b5" title="Read a single byte from a file. " alt="" coords="345,173,396,206"/>
+<area shape="rect" id="node24" href="$group__vfs.html#gae70d2b52d02913247aa5bc9bae05a32a" title="Remove a file from the FD array. " alt="" coords="327,229,415,262"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="irq_signal_threads" name="irq_signal_threads">
+<area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="228,5,292,38"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="225,61,295,94"/>
+<area shape="rect" id="node7" href="$group__sched.html#ga44292b5df60facfa57dcafc582212a0d" title="Add a thread to a run queue. " alt="" coords="183,117,337,150"/>
+<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="420,170,481,203"/>
+<area shape="rect" id="node9" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="387,114,515,147"/>
+<area shape="rect" id="node11" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="563,114,669,147"/>
+</map>

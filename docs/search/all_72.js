@@ -9,6 +9,8 @@ var searchData=
   ['raw_5fgpio_5fpin_5fwrite',['raw_gpio_pin_write',['../group__gpiolib.html#gaba62ab29aee995a91a86fc97b14b2bb6',1,'gpiolib.c']]],
   ['raw_5fgpio_5fread_5fpin',['raw_gpio_read_pin',['../group__gpiolib.html#gab311f31a162d4b0cee15f46b01a59e58',1,'gpiolib.c']]],
   ['raw_5firq_5fenabled_5fflags',['raw_irq_enabled_flags',['../group__arch_a_p_i.html#ga3a7979c2e0c424ad4dd857e4fa455a12',1,'raw_irq_enabled_flags(unsigned long *flags):&#160;irq.c'],['../group__arch_a_p_i.html#ga3a7979c2e0c424ad4dd857e4fa455a12',1,'raw_irq_enabled_flags(unsigned long *flags):&#160;irq.c']]],
+  ['raw_5fqueue_5fadd_5fthread',['raw_queue_add_thread',['../group__sched.html#ga979f19c1ce60dbbff56185ffb9b5df74',1,'core.c']]],
+  ['raw_5fqueue_5fremove_5fthread',['raw_queue_remove_thread',['../group__sched.html#gadb1050b54e2329c8c86ca1a7a3bbc0dc',1,'core.c']]],
   ['raw_5frq_5fadd_5fthread',['raw_rq_add_thread',['../group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1',1,'core.c']]],
   ['raw_5frq_5fremove_5fkill_5fthread',['raw_rq_remove_kill_thread',['../group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c',1,'core.c']]],
   ['raw_5frq_5fremove_5fthread',['raw_rq_remove_thread',['../group__sched.html#gac8e22593d00f87f52537f7f20f42a51c',1,'core.c']]],
@@ -43,6 +45,8 @@ var searchData=
   ['rq_5fremove_5fkill_5fthread',['rq_remove_kill_thread',['../group__sched.html#ga2c707bd06b4a063aff228943af62da62',1,'core.c']]],
   ['rq_5fremove_5fthread',['rq_remove_thread',['../group__sched.html#ga00b5eddce98c571327635b14b3c536b4',1,'core.c']]],
   ['rq_5fremove_5fwake_5fthread',['rq_remove_wake_thread',['../group__sched.html#ga90b5e9ac2b30f1b518a6d2136caf3a07',1,'core.c']]],
+  ['rq_5fsignal_5fevent_5fqueue',['rq_signal_event_queue',['../group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa',1,'core.c']]],
+  ['rq_5fsignal_5fthreads',['rq_signal_threads',['../group__sched.html#ga017c639d6dbf8710ad60a22985116618',1,'core.c']]],
   ['rq_5fswitch_5fcontext',['rq_switch_context',['../group__sched.html#ga761312d2768cc26c49b7f53de33c8477',1,'core.c']]],
   ['rq_5fupdate',['rq_update',['../group__sched.html#ga0b1c71305537a28e3a7194016f6b43e6',1,'core.c']]],
   ['round_20robin_20scheduler',['Round robin scheduler',['../group__rr.html',1,'']]],
@@ -52,6 +56,9 @@ var searchData=
   ['rr_5fnext_5frunnable',['rr_next_runnable',['../group__rr.html#ga0d3a6126978732211867618512e989fe',1,'rr.c']]],
   ['rr_5frm_5fthread',['rr_rm_thread',['../group__rr.html#gaa23f4dc848b3d1681d28d14e24b18be6',1,'rr.c']]],
   ['rr_5frq',['rr_rq',['../structrr__rq.html',1,'rr_rq'],['../structrq.html#ab0d6f613bfa5e6b05a29e4330031b974',1,'rq::rr_rq()']]],
+  ['rr_5fthread_5fafter',['rr_thread_after',['../group__rr.html#ga5e4f9071da582598366b5cdf8bd9146f',1,'rr.c']]],
+  ['rr_5fthread_5fqueue_5fadd',['rr_thread_queue_add',['../group__rr.html#ga6bd23940300fe6478924b7a714251b3a',1,'rr.c']]],
+  ['rr_5fthread_5fqueue_5fremove',['rr_thread_queue_remove',['../group__rr.html#ga4407ce3592abf6a938f15ad4fa0b9e2b',1,'rr.c']]],
   ['run_5fqueue',['run_queue',['../structrr__rq.html#ae060bbe32dab0d2100ab040123351f7b',1,'rr_rq']]],
   ['rx',['rx',['../structspi__msg.html#a1ba3576bdd05536aab734f002627747d',1,'spi_msg']]]
 ];

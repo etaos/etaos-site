@@ -2,4 +2,5 @@
 <area shape="rect" id="node3" href="$group__preempt.html#gab377aa939771256f71f426bd7650b01a" title="Get the preemption counter pointer of the current thread. " alt="" coords="165,5,307,38"/>
 <area shape="rect" id="node5" href="$group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="356,5,460,38"/>
 <area shape="rect" id="node7" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="509,5,637,38"/>
+<area shape="rect" id="node9" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="685,5,792,38"/>
 </map>

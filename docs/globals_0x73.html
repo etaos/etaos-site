@@ -26,9 +26,14 @@
     <body>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand">ETA/OS 4.5.1</a>
-                </div>
+		<div class="row">
+		    <div class="col-sm-2 logo">
+			<img alt="Logo" src="etaos-logo.svg"/>
+		    </div>
+		    <div class="col-sm-2 project-number">
+                        <a class="navbar-brand">4.5.2</a>
+		    </div>
+	        </div>
             </div>
         </nav>
         <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -89,6 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_0x62.html#index_b"><span>b</span></a></li>
       <li><a href="globals_0x63.html#index_c"><span>c</span></a></li>
       <li><a href="globals_0x64.html#index_d"><span>d</span></a></li>
+      <li><a href="globals_0x65.html#index_e"><span>e</span></a></li>
       <li><a href="globals_0x66.html#index_f"><span>f</span></a></li>
       <li><a href="globals_0x67.html#index_g"><span>g</span></a></li>
       <li><a href="globals_0x68.html#index_h"><span>h</span></a></li>
@@ -98,6 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_0x6d.html#index_m"><span>m</span></a></li>
       <li><a href="globals_0x6e.html#index_n"><span>n</span></a></li>
       <li><a href="globals_0x70.html#index_p"><span>p</span></a></li>
+      <li><a href="globals_0x71.html#index_q"><span>q</span></a></li>
       <li><a href="globals_0x72.html#index_r"><span>r</span></a></li>
       <li class="current"><a href="globals_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="globals_0x74.html#index_t"><span>t</span></a></li>
@@ -144,6 +151,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>sched_get_cpu_rq()
 : <a class="el" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe">sched.h</a>
 </li>
+<li>sched_get_grq()
+: <a class="el" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff">sched.h</a>
+</li>
 <li>sched_get_next_runnable()
 : <a class="el" href="group__sched.html#ga550ca50260ef89432c99ba6dcc150644">core.c</a>
 </li>
@@ -169,8 +179,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="group__sched.html#ga16b0328d8a4b4db8c6eb2733218d625e">sched.h</a>
 </li>
 <li>schedule()
-: <a class="el" href="group__sched.html#gac48128e72b303ea22d8ec641a9516b15">sched.h</a>
-, <a class="el" href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15">preempt.h</a>
+: <a class="el" href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15">preempt.h</a>
+, <a class="el" href="group__sched.html#gac48128e72b303ea22d8ec641a9516b15">sched.h</a>
 </li>
 <li>SEEK_CUR
 : <a class="el" href="group__vfs.html#ggabdacf35cb07671247a632325a53c0450af3091144c125782cf17bcd3eb84e454c">vfs.h</a>
@@ -257,22 +267,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>spi_set_mode()
 : <a class="el" href="group__spi.html#gac9a3ddca0fbddd501da7918622cd9509">spi-core.c</a>
 </li>
-<li>SPI_SET_SPEED
-: <a class="el" href="group__spi.html#ggad268301d3b918e279269ec49f803488dad9f1d8d4f2158f35c8cdeca0a6a3bbda">spi.h</a>
-</li>
 <li>spi_set_speed()
 : <a class="el" href="group__spi.html#ga299495247902b3003d99d1f25dc9fa3f">spi-core.c</a>
 </li>
+<li>SPI_SET_SPEED
+: <a class="el" href="group__spi.html#ggad268301d3b918e279269ec49f803488dad9f1d8d4f2158f35c8cdeca0a6a3bbda">spi.h</a>
+</li>
 <li>spi_sysbus
-: <a class="el" href="group__spi.html#ga61bee98d216c108227d04bf7c860a93e">spi-core.c</a>
-, <a class="el" href="group__spi.html#ga61bee98d216c108227d04bf7c860a93e">spi.h</a>
+: <a class="el" href="group__spi.html#ga61bee98d216c108227d04bf7c860a93e">spi.h</a>
+, <a class="el" href="group__spi.html#ga61bee98d216c108227d04bf7c860a93e">spi-core.c</a>
 </li>
 <li>spi_transfer()
 : <a class="el" href="group__spi.html#gae4edeea008c7d373a922dcd42e4ef2be">spi-core.c</a>
 </li>
 <li>sram_23k256_init()
-: <a class="el" href="group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3">23k256.c</a>
-, <a class="el" href="group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3">23k256.h</a>
+: <a class="el" href="group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3">23k256.h</a>
+, <a class="el" href="group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3">23k256.c</a>
 </li>
 <li>sram_set_mode()
 : <a class="el" href="23k256_8c.html#a4d4934310f00678cf0497f6755f90374">23k256.c</a>
@@ -335,7 +345,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 18 2016 20:19:52 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 26 2016 11:51:06 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

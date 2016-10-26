@@ -1,3 +1,4 @@
 <map id="gpio_pin_request" name="gpio_pin_request">
 <area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="175,5,292,38"/>
+<area shape="rect" id="node5" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="175,61,292,94"/>
 </map>

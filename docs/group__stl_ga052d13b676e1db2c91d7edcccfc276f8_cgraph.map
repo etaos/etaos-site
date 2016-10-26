@@ -1,0 +1,14 @@
+<map id="pin_out" name="pin_out">
+<area shape="rect" id="node3" href="$group__gpiolib.html#ga7845f8131da2aa2d2d81c6596ef2a532" title="Get a pin descriptor based on its pin number. " alt="" coords="132,5,249,38"/>
+<area shape="rect" id="node5" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="131,61,251,94"/>
+<area shape="rect" id="node11" href="$group__gpiolib.html#ga6aba8b1e9f31edfb60baa1dfbc602505" title="Set a pin to OUTPUT. " alt="" coords="119,117,263,150"/>
+<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="319,5,436,38"/>
+<area shape="rect" id="node9" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="319,61,436,94"/>
+<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="531,117,595,150"/>
+<area shape="rect" id="node15" href="$group__gpiolib.html#ga7467f91e71c20cf2ca7ebf3e76933a6a" title="Set a pin to OUTPUT. " alt="" coords="312,169,443,223"/>
+<area shape="rect" id="node18" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="495,177,631,210"/>
+<area shape="rect" id="node24" href="$group__gpiolib.html#gaf1cba019c4f1802be304efadd81c8601" title="Set a pin to OUTPUT. " alt="" coords="491,233,635,287"/>
+<area shape="rect" id="node20" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="683,166,827,221"/>
+<area shape="rect" id="node22" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="876,177,945,210"/>
+<area shape="rect" id="node26" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="724,243,785,277"/>
+</map>

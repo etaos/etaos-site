@@ -26,9 +26,14 @@
     <body>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand">ETA/OS 4.5.1</a>
-                </div>
+		<div class="row">
+		    <div class="col-sm-2 logo">
+			<img alt="Logo" src="etaos-logo.svg"/>
+		    </div>
+		    <div class="col-sm-2 project-number">
+                        <a class="navbar-brand">4.5.2</a>
+		    </div>
+	        </div>
             </div>
         </nav>
         <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -94,7 +99,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">sched.h File Reference</div>  </div>
 </div><!--header-->
@@ -154,7 +160,7 @@ Functions</h2></td></tr>
 <tr class="separator:gada97a499438abc44548acb43e582dc73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga45e277ef6f2d431ec2bf827fe3fe1127"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga45e277ef6f2d431ec2bf827fe3fe1127"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#ga45e277ef6f2d431ec2bf827fe3fe1127">cpu_get_id</a> (void)</td></tr>
-<tr class="memdesc:ga45e277ef6f2d431ec2bf827fe3fe1127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ID of the current CPU. <br/></td></tr>
+<tr class="memdesc:ga45e277ef6f2d431ec2bf827fe3fe1127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ID of the current <a class="el" href="class_c_p_u.html" title="Utility class to provide access to hardware. ">CPU</a>. <br/></td></tr>
 <tr class="separator:ga45e277ef6f2d431ec2bf827fe3fe1127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3ca01585011904bb8042cbb540be767e"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structclocksource.html">clocksource</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#ga3ca01585011904bb8042cbb540be767e">sched_get_clock</a> (void)</td></tr>
 <tr class="memdesc:ga3ca01585011904bb8042cbb540be767e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the scheduling clock source.  <a href="group__arch_a_p_i.html#ga3ca01585011904bb8042cbb540be767e">More...</a><br/></td></tr>
@@ -162,15 +168,18 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 <tr class="memitem:gabc3ea24600f8a7b491077f26ccbbd5c8"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structrq.html">rq</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8">cpu_to_rq</a> (int cpu)</td></tr>
 <tr class="memdesc:gabc3ea24600f8a7b491077f26ccbbd5c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the RQ of the given cpu.  <a href="group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8">More...</a><br/></td></tr>
 <tr class="separator:gabc3ea24600f8a7b491077f26ccbbd5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa01fb719e9758591f358e30bfb4729ff"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structrq.html">rq</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff">sched_get_grq</a> (void)</td></tr>
+<tr class="memdesc:gaa01fb719e9758591f358e30bfb4729ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the global run queue.  <a href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff">More...</a><br/></td></tr>
+<tr class="separator:gaa01fb719e9758591f358e30bfb4729ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga224ed7aae41f53a7d6f579ebbf3ba7fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga224ed7aae41f53a7d6f579ebbf3ba7fe"></a>
 struct <a class="el" href="structrq.html">rq</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe">sched_get_cpu_rq</a> (void)</td></tr>
-<tr class="memdesc:ga224ed7aae41f53a7d6f579ebbf3ba7fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the run queue of the current CPU. <br/></td></tr>
+<tr class="memdesc:ga224ed7aae41f53a7d6f579ebbf3ba7fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the run queue of the current <a class="el" href="class_c_p_u.html" title="Utility class to provide access to hardware. ">CPU</a>. <br/></td></tr>
 <tr class="separator:ga224ed7aae41f53a7d6f579ebbf3ba7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab090ee79717fcdd58de691ed935f6445"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structrq.html">rq</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#gab090ee79717fcdd58de691ed935f6445">sched_select_rq</a> (void)</td></tr>
 <tr class="memdesc:gab090ee79717fcdd58de691ed935f6445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a run queue to add a thread to.  <a href="group__arch_a_p_i.html#gab090ee79717fcdd58de691ed935f6445">More...</a><br/></td></tr>
 <tr class="separator:gab090ee79717fcdd58de691ed935f6445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa79e3c72ee6f1dee4720d0f00958009b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b">cpu_switch_context</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *prev, struct <a class="el" href="structthread.html">thread</a> *next)</td></tr>
-<tr class="memdesc:gaa79e3c72ee6f1dee4720d0f00958009b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule the CPU.  <a href="group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b">More...</a><br/></td></tr>
+<tr class="memdesc:gaa79e3c72ee6f1dee4720d0f00958009b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule the <a class="el" href="class_c_p_u.html" title="Utility class to provide access to hardware. ">CPU</a>.  <a href="group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b">More...</a><br/></td></tr>
 <tr class="separator:gaa79e3c72ee6f1dee4720d0f00958009b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaed72f26eb7fa076193388c2200e2571a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a">sched_create_stack_frame</a> (struct <a class="el" href="structthread.html">thread</a> *tp, stack_t *stack, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> stack_size, <a class="el" href="group__thread.html#gace878050e933ac56f0a7f858cba29dc6">thread_handle_t</a> handle)</td></tr>
 <tr class="memdesc:gaed72f26eb7fa076193388c2200e2571a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the stack from of a thread.  <a href="group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a">More...</a><br/></td></tr>
@@ -223,12 +232,25 @@ struct <a class="el" href="structrq.html">rq</a> *&#160;</td><td class="memItemR
 <tr class="memitem:ga406ed4d86e3f2e062e6d7b0930c69de1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga406ed4d86e3f2e062e6d7b0930c69de1">sched_start</a> (void)</td></tr>
 <tr class="memdesc:ga406ed4d86e3f2e062e6d7b0930c69de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the scheduler.  <a href="group__sched.html#ga406ed4d86e3f2e062e6d7b0930c69de1">More...</a><br/></td></tr>
 <tr class="separator:ga406ed4d86e3f2e062e6d7b0930c69de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa468a0cc0864610b821b2730abe5c182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gaa468a0cc0864610b821b2730abe5c182">queue_remove_thread</a> (struct <a class="el" href="structthread__queue.html">thread_queue</a> *qp, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
+<tr class="memdesc:gaa468a0cc0864610b821b2730abe5c182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a thread from a <a class="el" href="structthread__queue.html" title="Thread queue descriptor. ">thread_queue</a>.  <a href="group__sched.html#gaa468a0cc0864610b821b2730abe5c182">More...</a><br/></td></tr>
+<tr class="separator:gaa468a0cc0864610b821b2730abe5c182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga72ca187dd5dd0ac19af98da3ea9b56e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga72ca187dd5dd0ac19af98da3ea9b56e4">queue_add_thread</a> (struct <a class="el" href="structthread__queue.html">thread_queue</a> *qp, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
+<tr class="memdesc:ga72ca187dd5dd0ac19af98da3ea9b56e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new thread to a queue.  <a href="group__sched.html#ga72ca187dd5dd0ac19af98da3ea9b56e4">More...</a><br/></td></tr>
+<tr class="separator:ga72ca187dd5dd0ac19af98da3ea9b56e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadaa0c197333ed35a35e52e8b6a4160d2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gadaa0c197333ed35a35e52e8b6a4160d2">thread_remove_from_wake_q</a> (struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
 <tr class="memdesc:gadaa0c197333ed35a35e52e8b6a4160d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a thread from its wake queue.  <a href="group__sched.html#gadaa0c197333ed35a35e52e8b6a4160d2">More...</a><br/></td></tr>
 <tr class="separator:gadaa0c197333ed35a35e52e8b6a4160d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a14953a27abbba377438f48843c7b03"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga3a14953a27abbba377438f48843c7b03">thread_remove_from_kill_q</a> (struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
 <tr class="memdesc:ga3a14953a27abbba377438f48843c7b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a thread from its kill queue.  <a href="group__sched.html#ga3a14953a27abbba377438f48843c7b03">More...</a><br/></td></tr>
 <tr class="separator:ga3a14953a27abbba377438f48843c7b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga4b488aff64490029135f4b78e523b07f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4b488aff64490029135f4b78e523b07f"></a>
+struct <a class="el" href="structsched__class.html">sched_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga4b488aff64490029135f4b78e523b07f">edf_class</a></td></tr>
+<tr class="memdesc:ga4b488aff64490029135f4b78e523b07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">EDF scheduling class. <br/></td></tr>
+<tr class="separator:ga4b488aff64490029135f4b78e523b07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -239,7 +261,7 @@ struct <a class="el" href="structrq.html">rq</a> *&#160;</td><td class="memItemR
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 18 2016 20:19:48 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 26 2016 11:50:58 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

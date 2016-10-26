@@ -8,7 +8,7 @@
 <area shape="rect" id="node55" href="$include_2etaos_2sched_8h.html" title="etaos/sched.h" alt="" coords="611,89,715,122"/>
 <area shape="rect" id="node76" href="$thread_8h.html" title="etaos/thread.h" alt="" coords="125,419,229,453"/>
 <area shape="rect" id="node84" href="$cpu_8h.html" title="etaos/cpu.h" alt="" coords="1592,502,1683,535"/>
-<area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="1561,750,1705,783"/>
+<area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="1564,750,1708,783"/>
 <area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="368,750,472,783"/>
 <area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="496,750,613,783"/>
 <area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="1204,833,1297,866"/>
@@ -23,8 +23,8 @@
 <area shape="rect" id="node60" href="$time_8h.html" title="etaos/time.h" alt="" coords="616,254,709,287"/>
 <area shape="rect" id="node63" href="$include_2etaos_2timer_8h_source.html" title="etaos/timer.h" alt="" coords="615,337,711,370"/>
 <area shape="rect" id="node70" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="557,419,696,453"/>
-<area shape="rect" id="node87" href="$io_8h_source.html" title="asm/io.h" alt="" coords="1631,585,1703,618"/>
-<area shape="rect" id="node89" href="$config_8h_source.html" title="asm/config.h" alt="" coords="1821,667,1917,701"/>
+<area shape="rect" id="node87" href="$io_8h_source.html" title="asm/io.h" alt="" coords="1632,585,1704,618"/>
+<area shape="rect" id="node89" href="$config_8h_source.html" title="asm/config.h" alt="" coords="1827,667,1923,701"/>
 <area shape="rect" id="node92" href="$arch_2avr_2include_2asm_2init_8h_source.html" title="asm/init.h" alt="" coords="1541,667,1619,701"/>
-<area shape="rect" id="node94" href="$iom328_8h_source.html" title="asm/iom328.h" alt="" coords="1643,667,1747,701"/>
+<area shape="rect" id="node94" href="$iom1280_8h_source.html" title="asm/iom1280.h" alt="" coords="1643,667,1752,701"/>
 </map>

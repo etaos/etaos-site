@@ -9,7 +9,7 @@ var searchData=
   ['_5f_5fraw_5fgpio_5fdirection_5foutput',['__raw_gpio_direction_output',['../group__gpiolib.html#gaf1cba019c4f1802be304efadd81c8601',1,'gpiolib.c']]],
   ['_5f_5fraw_5fgpio_5fpin_5fwrite',['__raw_gpio_pin_write',['../group__gpiolib.html#ga5d2389cb21a58fd4e4d55d79637e6eee',1,'gpiolib.c']]],
   ['_5f_5fsched_5fswitch_5fcount',['__sched_switch_count',['../group__sched.html#ga7e596ab331b3af0d627de2e80681acf2',1,'core.c']]],
-  ['_5f_5fschedule',['__schedule',['../group__sched.html#ga8dac22a2785f9a88fc16da53874889e2',1,'core.c']]],
+  ['_5f_5fschedule',['__schedule',['../group__sched.html#ga39355f44ff63b39ad9649b9a63e1094c',1,'core.c']]],
   ['_5f_5fschedule_5fneed_5fresched',['__schedule_need_resched',['../group__sched.html#ga71fd9dde3968661117e7926bab75f25e',1,'core.c']]],
   ['_5f_5fschedule_5fprepare',['__schedule_prepare',['../group__sched.html#ga1210a078823bbd6a24d7fe993e5af13a',1,'core.c']]],
   ['_5f_5fseof',['__SEOF',['../group__libcio.html#ga63f42c2888ed9bd0f00ee25002ee3b02',1,'stdio.h']]],

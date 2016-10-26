@@ -2,4 +2,5 @@
 <area shape="rect" id="node3" href="$group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="229,5,315,38"/>
 <area shape="rect" id="node5" href="$group__sched.html#ga7e596ab331b3af0d627de2e80681acf2" title="Get the number of thread switches of a given CPU. " alt="" coords="195,61,349,94"/>
 <area shape="rect" id="node7" href="$group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="399,61,476,94"/>
+<area shape="rect" id="node9" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="525,61,632,94"/>
 </map>

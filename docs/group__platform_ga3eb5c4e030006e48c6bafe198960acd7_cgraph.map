@@ -1,5 +1,6 @@
 <map id="pgpio_pin_request" name="pgpio_pin_request">
 <area shape="rect" id="node3" href="$group__platform.html#gab40076c109ad8b8f4ea2d679bb37893b" title="Convert a platform based pin number to an ETA/OS GPIO pin. " alt="" coords="183,5,324,38"/>
 <area shape="rect" id="node5" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="193,61,313,94"/>
-<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="375,61,492,94"/>
+<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="375,33,492,66"/>
+<area shape="rect" id="node9" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="375,89,492,122"/>
 </map>
