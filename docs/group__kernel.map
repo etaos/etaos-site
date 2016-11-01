@@ -1,11 +1,11 @@
 <map id="ETA/OS kernel" name="ETA/OS kernel">
-<area shape="rect" id="node2" href="$group__sched.html" title="ETA/OS scheduling support. " alt="" coords="188,5,303,38"/>
-<area shape="rect" id="node3" href="$group__irq.html" title="Interrupt support. " alt="" coords="183,61,308,94"/>
-<area shape="rect" id="node4" href="$group__evm.html" title="ETA/OS thread synchronisation. " alt="" coords="179,117,312,150"/>
-<area shape="rect" id="node5" href="$group__fs.html" title="Filesystem management" alt="" coords="163,173,328,206"/>
-<area shape="rect" id="node6" href="$group__mm.html" title="Dynamic memory management. " alt="" coords="172,229,319,262"/>
-<area shape="rect" id="node7" href="$group__thread.html" title="Cooperative multi&#45;threading support. " alt="" coords="175,285,316,318"/>
-<area shape="rect" id="node8" href="$group__sem.html" title="Semaphore API. " alt="" coords="199,341,292,374"/>
-<area shape="rect" id="node9" href="$group__hrtimer.html" title="Asynchronous high resolution timer support. " alt="" coords="175,397,316,451"/>
-<area shape="rect" id="node10" href="$group__tm.html" title="Asynchronous timer support. " alt="" coords="179,474,312,507"/>
+<area shape="rect" id="node2" href="$group__sched.html" title="ETA/OS scheduling support. " alt="" coords="189,5,304,32"/>
+<area shape="rect" id="node3" href="$group__irq.html" title="Interrupt support. " alt="" coords="184,56,309,83"/>
+<area shape="rect" id="node4" href="$group__evm.html" title="ETA/OS thread synchronisation. " alt="" coords="179,107,314,133"/>
+<area shape="rect" id="node5" href="$group__fs.html" title="Filesystem management" alt="" coords="164,157,329,184"/>
+<area shape="rect" id="node6" href="$group__mm.html" title="Dynamic memory management. " alt="" coords="173,208,321,235"/>
+<area shape="rect" id="node7" href="$group__thread.html" title="Cooperative multi&#45;threading support. " alt="" coords="176,259,317,285"/>
+<area shape="rect" id="node8" href="$group__sem.html" title="Semaphore API. " alt="" coords="199,309,294,336"/>
+<area shape="rect" id="node9" href="$group__hrtimer.html" title="Asynchronous high resolution timer support. " alt="" coords="175,361,318,402"/>
+<area shape="rect" id="node10" href="$group__tm.html" title="Asynchronous timer support. " alt="" coords="179,427,314,453"/>
 </map>

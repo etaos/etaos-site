@@ -1,12 +1,12 @@
 <map id="include/etaos/mem.h" name="include/etaos/mem.h">
-<area shape="rect" id="node3" href="$i2c_8h.html" title="include/etaos/i2c.h" alt="" coords="41,89,172,122"/>
-<area shape="rect" id="node5" href="$spi_8h.html" title="include/etaos/spi.h" alt="" coords="196,89,327,122"/>
-<area shape="rect" id="node11" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="323,182,472,215"/>
-<area shape="rect" id="node14" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="401,89,505,122"/>
-<area shape="rect" id="node16" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="529,89,665,122"/>
-<area shape="rect" id="node18" href="$kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="689,89,817,122"/>
-<area shape="rect" id="node20" href="$first-fit_8c.html" title="mm/first&#45;fit.c" alt="" coords="841,89,937,122"/>
-<area shape="rect" id="node22" href="$mlist_8c.html" title="mm/mlist.c" alt="" coords="961,89,1047,122"/>
-<area shape="rect" id="node7" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="5,171,133,226"/>
-<area shape="rect" id="node9" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="157,182,299,215"/>
+<area shape="rect" id="node2" href="$i2c_8h.html" title="include/etaos/i2c.h" alt="" coords="43,80,174,107"/>
+<area shape="rect" id="node3" href="$spi_8h.html" title="include/etaos/spi.h" alt="" coords="198,80,329,107"/>
+<area shape="rect" id="node6" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="325,162,476,189"/>
+<area shape="rect" id="node7" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="403,80,507,107"/>
+<area shape="rect" id="node8" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="531,80,667,107"/>
+<area shape="rect" id="node9" href="$kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="691,80,822,107"/>
+<area shape="rect" id="node10" href="$first-fit_8c.html" title="mm/first&#45;fit.c" alt="" coords="846,80,942,107"/>
+<area shape="rect" id="node11" href="$mlist_8c.html" title="mm/mlist.c" alt="" coords="967,80,1053,107"/>
+<area shape="rect" id="node4" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="5,155,135,196"/>
+<area shape="rect" id="node5" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="159,162,301,189"/>
 </map>

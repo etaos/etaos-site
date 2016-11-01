@@ -1,5 +1,5 @@
 <map id="spi_driver" name="spi_driver">
-<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="5,17,80,114"/>
-<area shape="rect" id="node5" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="168,6,237,125"/>
-<area shape="rect" id="node7" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="173,238,299,463"/>
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="5,13,80,90"/>
+<area shape="rect" id="node3" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="167,5,238,97"/>
+<area shape="rect" id="node4" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="173,189,299,355"/>
 </map>

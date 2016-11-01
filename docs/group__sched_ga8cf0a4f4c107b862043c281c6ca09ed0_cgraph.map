@@ -1,6 +1,6 @@
 <map id="raw_thread_add_to_kill_q" name="raw_thread_add_to_kill_q">
-<area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="224,5,352,38"/>
-<area shape="rect" id="node7" href="$group__sched.html#gaa119db667033233b449e211df34dc4c3" title="Add a kill thread. " alt="" coords="225,61,351,94"/>
-<area shape="rect" id="node5" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="400,5,507,38"/>
-<area shape="rect" id="node9" href="$group__sched.html#ga301d246794be6810e401a05368e8f43e" title="Add a thread to rq_list. " alt="" coords="411,61,496,94"/>
+<area shape="rect" id="node2" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="223,5,351,32"/>
+<area shape="rect" id="node4" href="$group__sched.html#gaa119db667033233b449e211df34dc4c3" title="Add a kill thread. " alt="" coords="223,56,350,83"/>
+<area shape="rect" id="node3" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="399,5,505,32"/>
+<area shape="rect" id="node5" href="$group__sched.html#ga301d246794be6810e401a05368e8f43e" title="Add a thread to rq_list. " alt="" coords="409,56,495,83"/>
 </map>

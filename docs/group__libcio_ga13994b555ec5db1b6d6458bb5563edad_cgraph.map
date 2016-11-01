@@ -1,4 +1,4 @@
 <map id="read" name="read">
-<area shape="rect" id="node3" href="$group__vfs.html#gab3044266898cec482a3263604609f3b5" title="Read from a file. " alt="" coords="101,5,173,38"/>
-<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="223,5,287,38"/>
+<area shape="rect" id="node2" href="$group__vfs.html#gab3044266898cec482a3263604609f3b5" title="Read from a file. " alt="" coords="100,5,172,32"/>
+<area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="220,5,285,32"/>
 </map>

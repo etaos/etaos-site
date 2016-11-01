@@ -1,5 +1,5 @@
 <map id="atmega_spi_control" name="atmega_spi_control">
-<area shape="rect" id="node3" href="$group__spi-atmega.html#gaf61fa715bc5a4bb7928feb472a8f135f" title="Set the speed of the ATmega SPI bus. " alt="" coords="189,33,339,66"/>
-<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="392,5,453,38"/>
-<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="388,61,457,94"/>
+<area shape="rect" id="node2" href="$group__spi-atmega.html#gaf61fa715bc5a4bb7928feb472a8f135f" title="Set the speed of the ATmega SPI bus. " alt="" coords="188,31,337,57"/>
+<area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="390,5,451,32"/>
+<area shape="rect" id="node4" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="385,56,456,83"/>
 </map>

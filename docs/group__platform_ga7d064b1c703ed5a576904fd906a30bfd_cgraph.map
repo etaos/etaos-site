@@ -1,6 +1,6 @@
 <map id="pgpio_direction_input" name="pgpio_direction_input">
-<area shape="rect" id="node3" href="$group__platform.html#gab40076c109ad8b8f4ea2d679bb37893b" title="Convert a platform based pin number to an ETA/OS GPIO pin. " alt="" coords="199,5,340,38"/>
-<area shape="rect" id="node5" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="201,61,337,94"/>
-<area shape="rect" id="node7" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="389,50,533,105"/>
-<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="583,61,652,94"/>
+<area shape="rect" id="node2" href="$group__platform.html#gab40076c109ad8b8f4ea2d679bb37893b" title="Convert a platform based pin number to an ETA/OS GPIO pin. " alt="" coords="197,5,340,32"/>
+<area shape="rect" id="node3" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="200,56,337,83"/>
+<area shape="rect" id="node4" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="388,49,532,90"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="580,56,651,83"/>
 </map>

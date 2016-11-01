@@ -1,9 +1,9 @@
 <map id="gpio_direction_output" name="gpio_direction_output">
-<area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="419,5,483,38"/>
-<area shape="rect" id="node5" href="$group__gpiolib.html#ga7467f91e71c20cf2ca7ebf3e76933a6a" title="Set a pin to OUTPUT. " alt="" coords="200,57,331,111"/>
-<area shape="rect" id="node8" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="383,65,519,98"/>
-<area shape="rect" id="node14" href="$group__gpiolib.html#gaf1cba019c4f1802be304efadd81c8601" title="Set a pin to OUTPUT. " alt="" coords="379,121,523,175"/>
-<area shape="rect" id="node10" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="571,54,715,109"/>
-<area shape="rect" id="node12" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="764,65,833,98"/>
-<area shape="rect" id="node16" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="612,131,673,165"/>
+<area shape="rect" id="node2" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="417,5,482,32"/>
+<area shape="rect" id="node3" href="$group__gpiolib.html#ga7467f91e71c20cf2ca7ebf3e76933a6a" title="Set a pin to OUTPUT. " alt="" coords="199,55,329,97"/>
+<area shape="rect" id="node4" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="381,60,518,87"/>
+<area shape="rect" id="node7" href="$group__gpiolib.html#gaf1cba019c4f1802be304efadd81c8601" title="Set a pin to OUTPUT. " alt="" coords="377,111,521,153"/>
+<area shape="rect" id="node5" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="569,53,713,94"/>
+<area shape="rect" id="node6" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="761,60,832,87"/>
+<area shape="rect" id="node8" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="611,119,672,145"/>
 </map>

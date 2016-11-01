@@ -1,0 +1,8 @@
+<map id="rq_switch_context" name="rq_switch_context">
+<area shape="rect" id="node2" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="739,16,804,43"/>
+<area shape="rect" id="node3" href="$group__kernel.html#ga7a221a99cc11cfee72aa3b0be977f635" title="Unlock a spin lock without touching the preemption settings. " alt="" coords="181,28,321,55"/>
+<area shape="rect" id="node7" href="$group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="182,79,321,106"/>
+<area shape="rect" id="node4" href="$group__arch_a_p_i.html#ga23fc58fe48cec7a4077441fc7e1517de" title="Raw version of spin_unlock. " alt="" coords="369,28,492,55"/>
+<area shape="rect" id="node5" href="$group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="389,79,472,106"/>
+<area shape="rect" id="node6" href="$group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="540,54,691,80"/>
+</map>

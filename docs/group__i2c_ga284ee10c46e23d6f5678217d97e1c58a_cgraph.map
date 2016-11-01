@@ -1,4 +1,4 @@
 <map id="i2c_master_send" name="i2c_master_send">
-<area shape="rect" id="node3" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="176,5,272,38"/>
-<area shape="rect" id="node5" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="320,5,424,38"/>
+<area shape="rect" id="node2" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="175,5,271,32"/>
+<area shape="rect" id="node3" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="319,5,423,32"/>
 </map>

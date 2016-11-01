@@ -1,8 +1,8 @@
 <map id="include/etaos/power.h" name="include/etaos/power.h">
-<area shape="rect" id="node3" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="235,89,339,122"/>
-<area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="5,171,149,205"/>
-<area shape="rect" id="node7" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="173,171,275,205"/>
-<area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="299,171,403,205"/>
-<area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="427,171,544,205"/>
-<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="177,254,271,287"/>
+<area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="236,80,340,107"/>
+<area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="5,155,149,181"/>
+<area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="173,155,275,181"/>
+<area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="299,155,405,181"/>
+<area shape="rect" id="node7" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="429,155,547,181"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="177,229,271,256"/>
 </map>

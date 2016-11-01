@@ -1,4 +1,4 @@
 <map id="SRAM drivers" name="SRAM drivers">
-<area shape="rect" id="node1" href="$group__sram-23k256.html" title="SRAM chip by Micro chip. " alt="" coords="313,5,457,38"/>
-<area shape="rect" id="node2" href="$group__dev.html" title="Standard device I/O functions. " alt="" coords="5,5,112,38"/>
+<area shape="rect" id="node1" href="$group__sram-23k256.html" title="SRAM chip by Micro chip. " alt="" coords="312,5,457,32"/>
+<area shape="rect" id="node2" href="$group__dev.html" title="Standard device I/O functions. " alt="" coords="5,5,112,32"/>
 </map>

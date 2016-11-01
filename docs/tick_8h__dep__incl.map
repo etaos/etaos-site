@@ -1,6 +1,6 @@
 <map id="include/etaos/tick.h" name="include/etaos/tick.h">
-<area shape="rect" id="node3" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="5,89,147,122"/>
-<area shape="rect" id="node5" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="171,89,307,122"/>
-<area shape="rect" id="node7" href="$systick_8c.html" title="kernel/time/systick.c" alt="" coords="331,89,472,122"/>
-<area shape="rect" id="node9" href="$kernel_2time_2time_8c.html" title="kernel/time/time.c" alt="" coords="496,89,621,122"/>
+<area shape="rect" id="node2" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node3" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="171,80,307,107"/>
+<area shape="rect" id="node4" href="$systick_8c.html" title="kernel/time/systick.c" alt="" coords="331,80,473,107"/>
+<area shape="rect" id="node5" href="$kernel_2time_2time_8c.html" title="kernel/time/time.c" alt="" coords="497,80,624,107"/>
 </map>

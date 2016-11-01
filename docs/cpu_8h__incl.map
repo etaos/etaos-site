@@ -1,12 +1,12 @@
 <map id="include/etaos/cpu.h" name="include/etaos/cpu.h">
-<area shape="rect" id="node3" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="233,89,337,122"/>
-<area shape="rect" id="node15" href="$io_8h_source.html" title="asm/io.h" alt="" coords="512,89,584,122"/>
-<area shape="rect" id="node5" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="464,254,608,287"/>
-<area shape="rect" id="node7" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="147,171,248,205"/>
-<area shape="rect" id="node11" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="323,171,427,205"/>
-<area shape="rect" id="node13" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="5,171,123,205"/>
-<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="151,254,244,287"/>
-<area shape="rect" id="node17" href="$config_8h_source.html" title="asm/config.h" alt="" coords="685,171,781,205"/>
-<area shape="rect" id="node20" href="$arch_2avr_2include_2asm_2init_8h_source.html" title="asm/init.h" alt="" coords="451,171,528,205"/>
-<area shape="rect" id="node22" href="$iom1280_8h_source.html" title="asm/iom1280.h" alt="" coords="552,171,661,205"/>
+<area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="235,80,339,107"/>
+<area shape="rect" id="node8" href="$io_8h_source.html" title="asm/io.h" alt="" coords="517,80,589,107"/>
+<area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="470,229,614,256"/>
+<area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="149,155,250,181"/>
+<area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="325,155,431,181"/>
+<area shape="rect" id="node7" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="152,229,247,256"/>
+<area shape="rect" id="node9" href="$config_8h_source.html" title="asm/config.h" alt="" coords="692,155,789,181"/>
+<area shape="rect" id="node10" href="$arch_2avr_2include_2asm_2init_8h_source.html" title="asm/init.h" alt="" coords="455,155,533,181"/>
+<area shape="rect" id="node11" href="$iom1280_8h_source.html" title="asm/iom1280.h" alt="" coords="557,155,668,181"/>
 </map>

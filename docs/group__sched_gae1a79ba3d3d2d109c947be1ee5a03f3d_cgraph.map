@@ -1,9 +1,9 @@
 <map id="raw_rq_remove_wake_thread" name="raw_rq_remove_wake_thread">
-<area shape="rect" id="node3" href="$group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="203,33,349,66"/>
-<area shape="rect" id="node9" href="$group__sched.html#ga9806ceeb3d9a5e4b28841b40f20bf30e" title="Remove a thread from the rq_list. " alt="" coords="223,89,329,122"/>
-<area shape="rect" id="node11" href="$group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="235,145,317,178"/>
-<area shape="rect" id="node5" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="409,5,537,38"/>
-<area shape="rect" id="node7" href="$group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="416,61,531,94"/>
-<area shape="rect" id="node13" href="$group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="399,145,548,178"/>
-<area shape="rect" id="node15" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="599,145,663,178"/>
+<area shape="rect" id="node2" href="$group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="203,31,349,57"/>
+<area shape="rect" id="node5" href="$group__sched.html#ga9806ceeb3d9a5e4b28841b40f20bf30e" title="Remove a thread from the rq_list. " alt="" coords="223,81,329,108"/>
+<area shape="rect" id="node6" href="$group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="235,132,317,159"/>
+<area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="409,5,537,32"/>
+<area shape="rect" id="node4" href="$group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="415,56,531,83"/>
+<area shape="rect" id="node7" href="$group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="397,132,548,159"/>
+<area shape="rect" id="node8" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="596,132,661,159"/>
 </map>

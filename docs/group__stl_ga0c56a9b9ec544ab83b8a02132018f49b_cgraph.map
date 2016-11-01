@@ -1,9 +1,8 @@
 <map id="pin_in" name="pin_in">
-<area shape="rect" id="node3" href="$group__gpiolib.html#ga7845f8131da2aa2d2d81c6596ef2a532" title="Get a pin descriptor based on its pin number. " alt="" coords="120,5,237,38"/>
-<area shape="rect" id="node5" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="119,61,239,94"/>
-<area shape="rect" id="node11" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="111,122,247,155"/>
-<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="309,5,427,38"/>
-<area shape="rect" id="node9" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="309,61,427,94"/>
-<area shape="rect" id="node13" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="296,117,440,171"/>
-<area shape="rect" id="node15" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="489,127,559,161"/>
+<area shape="rect" id="node2" href="$group__gpiolib.html#ga7845f8131da2aa2d2d81c6596ef2a532" title="Get a pin descriptor based on its pin number. " alt="" coords="119,5,237,32"/>
+<area shape="rect" id="node3" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="118,56,238,83"/>
+<area shape="rect" id="node5" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="109,108,247,135"/>
+<area shape="rect" id="node4" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="307,53,426,80"/>
+<area shape="rect" id="node6" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="295,105,439,146"/>
+<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="487,112,557,139"/>
 </map>

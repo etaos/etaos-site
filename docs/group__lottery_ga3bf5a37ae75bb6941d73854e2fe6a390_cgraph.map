@@ -1,5 +1,5 @@
 <map id="lottery_take_ticket" name="lottery_take_ticket">
-<area shape="rect" id="node3" href="$list_8h.html#a6601e54d8f27ab290ee6819f7e2127b7" title="Check if a list is empty. " alt="" coords="224,5,307,38"/>
-<area shape="rect" id="node5" href="$group__lottery.html#ga9e1a729ab81d7ae0721261c97f7247bc" title="Generate new lottery tickets. " alt="" coords="185,61,345,94"/>
-<area shape="rect" id="node7" href="$list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="235,117,296,150"/>
+<area shape="rect" id="node2" href="$list_8h.html#a6601e54d8f27ab290ee6819f7e2127b7" title="Check if a list is empty. " alt="" coords="222,5,305,32"/>
+<area shape="rect" id="node3" href="$group__lottery.html#ga9e1a729ab81d7ae0721261c97f7247bc" title="Generate new lottery tickets. " alt="" coords="183,56,344,83"/>
+<area shape="rect" id="node4" href="$list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="232,107,295,133"/>
 </map>

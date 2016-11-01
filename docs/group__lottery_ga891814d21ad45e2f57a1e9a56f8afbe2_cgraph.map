@@ -1,4 +1,4 @@
 <map id="lottery_kill_thread" name="lottery_kill_thread">
-<area shape="rect" id="node3" href="$group__lottery.html#gaea8288efaa6132ef722eec0af5c30987" title="Return a lottery ticket to the allocator. " alt="" coords="180,5,316,38"/>
-<area shape="rect" id="node5" href="$list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="367,5,428,38"/>
+<area shape="rect" id="node2" href="$group__lottery.html#gaea8288efaa6132ef722eec0af5c30987" title="Return a lottery ticket to the allocator. " alt="" coords="177,5,315,32"/>
+<area shape="rect" id="node3" href="$list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="363,5,425,32"/>
 </map>

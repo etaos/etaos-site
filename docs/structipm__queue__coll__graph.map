@@ -1,12 +1,12 @@
 <map id="ipm_queue" name="ipm_queue">
-<area shape="rect" id="node2" href="$structipm.html" title="IPM message structure. " alt="" coords="5,1211,64,1330"/>
-<area shape="rect" id="node4" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="88,1222,187,1319"/>
-<area shape="rect" id="node6" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="59,238,176,485"/>
-<area shape="rect" id="node23" href="$structrq.html" title="Run queue descriptor. " alt="" coords="321,555,431,695"/>
-<area shape="rect" id="node8" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="241,809,340,1141"/>
-<area shape="rect" id="node20" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="227,1222,309,1319"/>
-<area shape="rect" id="node26" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="388,1222,436,1319"/>
-<area shape="rect" id="node11" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="276,6,361,167"/>
-<area shape="rect" id="node14" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="352,249,443,474"/>
-<area shape="rect" id="node16" href="$structlist__head.html" title="Linked list structure. " alt="" coords="447,38,521,135"/>
+<area shape="rect" id="node2" href="$structipm.html" title="IPM message structure. " alt="" coords="5,932,64,1024"/>
+<area shape="rect" id="node3" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="87,939,187,1017"/>
+<area shape="rect" id="node4" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="142,189,261,369"/>
+<area shape="rect" id="node10" href="$structrq.html" title="Run queue descriptor. " alt="" coords="405,432,515,539"/>
+<area shape="rect" id="node5" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="325,631,424,869"/>
+<area shape="rect" id="node9" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="315,939,397,1017"/>
+<area shape="rect" id="node11" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="464,939,512,1017"/>
+<area shape="rect" id="node6" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="359,5,446,127"/>
+<area shape="rect" id="node7" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="435,197,527,362"/>
+<area shape="rect" id="node8" href="$structlist__head.html" title="Linked list structure. " alt="" coords="532,27,607,105"/>
 </map>

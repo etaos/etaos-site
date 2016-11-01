@@ -1,5 +1,5 @@
 <map id="C runtime library" name="C runtime library">
-<area shape="rect" id="node1" href="$group__math.html" title="Math library. " alt="" coords="180,5,271,38"/>
-<area shape="rect" id="node2" href="$group__libcio.html" title="Standard I/O interface. " alt="" coords="177,61,273,94"/>
-<area shape="rect" id="node4" href="$group__libctime.html" title="Implementation if standard C time functions. " alt="" coords="175,117,276,150"/>
+<area shape="rect" id="node1" href="$group__math.html" title="Math library. " alt="" coords="178,5,269,32"/>
+<area shape="rect" id="node2" href="$group__libcio.html" title="Standard I/O interface. " alt="" coords="175,56,271,83"/>
+<area shape="rect" id="node4" href="$group__libctime.html" title="Implementation if standard C time functions. " alt="" coords="172,107,275,133"/>
 </map>

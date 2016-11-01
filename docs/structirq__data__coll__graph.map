@@ -1,4 +1,4 @@
 <map id="irq_data" name="irq_data">
-<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="40,6,115,103"/>
-<area shape="rect" id="node6" href="$structirq__chip.html" title="IRQ chip descriptor. " alt="" coords="111,174,212,335"/>
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="42,5,117,83"/>
+<area shape="rect" id="node3" href="$structirq__chip.html" title="IRQ chip descriptor. " alt="" coords="112,145,215,267"/>
 </map>

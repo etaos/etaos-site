@@ -1,17 +1,16 @@
 <map id="pin_out" name="pin_out">
-<area shape="rect" id="node3" href="$group__platform.html#ga3eb5c4e030006e48c6bafe198960acd7" title="Request a platform GPIO pin. " alt="" coords="131,33,256,66"/>
-<area shape="rect" id="node13" href="$group__platform.html#ga17b669e0929e84a9cca6d5cf1fd7264e" title="Set the direction of a platform pin to output. " alt="" coords="117,145,269,178"/>
-<area shape="rect" id="node33" href="$group__platform.html#ga96d742cf2b8f752cb0acbd649006781d" title="Release a requested platform pin. " alt="" coords="131,89,256,122"/>
-<area shape="rect" id="node5" href="$group__platform.html#gab40076c109ad8b8f4ea2d679bb37893b" title="Convert a platform based pin number to an ETA/OS GPIO pin. " alt="" coords="320,89,461,122"/>
-<area shape="rect" id="node7" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="331,33,451,66"/>
-<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="519,5,636,38"/>
-<area shape="rect" id="node11" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="519,61,636,94"/>
-<area shape="rect" id="node16" href="$group__gpiolib.html#ga6aba8b1e9f31edfb60baa1dfbc602505" title="Set a pin to OUTPUT. " alt="" coords="319,145,463,178"/>
-<area shape="rect" id="node18" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="731,127,795,161"/>
-<area shape="rect" id="node20" href="$group__gpiolib.html#ga7467f91e71c20cf2ca7ebf3e76933a6a" title="Set a pin to OUTPUT. " alt="" coords="512,183,643,238"/>
-<area shape="rect" id="node23" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="695,261,831,294"/>
-<area shape="rect" id="node29" href="$group__gpiolib.html#gaf1cba019c4f1802be304efadd81c8601" title="Set a pin to OUTPUT. " alt="" coords="691,183,835,238"/>
-<area shape="rect" id="node25" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="883,250,1027,305"/>
-<area shape="rect" id="node27" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="1076,261,1145,294"/>
-<area shape="rect" id="node31" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="924,194,985,227"/>
+<area shape="rect" id="node2" href="$group__platform.html#ga3eb5c4e030006e48c6bafe198960acd7" title="Request a platform GPIO pin. " alt="" coords="130,5,257,32"/>
+<area shape="rect" id="node6" href="$group__platform.html#ga17b669e0929e84a9cca6d5cf1fd7264e" title="Set the direction of a platform pin to output. " alt="" coords="117,107,269,133"/>
+<area shape="rect" id="node15" href="$group__platform.html#ga96d742cf2b8f752cb0acbd649006781d" title="Release a requested platform pin. " alt="" coords="130,56,257,83"/>
+<area shape="rect" id="node3" href="$group__platform.html#gab40076c109ad8b8f4ea2d679bb37893b" title="Convert a platform based pin number to an ETA/OS GPIO pin. " alt="" coords="319,56,461,83"/>
+<area shape="rect" id="node4" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="330,5,450,32"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="517,5,635,32"/>
+<area shape="rect" id="node7" href="$group__gpiolib.html#ga6aba8b1e9f31edfb60baa1dfbc602505" title="Set a pin to OUTPUT. " alt="" coords="317,107,463,133"/>
+<area shape="rect" id="node8" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="729,140,794,167"/>
+<area shape="rect" id="node9" href="$group__gpiolib.html#ga7467f91e71c20cf2ca7ebf3e76933a6a" title="Set a pin to OUTPUT. " alt="" coords="511,78,641,119"/>
+<area shape="rect" id="node10" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="693,88,830,115"/>
+<area shape="rect" id="node13" href="$group__gpiolib.html#gaf1cba019c4f1802be304efadd81c8601" title="Set a pin to OUTPUT. " alt="" coords="689,22,833,63"/>
+<area shape="rect" id="node11" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="881,81,1025,122"/>
+<area shape="rect" id="node12" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="1073,88,1144,115"/>
+<area shape="rect" id="node14" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="923,29,984,56"/>
 </map>

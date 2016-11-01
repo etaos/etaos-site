@@ -1,12 +1,11 @@
 <map id="__spi_xfer" name="__spi_xfer">
-<area shape="rect" id="node3" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="136,61,256,94"/>
-<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="689,167,753,201"/>
-<area shape="rect" id="node11" href="$group__gpiolib.html#gaae67b44542e3ae6c2be5f5815f25617f" title="Write a boolean value to a GPIO pin. " alt="" coords="144,194,248,227"/>
-<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="315,5,432,38"/>
-<area shape="rect" id="node7" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="315,61,432,94"/>
-<area shape="rect" id="node14" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="305,279,441,313"/>
-<area shape="rect" id="node20" href="$group__gpiolib.html#gaba62ab29aee995a91a86fc97b14b2bb6" title="Write a boolean value to a GPIO pin. " alt="" coords="307,167,440,201"/>
-<area shape="rect" id="node16" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="492,274,636,329"/>
-<area shape="rect" id="node18" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="687,285,756,318"/>
-<area shape="rect" id="node22" href="$group__gpiolib.html#ga5d2389cb21a58fd4e4d55d79637e6eee" title="Write a boolean value to a GPIO pin. " alt="" coords="491,167,637,201"/>
+<area shape="rect" id="node2" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="136,5,256,32"/>
+<area shape="rect" id="node4" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="687,107,752,133"/>
+<area shape="rect" id="node5" href="$group__gpiolib.html#gaae67b44542e3ae6c2be5f5815f25617f" title="Write a boolean value to a GPIO pin. " alt="" coords="143,132,249,159"/>
+<area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="313,5,432,32"/>
+<area shape="rect" id="node6" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="304,212,441,239"/>
+<area shape="rect" id="node9" href="$group__gpiolib.html#gaba62ab29aee995a91a86fc97b14b2bb6" title="Write a boolean value to a GPIO pin. " alt="" coords="306,157,439,184"/>
+<area shape="rect" id="node7" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="491,209,635,250"/>
+<area shape="rect" id="node8" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="684,216,755,243"/>
+<area shape="rect" id="node10" href="$group__gpiolib.html#ga5d2389cb21a58fd4e4d55d79637e6eee" title="Write a boolean value to a GPIO pin. " alt="" coords="489,157,636,184"/>
 </map>

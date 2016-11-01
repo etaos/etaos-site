@@ -1,4 +1,4 @@
 <map id="device_initialize" name="device_initialize">
-<area shape="rect" id="node3" href="$group__vfs.html#ga0efaa1d4e8e3dde72a746677b359b368" title="Add a file to the virtual file system. " alt="" coords="185,5,252,38"/>
-<area shape="rect" id="node5" href="$group__dev-core.html#gac76b262985cf792b5feb9748b98f3bba" title="Change the file operations of a device. " alt="" coords="169,61,268,94"/>
+<area shape="rect" id="node2" href="$group__vfs.html#ga0efaa1d4e8e3dde72a746677b359b368" title="Add a file to the virtual file system. " alt="" coords="184,5,252,32"/>
+<area shape="rect" id="node3" href="$group__dev-core.html#gac76b262985cf792b5feb9748b98f3bba" title="Change the file operations of a device. " alt="" coords="168,56,268,83"/>
 </map>

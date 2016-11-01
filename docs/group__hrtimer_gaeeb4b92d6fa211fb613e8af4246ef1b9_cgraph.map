@@ -1,9 +1,3 @@
 <map id="hrtimer_tick" name="hrtimer_tick">
-<area shape="rect" id="node3" href="$group__tm.html#ga8a7ac70726a08cc5bce8d75a097c626d" title="Safely increment the tick count of a clock source. " alt="" coords="145,89,265,122"/>
-<area shape="rect" id="node5" href="$group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="315,61,461,94"/>
-<area shape="rect" id="node11" href="$group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="347,117,429,150"/>
-<area shape="rect" id="node7" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="521,5,649,38"/>
-<area shape="rect" id="node9" href="$group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="528,61,643,94"/>
-<area shape="rect" id="node13" href="$group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="511,117,660,150"/>
-<area shape="rect" id="node15" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="711,117,775,150"/>
+<area shape="rect" id="node2" href="$group__tm.html#ga8a7ac70726a08cc5bce8d75a097c626d" title="Safely increment the tick count of a clock source. " alt="" coords="144,5,265,32"/>
 </map>

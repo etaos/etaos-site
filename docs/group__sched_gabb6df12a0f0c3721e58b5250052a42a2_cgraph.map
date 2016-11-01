@@ -1,0 +1,9 @@
+<map id="queue_wait_tmo" name="queue_wait_tmo">
+<area shape="rect" id="node2" href="$group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50" title="Get the thread_queue the given thread is on. " alt="" coords="189,5,308,32"/>
+<area shape="rect" id="node3" href="$group__sched.html#gaa468a0cc0864610b821b2730abe5c182" title="Remove a thread from a thread_queue. " alt="" coords="173,56,324,83"/>
+<area shape="rect" id="node5" href="$group__sched.html#ga44292b5df60facfa57dcafc582212a0d" title="Add a thread to a run queue. " alt="" coords="171,107,327,133"/>
+<area shape="rect" id="node4" href="$group__sched.html#gadb1050b54e2329c8c86ca1a7a3bbc0dc" title="Remove a thread from a thread_queue. " alt="" coords="375,56,553,83"/>
+<area shape="rect" id="node6" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="400,107,528,133"/>
+<area shape="rect" id="node8" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="433,157,495,184"/>
+<area shape="rect" id="node7" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="601,107,708,133"/>
+</map>

@@ -1,4 +1,4 @@
 <map id="stime" name="stime">
-<area shape="rect" id="node3" href="$group__libctime.html#ga41213015bed9d9d3191a724a41518963" title="Get the sytem time. " alt="" coords="111,5,156,38"/>
-<area shape="rect" id="node5" href="$group__tm.html#ga05fdfd13f6665f01fb26189f7202e668" title="Get the clock count of a clocksource in seconds. " alt="" coords="205,5,379,38"/>
+<area shape="rect" id="node2" href="$group__libctime.html#ga41213015bed9d9d3191a724a41518963" title="Get the sytem time. " alt="" coords="108,5,155,32"/>
+<area shape="rect" id="node3" href="$group__tm.html#ga05fdfd13f6665f01fb26189f7202e668" title="Get the clock count of a clocksource in seconds. " alt="" coords="203,5,376,32"/>
 </map>

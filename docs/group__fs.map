@@ -1,5 +1,5 @@
 <map id="Filesystem management" name="Filesystem management">
-<area shape="rect" id="node1" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,33,115,66"/>
-<area shape="rect" id="node2" href="$group__romfs.html" title="Simple read&#45;only ROM file system. " alt="" coords="377,5,529,38"/>
-<area shape="rect" id="node3" href="$group__vfs.html" title="Volatile RAM filesystem. " alt="" coords="379,61,528,94"/>
+<area shape="rect" id="node1" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,31,116,57"/>
+<area shape="rect" id="node2" href="$group__romfs.html" title="Simple read&#45;only ROM file system. " alt="" coords="377,5,531,32"/>
+<area shape="rect" id="node3" href="$group__vfs.html" title="Volatile RAM filesystem. " alt="" coords="379,56,529,83"/>
 </map>

@@ -1,12 +1,12 @@
 <map id="irq_thread_data" name="irq_thread_data">
-<area shape="rect" id="node2" href="$structirq__data.html" title="Interrupt descriptor. " alt="" coords="20,470,124,631"/>
-<area shape="rect" id="node4" href="$structlist__head.html" title="Linked list structure. " alt="" coords="160,6,235,103"/>
-<area shape="rect" id="node8" href="$structirq__chip.html" title="IRQ chip descriptor. " alt="" coords="147,206,248,367"/>
-<area shape="rect" id="node17" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="299,174,389,399"/>
-<area shape="rect" id="node11" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="240,702,339,1034"/>
-<area shape="rect" id="node21" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="140,1201,223,1298"/>
-<area shape="rect" id="node24" href="$structrq.html" title="Run queue descriptor. " alt="" coords="508,1443,617,1583"/>
-<area shape="rect" id="node26" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="388,1126,505,1373"/>
-<area shape="rect" id="node29" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="529,1201,577,1298"/>
-<area shape="rect" id="node14" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="247,470,332,631"/>
+<area shape="rect" id="node2" href="$structirq__data.html" title="Interrupt descriptor. " alt="" coords="19,373,124,495"/>
+<area shape="rect" id="node3" href="$structlist__head.html" title="Linked list structure. " alt="" coords="161,5,235,83"/>
+<area shape="rect" id="node4" href="$structirq__chip.html" title="IRQ chip descriptor. " alt="" coords="147,167,249,289"/>
+<area shape="rect" id="node7" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="300,145,392,311"/>
+<area shape="rect" id="node5" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="241,557,339,796"/>
+<area shape="rect" id="node8" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="141,925,223,1002"/>
+<area shape="rect" id="node9" href="$structrq.html" title="Run queue descriptor. " alt="" coords="509,1116,620,1223"/>
+<area shape="rect" id="node10" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="389,873,508,1053"/>
+<area shape="rect" id="node11" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="533,925,581,1002"/>
+<area shape="rect" id="node6" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="247,373,333,495"/>
 </map>
