@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.0</a>
+                        <a class="navbar-brand">4.6.1</a>
 		    </div>
 	        </div>
             </div>
@@ -128,7 +128,7 @@ Automated initialisation</h1>
 <li>device_init</li>
 <li>chip_init</li>
 </ul>
-<p>All 4 basically have the same effect, the only difference is priority and therefore, order. All subsystems labeled with subsys_init will be initialised first. Examples are the I2C core and the USART core. Secondly, the module_init's will be called. Usually drivers behind the subsystems, such as the ATmega I2C bus. Thirdly, the device_init is called initialising all drivers which (usually) depend on another module which has to be already initialised (e.g. and I2C EEPROM chip driver). The systems initialised with chip_init are initialised last. </p>
+<p>All 4 basically have the same effect, the only difference is priority and therefore, order. All subsystems labeled with subsys_init will be initialised first. Examples are the I2C core and the USART core. Secondly, the module_init's will be called. Usually drivers behind the subsystems, such as the ATmega I2C bus. Thirdly, the device_init is called initialising all drivers which (usually) depend on another module which has to be already initialised (e.g. and I2C <a class="el" href="class_e_e_p_r_o_m.html" title="UAPI class for EEPROM chips. ">EEPROM</a> chip driver). The systems initialised with chip_init are initialised last. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ga7fa6d2e7d36e68e9de0a9a929b382416"></a>
 <div class="memitem">
@@ -251,7 +251,7 @@ Automated initialisation</h1>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 1 2016 07:40:32 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 16 2016 22:01:11 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

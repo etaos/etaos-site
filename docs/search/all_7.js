@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fd',['fd',['../structvfile.html#a6f8059414f0228f0256115e024eeed4b',1,'vfile']]],
+  ['fd',['fd',['../structvfile.html#a6f8059414f0228f0256115e024eeed4b',1,'vfile::fd()'],['../class_character_device.html#a6f8059414f0228f0256115e024eeed4b',1,'CharacterDevice::fd()']]],
   ['fdev_5fsetup_5fstream',['FDEV_SETUP_STREAM',['../group__libcio.html#ga17e61ec686cfa0dbd27d32e1f41f5616',1,'stdio.h']]],
   ['first_20fit_20allocator',['First fit allocator',['../group__ff.html',1,'']]],
   ['fgetc',['fgetc',['../group__libcio.html#ga46c11b0d2de8afadb2445672ce8402b5',1,'fgetc.c']]],

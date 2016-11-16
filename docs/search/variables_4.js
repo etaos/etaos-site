@@ -5,6 +5,7 @@ var searchData=
   ['dev',['dev',['../structi2c__client.html#adfc9dbc9a621f3bed34215a242da5fd7',1,'i2c_client::dev()'],['../structspidev.html#adfc9dbc9a621f3bed34215a242da5fd7',1,'spidev::dev()'],['../structusart.html#adfc9dbc9a621f3bed34215a242da5fd7',1,'usart::dev()']]],
   ['dev_5fdata',['dev_data',['../structdevice.html#a640bb2cf7d104dc9f801e9820d5526f8',1,'device']]],
   ['dev_5flock',['dev_lock',['../structdevice.html#acdc56d59d6206c9907702d1535ef33fc',1,'device']]],
+  ['devfile',['devfile',['../class_character_device.html#ad601b86387950d384a58866c618ee5c7',1,'CharacterDevice']]],
   ['devices',['devices',['../structspi__driver.html#af7e77a67049a4baa91fc207ec1e483b9',1,'spi_driver']]],
   ['devs',['devs',['../structdevice.html#ab63a1027889ec7cbc8840c82d8028636',1,'device']]],
   ['direction_5finput',['direction_input',['../structgpio__chip.html#a1f588d03acb6672517600be19e7a3a25',1,'gpio_chip']]],

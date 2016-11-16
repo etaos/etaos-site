@@ -21,7 +21,7 @@ var searchData=
   ['raw_5fthread_5fadd_5fto_5fkill_5fq',['raw_thread_add_to_kill_q',['../group__sched.html#ga8cf0a4f4c107b862043c281c6ca09ed0',1,'core.c']]],
   ['raw_5fthread_5fadd_5fto_5fwake_5fq',['raw_thread_add_to_wake_q',['../group__sched.html#ga0ef97c57a13bfb6960d699dc4fca5af0',1,'core.c']]],
   ['raw_5fthread_5finit',['raw_thread_init',['../group__thread.html#ga4289b7f9957ab328ffc1390816f01eb1',1,'thread.c']]],
-  ['read',['read',['../group__libcio.html#ga13994b555ec5db1b6d6458bb5563edad',1,'read.c']]],
+  ['read',['read',['../group__stl.html#gaed3b9cdf6c130852995903934fab923e',1,'CharacterDevice::read()'],['../class_e_e_p_r_o_m.html#a9a8f3a79b5248047738d91c258f3137f',1,'EEPROM::read()'],['../group__stl.html#ga9a8f3a79b5248047738d91c258f3137f',1,'SRAM::read()'],['../group__libcio.html#ga13994b555ec5db1b6d6458bb5563edad',1,'read():&#160;read.c']]],
   ['romfs_5fclose',['romfs_close',['../group__romfs.html#ga4b07d550003749c9e0d17f027b922013',1,'romfs.c']]],
   ['romfs_5fgetc',['romfs_getc',['../group__romfs.html#gab45d68353d5cf8bdb02e19760b2c0266',1,'romfs.c']]],
   ['romfs_5fopen',['romfs_open',['../group__romfs.html#gab6f06c3333d576afeff2d9c064223461',1,'romfs.c']]],

@@ -2,6 +2,7 @@ var searchData=
 [
   ['calloc',['calloc',['../group__libc.html#ga7b3d8b7cea59b137b167878ec88eb8d6',1,'kcalloc.c']]],
   ['ceil',['ceil',['../group__math.html#ga61470611f23ceef5d3e9cf63d84cd8a7',1,'math.h']]],
+  ['characterdevice',['CharacterDevice',['../group__stl.html#ga055dac8317af10cd2b9920b2aae9b4a4',1,'CharacterDevice']]],
   ['clear_5fbit',['clear_bit',['../arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18',1,'bitops.h']]],
   ['clocksource_5fadd_5ftimer',['clocksource_add_timer',['../group__tm.html#ga6501ffdc00b89b8308bc225e1182f213',1,'clocksource_add_timer(struct clocksource *cs, struct timer *t):&#160;clocksource.c'],['../group__tm.html#ga6501ffdc00b89b8308bc225e1182f213',1,'clocksource_add_timer(struct clocksource *cs, struct timer *timer):&#160;clocksource.c']]],
   ['clocksource_5fdelete_5ftimer',['clocksource_delete_timer',['../group__tm.html#ga20e856ccf8bbf02684d1c75f61914940',1,'clocksource_delete_timer(struct clocksource *cs, struct timer *timer):&#160;clocksource.c'],['../group__tm.html#ga20e856ccf8bbf02684d1c75f61914940',1,'clocksource_delete_timer(struct clocksource *cs, struct timer *timer):&#160;clocksource.c']]],

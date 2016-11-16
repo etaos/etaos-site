@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.0</a>
+                        <a class="navbar-brand">4.6.1</a>
 		    </div>
 	        </div>
             </div>
@@ -142,6 +142,12 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
 make all ARCH=archname
 make modules_install ARCH=archname INSTALL_MOD_PATH=path
 </pre><p>After that, you are ready to compile an application. To compile an application you need application sources and Kbuild file in a sepperate directory (anywhere). See the usr/tests/ directory for some examples.</p>
+<h2>Testing </h2>
+<p>ETA/OS comes with a set of unit tests, which can be found in the <code>usr/tests</code> directory. These tests can be ran manually, ofcourse, or the running process can be automated for most tests using a tool called Calypso. Calypso can be download as a Ruby gem:</p>
+<p><code>user@pc# gem install calypso</code></p>
+<p>Running all available unit tests can be done with the following command:</p>
+<p><code>user@pc$ calypso -yfc usr/calypso.yaml</code></p>
+<p>For test configurations, please check the Calypso help: <code>calypso -h</code> command.</p>
 <h2>Contributing </h2>
 <p>To see how you can help improving ETA/OS, read the contribution guide. You can find it in the CONTRIBUTING.md file in the repository or on the <a href="http://etaos.bietje.net/contrib.html">web</a>.</p>
 <h2>Trouble shooting </h2>
@@ -150,10 +156,10 @@ make modules_install ARCH=archname INSTALL_MOD_PATH=path
 </ul>
 <p>For some reason, avrdude is sometimes unable to properly communicate with the ATmega2560. This solution can be tried when you receive the following error: </p><pre class="fragment">    avrdude: stk500v2_ReceiveMessage(): timeout
 </pre><p>If you run into this error, there are 3 'scripts' provided to work around it:</p>
-<p>```bash user$ scripts/avrdude_timeout_fix [DEVICE_FILE] ```</p>
+<p><code>user@pc$ scripts/avrdude_timeout_fix [DEVICE_FILE]</code></p>
 <p>Now you can upload your binaries to the ATmega.</p>
 <p>If you would like a tty-fix script and an upload in one, then you should give either calypso (for unit tests) or <code>scripts/avr_upload</code> a try.</p>
-<p>```bash user$ scripts/avr_upload -h ```</p>
+<p><code>user@pc$ scripts/avr_upload -h</code></p>
 <p>Please note that these are not 'run once and be good forever' scripts. They need to be ran before <em>every</em> upload. </p>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -164,7 +170,7 @@ make modules_install ARCH=archname INSTALL_MOD_PATH=path
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 1 2016 07:40:37 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 16 2016 22:01:16 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

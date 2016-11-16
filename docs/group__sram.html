@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.0</a>
+                        <a class="navbar-brand">4.6.1</a>
 		    </div>
 	        </div>
             </div>
@@ -95,7 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>SRAM core API.  
+<p><a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> core API.  
 <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for SRAM drivers:</div>
@@ -111,19 +111,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
 <tr class="memitem:group__sram-23k256"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sram-23k256.html">23K256 SRAM driver</a></td></tr>
-<tr class="memdesc:group__sram-23k256"><td class="mdescLeft">&#160;</td><td class="mdescRight">SRAM chip by Micro chip. <br /></td></tr>
+<tr class="memdesc:group__sram-23k256"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip by Micro chip. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsram.html">sram</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">SRAM descriptor.  <a href="structsram.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> descriptor.  <a href="structsram.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gafdb06cfa19bc33b152869c2b471d91d7"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structsram.html">sram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sram.html#gafdb06cfa19bc33b152869c2b471d91d7">to_sram_chip</a> (struct <a class="el" href="structvfile.html">vfile</a> *file)</td></tr>
-<tr class="memdesc:gafdb06cfa19bc33b152869c2b471d91d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a file pointer to a SRAM structure.  <a href="#gafdb06cfa19bc33b152869c2b471d91d7">More...</a><br /></td></tr>
+<tr class="memdesc:gafdb06cfa19bc33b152869c2b471d91d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a file pointer to a <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> structure.  <a href="#gafdb06cfa19bc33b152869c2b471d91d7">More...</a><br /></td></tr>
 <tr class="separator:gafdb06cfa19bc33b152869c2b471d91d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga46b8eb556859a1e90ac07ed94b6b2378"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sram.html#ga46b8eb556859a1e90ac07ed94b6b2378">sram_write</a> (struct <a class="el" href="structvfile.html">vfile</a> *stream, const void *buf, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> len)</td></tr>
 <tr class="memdesc:ga46b8eb556859a1e90ac07ed94b6b2378"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write function pointer.  <a href="#ga46b8eb556859a1e90ac07ed94b6b2378">More...</a><br /></td></tr>
@@ -132,18 +132,18 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac209a5eebd79fbdad2513dceef955227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read function pointer.  <a href="#gac209a5eebd79fbdad2513dceef955227">More...</a><br /></td></tr>
 <tr class="separator:gac209a5eebd79fbdad2513dceef955227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6708a00b3c8bc1ea91db4ee9016076a2"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sram.html#ga6708a00b3c8bc1ea91db4ee9016076a2">sram_put</a> (int c, struct <a class="el" href="structvfile.html">vfile</a> *stream)</td></tr>
-<tr class="memdesc:ga6708a00b3c8bc1ea91db4ee9016076a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a single byte to the SRAM chip memory.  <a href="#ga6708a00b3c8bc1ea91db4ee9016076a2">More...</a><br /></td></tr>
+<tr class="memdesc:ga6708a00b3c8bc1ea91db4ee9016076a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a single byte to the <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip memory.  <a href="#ga6708a00b3c8bc1ea91db4ee9016076a2">More...</a><br /></td></tr>
 <tr class="separator:ga6708a00b3c8bc1ea91db4ee9016076a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5827e0fc3c7fab11d7251163ec51dc3c"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sram.html#ga5827e0fc3c7fab11d7251163ec51dc3c">sram_get</a> (struct <a class="el" href="structvfile.html">vfile</a> *stream)</td></tr>
-<tr class="memdesc:ga5827e0fc3c7fab11d7251163ec51dc3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a single byte from the SRAM chip memory.  <a href="#ga5827e0fc3c7fab11d7251163ec51dc3c">More...</a><br /></td></tr>
+<tr class="memdesc:ga5827e0fc3c7fab11d7251163ec51dc3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a single byte from the <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip memory.  <a href="#ga5827e0fc3c7fab11d7251163ec51dc3c">More...</a><br /></td></tr>
 <tr class="separator:ga5827e0fc3c7fab11d7251163ec51dc3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae0a8506e56c96a6a326fb767a72bb747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sram.html#gae0a8506e56c96a6a326fb767a72bb747">sram_chip_init</a> (struct <a class="el" href="structsram.html">sram</a> *ram, struct <a class="el" href="structdevice.html">device</a> *dev)</td></tr>
-<tr class="memdesc:gae0a8506e56c96a6a326fb767a72bb747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise a new SRAM chip data structure.  <a href="#gae0a8506e56c96a6a326fb767a72bb747">More...</a><br /></td></tr>
+<tr class="memdesc:gae0a8506e56c96a6a326fb767a72bb747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise a new <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip data structure.  <a href="#gae0a8506e56c96a6a326fb767a72bb747">More...</a><br /></td></tr>
 <tr class="separator:gae0a8506e56c96a6a326fb767a72bb747"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>SRAM core API. </p>
-<p>The SRAM core defines a device file based API. </p>
+<p><a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> core API. </p>
+<p>The <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> core defines a device file based API. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gae0a8506e56c96a6a326fb767a72bb747"></a>
 <div class="memitem">
@@ -169,10 +169,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initialise a new SRAM chip data structure. </p>
+<p>Initialise a new <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip data structure. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ram</td><td>SRAM structure which has to be initialised. </td></tr>
+    <tr><td class="paramname">ram</td><td><a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> structure which has to be initialised. </td></tr>
     <tr><td class="paramname">dev</td><td>Supporting device structure. </td></tr>
   </table>
   </dd>
@@ -213,10 +213,10 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Read a single byte from the SRAM chip memory. </p>
+<p>Read a single byte from the <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">stream</td><td>File SRAM chip descriptor. </td></tr>
+    <tr><td class="paramname">stream</td><td>File <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip descriptor. </td></tr>
   </table>
   </dd>
 </dl>
@@ -267,11 +267,11 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Write a single byte to the SRAM chip memory. </p>
+<p>Write a single byte to the <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip memory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">c</td><td>Byte which has to be written. </td></tr>
-    <tr><td class="paramname">stream</td><td>File SRAM chip descriptor. </td></tr>
+    <tr><td class="paramname">stream</td><td>File <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip descriptor. </td></tr>
   </table>
   </dd>
 </dl>
@@ -331,7 +331,7 @@ Functions</h2></td></tr>
 <p>Read function pointer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">stream</td><td>File SRAM chip descriptor. </td></tr>
+    <tr><td class="paramname">stream</td><td>File <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip descriptor. </td></tr>
     <tr><td class="paramname">buf</td><td>Buffer to read data into. </td></tr>
     <tr><td class="paramname">len</td><td>Length of <code>buf</code>. </td></tr>
   </table>
@@ -393,7 +393,7 @@ Functions</h2></td></tr>
 <p>Write function pointer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">stream</td><td>File SRAM chip descriptor. </td></tr>
+    <tr><td class="paramname">stream</td><td>File <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> chip descriptor. </td></tr>
     <tr><td class="paramname">buf</td><td>Buffer which has to be written. </td></tr>
     <tr><td class="paramname">len</td><td>Length of <code>buf</code>. </td></tr>
   </table>
@@ -436,14 +436,14 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convert a file pointer to a SRAM structure. </p>
+<p>Convert a file pointer to a <a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> structure. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">file</td><td>struct vfile * pointer to convert. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>SRAM data structure. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_s_r_a_m.html" title="UAPI class for SRAM chips. ">SRAM</a> data structure. </dd></dl>
 
 </div>
 </div>
@@ -456,7 +456,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 1 2016 07:40:32 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Nov 16 2016 22:01:11 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

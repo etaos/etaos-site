@@ -74,6 +74,6 @@ var searchData=
   ['private_5fdata',['private_data',['../structirq__data.html#ad517770dac2061381b2008850ff12e6c',1,'irq_data']]],
   ['prog_5fchar',['prog_char',['../group__atmega.html#ga8c58c1a4bc98cdbf19a2a070cf889524',1,'pgm.h']]],
   ['put',['put',['../structdev__file__ops.html#a99ca624cb143ffe78c7148a4c998b423',1,'dev_file_ops::put()'],['../structvfile.html#a99ca624cb143ffe78c7148a4c998b423',1,'vfile::put()']]],
-  ['putc',['putc',['../structusart.html#aa00ced81deecb3716c3cc31fc5e069f2',1,'usart::putc()'],['../group__libcio.html#gaab0c28a38adcc802c8abf4f255bf6024',1,'putc():&#160;putc.c']]],
+  ['putc',['putc',['../structusart.html#aa00ced81deecb3716c3cc31fc5e069f2',1,'usart::putc()'],['../group__stl.html#ga5ddd46e0ecc254c25529b150257bf7b3',1,'CharacterDevice::putc()'],['../class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77',1,'EEPROM::putc()'],['../group__stl.html#ga63704361fdc2b661e9e41036a259cb77',1,'SRAM::putc()'],['../group__libcio.html#gaab0c28a38adcc802c8abf4f255bf6024',1,'putc():&#160;putc.c']]],
   ['putc_2ec',['putc.c',['../putc_8c.html',1,'']]]
 ];

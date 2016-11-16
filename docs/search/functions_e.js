@@ -28,5 +28,5 @@ var searchData=
   ['preempt_5ftest',['preempt_test',['../group__preempt.html#ga30a3151baa4664f4c58d9f6e04c4df0e',1,'preempt.h']]],
   ['printf',['printf',['../group__libcio.html#ga55f3d956bb2ba20b5059e9e25484a47f',1,'printf.c']]],
   ['printf_5fp',['printf_P',['../group__libcio.html#ga8836f9438db121ba9b1784d38858f3e2',1,'printf_p.c']]],
-  ['putc',['putc',['../group__libcio.html#gaab0c28a38adcc802c8abf4f255bf6024',1,'putc.c']]]
+  ['putc',['putc',['../group__stl.html#ga5ddd46e0ecc254c25529b150257bf7b3',1,'CharacterDevice::putc()'],['../class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77',1,'EEPROM::putc()'],['../group__stl.html#ga63704361fdc2b661e9e41036a259cb77',1,'SRAM::putc()'],['../group__libcio.html#gaab0c28a38adcc802c8abf4f255bf6024',1,'putc():&#160;putc.c']]]
 ];

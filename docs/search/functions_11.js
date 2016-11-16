@@ -34,6 +34,7 @@ var searchData=
   ['spin_5ftry_5flock',['spin_try_lock',['../group__kernel.html#gac00595794873bb75262e9c434589bc9b',1,'spinlock.h']]],
   ['spin_5funlock',['spin_unlock',['../group__kernel.html#gaf0bffee791867b9ae4b9f66d4e111d95',1,'spinlock.h']]],
   ['sqrt',['sqrt',['../group__math.html#gadd1e40e370b2165c186f72ec631b1853',1,'math.h']]],
+  ['sram',['SRAM',['../group__stl.html#gadca7b66acb4638879f7076cdc77ddfa7',1,'SRAM']]],
   ['sram_5f23k256_5finit',['sram_23k256_init',['../group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3',1,'sram_23k256_init(void):&#160;23k256.c'],['../group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3',1,'sram_23k256_init(void):&#160;23k256.c']]],
   ['sram_5fchip_5finit',['sram_chip_init',['../group__sram.html#gae0a8506e56c96a6a326fb767a72bb747',1,'sram.c']]],
   ['sram_5fget',['sram_get',['../group__sram.html#ga5827e0fc3c7fab11d7251163ec51dc3c',1,'sram.c']]],

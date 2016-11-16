@@ -21,6 +21,7 @@ var searchData=
   ['dev_5fsync_5funlock',['dev_sync_unlock',['../group__dev-core.html#gaceb0363f7690f83ebde2dc871f55f31d',1,'core.c']]],
   ['dev_5fsync_5fwait',['dev_sync_wait',['../group__dev-core.html#ga7eec45cc879362cb449a4f47dbacfb6b',1,'core.c']]],
   ['dev_5funlock',['dev_unlock',['../group__dev-core.html#gae0865c7fcb090118a4d15b451bf5fe02',1,'core.c']]],
+  ['devfile',['devfile',['../class_character_device.html#ad601b86387950d384a58866c618ee5c7',1,'CharacterDevice']]],
   ['device',['device',['../structdevice.html',1,'']]],
   ['device_2eh',['device.h',['../device_8h.html',1,'']]],
   ['device_5fcreate',['device_create',['../group__dev-core.html#gae77e5c7996b7cea008468dbf16626ed5',1,'core.c']]],

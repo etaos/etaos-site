@@ -3,6 +3,8 @@ var searchData=
   ['calloc',['calloc',['../group__libc.html#ga7b3d8b7cea59b137b167878ec88eb8d6',1,'kcalloc.c']]],
   ['calypso_5fexit',['CALYPSO_EXIT',['../test_8h.html#a7388cb673892b7540f9e4eec1af89226',1,'test.h']]],
   ['ceil',['ceil',['../group__math.html#ga61470611f23ceef5d3e9cf63d84cd8a7',1,'math.h']]],
+  ['characterdevice',['CharacterDevice',['../class_character_device.html',1,'CharacterDevice'],['../group__stl.html#ga055dac8317af10cd2b9920b2aae9b4a4',1,'CharacterDevice::CharacterDevice()']]],
+  ['chardev_2eh',['chardev.h',['../chardev_8h.html',1,'']]],
   ['chip',['chip',['../structanalog__pin.html#aaced795ac0237930b2eac79a6de85d3f',1,'analog_pin::chip()'],['../structgpio__pin.html#a9cfdb423ee349c2d564ff8c288471bcc',1,'gpio_pin::chip()'],['../structirq__data.html#a02fa817f49ef1beb07bd08d7a1e06d8b',1,'irq_data::chip()']]],
   ['chip_5fhandle',['chip_handle',['../structirq__chip.html#a7fdcac7f043a554bfd9f8bb18eb88e1c',1,'irq_chip']]],
   ['chip_5finit',['chip_init',['../group__kern-init.html#ga7fa6d2e7d36e68e9de0a9a929b382416',1,'init.h']]],

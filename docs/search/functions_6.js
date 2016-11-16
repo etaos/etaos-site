@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['getc',['getc',['../group__libcio.html#ga57f04d9ad3a286a639912a2035cc6b39',1,'getc.c']]],
+  ['getc',['getc',['../group__stl.html#ga12fe8585ae3714e7d4a71cae12fbb110',1,'CharacterDevice::getc()'],['../group__libcio.html#ga57f04d9ad3a286a639912a2035cc6b39',1,'getc():&#160;getc.c']]],
   ['gmtime',['gmtime',['../group__libctime.html#ga142b3ded08ee65200fe6e4c4c8664d4c',1,'gmtime.c']]],
   ['gmtime_5fr',['gmtime_r',['../group__libctime.html#gacc202793fe079a9a5555faa8023686f1',1,'gmtime.c']]],
   ['gpio_5fchip_5finit',['gpio_chip_init',['../group__gpiolib.html#gae05dcb5aa48047960c7775358ecdad11',1,'gpiolib.c']]],

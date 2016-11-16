@@ -31,6 +31,7 @@ var searchData=
   ['atmega_5fspi_5fxfer',['atmega_spi_xfer',['../group__spi-atmega.html#ga4485fb698ecf9ca95510087b82584ad4',1,'atmega-bus.c']]],
   ['atmega_5fusart_5finit',['atmega_usart_init',['../group__usart-atmega.html#ga4243ce014e418c837b5dc114982baba1',1,'usart-atmega.c']]],
   ['avr_5fget_5fsys_5fclk',['avr_get_sys_clk',['../group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151',1,'avr_get_sys_clk(void):&#160;timer.c'],['../group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151',1,'avr_get_sys_clk(void):&#160;timer.c']]],
+  ['avr_5fsre',['avr_sre',['../group__atmega.html#ga84f967f707b33052ec12bd1d7f15080a',1,'avr_sre(void):&#160;mem.c'],['../group__atmega.html#ga84f967f707b33052ec12bd1d7f15080a',1,'avr_sre(void):&#160;mem.c']]],
   ['avr_5fstart_5fsysclk',['avr_start_sysclk',['../group__atmega.html#ga1d941477ab57975d4f6e271892a9ae1a',1,'timer.c']]],
   ['avr_5fsysclk_5fenable',['avr_sysclk_enable',['../group__atmega.html#gafe93c76c49667b8c3a83a46302bd374b',1,'timer.c']]],
   ['avr_5ftimer_5finit',['avr_timer_init',['../group__atmega.html#gac101cf56aa4970fe86c99e1e1e55c1cf',1,'timer.c']]]
