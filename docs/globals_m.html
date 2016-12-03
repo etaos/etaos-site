@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.1</a>
+                        <a class="navbar-brand">4.6.2</a>
 		    </div>
 	        </div>
             </div>
@@ -133,15 +133,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock">Here is a list of all documented functions, variables, defines, enums, and typedefs with links to the documentation:</div>
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>mkdir()
+: <a class="el" href="group__vfs.html#gafeb6cbc06f4dc89199e2c33561b2f77e">vfs.h</a>
+</li>
 <li>mktime()
 : <a class="el" href="group__libctime.html#gafc0e3f373a3ea00b37714f1b621ae0b1">time.h</a>
 </li>
 <li>mm_alloc()
-: <a class="el" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce">mem.h</a>
-, <a class="el" href="group__ff.html#ga1cb797f5279b1a30129db3a3ab79a246">first-fit.c</a>
+: <a class="el" href="group__ff.html#ga1cb797f5279b1a30129db3a3ab79a246">first-fit.c</a>
+, <a class="el" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce">mem.h</a>
 </li>
 <li>MM_ALLOC_FLAG
 : <a class="el" href="group__mm.html#ga1c3525dad118c12355728fab8ef99279">mem.h</a>
+</li>
+<li>mm_free()
+: <a class="el" href="group__mm.html#ga0e28f3e895b382fa242f95904440248e">mem.h</a>
 </li>
 <li>mm_heap_add_block()
 : <a class="el" href="group__mm.html#ga976aa63e6eb9949290a9e73f094f37fe">mem.h</a>
@@ -150,30 +156,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="group__mm.html#ga349dc4e29bbe1c449a780afa2469e34f">mem.h</a>
 </li>
 <li>mm_init()
-: <a class="el" href="group__ff.html#ga3f6e3eec35513e1f7215448b14bcad41">first-fit.c</a>
-, <a class="el" href="group__mm.html#ga3f6e3eec35513e1f7215448b14bcad41">mem.h</a>
-</li>
-<li>mm_init_node()
-: <a class="el" href="group__mm.html#gad5752cbea4b369f75053d6d4ce2e96e6">mem.h</a>
+: <a class="el" href="group__mm.html#ga46c473ceee9a0e300aa809ddcb7e7089">mem.h</a>
+, <a class="el" href="group__ff.html#ga3f6e3eec35513e1f7215448b14bcad41">first-fit.c</a>
 </li>
 <li>mm_kfree()
 : <a class="el" href="group__ff.html#ga3fd08f5ee97949d8961e623389b35553">first-fit.c</a>
-, <a class="el" href="group__mm.html#ga3fd08f5ee97949d8961e623389b35553">mem.h</a>
 </li>
-<li>mm_merge_node()
-: <a class="el" href="group__mm.html#ga1834e1808096aae51b6350e1742d66ee">mem.h</a>
+<li>mm_node_size()
+: <a class="el" href="group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1">mem.h</a>
 </li>
-<li>mm_return_node()
-: <a class="el" href="group__mm.html#gaf371e0a8e50a9e9ad8c71963784c992d">mem.h</a>
-</li>
-<li>mm_split_node()
-: <a class="el" href="group__mm.html#ga1d2ca4bec7b562e3328c894bae41fdac">mem.h</a>
-</li>
-<li>mm_use_block()
-: <a class="el" href="group__mm.html#ga0d58de3c7cb76acaf4c60dc236ec9e68">mem.h</a>
-</li>
-<li>mm_use_node()
-: <a class="el" href="group__mm.html#ga642e14dc2c3b2c305711560969ac6fa7">mem.h</a>
+<li>mount()
+: <a class="el" href="group__vfs.html#ga9c5dd508e53e51f6d1e10226c41e3f72">vfs.h</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -185,7 +178,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 16 2016 22:01:16 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 4 2016 00:44:40 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

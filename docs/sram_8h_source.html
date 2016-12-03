@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.1</a>
+                        <a class="navbar-brand">4.6.2</a>
 		    </div>
 	        </div>
             </div>
@@ -127,7 +127,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structsram.html">   37</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structsram.html">sram</a> {</div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="structsram.html#a8f8f80d37794cde9472343e4487ba3eb">   38</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structsram.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structsram.html#a2c9360b3658d5c5030374b84c67f1eb3">   39</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structvfile.html">vfile</a> *<a class="code" href="structsram.html#a2c9360b3658d5c5030374b84c67f1eb3">file</a>; </div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structsram.html#a213da43af7bbd0fe6affe3a2ad80c593">   39</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structfile.html">file</a> *<a class="code" href="structsram.html#a213da43af7bbd0fe6affe3a2ad80c593">file</a>; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        </div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structsram.html#a8b6505c37d4ff95854b8b00527e4d9fa">   41</a></span>&#160;        <span class="keywordtype">void</span> *<a class="code" href="structsram.html#a8b6505c37d4ff95854b8b00527e4d9fa">priv</a>; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
@@ -147,18 +147,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="ttc" id="structsram_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structsram.html#a8f8f80d37794cde9472343e4487ba3eb">sram::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">Chip name. </div><div class="ttdef"><b>Definition:</b> sram.h:38</div></div>
-<div class="ttc" id="structsram_html_a2c9360b3658d5c5030374b84c67f1eb3"><div class="ttname"><a href="structsram.html#a2c9360b3658d5c5030374b84c67f1eb3">sram::file</a></div><div class="ttdeci">struct vfile * file</div><div class="ttdoc">SRAM device file. </div><div class="ttdef"><b>Definition:</b> sram.h:39</div></div>
 <div class="ttc" id="structsram_html_a6f1a1a06c2e9ac9f58a6b53c74035dc3"><div class="ttname"><a href="structsram.html#a6f1a1a06c2e9ac9f58a6b53c74035dc3">sram::write_byte</a></div><div class="ttdeci">int(* write_byte)(struct sram *ram, int c)</div><div class="ttdoc">Write a single byte to the SRAM chip memory. </div><div class="ttdef"><b>Definition:</b> sram.h:74</div></div>
 <div class="ttc" id="structsram_html_a8b6505c37d4ff95854b8b00527e4d9fa"><div class="ttname"><a href="structsram.html#a8b6505c37d4ff95854b8b00527e4d9fa">sram::priv</a></div><div class="ttdeci">void * priv</div><div class="ttdoc">Private data. </div><div class="ttdef"><b>Definition:</b> sram.h:41</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="structsram_html_ae0989fd1c8681fda24a2668310b91379"><div class="ttname"><a href="structsram.html#ae0989fd1c8681fda24a2668310b91379">sram::read</a></div><div class="ttdeci">int(* read)(struct sram *ram, void *buf, size_t len)</div><div class="ttdoc">Read function pointer. </div><div class="ttdef"><b>Definition:</b> sram.h:50</div></div>
 <div class="ttc" id="structsram_html_a64f31e3ef5653d173d64b2d036549aae"><div class="ttname"><a href="structsram.html#a64f31e3ef5653d173d64b2d036549aae">sram::write</a></div><div class="ttdeci">int(* write)(struct sram *ram, const void *buf, size_t len)</div><div class="ttdoc">Write function pointer. </div><div class="ttdef"><b>Definition:</b> sram.h:59</div></div>
 <div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:56</div></div>
+<div class="ttc" id="structsram_html_a213da43af7bbd0fe6affe3a2ad80c593"><div class="ttname"><a href="structsram.html#a213da43af7bbd0fe6affe3a2ad80c593">sram::file</a></div><div class="ttdeci">struct file * file</div><div class="ttdoc">SRAM device file. </div><div class="ttdef"><b>Definition:</b> sram.h:39</div></div>
 <div class="ttc" id="structsram_html_af451661ba0b5e17a8dc9200a65563497"><div class="ttname"><a href="structsram.html#af451661ba0b5e17a8dc9200a65563497">sram::read_byte</a></div><div class="ttdeci">int(* read_byte)(struct sram *ram)</div><div class="ttdoc">Read a single byte from the SRAM chip memory. </div><div class="ttdef"><b>Definition:</b> sram.h:66</div></div>
 <div class="ttc" id="group__sram_html_gae0a8506e56c96a6a326fb767a72bb747"><div class="ttname"><a href="group__sram.html#gae0a8506e56c96a6a326fb767a72bb747">sram_chip_init</a></div><div class="ttdeci">void sram_chip_init(struct sram *ram, struct device *dev)</div><div class="ttdoc">Initialise a new SRAM chip data structure. </div><div class="ttdef"><b>Definition:</b> sram.c:177</div></div>
-<div class="ttc" id="structvfile_html"><div class="ttname"><a href="structvfile.html">vfile</a></div><div class="ttdoc">File definition. </div><div class="ttdef"><b>Definition:</b> stdio.h:106</div></div>
 <div class="ttc" id="structsram_html"><div class="ttname"><a href="structsram.html">sram</a></div><div class="ttdoc">SRAM descriptor. </div><div class="ttdef"><b>Definition:</b> sram.h:37</div></div>
 <div class="ttc" id="device_8h_html"><div class="ttname"><a href="device_8h.html">device.h</a></div></div>
+<div class="ttc" id="structfile_html"><div class="ttname"><a href="structfile.html">file</a></div><div class="ttdoc">File definition. </div><div class="ttdef"><b>Definition:</b> stdio.h:107</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -168,7 +168,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 16 2016 22:01:10 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 4 2016 00:44:34 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

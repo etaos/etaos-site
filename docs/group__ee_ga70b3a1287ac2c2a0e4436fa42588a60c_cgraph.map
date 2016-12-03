@@ -1,5 +1,12 @@
 <map id="eeprom_chip_init" name="eeprom_chip_init">
-<area shape="rect" id="node2" href="$group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da" title="Initialise a device structure. " alt="" coords="173,31,288,57"/>
-<area shape="rect" id="node3" href="$group__vfs.html#ga0efaa1d4e8e3dde72a746677b359b368" title="Add a file to the virtual file system. " alt="" coords="352,5,420,32"/>
-<area shape="rect" id="node4" href="$group__dev-core.html#gac76b262985cf792b5feb9748b98f3bba" title="Change the file operations of a device. " alt="" coords="336,56,436,83"/>
+<area shape="rect" id="node2" href="$group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da" title="Initialise a device structure. " alt="" coords="173,107,288,133"/>
+<area shape="rect" id="node3" href="$group__vfs.html#ga2aaca757844a332f7b3f6c8f08039a64" title="Add a new file to the VFS. " alt="" coords="340,81,432,108"/>
+<area shape="rect" id="node11" href="$group__dev-core.html#gac76b262985cf792b5feb9748b98f3bba" title="Change the file operations of a device. " alt="" coords="336,132,436,159"/>
+<area shape="rect" id="node4" href="$group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5" title="Find a directory entry. " alt="" coords="496,56,579,83"/>
+<area shape="rect" id="node10" href="$group__vfs.html#ga7c5cacd9db023382341701d248c85fcd" title="Add a file to a directory entry. " alt="" coords="484,107,591,133"/>
+<area shape="rect" id="node5" href="$group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d" title="Compare two strings. " alt="" coords="670,5,733,32"/>
+<area shape="rect" id="node6" href="$group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd" title="Split a path into an array. " alt="" coords="653,56,749,83"/>
+<area shape="rect" id="node9" href="$group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679" title="Free the result of fs_split_path. " alt="" coords="639,107,764,133"/>
+<area shape="rect" id="node7" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="812,81,863,108"/>
+<area shape="rect" id="node8" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="911,81,984,108"/>
 </map>

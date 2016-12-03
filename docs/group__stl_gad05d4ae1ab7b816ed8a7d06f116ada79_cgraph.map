@@ -1,7 +1,7 @@
 <map id="write" name="write">
-<area shape="rect" id="node2" href="$group__vfs.html#gaf5743a47d624f681e46802788121f9e4" title="The lseek function repositions the offset of the given file. " alt="" coords="155,5,209,32"/>
+<area shape="rect" id="node2" href="$group__vfs.html#gacfbe72946552886069ed9733ac32800f" title="The lseek function repositions the offset of the given file. " alt="" coords="155,5,209,32"/>
 <area shape="rect" id="node3" href="$group__stl.html#ga37a3133047113b13b3921aae72ec276e" title="Write data to a character device. " alt="" coords="104,56,260,83"/>
 <area shape="rect" id="node4" href="$group__libcio.html#ga89acafaa5cef01cecfe4270f1521a2c3" title="Write to a file. " alt="" coords="308,56,359,83"/>
-<area shape="rect" id="node5" href="$group__vfs.html#ga356fd769929217e7b05ce2dae11c4fe5" title="Write to a file. " alt="" coords="407,56,481,83"/>
+<area shape="rect" id="node5" href="$group__vfs.html#gaa5276dfc97187735837ed66b5507f5a6" title="Write to a file. " alt="" coords="407,56,481,83"/>
 <area shape="rect" id="node6" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="529,56,595,83"/>
 </map>

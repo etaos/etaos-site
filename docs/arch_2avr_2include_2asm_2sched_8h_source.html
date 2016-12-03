@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.1</a>
+                        <a class="navbar-brand">4.6.2</a>
 		    </div>
 	        </div>
             </div>
@@ -127,18 +127,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;asm/io.h&gt;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;CDECL</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> avr_save_stack(stack_t *<a class="code" href="structthread.html#afc0da95553742561773d762fa905fdab">stack</a>, <span class="keyword">struct</span> <a class="code" href="structthread.html">thread</a> *<a class="code" href="group__sched.html#ga5964c01d85a3421a529b5f3de617a492">current</a>);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> avr_save_stack(stack_t *<a class="code" href="structthread.html#afc0da95553742561773d762fa905fdab">stack</a>, <span class="keyword">struct</span> <a class="code" href="structthread.html">thread</a> *current);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> avr_switch_context(stack_t *s, <span class="keyword">struct</span> <a class="code" href="structthread.html">thread</a> *tp);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;CDECL_END</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> *main_stack_ptr;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="structthread_html"><div class="ttname"><a href="structthread.html">thread</a></div><div class="ttdoc">Thread descriptor.All information available for a thread is stored in this structure. </div><div class="ttdef"><b>Definition:</b> thread.h:139</div></div>
-<div class="ttc" id="structthread_html_afc0da95553742561773d762fa905fdab"><div class="ttname"><a href="structthread.html#afc0da95553742561773d762fa905fdab">thread::stack</a></div><div class="ttdeci">void * stack</div><div class="ttdoc">Root stack pointer. </div><div class="ttdef"><b>Definition:</b> thread.h:154</div></div>
-<div class="ttc" id="group__sched_html_ga5964c01d85a3421a529b5f3de617a492"><div class="ttname"><a href="group__sched.html#ga5964c01d85a3421a529b5f3de617a492">current</a></div><div class="ttdeci">#define current(_rq)</div><div class="ttdef"><b>Definition:</b> core.c:833</div></div>
+<div class="ttc" id="structthread_html_afc0da95553742561773d762fa905fdab"><div class="ttname"><a href="structthread.html#afc0da95553742561773d762fa905fdab">thread::stack</a></div><div class="ttdeci">void * stack</div><div class="ttdoc">Root stack pointer. </div><div class="ttdef"><b>Definition:</b> thread.h:155</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -149,7 +147,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 16 2016 22:01:10 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 4 2016 00:44:34 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

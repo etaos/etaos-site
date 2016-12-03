@@ -1,0 +1,5 @@
+<map id="sched_get_next_runnable" name="sched_get_next_runnable">
+<area shape="rect" id="node2" href="$group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="224,5,329,32"/>
+<area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="377,5,505,32"/>
+<area shape="rect" id="node4" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="553,5,660,32"/>
+</map>

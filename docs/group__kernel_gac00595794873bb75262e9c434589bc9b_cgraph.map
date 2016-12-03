@@ -1,4 +1,0 @@
-<map id="spin_try_lock" name="spin_try_lock">
-<area shape="rect" id="node2" href="$group__kernel.html#gaa9b96098c749bde2eac4348569cf2cc9" title="Lock the given spinlock. " alt="" coords="152,5,229,32"/>
-<area shape="rect" id="node3" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="277,5,395,32"/>
-</map>

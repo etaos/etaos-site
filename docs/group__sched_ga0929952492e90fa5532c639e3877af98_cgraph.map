@@ -1,0 +1,6 @@
+<map id="sched_set_current_thread" name="sched_set_current_thread">
+<area shape="rect" id="node2" href="$group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="254,5,339,32"/>
+<area shape="rect" id="node3" href="$group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="257,56,336,83"/>
+<area shape="rect" id="node5" href="$group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="225,107,368,149"/>
+<area shape="rect" id="node4" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="416,56,523,83"/>
+</map>

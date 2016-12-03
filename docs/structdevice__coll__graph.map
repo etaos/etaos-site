@@ -1,6 +1,6 @@
 <map id="device" name="device">
 <area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="5,79,80,156"/>
 <area shape="rect" id="node3" href="$structplatform__device.html" title="Platform device structure. " alt="" coords="165,71,280,163"/>
-<area shape="rect" id="node4" href="$structvfile.html" title="File definition. " alt="" coords="304,5,403,229"/>
-<area shape="rect" id="node5" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="489,71,586,163"/>
+<area shape="rect" id="node4" href="$structfile.html" title="File definition. " alt="" coords="304,5,411,229"/>
+<area shape="rect" id="node5" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="497,71,594,163"/>
 </map>

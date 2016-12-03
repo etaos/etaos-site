@@ -2,7 +2,7 @@ var searchData=
 [
   ['last_5frw_5fop',['last_rw_op',['../structsync__t.html#acec096d16761b2d42294cc224c8f6530',1,'sync_t']]],
   ['len',['len',['../structi2c__msg.html#a7360b55975153b822efc5217b7734e6a',1,'i2c_msg::len()'],['../structipm.html#a7360b55975153b822efc5217b7734e6a',1,'ipm::len()'],['../structspi__msg.html#a7360b55975153b822efc5217b7734e6a',1,'spi_msg::len()']]],
-  ['length',['length',['../structromfs.html#ae809d5359ac030c60a30a8f0b2294b82',1,'romfs::length()'],['../structvfile.html#ae809d5359ac030c60a30a8f0b2294b82',1,'vfile::length()']]],
+  ['length',['length',['../structromfs.html#ae809d5359ac030c60a30a8f0b2294b82',1,'romfs::length()'],['../structfile.html#ae809d5359ac030c60a30a8f0b2294b82',1,'file::length()']]],
   ['list',['list',['../structclocksource.html#a1f00f18b91d5a820f2c43064243aa86e',1,'clocksource::list()'],['../structspidev.html#a1f00f18b91d5a820f2c43064243aa86e',1,'spidev::list()']]],
   ['list_2eh',['list.h',['../list_8h.html',1,'']]],
   ['list_5fadd',['list_add',['../list_8h.html#a7036b0e33e238b917f710006bafe55d5',1,'list.h']]],
@@ -38,6 +38,6 @@ var searchData=
   ['lottery_5fremove_5fthread',['lottery_remove_thread',['../group__lottery.html#ga9ab6a79c73213338a0b38e638fc2c5cf',1,'lottery.c']]],
   ['lottery_5freturn_5fticket',['lottery_return_ticket',['../group__lottery.html#gaea8288efaa6132ef722eec0af5c30987',1,'lottery.c']]],
   ['lottery_5ftake_5fticket',['lottery_take_ticket',['../group__lottery.html#ga3bf5a37ae75bb6941d73854e2fe6a390',1,'lottery.c']]],
-  ['lseek',['lseek',['../group__vfs.html#gaf5743a47d624f681e46802788121f9e4',1,'lseek(struct vfile *file, size_t offset, int whence):&#160;fops.c'],['../group__vfs.html#gaf5743a47d624f681e46802788121f9e4',1,'lseek(struct vfile *file, size_t offset, int whence):&#160;fops.c']]],
+  ['lseek',['lseek',['../structfile.html#a43cec0bcf084aaa05892b311a895d51a',1,'file::lseek()'],['../group__vfs.html#gacfbe72946552886069ed9733ac32800f',1,'lseek(struct file *file, size_t offset, int whence):&#160;fops.c'],['../group__vfs.html#gacfbe72946552886069ed9733ac32800f',1,'lseek(struct file *file, size_t offset, int whence):&#160;fops.c']]],
   ['lseek_5ft',['lseek_t',['../group__vfs.html#gabdacf35cb07671247a632325a53c0450',1,'vfs.h']]]
 ];

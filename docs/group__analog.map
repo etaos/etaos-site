@@ -1,5 +1,6 @@
 <map id="ADC" name="ADC">
-<area shape="rect" id="node1" href="$group__dev.html" title="Standard device I/O functions. " alt="" coords="5,31,112,57"/>
-<area shape="rect" id="node2" href="$group__analog-atmega.html" title="AVR ATmega analog to digital converter. " alt="" coords="274,5,414,32"/>
-<area shape="rect" id="node4" href="$group__lm35.html" title="TI&#39;s LM35 temperature sensor. Please note that this driver assumes the sensor&#39;s Vin is connected to 5..." alt="" coords="259,56,429,83"/>
+<area shape="rect" id="node1" href="$group__dev.html" title="Standard device I/O functions. " alt="" coords="5,56,112,83"/>
+<area shape="rect" id="node2" href="$group__tmp36.html" title="Basic driver module for the TMP36 analog temperature sensor. For wiring information, check the datasheets on the website. " alt="" coords="259,5,439,32"/>
+<area shape="rect" id="node3" href="$group__analog-atmega.html" title="AVR ATmega analog to digital converter. " alt="" coords="279,56,419,83"/>
+<area shape="rect" id="node5" href="$group__lm35.html" title="TI&#39;s LM35 temperature sensor. Please note that this driver assumes the sensor&#39;s Vin is connected to 5..." alt="" coords="263,107,434,133"/>
 </map>

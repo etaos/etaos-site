@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.1</a>
+                        <a class="navbar-brand">4.6.2</a>
 		    </div>
 	        </div>
             </div>
@@ -126,18 +126,18 @@ Using devices</h1>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>)</div>
 <div class="line">{</div>
-<div class="line">        <span class="keyword">struct </span><a class="code" href="structvfile.html">vfile</a> *stream;</div>
-<div class="line">        <span class="keywordtype">int</span> <a class="code" href="structvfile.html#a6f8059414f0228f0256115e024eeed4b">fd</a>;</div>
+<div class="line">        <span class="keyword">struct </span><a class="code" href="structfile.html">file</a> *stream;</div>
+<div class="line">        <span class="keywordtype">int</span> <a class="code" href="structfile.html#a6f8059414f0228f0256115e024eeed4b">fd</a>;</div>
 <div class="line"></div>
-<div class="line">        fd = <a class="code" href="group__vfs.html#ga0b5471640e66a70163f75a05748bfa40">open</a>(<span class="stringliteral">&quot;24C02&quot;</span>, <a class="code" href="group__libcio.html#ga93db55caeeaf13488a635f8896a6bdf3">_FDEV_SETUP_RW</a>);</div>
+<div class="line">        fd = <a class="code" href="group__libcio.html#ga0b5471640e66a70163f75a05748bfa40">open</a>(<span class="stringliteral">&quot;24C02&quot;</span>, <a class="code" href="group__libcio.html#ga93db55caeeaf13488a635f8896a6bdf3">_FDEV_SETUP_RW</a>);</div>
 <div class="line">        </div>
 <div class="line">        <span class="keywordflow">if</span>(fd &lt; 0)</div>
 <div class="line">                <a class="code" href="group__kernel.html#gad1f1a1dc0581a11b597453f148106393">panic</a>(<span class="stringliteral">&quot;could not open 24C02 device file\n&quot;</span>);</div>
 <div class="line"></div>
-<div class="line">        stream = filep(fd);</div>
-<div class="line">        <a class="code" href="group__vfs.html#gaf5743a47d624f681e46802788121f9e4">lseek</a>(stream, EEPROM_ADDR, <a class="code" href="group__vfs.html#ggabdacf35cb07671247a632325a53c0450a7f53e3798ec48e79c0897ba5138f9b05">SEEK_SET</a>);</div>
-<div class="line">        <a class="code" href="group__libcio.html#gaab0c28a38adcc802c8abf4f255bf6024">putc</a>(<span class="charliteral">&#39;A&#39;</span>, stream);</div>
-<div class="line">        <a class="code" href="group__vfs.html#ga5bbe56a416af8f77723b652362f742f7">close</a>(fd);</div>
+<div class="line">        stream = <a class="code" href="group__libcio.html#gae9449fc17cbc721d6cc8c7fa701f83d7">filep</a>(fd);</div>
+<div class="line">        <a class="code" href="group__vfs.html#gacfbe72946552886069ed9733ac32800f">lseek</a>(stream, EEPROM_ADDR, <a class="code" href="group__vfs.html#ggabdacf35cb07671247a632325a53c0450a7f53e3798ec48e79c0897ba5138f9b05">SEEK_SET</a>);</div>
+<div class="line">        <a class="code" href="group__libcio.html#gaee02f1b1796d41b51f814f95e890ed44">putc</a>(<span class="charliteral">&#39;A&#39;</span>, stream);</div>
+<div class="line">        <a class="code" href="group__libcio.html#ga5bbe56a416af8f77723b652362f742f7">close</a>(fd);</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordflow">for</span>(;;);</div>
 <div class="line">        <span class="keywordflow">return</span> -EOK;</div>
@@ -151,7 +151,7 @@ Using devices</h1>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 16 2016 22:01:10 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 4 2016 00:44:34 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

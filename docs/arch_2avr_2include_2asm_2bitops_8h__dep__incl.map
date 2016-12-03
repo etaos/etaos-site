@@ -1,5 +1,5 @@
 <map id="arch/avr/include/asm/bitops.h" name="arch/avr/include/asm/bitops.h">
-<area shape="rect" id="node2" href="$include_2etaos_2bitops_8h.html" title="include/etaos/bitops.h" alt="" coords="631,95,780,121"/>
+<area shape="rect" id="node2" href="$include_2etaos_2bitops_8h.html" title="include/etaos/bitops.h" alt="" coords="577,95,727,121"/>
 <area shape="rect" id="node3" href="$include_2etaos_2sched_8h.html" title="include/etaos/sched.h" alt="" coords="180,169,329,196"/>
 <area shape="rect" id="node4" href="$handle_8c.html" title="kernel/irq/handle.c" alt="" coords="5,251,133,278"/>
 <area shape="rect" id="node5" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="324,251,460,278"/>
@@ -10,7 +10,6 @@
 <area shape="rect" id="node13" href="$kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="927,169,1057,196"/>
 <area shape="rect" id="node14" href="$fputc_8c.html" title="lib/stdio/fputc.c" alt="" coords="1082,169,1193,196"/>
 <area shape="rect" id="node15" href="$first-fit_8c.html" title="mm/first&#45;fit.c" alt="" coords="1217,169,1313,196"/>
-<area shape="rect" id="node16" href="$mlist_8c.html" title="mm/mlist.c" alt="" coords="1338,169,1425,196"/>
 <area shape="rect" id="node6" href="$systick_8c.html" title="kernel/time/systick.c" alt="" coords="158,251,301,278"/>
 <area shape="rect" id="node10" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="981,251,1131,278"/>
 <area shape="rect" id="node11" href="$stl_2cpu_8h.html" title="include/etaos/stl/cpu.h" alt="" coords="803,251,957,278"/>

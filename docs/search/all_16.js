@@ -1,17 +1,20 @@
 var searchData=
 [
+  ['volatile_20ram_20file_20system',['Volatile RAM file system',['../group__ramfs.html',1,'']]],
   ['value',['value',['../structsem__t.html#a96e2c7878a59414fb461fac716124f6d',1,'sem_t']]],
-  ['vfile',['vfile',['../structvfile.html',1,'']]],
-  ['vfprintf',['vfprintf',['../group__libcio.html#gaec0ca4815c736baec03c71e93e8f0d51',1,'vfprintf.c']]],
+  ['vfile',['vfile',['../group__libcio.html#gaa5c8a8c2b16c1bec188b335c27026d0f',1,'stdio.h']]],
+  ['vfprintf',['vfprintf',['../group__libcio.html#ga1626a680c1454c61eb736e134f2d6574',1,'vfprintf.c']]],
   ['vfprintf_2ec',['vfprintf.c',['../vfprintf_8c.html',1,'']]],
-  ['vfprintf_5fp',['vfprintf_P',['../group__libcio.html#ga8b95f6a925276f3cc05993c81283ea02',1,'vfprintf_p.c']]],
-  ['virtual_20filesystem_20api',['Virtual filesystem API',['../group__vfs.html',1,'']]],
+  ['vfprintf_5fp',['vfprintf_P',['../group__libcio.html#ga8fd1656abdc19ffcfb58bcf8394b4feb',1,'vfprintf_p.c']]],
+  ['virtual_20file_20system_20api',['Virtual file system API',['../group__vfs.html',1,'']]],
   ['vfs_2eh',['vfs.h',['../vfs_8h.html',1,'']]],
-  ['vfs_5fadd',['vfs_add',['../group__vfs.html#ga0efaa1d4e8e3dde72a746677b359b368',1,'vfs_add(struct vfile *newfile):&#160;vfs.c'],['../group__vfs.html#ga0efaa1d4e8e3dde72a746677b359b368',1,'vfs_add(struct vfile *file):&#160;vfs.c']]],
-  ['vfs_5fdelete',['vfs_delete',['../group__vfs.html#ga05009cf909bb0402a3f24afcf4bfe757',1,'vfs_delete(struct vfile *file):&#160;vfs.c'],['../group__vfs.html#ga05009cf909bb0402a3f24afcf4bfe757',1,'vfs_delete(struct vfile *f):&#160;vfs.c']]],
-  ['vfs_5ffind',['vfs_find',['../group__vfs.html#ga5421eb1dfee9e935d70bc1f06fb88542',1,'vfs_find(const char *name):&#160;vfs.c'],['../group__vfs.html#ga5421eb1dfee9e935d70bc1f06fb88542',1,'vfs_find(const char *name):&#160;vfs.c']]],
+  ['vfs_5fadd_5ffile',['vfs_add_file',['../group__vfs.html#ga2aaca757844a332f7b3f6c8f08039a64',1,'vfs_add_file(const char *path, struct file *file):&#160;vfs.c'],['../group__vfs.html#ga2aaca757844a332f7b3f6c8f08039a64',1,'vfs_add_file(const char *path, struct file *file):&#160;vfs.c']]],
+  ['vfs_5fclose',['vfs_close',['../group__vfs.html#ga60d1dba40888b0dadfbb4f0a30e1cb89',1,'vfs_close(int fd):&#160;open_close.c'],['../group__vfs.html#ga60d1dba40888b0dadfbb4f0a30e1cb89',1,'vfs_close(int fd):&#160;open_close.c']]],
+  ['vfs_5ffind_5ffile',['vfs_find_file',['../group__vfs.html#ga89337fe05f23e40f6ef8416dab2fde12',1,'vfs_find_file(const char *path):&#160;vfs.c'],['../group__vfs.html#ga89337fe05f23e40f6ef8416dab2fde12',1,'vfs_find_file(const char *path):&#160;vfs.c']]],
   ['vfs_5finit',['vfs_init',['../group__vfs.html#gad89e2e37c12feb399081c34cc98f49ae',1,'vfs_init(void):&#160;vfs.c'],['../group__vfs.html#gad89e2e37c12feb399081c34cc98f49ae',1,'vfs_init(void):&#160;vfs.c']]],
-  ['vfs_5fread',['vfs_read',['../group__vfs.html#gab3044266898cec482a3263604609f3b5',1,'vfs_read(struct vfile *file, void *buff, size_t size):&#160;read_write.c'],['../group__vfs.html#gab3044266898cec482a3263604609f3b5',1,'vfs_read(struct vfile *file, void *buff, size_t size):&#160;read_write.c']]],
-  ['vfs_5fsetoffset',['vfs_setoffset',['../group__vfs.html#gaadb0272ceadeb674c6a7207110ead119',1,'vfs_setoffset(struct vfile *file, ssize_t offset, ssize_t max):&#160;fops.c'],['../group__vfs.html#gaadb0272ceadeb674c6a7207110ead119',1,'vfs_setoffset(struct vfile *file, ssize_t offset, ssize_t max):&#160;fops.c']]],
-  ['vfs_5fwrite',['vfs_write',['../group__vfs.html#ga356fd769929217e7b05ce2dae11c4fe5',1,'vfs_write(struct vfile *file, const void *buff, size_t size):&#160;read_write.c'],['../group__vfs.html#ga356fd769929217e7b05ce2dae11c4fe5',1,'vfs_write(struct vfile *file, const void *buff, size_t size):&#160;read_write.c']]]
+  ['vfs_5fopen',['vfs_open',['../group__vfs.html#gaeb36dfcf4ef0886942b94d1f2467451e',1,'vfs_open(const char *path, int mode):&#160;open_close.c'],['../group__vfs.html#gaeb36dfcf4ef0886942b94d1f2467451e',1,'vfs_open(const char *path, int mode):&#160;open_close.c']]],
+  ['vfs_5fpath_5fto_5ffs',['vfs_path_to_fs',['../group__vfs.html#gae74c86f66c6348899048895b5abcd90a',1,'vfs_path_to_fs(const char *path):&#160;vfs.c'],['../group__vfs.html#gae74c86f66c6348899048895b5abcd90a',1,'vfs_path_to_fs(const char *path):&#160;vfs.c']]],
+  ['vfs_5fread',['vfs_read',['../group__vfs.html#ga30cbcf74b40c12e90afe57894f00f721',1,'vfs_read(struct file *file, void *buff, size_t size):&#160;read_write.c'],['../group__vfs.html#ga30cbcf74b40c12e90afe57894f00f721',1,'vfs_read(struct file *file, void *buff, size_t size):&#160;read_write.c']]],
+  ['vfs_5fsetoffset',['vfs_setoffset',['../group__vfs.html#ga944e6bce7fe47ffb1fda59fc8a2ff35d',1,'vfs_setoffset(struct file *file, ssize_t offset, ssize_t max):&#160;fops.c'],['../group__vfs.html#ga944e6bce7fe47ffb1fda59fc8a2ff35d',1,'vfs_setoffset(struct file *file, ssize_t offset, ssize_t max):&#160;fops.c']]],
+  ['vfs_5fwrite',['vfs_write',['../group__vfs.html#gaa5276dfc97187735837ed66b5507f5a6',1,'vfs_write(struct file *file, const void *buff, size_t size):&#160;read_write.c'],['../group__vfs.html#gaa5276dfc97187735837ed66b5507f5a6',1,'vfs_write(struct file *file, const void *buff, size_t size):&#160;read_write.c']]]
 ];

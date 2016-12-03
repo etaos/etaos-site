@@ -1,5 +1,9 @@
 <map id="sched_start" name="sched_start">
-<area shape="rect" id="node2" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="149,5,277,32"/>
-<area shape="rect" id="node4" href="$group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="144,56,283,83"/>
-<area shape="rect" id="node3" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="331,5,437,32"/>
+<area shape="rect" id="node2" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="166,5,294,32"/>
+<area shape="rect" id="node4" href="$group__sched.html#ga0929952492e90fa5532c639e3877af98" title="Set the current thread for the runnign CPU. " alt="" coords="144,81,316,108"/>
+<area shape="rect" id="node8" href="$group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="161,132,299,159"/>
+<area shape="rect" id="node3" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="555,43,661,69"/>
+<area shape="rect" id="node5" href="$group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="393,43,478,69"/>
+<area shape="rect" id="node6" href="$group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="396,93,475,120"/>
+<area shape="rect" id="node7" href="$group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="364,145,507,186"/>
 </map>

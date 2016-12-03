@@ -1,7 +1,7 @@
 <map id="drivers" name="drivers">
 <area shape="rect" id="node2" href="dir_32364fa785d384658cd7bd2860f387d7.html" title="analog" alt="" coords="795,27,867,75"/>
 <area shape="rect" id="node11" href="dir_1dd79d4dca7038082c645a7093a3b4d1.html" title="include" alt="" coords="411,123,483,171"/>
-<area shape="rect" id="edge7-headlabel" href="dir_000020_000005.html" title="14" alt="" coords="494,144,509,159"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000020_000005.html" title="17" alt="" coords="494,144,509,159"/>
 <area shape="rect" id="node3" href="dir_c6ff9a7f3686ed3622438458bee677d0.html" title="core" alt="" coords="699,27,771,75"/>
 <area shape="rect" id="edge1-headlabel" href="dir_000021_000005.html" title="11" alt="" coords="495,139,510,153"/>
 <area shape="rect" id="node4" href="dir_61c11d9620e853f6d09c3a86a291f066.html" title="eeprom" alt="" coords="603,27,675,75"/>

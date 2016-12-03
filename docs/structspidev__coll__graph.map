@@ -1,10 +1,10 @@
 <map id="spidev" name="spidev">
-<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="477,79,552,156"/>
-<area shape="rect" id="node5" href="$structdevice.html" title="Device driver descriptor. " alt="" coords="307,343,394,465"/>
-<area shape="rect" id="node9" href="$structspi__driver.html" title="SPI driver structure. Represents an SPI bus. " alt="" coords="569,329,647,479"/>
-<area shape="rect" id="node3" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="719,71,790,163"/>
-<area shape="rect" id="node4" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="671,321,798,487"/>
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="485,79,560,156"/>
+<area shape="rect" id="node5" href="$structdevice.html" title="Device driver descriptor. " alt="" coords="315,343,402,465"/>
+<area shape="rect" id="node9" href="$structspi__driver.html" title="SPI driver structure. Represents an SPI bus. " alt="" coords="577,329,655,479"/>
+<area shape="rect" id="node3" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="727,71,798,163"/>
+<area shape="rect" id="node4" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="679,321,806,487"/>
 <area shape="rect" id="node6" href="$structplatform__device.html" title="Platform device structure. " alt="" coords="5,71,120,163"/>
-<area shape="rect" id="node7" href="$structvfile.html" title="File definition. " alt="" coords="144,5,243,229"/>
-<area shape="rect" id="node8" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="329,71,426,163"/>
+<area shape="rect" id="node7" href="$structfile.html" title="File definition. " alt="" coords="144,5,251,229"/>
+<area shape="rect" id="node8" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="337,71,434,163"/>
 </map>

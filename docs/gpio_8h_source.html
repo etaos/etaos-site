@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.1</a>
+                        <a class="navbar-brand">4.6.2</a>
 		    </div>
 	        </div>
             </div>
@@ -125,7 +125,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="kernel_8h.html">etaos/kernel.h</a>&gt;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="include_2etaos_2types_8h.html">etaos/types.h</a>&gt;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="include_2etaos_2spinlock_8h.html">etaos/spinlock.h</a>&gt;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="spinlock_8h.html">etaos/spinlock.h</a>&gt;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="device_8h.html">etaos/device.h</a>&gt;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="include_2etaos_2bitops_8h.html">etaos/bitops.h</a>&gt;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
@@ -225,10 +225,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="group__gpiolib_html_ga7467f91e71c20cf2ca7ebf3e76933a6a"><div class="ttname"><a href="group__gpiolib.html#ga7467f91e71c20cf2ca7ebf3e76933a6a">raw_gpio_direction_ouput</a></div><div class="ttdeci">int raw_gpio_direction_ouput(struct gpio_pin *pin, int value)</div><div class="ttdoc">Set a pin to OUTPUT. </div><div class="ttdef"><b>Definition:</b> gpiolib.c:201</div></div>
 <div class="ttc" id="structgpio__chip_html_a1f588d03acb6672517600be19e7a3a25"><div class="ttname"><a href="structgpio__chip.html#a1f588d03acb6672517600be19e7a3a25">gpio_chip::direction_input</a></div><div class="ttdeci">int(* direction_input)(struct gpio_chip *chip, uint16_t nr)</div><div class="ttdoc">Set a pin to input. </div><div class="ttdef"><b>Definition:</b> gpio.h:73</div></div>
-<div class="ttc" id="include_2etaos_2spinlock_8h_html"><div class="ttname"><a href="include_2etaos_2spinlock_8h.html">spinlock.h</a></div></div>
 <div class="ttc" id="include_2etaos_2bitops_8h_html"><div class="ttname"><a href="include_2etaos_2bitops_8h.html">bitops.h</a></div></div>
 <div class="ttc" id="arch_2avr_2include_2asm_2bitops_8h_html_af859dcc9aae25796813cd9b3cb375f18"><div class="ttname"><a href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18">clear_bit</a></div><div class="ttdeci">static void clear_bit(unsigned nr, volatile void *flags)</div><div class="ttdoc">Clear a bit in register. </div><div class="ttdef"><b>Definition:</b> bitops.h:39</div></div>
 <div class="ttc" id="arch_2avr_2include_2asm_2bitops_8h_html_ad394bdb06d1587dd749fef3e818e82ae"><div class="ttname"><a href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae">set_bit</a></div><div class="ttdeci">static void set_bit(unsigned nr, volatile void *addr)</div><div class="ttdoc">Set a bit in a register. </div><div class="ttdef"><b>Definition:</b> bitops.h:61</div></div>
+<div class="ttc" id="spinlock_8h_html"><div class="ttname"><a href="spinlock_8h.html">spinlock.h</a></div></div>
 <div class="ttc" id="group__gpiolib_html_ga890790c1a409e251acbe64be2ba4585d"><div class="ttname"><a href="group__gpiolib.html#ga890790c1a409e251acbe64be2ba4585d">gpio_get_direction</a></div><div class="ttdeci">int gpio_get_direction(struct gpio_pin *pin)</div><div class="ttdoc">Get the direction of a GPIO pin. </div><div class="ttdef"><b>Definition:</b> gpiolib.c:330</div></div>
 <div class="ttc" id="group__gpiolib_html_gafb5c6e88bb81a788bee1dabf35ba3c91"><div class="ttname"><a href="group__gpiolib.html#gafb5c6e88bb81a788bee1dabf35ba3c91">gpio_set_open_source</a></div><div class="ttdeci">static void gpio_set_open_source(struct gpio_pin *pin)</div><div class="ttdoc">Configure a pin as open source. </div><div class="ttdef"><b>Definition:</b> gpio.h:147</div></div>
 <div class="ttc" id="structgpio__chip_html_a79cda015c79ff2b4c1444e3070f0bb5d"><div class="ttname"><a href="structgpio__chip.html#a79cda015c79ff2b4c1444e3070f0bb5d">gpio_chip::lock</a></div><div class="ttdeci">spinlock_t lock</div><div class="ttdoc">Concurrency lock. </div><div class="ttdef"><b>Definition:</b> gpio.h:58</div></div>
@@ -266,7 +266,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 16 2016 22:01:10 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 4 2016 00:44:34 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

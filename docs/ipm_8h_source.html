@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.1</a>
+                        <a class="navbar-brand">4.6.2</a>
 		    </div>
 	        </div>
             </div>
@@ -126,7 +126,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="kernel_8h.html">etaos/kernel.h</a>&gt;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="thread_8h.html">etaos/thread.h</a>&gt;</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="include_2etaos_2types_8h.html">etaos/types.h</a>&gt;</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="include_2etaos_2spinlock_8h.html">etaos/spinlock.h</a>&gt;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="spinlock_8h.html">etaos/spinlock.h</a>&gt;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structipm.html">   40</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structipm.html">ipm</a> {</div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structipm.html#a0d49d74db4c035719c3867723cf7e779">   41</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">void</span> *<a class="code" href="structipm.html#a0d49d74db4c035719c3867723cf7e779">data</a>; </div>
@@ -159,8 +159,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structipm__queue_html_a79cda015c79ff2b4c1444e3070f0bb5d"><div class="ttname"><a href="structipm__queue.html#a79cda015c79ff2b4c1444e3070f0bb5d">ipm_queue::lock</a></div><div class="ttdeci">spinlock_t lock</div><div class="ttdoc">Concurrency lock. </div><div class="ttdef"><b>Definition:</b> ipm.h:55</div></div>
 <div class="ttc" id="group__ipm_html_gab0bb4f6548c213ac4eaa4e84b62dfb97"><div class="ttname"><a href="group__ipm.html#gab0bb4f6548c213ac4eaa4e84b62dfb97">ipm_get_msg</a></div><div class="ttdeci">void ipm_get_msg(struct ipm_queue *qp, struct ipm *msg)</div><div class="ttdoc">Get a message from a queue. </div><div class="ttdef"><b>Definition:</b> ipm.c:90</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
-<div class="ttc" id="include_2etaos_2spinlock_8h_html"><div class="ttname"><a href="include_2etaos_2spinlock_8h.html">spinlock.h</a></div></div>
 <div class="ttc" id="group__ipm_html_ga66c377b53ae232cedd1650f995ce9bb0"><div class="ttname"><a href="group__ipm.html#ga66c377b53ae232cedd1650f995ce9bb0">ipm_post_msg</a></div><div class="ttdeci">void ipm_post_msg(struct ipm_queue *qp, const void *data, size_t len)</div><div class="ttdoc">Send a message to queue. </div><div class="ttdef"><b>Definition:</b> ipm.c:66</div></div>
+<div class="ttc" id="spinlock_8h_html"><div class="ttname"><a href="spinlock_8h.html">spinlock.h</a></div></div>
 <div class="ttc" id="structipm_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="structipm.html#a7360b55975153b822efc5217b7734e6a">ipm::len</a></div><div class="ttdeci">size_t len</div><div class="ttdoc">Message data length. </div><div class="ttdef"><b>Definition:</b> ipm.h:42</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="include_2etaos_2types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdoc">Unsigned 8-bit integer. </div><div class="ttdef"><b>Definition:</b> types.h:51</div></div>
 <div class="ttc" id="thread_8h_html"><div class="ttname"><a href="thread_8h.html">thread.h</a></div></div>
@@ -183,7 +183,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 16 2016 22:01:10 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 4 2016 00:44:34 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

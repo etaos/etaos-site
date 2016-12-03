@@ -1,6 +1,0 @@
-<map id="raw_spin_lock_irq" name="raw_spin_lock_irq">
-<area shape="rect" id="node2" href="$group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="180,31,327,57"/>
-<area shape="rect" id="node5" href="$group__arch_a_p_i.html#gabfe22f16b389f68b4e147992d31de617" title="Raw version of spin_lock. " alt="" coords="199,81,308,108"/>
-<area shape="rect" id="node3" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="375,5,503,32"/>
-<area shape="rect" id="node4" href="$group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="381,56,497,83"/>
-</map>

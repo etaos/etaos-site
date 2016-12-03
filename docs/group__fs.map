@@ -1,5 +1,8 @@
-<map id="Filesystem management" name="Filesystem management">
-<area shape="rect" id="node1" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,31,116,57"/>
-<area shape="rect" id="node2" href="$group__romfs.html" title="Simple read&#45;only ROM file system. " alt="" coords="377,5,531,32"/>
-<area shape="rect" id="node3" href="$group__vfs.html" title="Volatile RAM filesystem. " alt="" coords="379,56,529,83"/>
+<map id="File system management" name="File system management">
+<area shape="rect" id="node1" href="$group__fops.html" title="File system utility functions. " alt="" coords="423,5,507,32"/>
+<area shape="rect" id="node2" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,107,116,133"/>
+<area shape="rect" id="node3" href="$group__romfs.html" title="Simple read&#45;only ROM file system. " alt="" coords="386,56,543,83"/>
+<area shape="rect" id="node4" href="$group__ramfs.html" title="A raw volatile in&#45;memory file system. " alt="" coords="381,107,548,133"/>
+<area shape="rect" id="node5" href="$group__vfs.html" title="Abstraction layer on top of concrete file systems, such as the ROMFS and RAMFS. " alt="" coords="388,157,541,184"/>
+<area shape="rect" id="node7" href="$group__devfs.html" title="A file system to allow device drivers to expose an API. " alt="" coords="399,208,530,235"/>
 </map>

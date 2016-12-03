@@ -1,0 +1,5 @@
+<map id="dirent_free" name="dirent_free">
+<area shape="rect" id="node2" href="$list_8h.html#a6601e54d8f27ab290ee6819f7e2127b7" title="Check if a list is empty. " alt="" coords="136,5,219,32"/>
+<area shape="rect" id="node3" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="152,56,203,83"/>
+<area shape="rect" id="node4" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="267,56,340,83"/>
+</map>

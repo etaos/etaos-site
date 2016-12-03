@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.1</a>
+                        <a class="navbar-brand">4.6.2</a>
 		    </div>
 	        </div>
             </div>
@@ -123,25 +123,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="kernel_8h.html">etaos/kernel.h</a>&gt;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="include_2etaos_2types_8h.html">etaos/types.h</a>&gt;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;asm/pgm.h&gt;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="structromfs.html">   30</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structromfs.html">romfs</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structromfs.html#ae453688b3078a14be5d93c213e399b46">   31</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structromfs.html">romfs</a> *<a class="code" href="structromfs.html#ae453688b3078a14be5d93c213e399b46">next</a>; </div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structromfs.html#a8f8f80d37794cde9472343e4487ba3eb">   32</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structromfs.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>;   </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="structromfs.html#ae809d5359ac030c60a30a8f0b2294b82">   33</a></span>&#160;        <span class="keywordtype">size_t</span> <a class="code" href="structromfs.html#ae809d5359ac030c60a30a8f0b2294b82">length</a>;      </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095">   34</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095">data</a>;   </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structromfs.html">romfs</a> *romEntryList;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="structromfs_html_ae453688b3078a14be5d93c213e399b46"><div class="ttname"><a href="structromfs.html#ae453688b3078a14be5d93c213e399b46">romfs::next</a></div><div class="ttdeci">struct romfs * next</div><div class="ttdoc">Next pointer. </div><div class="ttdef"><b>Definition:</b> romfs.h:31</div></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="vfs_8h.html">etaos/vfs.h</a>&gt;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;asm/pgm.h&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structromfs.html">   31</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structromfs.html">romfs</a> {</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structromfs.html#ae453688b3078a14be5d93c213e399b46">   32</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structromfs.html">romfs</a> *<a class="code" href="structromfs.html#ae453688b3078a14be5d93c213e399b46">next</a>; </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="structromfs.html#a8f8f80d37794cde9472343e4487ba3eb">   33</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structromfs.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>;   </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structromfs.html#ae809d5359ac030c60a30a8f0b2294b82">   34</a></span>&#160;        <span class="keywordtype">size_t</span> <a class="code" href="structromfs.html#ae809d5359ac030c60a30a8f0b2294b82">length</a>;      </div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095">   35</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095">data</a>;   </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structromfs.html">romfs</a> *romEntryList;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structfs__driver.html">fs_driver</a> <a class="code" href="structromfs.html">romfs</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="structromfs_html_ae453688b3078a14be5d93c213e399b46"><div class="ttname"><a href="structromfs.html#ae453688b3078a14be5d93c213e399b46">romfs::next</a></div><div class="ttdeci">struct romfs * next</div><div class="ttdoc">Next pointer. </div><div class="ttdef"><b>Definition:</b> romfs.h:32</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
-<div class="ttc" id="structromfs_html_a8f64897c7ccc5c13f276d1d07c4e7095"><div class="ttname"><a href="structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095">romfs::data</a></div><div class="ttdeci">const char * data</div><div class="ttdoc">Data saved by the entry. </div><div class="ttdef"><b>Definition:</b> romfs.h:34</div></div>
-<div class="ttc" id="structromfs_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structromfs.html#a8f8f80d37794cde9472343e4487ba3eb">romfs::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">File name of the entry. </div><div class="ttdef"><b>Definition:</b> romfs.h:32</div></div>
-<div class="ttc" id="structromfs_html"><div class="ttname"><a href="structromfs.html">romfs</a></div><div class="ttdoc">Micro ROM filesystem entry. </div><div class="ttdef"><b>Definition:</b> romfs.h:30</div></div>
-<div class="ttc" id="structromfs_html_ae809d5359ac030c60a30a8f0b2294b82"><div class="ttname"><a href="structromfs.html#ae809d5359ac030c60a30a8f0b2294b82">romfs::length</a></div><div class="ttdeci">size_t length</div><div class="ttdoc">Length of the data. </div><div class="ttdef"><b>Definition:</b> romfs.h:33</div></div>
+<div class="ttc" id="vfs_8h_html"><div class="ttname"><a href="vfs_8h.html">vfs.h</a></div></div>
+<div class="ttc" id="structfs__driver_html"><div class="ttname"><a href="structfs__driver.html">fs_driver</a></div><div class="ttdoc">File system driver. </div><div class="ttdef"><b>Definition:</b> vfs.h:60</div></div>
+<div class="ttc" id="structromfs_html_a8f64897c7ccc5c13f276d1d07c4e7095"><div class="ttname"><a href="structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095">romfs::data</a></div><div class="ttdeci">const char * data</div><div class="ttdoc">Data saved by the entry. </div><div class="ttdef"><b>Definition:</b> romfs.h:35</div></div>
+<div class="ttc" id="structromfs_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structromfs.html#a8f8f80d37794cde9472343e4487ba3eb">romfs::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">File name of the entry. </div><div class="ttdef"><b>Definition:</b> romfs.h:33</div></div>
+<div class="ttc" id="structromfs_html"><div class="ttname"><a href="structromfs.html">romfs</a></div><div class="ttdoc">Micro ROM filesystem entry. </div><div class="ttdef"><b>Definition:</b> romfs.h:31</div></div>
+<div class="ttc" id="structromfs_html_ae809d5359ac030c60a30a8f0b2294b82"><div class="ttname"><a href="structromfs.html#ae809d5359ac030c60a30a8f0b2294b82">romfs::length</a></div><div class="ttdeci">size_t length</div><div class="ttdoc">Length of the data. </div><div class="ttdef"><b>Definition:</b> romfs.h:34</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -152,7 +156,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 16 2016 22:01:10 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 4 2016 00:44:34 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['i2c_5fcontrol_5ft',['i2c_control_t',['../group__i2c.html#ga959f71dc73216bb24a1640a4ea619522',1,'i2c.h']]],
-  ['irqreturn_5ft',['irqreturn_t',['../group__irq.html#gac994ac3cabeec5dfa2e596bad98f2bb3',1,'irq.h']]]
+  ['fs_5fctrl_5ft',['fs_ctrl_t',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67c',1,'vfs.h']]]
 ];

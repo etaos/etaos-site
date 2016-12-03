@@ -1,5 +1,4 @@
 <map id="Memory management" name="Memory management">
-<area shape="rect" id="node1" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,31,116,57"/>
+<area shape="rect" id="node1" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,5,116,32"/>
 <area shape="rect" id="node2" href="$group__bf.html" title="Best fit memeory allocation algorithm. " alt="" coords="360,5,477,32"/>
-<area shape="rect" id="node3" href="$group__ff.html" title="First fit memeory allocation algorithm. " alt="" coords="361,56,477,83"/>
 </map>

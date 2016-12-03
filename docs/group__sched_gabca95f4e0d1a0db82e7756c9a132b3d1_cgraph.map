@@ -1,0 +1,8 @@
+<map id="sched_init" name="sched_init">
+<area shape="rect" id="node2" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="135,5,263,32"/>
+<area shape="rect" id="node4" href="$group__arch_a_p_i.html#ga3ca01585011904bb8042cbb540be767e" title="Get the scheduling clock source. " alt="" coords="139,56,259,83"/>
+<area shape="rect" id="node6" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="167,107,230,133"/>
+<area shape="rect" id="node3" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="316,5,423,32"/>
+<area shape="rect" id="node5" href="$group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151" title="Getter for the ATmega AVR system clock. " alt="" coords="311,56,428,83"/>
+<area shape="rect" id="node7" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="330,107,409,133"/>
+</map>

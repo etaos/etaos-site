@@ -3,6 +3,6 @@
 <area shape="rect" id="node3" href="$structdevice.html" title="Device driver descriptor. " alt="" coords="203,299,290,421"/>
 <area shape="rect" id="node7" href="$structi2c__bus.html" title="I2C bus descriptor. " alt="" coords="101,292,179,428"/>
 <area shape="rect" id="node4" href="$structplatform__device.html" title="Platform device structure. " alt="" coords="184,71,299,163"/>
-<area shape="rect" id="node5" href="$structvfile.html" title="File definition. " alt="" coords="323,5,421,229"/>
-<area shape="rect" id="node6" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="507,71,605,163"/>
+<area shape="rect" id="node5" href="$structfile.html" title="File definition. " alt="" coords="323,5,429,229"/>
+<area shape="rect" id="node6" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="515,71,613,163"/>
 </map>

@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['get',['get',['../structdev__file__ops.html#a990a0dad8ec9c1275bb6ea152ff41f07',1,'dev_file_ops::get()'],['../structgpio__chip.html#a265dcccb0ee5a512af117f1b23b8b955',1,'gpio_chip::get()'],['../structvfile.html#a990a0dad8ec9c1275bb6ea152ff41f07',1,'vfile::get()']]],
+  ['get',['get',['../structdev__file__ops.html#aabbe10b1a801fcf46fd2631e8bc6919f',1,'dev_file_ops::get()'],['../structgpio__chip.html#a265dcccb0ee5a512af117f1b23b8b955',1,'gpio_chip::get()'],['../structfile.html#aabbe10b1a801fcf46fd2631e8bc6919f',1,'file::get()'],['../structfs__driver.html#aabbe10b1a801fcf46fd2631e8bc6919f',1,'fs_driver::get()']]],
   ['get_5fdirection',['get_direction',['../structgpio__chip.html#a11733f51d58967fb777c9fce2a1201b0',1,'gpio_chip']]],
-  ['getc',['getc',['../structusart.html#a1ba5588c95558238d0a5fdbcce1bf7b1',1,'usart::getc()'],['../group__stl.html#ga12fe8585ae3714e7d4a71cae12fbb110',1,'CharacterDevice::getc()'],['../group__libcio.html#ga57f04d9ad3a286a639912a2035cc6b39',1,'getc():&#160;getc.c']]],
+  ['getc',['getc',['../structusart.html#a1ba5588c95558238d0a5fdbcce1bf7b1',1,'usart::getc()'],['../group__stl.html#ga12fe8585ae3714e7d4a71cae12fbb110',1,'CharacterDevice::getc()'],['../group__libcio.html#ga75ef1508eb99733cdb4036aad25cef16',1,'getc():&#160;getc.c']]],
   ['gmtime',['gmtime',['../group__libctime.html#ga142b3ded08ee65200fe6e4c4c8664d4c',1,'gmtime.c']]],
   ['gmtime_5fr',['gmtime_r',['../group__libctime.html#gacc202793fe079a9a5555faa8023686f1',1,'gmtime.c']]],
   ['gpio_2eh',['gpio.h',['../gpio_8h.html',1,'']]],
