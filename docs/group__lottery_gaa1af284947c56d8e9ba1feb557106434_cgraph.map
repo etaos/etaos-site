@@ -3,7 +3,8 @@
 <area shape="rect" id="node3" href="$group__math.html#ga6eb04604d801054c5a2afe195d1dd75d" title="Rounds __x to the nearest integer. " alt="" coords="220,56,275,83"/>
 <area shape="rect" id="node4" href="$group__lottery.html#ga3bf5a37ae75bb6941d73854e2fe6a390" title="Allocate a lottery ticket. " alt="" coords="183,107,312,133"/>
 <area shape="rect" id="node5" href="$group__lottery.html#ga9e1a729ab81d7ae0721261c97f7247bc" title="Generate new lottery tickets. " alt="" coords="360,81,521,108"/>
-<area shape="rect" id="node8" href="$list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="409,132,472,159"/>
+<area shape="rect" id="node9" href="$list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="409,132,472,159"/>
 <area shape="rect" id="node6" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="569,81,632,108"/>
-<area shape="rect" id="node7" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="680,81,759,108"/>
+<area shape="rect" id="node7" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="680,56,759,83"/>
+<area shape="rect" id="node8" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="685,107,754,133"/>
 </map>

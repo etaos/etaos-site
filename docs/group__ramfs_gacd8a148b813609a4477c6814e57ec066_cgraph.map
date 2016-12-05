@@ -1,9 +1,10 @@
 <map id="ramfs_expand" name="ramfs_expand">
-<area shape="rect" id="node2" href="$group__mm.html#ga52baa3cf8b4bdd6321ebb330af515915" title="Expand or shrink an allocated memory region. " alt="" coords="157,81,224,108"/>
-<area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="296,5,359,32"/>
-<area shape="rect" id="node5" href="$group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1" title="Get the size of a memory region. " alt="" coords="272,56,383,83"/>
-<area shape="rect" id="node6" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="302,107,353,133"/>
-<area shape="rect" id="node8" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="291,157,363,184"/>
+<area shape="rect" id="node2" href="$group__mm.html#ga52baa3cf8b4bdd6321ebb330af515915" title="Expand or shrink an allocated memory region. " alt="" coords="157,107,224,133"/>
+<area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="296,31,359,57"/>
+<area shape="rect" id="node6" href="$group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1" title="Get the size of a memory region. " alt="" coords="272,81,383,108"/>
+<area shape="rect" id="node7" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="302,132,353,159"/>
+<area shape="rect" id="node9" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="291,183,363,209"/>
 <area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="431,5,509,32"/>
-<area shape="rect" id="node7" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="433,107,507,133"/>
+<area shape="rect" id="node5" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="435,56,505,83"/>
+<area shape="rect" id="node8" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="433,132,507,159"/>
 </map>

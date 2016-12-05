@@ -1,14 +1,18 @@
 <map id="analog_chip_init" name="analog_chip_init">
-<area shape="rect" id="node2" href="$group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da" title="Initialise a device structure. " alt="" coords="168,132,283,159"/>
-<area shape="rect" id="node12" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="194,183,257,209"/>
-<area shape="rect" id="node3" href="$group__vfs.html#ga2aaca757844a332f7b3f6c8f08039a64" title="Add a new file to the VFS. " alt="" coords="335,81,427,108"/>
-<area shape="rect" id="node11" href="$group__dev-core.html#gac76b262985cf792b5feb9748b98f3bba" title="Change the file operations of a device. " alt="" coords="331,132,431,159"/>
-<area shape="rect" id="node4" href="$group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5" title="Find a directory entry. " alt="" coords="491,56,573,83"/>
-<area shape="rect" id="node10" href="$group__vfs.html#ga7c5cacd9db023382341701d248c85fcd" title="Add a file to a directory entry. " alt="" coords="479,107,585,133"/>
-<area shape="rect" id="node5" href="$group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d" title="Compare two strings. " alt="" coords="665,5,727,32"/>
-<area shape="rect" id="node6" href="$group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd" title="Split a path into an array. " alt="" coords="648,56,744,83"/>
-<area shape="rect" id="node9" href="$group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679" title="Free the result of fs_split_path. " alt="" coords="633,107,759,133"/>
-<area shape="rect" id="node7" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="807,81,857,108"/>
-<area shape="rect" id="node8" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="905,81,979,108"/>
-<area shape="rect" id="node13" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="341,183,420,209"/>
+<area shape="rect" id="node2" href="$group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da" title="Initialise a device structure. " alt="" coords="168,107,283,133"/>
+<area shape="rect" id="node9" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="919,157,981,184"/>
+<area shape="rect" id="node3" href="$group__vfs.html#ga2aaca757844a332f7b3f6c8f08039a64" title="Add a new file to the VFS. " alt="" coords="335,107,427,133"/>
+<area shape="rect" id="node17" href="$group__dev-core.html#gac76b262985cf792b5feb9748b98f3bba" title="Change the file operations of a device. " alt="" coords="331,56,431,83"/>
+<area shape="rect" id="node4" href="$group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5" title="Find a directory entry. " alt="" coords="491,107,573,133"/>
+<area shape="rect" id="node16" href="$group__vfs.html#ga7c5cacd9db023382341701d248c85fcd" title="Add a file to a directory entry. " alt="" coords="479,56,585,83"/>
+<area shape="rect" id="node5" href="$group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d" title="Compare two strings. " alt="" coords="665,56,727,83"/>
+<area shape="rect" id="node6" href="$group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd" title="Split a path into an array. " alt="" coords="648,107,744,133"/>
+<area shape="rect" id="node15" href="$group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679" title="Free the result of fs_split_path. " alt="" coords="633,5,759,32"/>
+<area shape="rect" id="node7" href="$group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df" title="Duplicate a string. " alt="" coords="807,107,865,133"/>
+<area shape="rect" id="node13" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="811,5,861,32"/>
+<area shape="rect" id="node8" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="923,107,977,133"/>
+<area shape="rect" id="node12" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="914,56,986,83"/>
+<area shape="rect" id="node10" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="1035,132,1113,159"/>
+<area shape="rect" id="node11" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="1039,183,1109,209"/>
+<area shape="rect" id="node14" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="913,5,987,32"/>
 </map>

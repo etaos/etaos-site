@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.2</a>
+                        <a class="navbar-brand">4.6.3</a>
 		    </div>
 	        </div>
             </div>
@@ -257,7 +257,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gace05e070b7507c5df0d9ae2e6fa7eb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="structthread__queue.html" title="Thread queue descriptor. ">thread_queue</a> the given thread is on.  <a href="#gace05e070b7507c5df0d9ae2e6fa7eb50">More...</a><br /></td></tr>
 <tr class="separator:gace05e070b7507c5df0d9ae2e6fa7eb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabb6df12a0f0c3721e58b5250052a42a2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gabb6df12a0f0c3721e58b5250052a42a2">queue_wait_tmo</a> (struct <a class="el" href="structtimer.html">timer</a> *<a class="el" href="structtimer.html">timer</a>, void *arg)</td></tr>
-<tr class="memdesc:gabb6df12a0f0c3721e58b5250052a42a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread queue timeout function.  <a href="#gabb6df12a0f0c3721e58b5250052a42a2">More...</a><br /></td></tr>
+<tr class="memdesc:gabb6df12a0f0c3721e58b5250052a42a2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> queue timeout function.  <a href="#gabb6df12a0f0c3721e58b5250052a42a2">More...</a><br /></td></tr>
 <tr class="separator:gabb6df12a0f0c3721e58b5250052a42a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga512d7ca8d457038cebefec83b3b02065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga512d7ca8d457038cebefec83b3b02065">thread_queue_init</a> (struct <a class="el" href="structthread__queue.html">thread_queue</a> *qp)</td></tr>
 <tr class="memdesc:ga512d7ca8d457038cebefec83b3b02065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise a thread queue during run time.  <a href="#ga512d7ca8d457038cebefec83b3b02065">More...</a><br /></td></tr>
@@ -387,13 +387,13 @@ Responsibilities</h1>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178">test_bit</a>(<a class="code" href="group__thread.html#ga805f06c1718bb48058144a1745e9f5d1">THREAD_NEED_RESCHED_FLAG</a>, \</div>
 <div class="line">                                &amp;__t-&gt;flags)</div>
-<div class="ttc" id="group__thread_html_ga805f06c1718bb48058144a1745e9f5d1"><div class="ttname"><a href="group__thread.html#ga805f06c1718bb48058144a1745e9f5d1">THREAD_NEED_RESCHED_FLAG</a></div><div class="ttdeci">#define THREAD_NEED_RESCHED_FLAG</div><div class="ttdoc">Thread need a resched. </div><div class="ttdef"><b>Definition:</b> thread.h:183</div></div>
+<div class="ttc" id="group__thread_html_ga805f06c1718bb48058144a1745e9f5d1"><div class="ttname"><a href="group__thread.html#ga805f06c1718bb48058144a1745e9f5d1">THREAD_NEED_RESCHED_FLAG</a></div><div class="ttdeci">#define THREAD_NEED_RESCHED_FLAG</div><div class="ttdoc">Thread need a resched. </div><div class="ttdef"><b>Definition:</b> thread.h:192</div></div>
 <div class="ttc" id="arch_2avr_2include_2asm_2bitops_8h_html_a885c4e4b78de84afaf562fffdf93f178"><div class="ttname"><a href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178">test_bit</a></div><div class="ttdeci">static int test_bit(unsigned nr, volatile void *addr)</div><div class="ttdoc">Return the value of bit nr. </div><div class="ttdef"><b>Definition:</b> bitops.h:83</div></div>
 </div><!-- fragment -->
 <p>Check if the scheduler needs to reschedule a thread. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">__t</td><td>Thread which needs to be checked. </td></tr>
+    <tr><td class="paramname">__t</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> which needs to be checked. </td></tr>
   </table>
   </dd>
 </dl>
@@ -554,7 +554,7 @@ Responsibilities</h1>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>Run queue to set the running thread for. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to set as current on <code>rq</code>. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to set as current on <code>rq</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -705,7 +705,7 @@ Responsibilities</h1>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">curr</td><td>Current thread. </td></tr>
-    <tr><td class="paramname">next</td><td>Thread which is supposed to be running after <code>curr</code>. </td></tr>
+    <tr><td class="paramname">next</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> which is supposed to be running after <code>curr</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -783,7 +783,7 @@ Where:</p><ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>Runqueue that is about to be rescheduled. </td></tr>
-    <tr><td class="paramname">prev</td><td>Thread that lost the <a class="el" href="class_c_p_u.html" title="Utility class to provide access to hardware. ">CPU</a>. </td></tr>
+    <tr><td class="paramname">prev</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> that lost the <a class="el" href="class_c_p_u.html" title="Utility class to provide access to hardware. ">CPU</a>. </td></tr>
     <tr><td class="paramname">irqs</td><td>IRQ flags of the thread that is being scheduled out.</td></tr>
   </table>
   </dd>
@@ -1076,7 +1076,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Reset the time slice for a thread. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to reset the time slice for.</td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to reset the time slice for.</td></tr>
   </table>
   </dd>
 </dl>
@@ -1214,7 +1214,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">qp</td><td>Queue to add to. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1260,7 +1260,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">qp</td><td>Queue to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread which has to be removed. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> which has to be removed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1310,11 +1310,11 @@ This thread will attempt to preempt the currently running thread as early as pos
 </table>
 </div><div class="memdoc">
 
-<p>Thread queue timeout function. </p>
+<p><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> queue timeout function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">timer</td><td>Timer that has timed out. </td></tr>
-    <tr><td class="paramname">arg</td><td>Thread related to the event. </td></tr>
+    <tr><td class="paramname">arg</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> related to the event. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1361,7 +1361,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">qp</td><td>Queue to add to. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1407,7 +1407,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">qp</td><td>Queue to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread which has to be removed. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> which has to be removed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1451,7 +1451,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>Run queue to add <code>tp</code> to. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1497,7 +1497,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1551,7 +1551,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to add to. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1598,7 +1598,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1645,7 +1645,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1681,7 +1681,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Add a kill thread to the current RQ. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1716,7 +1716,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Add a wake thread to the current RQ. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1770,7 +1770,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to add to. </td></tr>
-    <tr><td class="paramname">new</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">new</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1816,7 +1816,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>Run queue to add <code>tp</code> to. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1853,7 +1853,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Add a thread to a run queue. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1908,7 +1908,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to add to. </td></tr>
-    <tr><td class="paramname">new</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">new</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2004,7 +2004,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Add a thread to rq_list. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new</td><td>Thread to add. </td></tr>
+    <tr><td class="paramname">new</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add. </td></tr>
     <tr><td class="paramname">head</td><td>New is add after this thread </td></tr>
   </table>
   </dd>
@@ -2047,7 +2047,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Remove a thread from the rq_list. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove. </td></tr>
     <tr><td class="paramname">tpp</td><td>Root queue pointer. </td></tr>
   </table>
   </dd>
@@ -2090,7 +2090,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to remove.</td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove.</td></tr>
   </table>
   </dd>
 </dl>
@@ -2126,7 +2126,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Remove a thread from a run queue. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2174,7 +2174,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>RQ to remove from. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to remove.</td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove.</td></tr>
   </table>
   </dd>
 </dl>
@@ -2229,7 +2229,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rq</td><td>Run queue of the thread. </td></tr>
-    <tr><td class="paramname">tp</td><td>Thread to signal.</td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to signal.</td></tr>
   </table>
   </dd>
 </dl>
@@ -2526,7 +2526,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__sched_gabca95f4e0d1a0db82e7756c9a132b3d1_cgraph.png" border="0" usemap="#group__sched_gabca95f4e0d1a0db82e7756c9a132b3d1_cgraph" alt=""/></div>
 <map name="group__sched_gabca95f4e0d1a0db82e7756c9a132b3d1_cgraph" id="group__sched_gabca95f4e0d1a0db82e7756c9a132b3d1_cgraph">
-<area shape="rect" id="node2" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="135,5,263,32"/><area shape="rect" id="node4" href="group__arch_a_p_i.html#ga3ca01585011904bb8042cbb540be767e" title="Get the scheduling clock source. " alt="" coords="139,56,259,83"/><area shape="rect" id="node6" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="167,107,230,133"/><area shape="rect" id="node3" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="316,5,423,32"/><area shape="rect" id="node5" href="group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151" title="Getter for the ATmega AVR system clock. " alt="" coords="311,56,428,83"/><area shape="rect" id="node7" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="330,107,409,133"/></map>
+<area shape="rect" id="node2" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="135,5,263,32"/><area shape="rect" id="node4" href="group__arch_a_p_i.html#ga3ca01585011904bb8042cbb540be767e" title="Get the scheduling clock source. " alt="" coords="139,56,259,83"/><area shape="rect" id="node6" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="167,107,230,133"/><area shape="rect" id="node9" href="group__thread.html#ga75c980f556ff8123b9b976148f68a464" title="Create the idle thread. " alt="" coords="145,360,253,387"/><area shape="rect" id="node3" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="316,5,423,32"/><area shape="rect" id="node5" href="group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151" title="Getter for the ATmega AVR system clock. " alt="" coords="311,56,428,83"/><area shape="rect" id="node7" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="330,107,409,133"/><area shape="rect" id="node8" href="group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="692,208,761,235"/><area shape="rect" id="node10" href="group__thread.html#ga4289b7f9957ab328ffc1390816f01eb1" title="Thread initialise backend. " alt="" coords="314,360,425,387"/><area shape="rect" id="node17" href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="515,528,576,555"/><area shape="rect" id="node11" href="group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="509,259,581,285"/><area shape="rect" id="node12" href="group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="518,309,573,336"/><area shape="rect" id="node13" href="list_8h.html#a1a568374cf24e55d65a537408bd323e4" title="Dynamic list initialiser. " alt="" coords="496,360,595,387"/><area shape="rect" id="node14" href="group__irq.html#gada411b93697a32753d2f9b68f58d2daf" title="Store the IRQ flags. " alt="" coords="492,477,599,504"/><area shape="rect" id="node16" href="group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a" title="Setup the stack from of a thread. " alt="" coords="476,411,615,453"/><area shape="rect" id="node15" href="group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="663,477,791,504"/></map>
 </div>
 </p>
 
@@ -2557,7 +2557,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Set the current thread for the runnign <a class="el" href="class_c_p_u.html" title="Utility class to provide access to hardware. ">CPU</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to set as current. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to set as current. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2603,7 +2603,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Prepare a thread to go into sleeping mode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to prepare. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to prepare. </td></tr>
     <tr><td class="paramname">ms</td><td>Time to sleep in miliseconds. </td></tr>
   </table>
   </dd>
@@ -2616,7 +2616,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <div id="dynsection-44-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__sched_ga1a5cf871207a99e5d32c88d16b4986db_cgraph.png" border="0" usemap="#group__sched_ga1a5cf871207a99e5d32c88d16b4986db_cgraph" alt=""/></div>
 <map name="group__sched_ga1a5cf871207a99e5d32c88d16b4986db_cgraph" id="group__sched_ga1a5cf871207a99e5d32c88d16b4986db_cgraph">
-<area shape="rect" id="node2" href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="651,259,713,285"/><area shape="rect" id="node3" href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="455,208,525,235"/><area shape="rect" id="node4" href="group__tm.html#ga15711d26d9190044d7ca7ac1d3899ca4" title="Create a new timer. " alt="" coords="238,81,369,108"/><area shape="rect" id="node10" href="group__sched.html#gae96839a8f744d32804b17f6e83d69a81" title="Timer handle for sleeping threads. " alt="" coords="231,259,376,285"/><area shape="rect" id="node5" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="459,5,521,32"/><area shape="rect" id="node7" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="457,107,523,133"/><area shape="rect" id="node8" href="group__tm.html#ga20954f365ba3354a5adb5cb312c8936d" title="Start a new timer. " alt="" coords="430,56,550,83"/><area shape="rect" id="node6" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="643,5,721,32"/><area shape="rect" id="node9" href="group__tm.html#ga6501ffdc00b89b8308bc225e1182f213" title="Add a new timer to a clocksource. " alt="" coords="604,56,760,83"/><area shape="rect" id="node11" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="426,360,554,387"/><area shape="rect" id="node13" href="group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="424,259,556,285"/><area shape="rect" id="node12" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="629,360,735,387"/></map>
+<area shape="rect" id="node2" href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="651,309,713,336"/><area shape="rect" id="node3" href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="455,259,525,285"/><area shape="rect" id="node4" href="group__tm.html#ga15711d26d9190044d7ca7ac1d3899ca4" title="Create a new timer. " alt="" coords="238,132,369,159"/><area shape="rect" id="node11" href="group__sched.html#gae96839a8f744d32804b17f6e83d69a81" title="Timer handle for sleeping threads. " alt="" coords="231,309,376,336"/><area shape="rect" id="node5" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="459,56,521,83"/><area shape="rect" id="node8" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="457,157,523,184"/><area shape="rect" id="node9" href="group__tm.html#ga20954f365ba3354a5adb5cb312c8936d" title="Start a new timer. " alt="" coords="430,107,550,133"/><area shape="rect" id="node6" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="643,56,721,83"/><area shape="rect" id="node7" href="group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="647,5,717,32"/><area shape="rect" id="node10" href="group__tm.html#ga6501ffdc00b89b8308bc225e1182f213" title="Add a new timer to a clocksource. " alt="" coords="604,107,760,133"/><area shape="rect" id="node12" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="426,411,554,437"/><area shape="rect" id="node14" href="group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="424,309,556,336"/><area shape="rect" id="node13" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="629,411,735,437"/></map>
 </div>
 </p>
 
@@ -2864,7 +2864,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Add a kill thread to the current RQ. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to add.</td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add.</td></tr>
   </table>
   </dd>
 </dl>
@@ -2900,7 +2900,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Add a wake thread to the current RQ. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to add.</td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to add.</td></tr>
   </table>
   </dd>
 </dl>
@@ -2944,7 +2944,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Check whether a thread is the idle thread or not. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to check. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to check. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2986,7 +2986,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Initialise a thread queue during run time. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">qp</td><td>Thread queue which has to be initialised.</td></tr>
+    <tr><td class="paramname">qp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> queue which has to be initialised.</td></tr>
   </table>
   </dd>
 </dl>
@@ -3021,7 +3021,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Let a thread wait on a thread queue. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">qp</td><td>Thread queue to wait on. </td></tr>
+    <tr><td class="paramname">qp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> queue to wait on. </td></tr>
     <tr><td class="paramname">ms</td><td>Miliseconds to wait on <code>qp</code>. </td></tr>
   </table>
   </dd>
@@ -3034,7 +3034,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <div id="dynsection-54-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__sched_gaf884d02ac7bc14a91b776fb092c45094_cgraph.png" border="0" usemap="#group__sched_gaf884d02ac7bc14a91b776fb092c45094_cgraph" alt=""/></div>
 <map name="group__sched_gaf884d02ac7bc14a91b776fb092c45094_cgraph" id="group__sched_gaf884d02ac7bc14a91b776fb092c45094_cgraph">
-<area shape="rect" id="node2" href="group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="980,1085,1085,1112"/><area shape="rect" id="node5" href="group__tm.html#ga15711d26d9190044d7ca7ac1d3899ca4" title="Create a new timer. " alt="" coords="967,5,1098,32"/><area shape="rect" id="node11" href="group__sched.html#gabb6df12a0f0c3721e58b5250052a42a2" title="Thread queue timeout function. " alt="" coords="523,1481,640,1508"/><area shape="rect" id="node17" href="group__sched.html#ga72ca187dd5dd0ac19af98da3ea9b56e4" title="Add a new thread to a queue. " alt="" coords="184,1257,312,1284"/><area shape="rect" id="node21" href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15" title="Reschedule the current run queue. " alt="" coords="211,981,285,1008"/><area shape="rect" id="node3" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="1184,1355,1312,1381"/><area shape="rect" id="node4" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="1394,1195,1501,1221"/><area shape="rect" id="node6" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="1217,5,1279,32"/><area shape="rect" id="node8" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="1573,436,1639,463"/><area shape="rect" id="node9" href="group__tm.html#ga20954f365ba3354a5adb5cb312c8936d" title="Start a new timer. " alt="" coords="1188,537,1308,564"/><area shape="rect" id="node7" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="1408,5,1487,32"/><area shape="rect" id="node10" href="group__tm.html#ga6501ffdc00b89b8308bc225e1182f213" title="Add a new timer to a clocksource. " alt="" coords="1369,512,1525,539"/><area shape="rect" id="node12" href="group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50" title="Get the thread_queue the given thread is on. " alt="" coords="973,1405,1092,1432"/><area shape="rect" id="node13" href="group__sched.html#gaa468a0cc0864610b821b2730abe5c182" title="Remove a thread from a thread_queue. " alt="" coords="727,1507,878,1533"/><area shape="rect" id="node15" href="group__sched.html#ga44292b5df60facfa57dcafc582212a0d" title="Add a thread to a run queue. " alt="" coords="955,1557,1111,1584"/><area shape="rect" id="node14" href="group__sched.html#ga2284d061e42560a7bac2dac7c0aa682f" title="Remove a thread from a thread_queue. " alt="" coords="943,1507,1122,1533"/><area shape="rect" id="node16" href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="1217,1304,1279,1331"/><area shape="rect" id="node18" href="group__sched.html#ga2e34e3f4c49c118e9271e5b6101b020e" title="Add a new thread to a queue. " alt="" coords="503,1308,659,1335"/><area shape="rect" id="node19" href="group__sched.html#ga466e412d13a242143847e21dcbd5fea7" title="Remove a thread from a run queue without rescheduling. " alt="" coords="725,1213,880,1254"/><area shape="rect" id="node20" href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="997,411,1068,437"/><area shape="rect" id="node22" href="group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="1205,487,1291,513"/><area shape="rect" id="node23" href="group__sched.html#ga8dac22a2785f9a88fc16da53874889e2" title="Reschedule the current run queue. " alt="" coords="360,857,448,884"/><area shape="rect" id="node62" href="group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671" title="Check if a reschedule is required. " alt="" coords="751,1405,854,1432"/><area shape="rect" id="node24" href="group__kernel.html#ga38f4f8022778edff29606cec22897bfc" title="Notify the CPU of a specific event. " alt="" coords="761,436,844,463"/><area shape="rect" id="node27" href="group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="763,953,842,980"/><area shape="rect" id="node28" href="group__sched.html#ga99b50b5fd0a5c40e184b7ff5adc4a01d" title="API version of __rq_update_clock. " alt="" coords="523,832,640,859"/><area shape="rect" id="node34" href="group__sched.html#ga017c639d6dbf8710ad60a22985116618" title="Signal threads that are waiting for an event. " alt="" coords="519,1105,643,1132"/><area shape="rect" id="node46" href="group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="496,883,667,909"/><area shape="rect" id="node47" href="group__sched.html#gabb16e47cc3e478d76f303be5bbacde1c" title="Check if the algorithm wants to preempt the current thread. " alt="" coords="533,1207,630,1233"/><area shape="rect" id="node48" href="group__sched.html#ga71fd9dde3968661117e7926bab75f25e" title="Reschedule policy. " alt="" coords="715,157,891,184"/><area shape="rect" id="node52" href="group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="510,934,653,975"/><area shape="rect" id="node53" href="group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357" title="Prepare the a reschedule. " alt="" coords="733,588,872,615"/><area shape="rect" id="node55" href="group__sched.html#ga761312d2768cc26c49b7f53de33c8477" title="Switch context on a given run queue. " alt="" coords="517,335,645,361"/><area shape="rect" id="node57" href="group__sched.html#ga0b1c71305537a28e3a7194016f6b43e6" title="Update a run queue. " alt="" coords="763,680,842,707"/><area shape="rect" id="node59" href="group__sched.html#ga13a5b1237d1c0238dd0432a2590e8195" title="Destroy the kill queue. " alt="" coords="743,781,863,808"/><area shape="rect" id="node25" href="group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="974,309,1091,336"/><area shape="rect" id="node26" href="group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="939,360,1127,387"/><area shape="rect" id="node29" href="group__sched.html#ga569fc559ba3602cb73b1bd1552aa1daf" title="Update the scheduling clock. " alt="" coords="737,903,868,929"/><area shape="rect" id="node30" href="group__tm.html#ga3817a7c75cd4be46bb92c9aa608cdbec" title="Update the clockskew of a clocksource. " alt="" coords="963,933,1102,960"/><area shape="rect" id="node31" href="group__tm.html#gaf37ee13b8e3698ee03eb932f6bb02c46" title="Process a given clock source and its timers. " alt="" coords="961,984,1104,1011"/><area shape="rect" id="node32" href="group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="1223,883,1273,909"/><area shape="rect" id="node33" href="group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="1411,883,1484,909"/><area shape="rect" id="node35" href="group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa" title="Signal a thread on a wake queue. " alt="" coords="725,1296,880,1323"/><area shape="rect" id="node36" href="group__sched.html#gae1a79ba3d3d2d109c947be1ee5a03f3d" title="Remove a thread from a rq. " alt="" coords="958,1187,1107,1229"/><area shape="rect" id="node43" href="group__tm.html#ga8b09cd45bc4628ce347b23f28d39be6a" title="Stop a timer. " alt="" coords="973,1136,1092,1163"/><area shape="rect" id="node45" href="group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="967,1355,1099,1381"/><area shape="rect" id="node37" href="group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="1175,613,1321,640"/><area shape="rect" id="node40" href="group__sched.html#ga9806ceeb3d9a5e4b28841b40f20bf30e" title="Remove a thread from the rq_list. " alt="" coords="1195,777,1301,804"/><area shape="rect" id="node41" href="group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="1207,664,1289,691"/><area shape="rect" id="node38" href="group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="1383,563,1511,589"/><area shape="rect" id="node39" href="group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="1389,613,1505,640"/><area shape="rect" id="node42" href="group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="1372,664,1523,691"/><area shape="rect" id="node44" href="group__tm.html#ga20e856ccf8bbf02684d1c75f61914940" title="Remove a timer from a clocksource. " alt="" coords="1181,1129,1315,1170"/><area shape="rect" id="node49" href="arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7" title="Clear a bit in register and return the value of nr before clearing. " alt="" coords="969,157,1097,184"/><area shape="rect" id="node50" href="group__sched.html#ga0e68a5e318862b42f5472c212668056e" title="Check whether a thread is the idle thread or not. " alt="" coords="1396,132,1499,159"/><area shape="rect" id="node51" href="group__sched.html#ga70e974d78d84a3ef849f69893ed2ca39" title="Reset the time slice for a thread. " alt="" coords="963,259,1102,285"/><area shape="rect" id="node54" href="group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9" title="Get the current CPU state. " alt="" coords="981,563,1085,589"/><area shape="rect" id="node56" href="group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="733,335,872,361"/><area shape="rect" id="node58" href="group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3" title="Set a specific CPU state. " alt="" coords="981,613,1085,640"/><area shape="rect" id="node60" href="group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c" title="Remove a thread from the kill queue. " alt="" coords="965,715,1100,757"/><area shape="rect" id="node61" href="group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2" title="Free a stack frame. " alt="" coords="950,883,1115,909"/></map>
+<area shape="rect" id="node2" href="group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="980,1140,1085,1166"/><area shape="rect" id="node5" href="group__tm.html#ga15711d26d9190044d7ca7ac1d3899ca4" title="Create a new timer. " alt="" coords="967,1646,1098,1673"/><area shape="rect" id="node12" href="group__sched.html#gabb6df12a0f0c3721e58b5250052a42a2" title="Thread queue timeout function. " alt="" coords="523,1418,640,1445"/><area shape="rect" id="node18" href="group__sched.html#ga72ca187dd5dd0ac19af98da3ea9b56e4" title="Add a new thread to a queue. " alt="" coords="184,641,312,668"/><area shape="rect" id="node22" href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15" title="Reschedule the current run queue. " alt="" coords="211,928,285,954"/><area shape="rect" id="node3" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="1184,1140,1312,1166"/><area shape="rect" id="node4" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="1394,937,1501,964"/><area shape="rect" id="node6" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="1217,1697,1279,1724"/><area shape="rect" id="node9" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="1573,382,1639,409"/><area shape="rect" id="node10" href="group__tm.html#ga20954f365ba3354a5adb5cb312c8936d" title="Start a new timer. " alt="" coords="1188,1524,1308,1550"/><area shape="rect" id="node7" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="1408,1748,1487,1774"/><area shape="rect" id="node8" href="group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="1413,1697,1482,1724"/><area shape="rect" id="node11" href="group__tm.html#ga6501ffdc00b89b8308bc225e1182f213" title="Add a new timer to a clocksource. " alt="" coords="1369,1524,1525,1550"/><area shape="rect" id="node13" href="group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50" title="Get the thread_queue the given thread is on. " alt="" coords="973,1494,1092,1521"/><area shape="rect" id="node14" href="group__sched.html#gaa468a0cc0864610b821b2730abe5c182" title="Remove a thread from a thread_queue. " alt="" coords="727,1494,878,1521"/><area shape="rect" id="node16" href="group__sched.html#ga44292b5df60facfa57dcafc582212a0d" title="Add a thread to a run queue. " alt="" coords="955,1393,1111,1420"/><area shape="rect" id="node15" href="group__sched.html#ga2284d061e42560a7bac2dac7c0aa682f" title="Remove a thread from a thread_queue. " alt="" coords="943,1545,1122,1572"/><area shape="rect" id="node17" href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="1217,1089,1279,1116"/><area shape="rect" id="node19" href="group__sched.html#ga2e34e3f4c49c118e9271e5b6101b020e" title="Add a new thread to a queue. " alt="" coords="503,430,659,457"/><area shape="rect" id="node20" href="group__sched.html#ga466e412d13a242143847e21dcbd5fea7" title="Remove a thread from a run queue without rescheduling. " alt="" coords="725,924,880,966"/><area shape="rect" id="node21" href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="997,937,1068,964"/><area shape="rect" id="node23" href="group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="1205,684,1291,710"/><area shape="rect" id="node24" href="group__sched.html#ga8dac22a2785f9a88fc16da53874889e2" title="Reschedule the current run queue. " alt="" coords="360,877,448,904"/><area shape="rect" id="node63" href="group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671" title="Check if a reschedule is required. " alt="" coords="751,481,854,508"/><area shape="rect" id="node25" href="group__kernel.html#ga38f4f8022778edff29606cec22897bfc" title="Notify the CPU of a specific event. " alt="" coords="761,1062,844,1089"/><area shape="rect" id="node28" href="group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="763,734,842,761"/><area shape="rect" id="node29" href="group__sched.html#ga99b50b5fd0a5c40e184b7ff5adc4a01d" title="API version of __rq_update_clock. " alt="" coords="523,684,640,710"/><area shape="rect" id="node35" href="group__sched.html#ga017c639d6dbf8710ad60a22985116618" title="Signal threads that are waiting for an event. " alt="" coords="519,1214,643,1241"/><area shape="rect" id="node47" href="group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="496,1164,667,1190"/><area shape="rect" id="node48" href="group__sched.html#gabb16e47cc3e478d76f303be5bbacde1c" title="Check if the algorithm wants to preempt the current thread. " alt="" coords="533,902,630,929"/><area shape="rect" id="node49" href="group__sched.html#ga71fd9dde3968661117e7926bab75f25e" title="Reschedule policy. " alt="" coords="715,633,891,660"/><area shape="rect" id="node53" href="group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="510,786,653,827"/><area shape="rect" id="node54" href="group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357" title="Prepare the a reschedule. " alt="" coords="733,796,872,822"/><area shape="rect" id="node56" href="group__sched.html#ga761312d2768cc26c49b7f53de33c8477" title="Switch context on a given run queue. " alt="" coords="517,1545,645,1572"/><area shape="rect" id="node58" href="group__sched.html#ga0b1c71305537a28e3a7194016f6b43e6" title="Update a run queue. " alt="" coords="763,557,842,584"/><area shape="rect" id="node60" href="group__sched.html#ga13a5b1237d1c0238dd0432a2590e8195" title="Destroy the kill queue. " alt="" coords="743,200,863,226"/><area shape="rect" id="node26" href="group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="974,1190,1091,1217"/><area shape="rect" id="node27" href="group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="939,1241,1127,1268"/><area shape="rect" id="node30" href="group__sched.html#ga569fc559ba3602cb73b1bd1552aa1daf" title="Update the scheduling clock. " alt="" coords="737,364,868,390"/><area shape="rect" id="node31" href="group__tm.html#ga3817a7c75cd4be46bb92c9aa608cdbec" title="Update the clockskew of a clocksource. " alt="" coords="963,364,1102,390"/><area shape="rect" id="node32" href="group__tm.html#gaf37ee13b8e3698ee03eb932f6bb02c46" title="Process a given clock source and its timers. " alt="" coords="961,145,1104,172"/><area shape="rect" id="node33" href="group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="1223,94,1273,121"/><area shape="rect" id="node34" href="group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="1411,94,1484,121"/><area shape="rect" id="node36" href="group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa" title="Signal a thread on a wake queue. " alt="" coords="725,1329,880,1356"/><area shape="rect" id="node37" href="group__sched.html#gae1a79ba3d3d2d109c947be1ee5a03f3d" title="Remove a thread from a rq. " alt="" coords="958,415,1107,456"/><area shape="rect" id="node44" href="group__tm.html#ga8b09cd45bc4628ce347b23f28d39be6a" title="Stop a timer. " alt="" coords="973,1444,1092,1470"/><area shape="rect" id="node46" href="group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="967,1342,1099,1369"/><area shape="rect" id="node38" href="group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="1175,424,1321,450"/><area shape="rect" id="node41" href="group__sched.html#ga9806ceeb3d9a5e4b28841b40f20bf30e" title="Remove a thread from the rq_list. " alt="" coords="1195,338,1301,365"/><area shape="rect" id="node42" href="group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="1207,480,1289,506"/><area shape="rect" id="node39" href="group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="1383,428,1511,454"/><area shape="rect" id="node40" href="group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="1389,377,1505,404"/><area shape="rect" id="node43" href="group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="1372,480,1523,506"/><area shape="rect" id="node45" href="group__tm.html#ga20e856ccf8bbf02684d1c75f61914940" title="Remove a timer from a clocksource. " alt="" coords="1181,1436,1315,1478"/><area shape="rect" id="node50" href="arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7" title="Clear a bit in register and return the value of nr before clearing. " alt="" coords="969,582,1097,609"/><area shape="rect" id="node51" href="group__sched.html#ga0e68a5e318862b42f5472c212668056e" title="Check whether a thread is the idle thread or not. " alt="" coords="1396,285,1499,312"/><area shape="rect" id="node52" href="group__sched.html#ga70e974d78d84a3ef849f69893ed2ca39" title="Reset the time slice for a thread. " alt="" coords="963,785,1102,812"/><area shape="rect" id="node55" href="group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9" title="Get the current CPU state. " alt="" coords="981,633,1085,660"/><area shape="rect" id="node57" href="group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="733,1545,872,1572"/><area shape="rect" id="node59" href="group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3" title="Set a specific CPU state. " alt="" coords="981,481,1085,508"/><area shape="rect" id="node61" href="group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c" title="Remove a thread from the kill queue. " alt="" coords="965,298,1100,339"/><area shape="rect" id="node62" href="group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2" title="Free a stack frame. " alt="" coords="950,44,1115,70"/></map>
 </div>
 </p>
 
@@ -3065,7 +3065,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Remove a thread from its kill queue. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to remove. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to remove. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3151,7 +3151,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 <p>Get the <a class="el" href="structthread__queue.html" title="Thread queue descriptor. ">thread_queue</a> the given thread is on. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to get the <a class="el" href="structthread__queue.html" title="Thread queue descriptor. ">thread_queue</a> for. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to get the <a class="el" href="structthread__queue.html" title="Thread queue descriptor. ">thread_queue</a> for. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3170,7 +3170,7 @@ This thread will attempt to preempt the currently running thread as early as pos
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Dec 4 2016 00:44:35 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 5 2016 06:18:30 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

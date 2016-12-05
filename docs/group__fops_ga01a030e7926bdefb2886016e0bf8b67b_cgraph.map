@@ -1,5 +1,8 @@
 <map id="basename" name="basename">
-<area shape="rect" id="node2" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="140,5,195,32"/>
-<area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="136,56,199,83"/>
-<area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="247,56,325,83"/>
+<area shape="rect" id="node2" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="141,5,196,32"/>
+<area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="137,56,200,83"/>
+<area shape="rect" id="node6" href="$group__libc.html#ga5868a2c77808dc187e06bfc308cef106" title="Copy a number of bytes of string. " alt="" coords="136,107,201,133"/>
+<area shape="rect" id="node7" href="$group__libc.html#ga1a8e0d046aa6ccaf2c9947e3142e4786" title="Copy a string. " alt="" coords="139,157,198,184"/>
+<area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="249,31,328,57"/>
+<area shape="rect" id="node5" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="254,81,323,108"/>
 </map>

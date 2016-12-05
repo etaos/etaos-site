@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.2</a>
+                        <a class="navbar-brand">4.6.3</a>
 		    </div>
 	        </div>
             </div>
@@ -284,7 +284,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="group__irq_html_gaae474ddbbd8aaa64f1b33c67551c481c"><div class="ttname"><a href="group__irq.html#gaae474ddbbd8aaa64f1b33c67551c481c">irq_chip_set_sleep</a></div><div class="ttdeci">static void irq_chip_set_sleep(struct irq_chip *chip, void(*sleep)(struct irq_chip *))</div><div class="ttdoc">Set the sleep function for an IRQ chip. </div><div class="ttdef"><b>Definition:</b> irq.h:246</div></div>
 <div class="ttc" id="structirq__data_html_ace22d4d0ba118365ab1647255b4ff644"><div class="ttname"><a href="structirq__data.html#ace22d4d0ba118365ab1647255b4ff644">irq_data::irq_list</a></div><div class="ttdeci">struct list_head irq_list</div><div class="ttdoc">List of IRQ&#39;s. </div><div class="ttdef"><b>Definition:</b> irq.h:156</div></div>
 <div class="ttc" id="structirq__data_html"><div class="ttname"><a href="structirq__data.html">irq_data</a></div><div class="ttdoc">Interrupt descriptor. </div><div class="ttdef"><b>Definition:</b> irq.h:154</div></div>
-<div class="ttc" id="group__irq_html_ga5f0b1c13d842f4ebef69017d66bdf6f0"><div class="ttname"><a href="group__irq.html#ga5f0b1c13d842f4ebef69017d66bdf6f0">irq_set_handle</a></div><div class="ttdeci">int irq_set_handle(int irq, irq_vector_t vector)</div><div class="ttdoc">Set the IRQ handle function. </div><div class="ttdef"><b>Definition:</b> irq.c:179</div></div>
+<div class="ttc" id="group__irq_html_ga5f0b1c13d842f4ebef69017d66bdf6f0"><div class="ttname"><a href="group__irq.html#ga5f0b1c13d842f4ebef69017d66bdf6f0">irq_set_handle</a></div><div class="ttdeci">int irq_set_handle(int irq, irq_vector_t vector)</div><div class="ttdoc">Set the IRQ handle function. </div><div class="ttdef"><b>Definition:</b> irq.c:183</div></div>
 <div class="ttc" id="structirq__chip_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structirq__chip.html#a8f8f80d37794cde9472343e4487ba3eb">irq_chip::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">Chip name. </div><div class="ttdef"><b>Definition:</b> irq.h:210</div></div>
 <div class="ttc" id="structthread_html"><div class="ttname"><a href="structthread.html">thread</a></div><div class="ttdoc">Thread descriptor.All information available for a thread is stored in this structure. </div><div class="ttdef"><b>Definition:</b> thread.h:139</div></div>
 <div class="ttc" id="group__arch_a_p_i_html_gaddf161a845a51a829878634b612b3b5a"><div class="ttname"><a href="group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a">arch_irq_restore_flags</a></div><div class="ttdeci">void arch_irq_restore_flags(unsigned long *flags)</div><div class="ttdoc">Restore the IRQ flags. </div><div class="ttdef"><b>Definition:</b> irq.c:65</div></div>
@@ -309,11 +309,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structirq__thread__data_html_a320d6fbb9ed56b553f07357e237c9152"><div class="ttname"><a href="structirq__thread__data.html#a320d6fbb9ed56b553f07357e237c9152">irq_thread_data::idata</a></div><div class="ttdeci">struct irq_data idata</div><div class="ttdoc">IRQ data. </div><div class="ttdef"><b>Definition:</b> irq.h:172</div></div>
 <div class="ttc" id="group__irq_html_ga9db3741eeb6836d28bc48a287abbb394"><div class="ttname"><a href="group__irq.html#ga9db3741eeb6836d28bc48a287abbb394">irq_vector_t</a></div><div class="ttdeci">irqreturn_t(* irq_vector_t)(struct irq_data *irq, void *data)</div><div class="ttdoc">IRQ handler type. </div><div class="ttdef"><b>Definition:</b> irq.h:149</div></div>
 <div class="ttc" id="structirq__thread__data_html_ad275bd1847bd44836e6e39e789e59f6e"><div class="ttname"><a href="structirq__thread__data.html#ad275bd1847bd44836e6e39e789e59f6e">irq_thread_data::owner</a></div><div class="ttdeci">struct thread * owner</div><div class="ttdoc">IRQ owner. </div><div class="ttdef"><b>Definition:</b> irq.h:171</div></div>
-<div class="ttc" id="group__thread_html_gad6030c18a18c28e7b660172bf521b384"><div class="ttname"><a href="group__thread.html#gad6030c18a18c28e7b660172bf521b384">sleep</a></div><div class="ttdeci">void sleep(unsigned ms)</div><div class="ttdoc">Put the current thread to sleep. </div><div class="ttdef"><b>Definition:</b> thread.c:244</div></div>
+<div class="ttc" id="group__thread_html_gad6030c18a18c28e7b660172bf521b384"><div class="ttname"><a href="group__thread.html#gad6030c18a18c28e7b660172bf521b384">sleep</a></div><div class="ttdeci">void sleep(unsigned ms)</div><div class="ttdoc">Put the current thread to sleep. </div><div class="ttdef"><b>Definition:</b> thread.c:350</div></div>
 <div class="ttc" id="structirq__chip_html_a4abe4d91ca5f3b0e9df282c369b98ed9"><div class="ttname"><a href="structirq__chip.html#a4abe4d91ca5f3b0e9df282c369b98ed9">irq_chip::irqs</a></div><div class="ttdeci">struct list_head irqs</div><div class="ttdoc">Assigned irqs. </div><div class="ttdef"><b>Definition:</b> irq.h:211</div></div>
 <div class="ttc" id="structirq__data_html_ad517770dac2061381b2008850ff12e6c"><div class="ttname"><a href="structirq__data.html#ad517770dac2061381b2008850ff12e6c">irq_data::private_data</a></div><div class="ttdeci">void * private_data</div><div class="ttdoc">IRQ private data. </div><div class="ttdef"><b>Definition:</b> irq.h:163</div></div>
 <div class="ttc" id="structirq__chip_html_a783a82cf935d9e2ac6850d775ce13ded"><div class="ttname"><a href="structirq__chip.html#a783a82cf935d9e2ac6850d775ce13ded">irq_chip::sleep</a></div><div class="ttdeci">void(* sleep)(struct irq_chip *chip)</div><div class="ttdoc">Put the chip to sleep. </div><div class="ttdef"><b>Definition:</b> irq.h:214</div></div>
-<div class="ttc" id="group__irq_html_gaf252b5c7a187a0356f735aba6d0ff400"><div class="ttname"><a href="group__irq.html#gaf252b5c7a187a0356f735aba6d0ff400">irq_request</a></div><div class="ttdeci">int irq_request(int irq, irq_vector_t vector, unsigned long flags, void *irq_data)</div><div class="ttdoc">Request an IRQ. </div><div class="ttdef"><b>Definition:</b> irq.c:122</div></div>
+<div class="ttc" id="group__irq_html_gaf252b5c7a187a0356f735aba6d0ff400"><div class="ttname"><a href="group__irq.html#gaf252b5c7a187a0356f735aba6d0ff400">irq_request</a></div><div class="ttdeci">int irq_request(int irq, irq_vector_t vector, unsigned long flags, void *irq_data)</div><div class="ttdoc">Request an IRQ. </div><div class="ttdef"><b>Definition:</b> irq.c:126</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
 <div class="ttc" id="structirq__data_html_a696f04a74a4e56ba4247bae9f9d12322"><div class="ttname"><a href="structirq__data.html#a696f04a74a4e56ba4247bae9f9d12322">irq_data::num</a></div><div class="ttdeci">uint64_t num</div><div class="ttdoc">Number of triggers. </div><div class="ttdef"><b>Definition:</b> irq.h:159</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -325,7 +325,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Dec 4 2016 00:44:34 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 5 2016 06:18:29 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

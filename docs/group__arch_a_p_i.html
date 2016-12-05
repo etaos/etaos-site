@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.2</a>
+                        <a class="navbar-brand">4.6.3</a>
 		    </div>
 	        </div>
             </div>
@@ -372,7 +372,7 @@ Stacks</h1>
   <table class="params">
     <tr><td class="paramname">rq</td><td>Run queue requesting the context switch. </td></tr>
     <tr><td class="paramname">prev</td><td>Previously running thread. </td></tr>
-    <tr><td class="paramname">next</td><td>Thread to switch to.</td></tr>
+    <tr><td class="paramname">next</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to switch to.</td></tr>
   </table>
   </dd>
 </dl>
@@ -480,13 +480,24 @@ Stacks</h1>
 <p>Setup the stack from of a thread. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to setup a stack for. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to setup a stack for. </td></tr>
     <tr><td class="paramname">stack</td><td>Pointer to the base of the stack. </td></tr>
     <tr><td class="paramname">stack_size</td><td>Length of <code>stack</code>. </td></tr>
     <tr><td class="paramname">handle</td><td>Function pointer to the thread handle. </td></tr>
   </table>
   </dd>
 </dl>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arch_a_p_i_gaed72f26eb7fa076193388c2200e2571a_cgraph.png" border="0" usemap="#group__arch_a_p_i_gaed72f26eb7fa076193388c2200e2571a_cgraph" alt=""/></div>
+<map name="group__arch_a_p_i_gaed72f26eb7fa076193388c2200e2571a_cgraph" id="group__arch_a_p_i_gaed72f26eb7fa076193388c2200e2571a_cgraph">
+<area shape="rect" id="node2" href="group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="192,13,261,39"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -507,17 +518,17 @@ Stacks</h1>
 <p>Free a stack frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tp</td><td>Thread to free the stackframe of. </td></tr>
+    <tr><td class="paramname">tp</td><td><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> to free the stackframe of. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section warning"><dt>Warning</dt><dd>The thread should NEVER be executed again after a call to this function. </dd></dl>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arch_a_p_i_gaf680731a9b2e0753de2dfa185b0a13d2_cgraph.png" border="0" usemap="#group__arch_a_p_i_gaf680731a9b2e0753de2dfa185b0a13d2_cgraph" alt=""/></div>
 <map name="group__arch_a_p_i_gaf680731a9b2e0753de2dfa185b0a13d2_cgraph" id="group__arch_a_p_i_gaf680731a9b2e0753de2dfa185b0a13d2_cgraph">
 <area shape="rect" id="node2" href="group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="219,5,269,32"/><area shape="rect" id="node3" href="group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="317,5,391,32"/></map>
@@ -543,11 +554,11 @@ Stacks</h1>
 <p>Get the scheduling clock source. </p>
 <dl class="section return"><dt>Returns</dt><dd>The scheduling clock source. </dd></dl>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arch_a_p_i_ga3ca01585011904bb8042cbb540be767e_cgraph.png" border="0" usemap="#group__arch_a_p_i_ga3ca01585011904bb8042cbb540be767e_cgraph" alt=""/></div>
 <map name="group__arch_a_p_i_ga3ca01585011904bb8042cbb540be767e_cgraph" id="group__arch_a_p_i_ga3ca01585011904bb8042cbb540be767e_cgraph">
 <area shape="rect" id="node2" href="group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151" title="Getter for the ATmega AVR system clock. " alt="" coords="173,5,291,32"/></map>
@@ -574,11 +585,11 @@ Stacks</h1>
 <dl class="section return"><dt>Returns</dt><dd>The selected run queue.</dd></dl>
 <p>The most effecient run queue is returned (i.e. the run queue with the least amount of threads already on it. </p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arch_a_p_i_gab090ee79717fcdd58de691ed935f6445_cgraph.png" border="0" usemap="#group__arch_a_p_i_gab090ee79717fcdd58de691ed935f6445_cgraph" alt=""/></div>
 <map name="group__arch_a_p_i_gab090ee79717fcdd58de691ed935f6445_cgraph" id="group__arch_a_p_i_gab090ee79717fcdd58de691ed935f6445_cgraph">
 <area shape="rect" id="node2" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="171,5,277,32"/></map>
@@ -596,7 +607,7 @@ Stacks</h1>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Dec 4 2016 00:44:35 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 5 2016 06:18:30 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

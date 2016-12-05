@@ -1,8 +1,14 @@
 <map id="mount" name="mount">
-<area shape="rect" id="node2" href="$group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5" title="Find a directory entry. " alt="" coords="112,56,195,83"/>
-<area shape="rect" id="node3" href="$group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d" title="Compare two strings. " alt="" coords="274,5,337,32"/>
-<area shape="rect" id="node4" href="$group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd" title="Split a path into an array. " alt="" coords="257,56,353,83"/>
-<area shape="rect" id="node7" href="$group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679" title="Free the result of fs_split_path. " alt="" coords="243,107,368,133"/>
-<area shape="rect" id="node5" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="416,81,467,108"/>
-<area shape="rect" id="node6" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="515,81,588,108"/>
+<area shape="rect" id="node2" href="$group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5" title="Find a directory entry. " alt="" coords="112,95,195,121"/>
+<area shape="rect" id="node3" href="$group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d" title="Compare two strings. " alt="" coords="274,44,337,71"/>
+<area shape="rect" id="node4" href="$group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd" title="Split a path into an array. " alt="" coords="257,95,353,121"/>
+<area shape="rect" id="node13" href="$group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679" title="Free the result of fs_split_path. " alt="" coords="243,145,368,172"/>
+<area shape="rect" id="node5" href="$group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df" title="Duplicate a string. " alt="" coords="416,69,475,96"/>
+<area shape="rect" id="node11" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="420,145,471,172"/>
+<area shape="rect" id="node6" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="532,5,587,32"/>
+<area shape="rect" id="node7" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="528,56,591,83"/>
+<area shape="rect" id="node10" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="523,107,595,133"/>
+<area shape="rect" id="node8" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="644,31,723,57"/>
+<area shape="rect" id="node9" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="649,81,718,108"/>
+<area shape="rect" id="node12" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="523,157,596,184"/>
 </map>

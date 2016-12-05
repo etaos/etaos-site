@@ -7,7 +7,8 @@
 <area shape="rect" id="node22" href="$ipm_8h.html" title="include/etaos/ipm.h" alt="" coords="1265,80,1400,107"/>
 <area shape="rect" id="node23" href="$semaphore_8h.html" title="include/etaos/semaphore.h" alt="" coords="1425,80,1603,107"/>
 <area shape="rect" id="node24" href="$stl_2kernel_8h.html" title="include/etaos/stl/kernel.h" alt="" coords="1628,80,1795,107"/>
-<area shape="rect" id="node25" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="1819,80,1923,107"/>
+<area shape="rect" id="node25" href="$stl_2thread_8h_source.html" title="include/etaos/stl/thread.h" alt="" coords="1819,80,1987,107"/>
+<area shape="rect" id="node26" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="2011,80,2115,107"/>
 <area shape="rect" id="node4" href="$include_2etaos_2usart_8h.html" title="include/etaos/usart.h" alt="" coords="1071,229,1213,256"/>
 <area shape="rect" id="node9" href="$i2c_8h.html" title="include/etaos/i2c.h" alt="" coords="23,229,154,256"/>
 <area shape="rect" id="node10" href="$eeprom_8h.html" title="include/etaos/eeprom.h" alt="" coords="722,229,879,256"/>

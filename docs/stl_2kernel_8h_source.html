@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.2</a>
+                        <a class="navbar-brand">4.6.3</a>
 		    </div>
 	        </div>
             </div>
@@ -139,17 +139,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __STL_KERNEL_H__ */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="ttc" id="group__stl_html_ga18e1476c7f415468b545f7c562f69239"><div class="ttname"><a href="group__stl.html#ga18e1476c7f415468b545f7c562f69239">Kernel::time</a></div><div class="ttdeci">static time_t time(void)</div><div class="ttdoc">Get the current time stamp. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:91</div></div>
-<div class="ttc" id="group__stl_html_gac48128e72b303ea22d8ec641a9516b15"><div class="ttname"><a href="group__stl.html#gac48128e72b303ea22d8ec641a9516b15">Kernel::schedule</a></div><div class="ttdeci">static void schedule(void)</div><div class="ttdoc">Reschedule the current thread. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:52</div></div>
-<div class="ttc" id="group__stl_html_ga41adeb31ed2f82e869d0feef0cdcea34"><div class="ttname"><a href="group__stl.html#ga41adeb31ed2f82e869d0feef0cdcea34">Kernel::sleep</a></div><div class="ttdeci">static void sleep(unsigned int ms)</div><div class="ttdoc">Sleep the current thread. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:61</div></div>
+<div class="ttc" id="group__stl_html_ga18e1476c7f415468b545f7c562f69239"><div class="ttname"><a href="group__stl.html#ga18e1476c7f415468b545f7c562f69239">Kernel::time</a></div><div class="ttdeci">static time_t time(void)</div><div class="ttdoc">Get the current time stamp. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:90</div></div>
+<div class="ttc" id="group__stl_html_gac48128e72b303ea22d8ec641a9516b15"><div class="ttname"><a href="group__stl.html#gac48128e72b303ea22d8ec641a9516b15">Kernel::schedule</a></div><div class="ttdeci">static void schedule(void)</div><div class="ttdoc">Reschedule the current thread. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:51</div></div>
+<div class="ttc" id="group__stl_html_ga41adeb31ed2f82e869d0feef0cdcea34"><div class="ttname"><a href="group__stl.html#ga41adeb31ed2f82e869d0feef0cdcea34">Kernel::sleep</a></div><div class="ttdeci">static void sleep(unsigned int ms)</div><div class="ttdoc">Sleep the current thread. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:60</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
-<div class="ttc" id="group__stl_html_ga72afa09255d40fb4ffbcbfd008daec44"><div class="ttname"><a href="group__stl.html#ga72afa09255d40fb4ffbcbfd008daec44">Kernel::signal</a></div><div class="ttdeci">static void signal(struct thread *tp)</div><div class="ttdoc">Signal a waiting thread. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:82</div></div>
+<div class="ttc" id="group__stl_html_ga72afa09255d40fb4ffbcbfd008daec44"><div class="ttname"><a href="group__stl.html#ga72afa09255d40fb4ffbcbfd008daec44">Kernel::signal</a></div><div class="ttdeci">static void signal(struct thread *tp)</div><div class="ttdoc">Signal a waiting thread. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:81</div></div>
 <div class="ttc" id="thread_8h_html"><div class="ttname"><a href="thread_8h.html">thread.h</a></div></div>
 <div class="ttc" id="structthread_html"><div class="ttname"><a href="structthread.html">thread</a></div><div class="ttdoc">Thread descriptor.All information available for a thread is stored in this structure. </div><div class="ttdef"><b>Definition:</b> thread.h:139</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_a7f5991675a84025dc7c24754a9b257c0"><div class="ttname"><a href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a></div><div class="ttdeci">int64_t time_t</div><div class="ttdoc">System time type. </div><div class="ttdef"><b>Definition:</b> types.h:46</div></div>
 <div class="ttc" id="group__stl_html_ga7cb51f5c2b5cad3766f19eb69c92793b"><div class="ttname"><a href="group__stl.html#ga7cb51f5c2b5cad3766f19eb69c92793b">Kernel::yield</a></div><div class="ttdeci">static void yield(void)</div><div class="ttdoc">Yield the current thread. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:40</div></div>
 <div class="ttc" id="class_kernel_html"><div class="ttname"><a href="class_kernel.html">Kernel</a></div><div class="ttdoc">Utility class for system pheripherals. </div><div class="ttdef"><b>Definition:</b> kernel.h:41</div></div>
-<div class="ttc" id="group__stl_html_ga82d2d74cac6ae7b30bbdc2b303adec95"><div class="ttname"><a href="group__stl.html#ga82d2d74cac6ae7b30bbdc2b303adec95">Kernel::wait</a></div><div class="ttdeci">static void wait(void)</div><div class="ttdoc">Put the current thread in a waiting state. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:72</div></div>
+<div class="ttc" id="group__stl_html_ga82d2d74cac6ae7b30bbdc2b303adec95"><div class="ttname"><a href="group__stl.html#ga82d2d74cac6ae7b30bbdc2b303adec95">Kernel::wait</a></div><div class="ttdeci">static void wait(void)</div><div class="ttdoc">Put the current thread in a waiting state. </div><div class="ttdef"><b>Definition:</b> kernel.cpp:71</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -159,7 +159,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Dec 4 2016 00:44:34 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 5 2016 06:18:29 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

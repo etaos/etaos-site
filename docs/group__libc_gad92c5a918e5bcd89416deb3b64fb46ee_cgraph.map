@@ -1,0 +1,7 @@
+<map id="atol" name="atol">
+<area shape="rect" id="node2" href="$group__libc.html#ga80ac672fc21ed312d1221eeb294bfe85" title="Convert a string to a long integer. " alt="" coords="96,81,147,108"/>
+<area shape="rect" id="node3" href="$group__libc.html#ga56be4166e4673843042a548a7f513dbc" title="Check if c is a space, tab or newline feed. " alt="" coords="195,5,261,32"/>
+<area shape="rect" id="node4" href="$group__libc.html#ga3fa45b35c8abf67a950b6d3d4063dede" title="Check if c is a digit. " alt="" coords="200,56,256,83"/>
+<area shape="rect" id="node5" href="$group__libc.html#ga25908ae63aac2df990634e1ae5bd14d9" title="Check if c is alphabetic. " alt="" coords="197,107,259,133"/>
+<area shape="rect" id="node6" href="$group__libc.html#gadadd6582d46775aab6a51e29d16d9f77" title="Check if c is upper case. " alt="" coords="196,157,260,184"/>
+</map>

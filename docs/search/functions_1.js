@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['abs',['abs',['../group__libc.html#gaaa87dddb1e62142fd07ee17db1b5d673',1,'abs(int num):&#160;abs.c'],['../group__libc.html#gaaa87dddb1e62142fd07ee17db1b5d673',1,'abs(int num):&#160;abs.c']]],
   ['acos',['acos',['../group__math.html#gae9c5790d8a29cbee8f54f8eb522decbc',1,'math.h']]],
   ['adc_5fread',['adc_read',['../group__stl.html#ga85726fd22ea1528e5de6ae4d70552b40',1,'CPU']]],
   ['analog_5fchip_5finit',['analog_chip_init',['../group__analog.html#gaadcbb6165bb31a24e5d679b5e3ff0b79',1,'analog.c']]],
@@ -27,6 +28,8 @@ var searchData=
   ['atmega_5fspi_5fsetspeed',['atmega_spi_setspeed',['../group__spi-atmega.html#gaf61fa715bc5a4bb7928feb472a8f135f',1,'atmega-bus.c']]],
   ['atmega_5fspi_5fxfer',['atmega_spi_xfer',['../group__spi-atmega.html#ga4485fb698ecf9ca95510087b82584ad4',1,'atmega-bus.c']]],
   ['atmega_5fusart_5finit',['atmega_usart_init',['../group__usart-atmega.html#ga4243ce014e418c837b5dc114982baba1',1,'usart-atmega.c']]],
+  ['atoi',['atoi',['../group__libc.html#gaec327ac88a4cd588e82a8b0ac752b089',1,'atoi(const char *str):&#160;atoi.c'],['../group__libc.html#gaec327ac88a4cd588e82a8b0ac752b089',1,'atoi(const char *str):&#160;atoi.c']]],
+  ['atol',['atol',['../group__libc.html#gad92c5a918e5bcd89416deb3b64fb46ee',1,'atol(const char *str):&#160;atoi.c'],['../group__libc.html#gad92c5a918e5bcd89416deb3b64fb46ee',1,'atol(const char *str):&#160;atoi.c']]],
   ['avr_5fget_5fsys_5fclk',['avr_get_sys_clk',['../group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151',1,'avr_get_sys_clk(void):&#160;timer.c'],['../group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151',1,'avr_get_sys_clk(void):&#160;timer.c']]],
   ['avr_5fsre',['avr_sre',['../group__atmega.html#ga84f967f707b33052ec12bd1d7f15080a',1,'avr_sre(void):&#160;mem.c'],['../group__atmega.html#ga84f967f707b33052ec12bd1d7f15080a',1,'avr_sre(void):&#160;mem.c']]],
   ['avr_5fstart_5fsysclk',['avr_start_sysclk',['../group__atmega.html#ga1d941477ab57975d4f6e271892a9ae1a',1,'timer.c']]],
