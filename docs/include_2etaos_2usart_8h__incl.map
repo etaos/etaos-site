@@ -7,7 +7,7 @@
 <area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="25,528,130,555"/>
 <area shape="rect" id="node7" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="154,528,273,555"/>
 <area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="795,603,890,629"/>
-<area shape="rect" id="node9" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="487,155,585,181"/>
+<area shape="rect" id="node9" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="487,155,585,181"/>
 <area shape="rect" id="node17" href="$thread_8h.html" title="etaos/thread.h" alt="" coords="759,229,865,256"/>
 <area shape="rect" id="node10" href="$spinlock_8h.html" title="etaos/spinlock.h" alt="" coords="624,304,741,331"/>
 <area shape="rect" id="node14" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="367,229,475,256"/>

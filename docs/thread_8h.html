@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.3</a>
+                        <a class="navbar-brand">4.6.4</a>
 		    </div>
 	        </div>
             </div>
@@ -186,6 +186,10 @@ Macros</h2></td></tr>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread.html#ga476ee52f7a262ebbe4c4cca3b3c26ae5">THREAD_IDLE_FLAG</a>&#160;&#160;&#160;6</td></tr>
 <tr class="memdesc:ga476ee52f7a262ebbe4c4cca3b3c26ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_thread.html" title="Interface class for runnable objects. ">Thread</a> is the idle thread. <br /></td></tr>
 <tr class="separator:ga476ee52f7a262ebbe4c4cca3b3c26ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36d0a422445f4b98c7c585bce84229c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga36d0a422445f4b98c7c585bce84229c5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread.html#ga36d0a422445f4b98c7c585bce84229c5">THREAD_SYSTEM_STACK</a>&#160;&#160;&#160;7</td></tr>
+<tr class="memdesc:ga36d0a422445f4b98c7c585bce84229c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stack is allocated by the system. <br /></td></tr>
+<tr class="separator:ga36d0a422445f4b98c7c585bce84229c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Thread priority's</div></td></tr>
 <tr class="memitem:gae3fd23be576bff245fc70bfde8088ee3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae3fd23be576bff245fc70bfde8088ee3"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread.html#gae3fd23be576bff245fc70bfde8088ee3">SCHED_DEFAULT_PRIO</a>&#160;&#160;&#160;120</td></tr>
@@ -255,6 +259,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa996931b70d95f1dc3939cf84bbb5b11"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread.html#gaa996931b70d95f1dc3939cf84bbb5b11">nice</a> (unsigned char prio)</td></tr>
 <tr class="memdesc:gaa996931b70d95f1dc3939cf84bbb5b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the priority of the current thread.  <a href="group__thread.html#gaa996931b70d95f1dc3939cf84bbb5b11">More...</a><br /></td></tr>
 <tr class="separator:gaa996931b70d95f1dc3939cf84bbb5b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0c1f941af193dccf9f84ae9560d1fdda"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread.html#ga0c1f941af193dccf9f84ae9560d1fdda">join</a> (struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
+<tr class="memdesc:ga0c1f941af193dccf9f84ae9560d1fdda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for a thread to finish execution.  <a href="group__thread.html#ga0c1f941af193dccf9f84ae9560d1fdda">More...</a><br /></td></tr>
+<tr class="separator:ga0c1f941af193dccf9f84ae9560d1fdda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga512d7ca8d457038cebefec83b3b02065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__thread.html#ga512d7ca8d457038cebefec83b3b02065">thread_queue_init</a> (struct <a class="el" href="structthread__queue.html">thread_queue</a> *qp)</td></tr>
 <tr class="memdesc:ga512d7ca8d457038cebefec83b3b02065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise a thread queue during run time.  <a href="group__thread.html#ga512d7ca8d457038cebefec83b3b02065">More...</a><br /></td></tr>
 <tr class="separator:ga512d7ca8d457038cebefec83b3b02065"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -275,7 +282,7 @@ struct <a class="el" href="structsched__class.html">sched_class</a>&#160;</td><t
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 5 2016 06:18:30 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

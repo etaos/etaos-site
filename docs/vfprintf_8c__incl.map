@@ -1,7 +1,7 @@
-<map id="lib/stdio/vfprintf.c" name="lib/stdio/vfprintf.c">
+<map id="lib/crt/vfprintf.c" name="lib/crt/vfprintf.c">
 <area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="177,379,281,405"/>
 <area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="447,453,548,480"/>
-<area shape="rect" id="node8" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="453,80,550,107"/>
+<area shape="rect" id="node8" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="453,80,550,107"/>
 <area shape="rect" id="node11" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="687,304,803,331"/>
 <area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="5,453,149,480"/>
 <area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="174,453,279,480"/>

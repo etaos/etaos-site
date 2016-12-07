@@ -16,5 +16,5 @@ var searchData=
   ['fputs',['fputs',['../group__libcio.html#ga96f2a80acb7e2aad3ea50c4be0c818f4',1,'fputs.c']]],
   ['fs_5ffree_5fpath_5fsplit',['fs_free_path_split',['../group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679',1,'util.c']]],
   ['fs_5fsplit_5fpath',['fs_split_path',['../group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd',1,'util.c']]],
-  ['ftell',['ftell',['../group__vfs.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell(struct file *file):&#160;fops.c'],['../group__libcio.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell(struct file *file):&#160;fops.c']]]
+  ['ftell',['ftell',['../group__libcio.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell.c']]]
 ];

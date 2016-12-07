@@ -1,7 +1,7 @@
 <map id="include/etaos/device.h" name="include/etaos/device.h">
 <area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="175,379,279,405"/>
 <area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="765,453,867,480"/>
-<area shape="rect" id="node8" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="494,80,591,107"/>
+<area shape="rect" id="node8" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="494,80,591,107"/>
 <area shape="rect" id="node15" href="$include_2etaos_2mutex_8h_source.html" title="etaos/mutex.h" alt="" coords="683,80,789,107"/>
 <area shape="rect" id="node16" href="$thread_8h.html" title="etaos/thread.h" alt="" coords="774,155,879,181"/>
 <area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="5,453,149,480"/>

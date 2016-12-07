@@ -1,6 +1,6 @@
 <map id="include/etaos/eeprom.h" name="include/etaos/eeprom.h">
 <area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="175,453,279,480"/>
-<area shape="rect" id="node8" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="353,155,450,181"/>
+<area shape="rect" id="node8" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="353,155,450,181"/>
 <area shape="rect" id="node15" href="$device_8h.html" title="etaos/device.h" alt="" coords="439,80,545,107"/>
 <area shape="rect" id="node16" href="$include_2etaos_2mutex_8h_source.html" title="etaos/mutex.h" alt="" coords="531,155,637,181"/>
 <area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="5,528,149,555"/>

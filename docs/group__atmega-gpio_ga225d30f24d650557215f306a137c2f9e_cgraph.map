@@ -1,9 +1,9 @@
 <map id="atmega_init_gpio" name="atmega_init_gpio">
 <area shape="rect" id="node2" href="$group__gpiolib.html#gae05dcb5aa48047960c7775358ecdad11" title="Initialise a new GPIO chip. " alt="" coords="188,5,289,32"/>
-<area shape="rect" id="node5" href="$group__gpiolib.html#ga7845f8131da2aa2d2d81c6596ef2a532" title="Get a pin descriptor based on its pin number. " alt="" coords="179,56,298,83"/>
+<area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="356,31,419,57"/>
 <area shape="rect" id="node6" href="$group__gpiolib.html#ga0f3a521596d3f4fb0a42ef273750014d" title="Initialise a new pin descriptor. " alt="" coords="191,107,286,133"/>
 <area shape="rect" id="node8" href="$group__gpiolib.html#ga994316e638cef5ca3e58baaf3967d6dc" title="Set the system chip. " alt="" coords="173,157,304,184"/>
-<area shape="rect" id="node3" href="$group__mm.html#ga716cbac40f033139a972130cd3ed9de7" title="Allocate a new memory region. " alt="" coords="354,5,421,32"/>
 <area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="471,5,549,32"/>
+<area shape="rect" id="node5" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="475,56,545,83"/>
 <area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="352,107,423,133"/>
 </map>

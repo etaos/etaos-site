@@ -1,6 +1,6 @@
-<map id="lib/stdio/putc.c" name="lib/stdio/putc.c">
+<map id="lib/crt/putc.c" name="lib/crt/putc.c">
 <area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="543,379,647,405"/>
-<area shape="rect" id="node8" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="457,80,554,107"/>
+<area shape="rect" id="node8" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="457,80,554,107"/>
 <area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="412,453,556,480"/>
 <area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="287,453,388,480"/>
 <area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="581,453,686,480"/>

@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.3</a>
+                        <a class="navbar-brand">4.6.4</a>
 		    </div>
 	        </div>
             </div>
@@ -131,21 +131,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__evm.html#ga731befdfcd7f19822dc0e7bd89200e65">raw_event_wait</a>(<span class="keyword">struct</span> <a class="code" href="structthread__queue.html">thread_queue</a> *qp, <span class="keywordtype">unsigned</span> ms);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__evm.html#ga2192b6e38f6927a3b4e59cffcc03bf68">event_notify</a>(<span class="keyword">struct</span> <a class="code" href="structthread__queue.html">thread_queue</a> *qp);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__evm.html#ga442d104bf2f6cd10c847ec41e5fa1684">event_notify_irq</a>(<span class="keyword">struct</span> <a class="code" href="structthread__queue.html">thread_queue</a> *qp);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#define evm_signal_event_queue(__qp) event_notify(__qp)</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define evm_signal_from_irq(__qp) event_notify_irq(__qp)</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#define evm_wait_next_event_queue(__qp, __ms) event_wait(__qp, __ms)</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#define evm_wait_event_queue(__qp, __ms) raw_event_wait(__qp, __ms)</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;CDECL_END</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="group__evm.html#gaccf496d1c0ad24f0ec283329560c4b1b">   49</a></span>&#160;<span class="preprocessor">#define EVM_WAIT_INFINITE EVENT_WAIT_INFINITE</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define EVENT_WAIT_INFINITE 0</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> event_notify_broadcast(<span class="keyword">struct</span> <a class="code" href="structthread__queue.html">thread_queue</a> *qp);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> raw_event_notify_broadcast(<span class="keyword">struct</span> <a class="code" href="structthread__queue.html">thread_queue</a> *qp);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#define evm_signal_event_queue(__qp) event_notify(__qp)</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#define evm_signal_from_irq(__qp) event_notify_irq(__qp)</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#define evm_wait_next_event_queue(__qp, __ms) event_wait(__qp, __ms)</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#define evm_wait_event_queue(__qp, __ms) raw_event_wait(__qp, __ms)</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;CDECL_END</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="group__evm.html#gaccf496d1c0ad24f0ec283329560c4b1b">   51</a></span>&#160;<span class="preprocessor">#define EVM_WAIT_INFINITE EVENT_WAIT_INFINITE</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#define EVENT_WAIT_INFINITE 0</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">/* @} */</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">/* @} */</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="ttc" id="group__evm_html_ga731befdfcd7f19822dc0e7bd89200e65"><div class="ttname"><a href="group__evm.html#ga731befdfcd7f19822dc0e7bd89200e65">raw_event_wait</a></div><div class="ttdeci">int raw_event_wait(struct thread_queue *qp, unsigned ms)</div><div class="ttdoc">Wait for an event in a specified queue. </div><div class="ttdef"><b>Definition:</b> event.c:166</div></div>
 <div class="ttc" id="structthread__queue_html"><div class="ttname"><a href="structthread__queue.html">thread_queue</a></div><div class="ttdoc">Thread queue descriptor. </div><div class="ttdef"><b>Definition:</b> thread.h:114</div></div>
 <div class="ttc" id="group__evm_html_ga442d104bf2f6cd10c847ec41e5fa1684"><div class="ttname"><a href="group__evm.html#ga442d104bf2f6cd10c847ec41e5fa1684">event_notify_irq</a></div><div class="ttdeci">void event_notify_irq(struct thread_queue *qp)</div><div class="ttdoc">Signal an event from an IRQ. </div><div class="ttdef"><b>Definition:</b> event.c:210</div></div>
@@ -161,7 +163,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 5 2016 06:18:29 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

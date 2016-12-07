@@ -7,10 +7,10 @@ var searchData=
   ['mem_2eh',['mem.h',['../mem_8h.html',1,'']]],
   ['memcmp',['memcmp',['../group__libc.html#ga2fd3fbfe9c9761690827c99033599927',1,'memcmp(const void *r1, const void *r2, size_t nbytes):&#160;memcmp.c'],['../group__libc.html#ga2fd3fbfe9c9761690827c99033599927',1,'memcmp(const void *r1, const void *r2, size_t nbytes):&#160;memcmp.c']]],
   ['memcpy',['memcpy',['../group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac',1,'memcpy(void *dst, const void *src, size_t length):&#160;memcpy.c'],['../group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac',1,'memcpy(void *dst0, const void *src0, size_t length):&#160;memcpy.c']]],
-  ['memcpy_5fp',['memcpy_P',['../group__libc.html#ga363a24bd0fbf968073e8d47e8b12553a',1,'memcpy_P():&#160;stdlib.h'],['../group__atmega.html#ga9c19b85ced7db4aa2b17dd428adec104',1,'memcpy_P(void *_dest, const void *_src, size_t size):&#160;pgm.h']]],
+  ['memcpy_5fp',['memcpy_P',['../group__libc.html#ga363a24bd0fbf968073e8d47e8b12553a',1,'memcpy_P():&#160;string.h'],['../group__atmega.html#ga9c19b85ced7db4aa2b17dd428adec104',1,'memcpy_P(void *_dest, const void *_src, size_t size):&#160;pgm.h']]],
   ['memset',['memset',['../group__libc.html#gaa4075a014de11292d9105188ddbeb216',1,'memset(void *dst, int c, size_t n):&#160;memset.c'],['../group__libc.html#gaa4075a014de11292d9105188ddbeb216',1,'memset(void *dst, int c, size_t n):&#160;memset.c']]],
   ['miso',['miso',['../structspi__driver.html#a4636d8a241843c600e6d2f34c62785f8',1,'spi_driver']]],
-  ['mkdir',['mkdir',['../group__vfs.html#gafeb6cbc06f4dc89199e2c33561b2f77e',1,'mkdir(const char *path):&#160;vfs.c'],['../group__vfs.html#gafeb6cbc06f4dc89199e2c33561b2f77e',1,'mkdir(const char *path):&#160;vfs.c']]],
+  ['mkdir',['mkdir',['../group__libc.html#gafeb6cbc06f4dc89199e2c33561b2f77e',1,'mkdir(const char *path):&#160;mkdir.c'],['../group__libc.html#gafeb6cbc06f4dc89199e2c33561b2f77e',1,'mkdir(const char *path):&#160;mkdir.c']]],
   ['mktime',['mktime',['../group__libctime.html#gafc0e3f373a3ea00b37714f1b621ae0b1',1,'mktime.c']]],
   ['memory_20management',['Memory management',['../group__mm.html',1,'']]],
   ['mm_5falloc',['mm_alloc',['../group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce',1,'mm_alloc(size_t):&#160;first-fit.c'],['../group__ff.html#ga1cb797f5279b1a30129db3a3ab79a246',1,'mm_alloc(size_t size):&#160;first-fit.c'],['../group__bf.html#ga1cb797f5279b1a30129db3a3ab79a246',1,'mm_alloc(size_t size):&#160;heap.c']]],
@@ -23,7 +23,7 @@ var searchData=
   ['mm_5fnode_5fsize',['mm_node_size',['../group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1',1,'mm_node_size(void *ptr):&#160;heap.c'],['../group__bf.html#ga6628ff23c1a4f10cc9b11409afce63b1',1,'mm_node_size(void *ptr):&#160;heap.c']]],
   ['module_5finit',['module_init',['../group__kern-init.html#ga3035e2f9c636eda870dd0cf2cf5ac6f3',1,'init.h']]],
   ['mosi',['mosi',['../structspi__driver.html#a3d3367378616f37e3ec399b2a9e4eb3e',1,'spi_driver']]],
-  ['mount',['mount',['../group__vfs.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;vfs.c'],['../group__vfs.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;vfs.c']]],
+  ['mount',['mount',['../group__libc.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;mount.c'],['../group__libc.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;mount.c']]],
   ['msgs',['msgs',['../structipm__queue.html#af1c0716eeeaf441ef5b5e193bbfc9171',1,'ipm_queue']]],
   ['micro_20rom_20file_20system',['Micro ROM file system',['../group__romfs.html',1,'']]]
 ];

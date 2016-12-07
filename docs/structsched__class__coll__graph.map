@@ -1,9 +1,10 @@
 <map id="sched_class" name="sched_class">
-<area shape="rect" id="node7" href="$structrq.html" title="Run queue descriptor. " alt="" coords="5,432,116,539"/>
-<area shape="rect" id="node2" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="111,631,218,884"/>
-<area shape="rect" id="node6" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="151,947,234,1024"/>
-<area shape="rect" id="node8" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="15,947,63,1024"/>
-<area shape="rect" id="node3" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="127,5,213,127"/>
-<area shape="rect" id="node4" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="41,197,133,362"/>
-<area shape="rect" id="node5" href="$structlist__head.html" title="Linked list structure. " alt="" coords="354,27,429,105"/>
+<area shape="rect" id="node3" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="185,410,285,487"/>
+<area shape="rect" id="node8" href="$structrq.html" title="Run queue descriptor. " alt="" coords="141,1028,251,1135"/>
+<area shape="rect" id="node2" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="215,572,321,825"/>
+<area shape="rect" id="node7" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="323,888,405,965"/>
+<area shape="rect" id="node9" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="172,888,220,965"/>
+<area shape="rect" id="node4" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="309,388,395,509"/>
+<area shape="rect" id="node5" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="377,153,469,318"/>
+<area shape="rect" id="node6" href="$structlist__head.html" title="Linked list structure. " alt="" coords="385,5,460,83"/>
 </map>

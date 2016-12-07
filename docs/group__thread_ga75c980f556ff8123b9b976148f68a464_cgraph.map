@@ -1,11 +1,12 @@
 <map id="sched_init_idle" name="sched_init_idle">
-<area shape="rect" id="node2" href="$group__thread.html#ga4289b7f9957ab328ffc1390816f01eb1" title="Thread initialise backend. " alt="" coords="161,167,272,193"/>
-<area shape="rect" id="node10" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="359,305,420,332"/>
-<area shape="rect" id="node3" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="536,91,605,117"/>
-<area shape="rect" id="node4" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="353,36,425,63"/>
-<area shape="rect" id="node5" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="362,87,417,113"/>
-<area shape="rect" id="node6" href="$list_8h.html#a1a568374cf24e55d65a537408bd323e4" title="Dynamic list initialiser. " alt="" coords="340,137,439,164"/>
-<area shape="rect" id="node7" href="$group__irq.html#gada411b93697a32753d2f9b68f58d2daf" title="Store the IRQ flags. " alt="" coords="336,255,443,281"/>
-<area shape="rect" id="node9" href="$group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a" title="Setup the stack from of a thread. " alt="" coords="320,189,459,230"/>
-<area shape="rect" id="node8" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="507,255,635,281"/>
+<area shape="rect" id="node2" href="$group__thread.html#ga4289b7f9957ab328ffc1390816f01eb1" title="Thread initialise backend. " alt="" coords="161,190,272,217"/>
+<area shape="rect" id="node11" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="359,358,420,385"/>
+<area shape="rect" id="node3" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="536,118,605,145"/>
+<area shape="rect" id="node4" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="353,38,425,65"/>
+<area shape="rect" id="node5" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="362,89,417,115"/>
+<area shape="rect" id="node6" href="$list_8h.html#a1a568374cf24e55d65a537408bd323e4" title="Dynamic list initialiser. " alt="" coords="340,139,439,166"/>
+<area shape="rect" id="node7" href="$group__thread.html#ga512d7ca8d457038cebefec83b3b02065" title="Initialise a thread queue during run time. " alt="" coords="327,190,451,217"/>
+<area shape="rect" id="node8" href="$group__irq.html#gada411b93697a32753d2f9b68f58d2daf" title="Store the IRQ flags. " alt="" coords="336,307,443,334"/>
+<area shape="rect" id="node10" href="$group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a" title="Setup the stack from of a thread. " alt="" coords="320,241,459,283"/>
+<area shape="rect" id="node9" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="507,307,635,334"/>
 </map>

@@ -39,7 +39,7 @@ var searchData=
   ['lottery_5fremove_5fthread',['lottery_remove_thread',['../group__lottery.html#ga9ab6a79c73213338a0b38e638fc2c5cf',1,'lottery.c']]],
   ['lottery_5freturn_5fticket',['lottery_return_ticket',['../group__lottery.html#gaea8288efaa6132ef722eec0af5c30987',1,'lottery.c']]],
   ['lottery_5ftake_5fticket',['lottery_take_ticket',['../group__lottery.html#ga3bf5a37ae75bb6941d73854e2fe6a390',1,'lottery.c']]],
-  ['lseek',['lseek',['../structfile.html#a43cec0bcf084aaa05892b311a895d51a',1,'file::lseek()'],['../group__vfs.html#gacfbe72946552886069ed9733ac32800f',1,'lseek(struct file *file, size_t offset, int whence):&#160;fops.c'],['../group__vfs.html#gacfbe72946552886069ed9733ac32800f',1,'lseek(struct file *file, size_t offset, int whence):&#160;fops.c']]],
+  ['lseek',['lseek',['../structfile.html#a43cec0bcf084aaa05892b311a895d51a',1,'file::lseek()'],['../group__libc.html#gacfbe72946552886069ed9733ac32800f',1,'lseek(struct file *file, size_t offset, int whence):&#160;lseek.c'],['../group__libc.html#gacfbe72946552886069ed9733ac32800f',1,'lseek(struct file *file, size_t offset, int whence):&#160;lseek.c']]],
   ['lseek_5ft',['lseek_t',['../group__vfs.html#gabdacf35cb07671247a632325a53c0450',1,'vfs.h']]],
   ['ltoa',['ltoa',['../group__libc.html#ga18454f93db1bdf9866a682b509d6858e',1,'ltoa(long num, char *str, int base):&#160;ltoa.c'],['../group__libc.html#ga18454f93db1bdf9866a682b509d6858e',1,'ltoa(long num, char *str, int base):&#160;ltoa.c']]]
 ];

@@ -33,7 +33,7 @@ var searchData=
   ['pin_5fout',['pin_out',['../group__stl.html#ga052d13b676e1db2c91d7edcccfc276f8',1,'CPU::pin_out()'],['../class_platform.html#a052d13b676e1db2c91d7edcccfc276f8',1,'Platform::pin_out()']]],
   ['pin_5fread',['pin_read',['../group__stl.html#ga1492fe7c9e12b249e90c9f293a1ba40e',1,'CPU::pin_read()'],['../class_platform.html#a1492fe7c9e12b249e90c9f293a1ba40e',1,'Platform::pin_read()']]],
   ['pin_5fwrite',['pin_write',['../group__stl.html#ga7a77dbcbac66c680ebdc110cf14ae068',1,'CPU::pin_write()'],['../class_platform.html#a7a77dbcbac66c680ebdc110cf14ae068',1,'Platform::pin_write()']]],
-  ['pins',['pins',['../structgpio__chip.html#ab269cecffad98d6c415d9c18a9365115',1,'gpio_chip']]],
+  ['pins',['pins',['../structgpio__chip.html#a70ae8a99005085a976f2996e92dcc6c8',1,'gpio_chip']]],
   ['pins_5fper_5fport',['PINS_PER_PORT',['../group__atmega-gpio.html#gadb312c6a2d8064fb21620d1e141111d6',1,'atmega-gpio.c']]],
   ['platform',['Platform',['../class_platform.html',1,'Platform'],['../group__platform.html',1,'(Global Namespace)']]],
   ['platform_2eh',['platform.h',['../platform_8h.html',1,'']]],

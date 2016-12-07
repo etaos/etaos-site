@@ -11,7 +11,7 @@
 <area shape="rect" id="node9" href="$include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="700,453,783,480"/>
 <area shape="rect" id="node10" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="409,453,525,480"/>
 <area shape="rect" id="node11" href="$arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="549,453,625,480"/>
-<area shape="rect" id="node13" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="818,229,915,256"/>
+<area shape="rect" id="node13" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="818,229,915,256"/>
 <area shape="rect" id="node16" href="$include_2etaos_2mutex_8h_source.html" title="etaos/mutex.h" alt="" coords="522,229,627,256"/>
 <area shape="rect" id="node17" href="$thread_8h.html" title="etaos/thread.h" alt="" coords="239,304,345,331"/>
 <area shape="rect" id="node14" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="858,304,966,331"/>

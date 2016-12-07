@@ -3,10 +3,10 @@
 <area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="479,677,580,704"/>
 <area shape="rect" id="node8" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="771,379,879,405"/>
 <area shape="rect" id="node10" href="$include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="803,528,885,555"/>
-<area shape="rect" id="node11" href="$time_8h.html" title="etaos/time.h" alt="" coords="895,229,990,256"/>
+<area shape="rect" id="node11" href="$etaos_2time_8h.html" title="etaos/time.h" alt="" coords="895,229,990,256"/>
 <area shape="rect" id="node14" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="94,528,210,555"/>
 <area shape="rect" id="node17" href="$include_2etaos_2sched_8h.html" title="etaos/sched.h" alt="" coords="479,80,583,107"/>
-<area shape="rect" id="node22" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="583,304,681,331"/>
+<area shape="rect" id="node22" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="583,304,681,331"/>
 <area shape="rect" id="node23" href="$tick_8h.html" title="etaos/tick.h" alt="" coords="1257,155,1348,181"/>
 <area shape="rect" id="node24" href="$math_8h_source.html" title="etaos/math.h" alt="" coords="1548,80,1647,107"/>
 <area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="1097,677,1241,704"/>

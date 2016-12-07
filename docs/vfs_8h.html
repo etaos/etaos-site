@@ -31,7 +31,7 @@
 			<img alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.3</a>
+                        <a class="navbar-brand">4.6.4</a>
 		    </div>
 	        </div>
             </div>
@@ -107,6 +107,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &lt;<a class="el" href="kernel_8h_source.html">etaos/kernel.h</a>&gt;</code><br />
 <code>#include &lt;etaos/stdio.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="list_8h_source.html">etaos/list.h</a>&gt;</code><br />
+<code>#include &lt;etaos/dirent.h&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for vfs.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -114,7 +115,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="vfs_8h__incl.png" border="0" usemap="#include_2etaos_2vfs_8h" alt=""/></div>
 <map name="include_2etaos_2vfs_8h" id="include_2etaos_2vfs_8h">
-<area shape="rect" id="node2" href="kernel_8h.html" title="etaos/kernel.h" alt="" coords="292,379,396,405"/><area shape="rect" id="node8" href="stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="347,80,445,107"/><area shape="rect" id="node15" href="list_8h.html" title="etaos/list.h" alt="" coords="695,304,782,331"/><area shape="rect" id="node3" href="autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="257,453,401,480"/><area shape="rect" id="node4" href="include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="556,453,657,480"/><area shape="rect" id="node6" href="stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="426,453,531,480"/><area shape="rect" id="node7" href="compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="114,453,233,480"/><area shape="rect" id="node5" href="arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="559,528,654,555"/><area shape="rect" id="node9" href="spinlock_8h.html" title="etaos/spinlock.h" alt="" coords="244,229,361,256"/><area shape="rect" id="node13" href="include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="405,155,513,181"/><area shape="rect" id="node10" href="include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="487,304,569,331"/><area shape="rect" id="node11" href="preempt_8h.html" title="etaos/preempt.h" alt="" coords="145,304,261,331"/><area shape="rect" id="node12" href="arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="285,304,361,331"/><area shape="rect" id="node14" href="arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="452,229,553,256"/></map>
+<area shape="rect" id="node2" href="kernel_8h.html" title="etaos/kernel.h" alt="" coords="207,453,311,480"/><area shape="rect" id="node8" href="etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="305,155,402,181"/><area shape="rect" id="node15" href="list_8h.html" title="etaos/list.h" alt="" coords="746,379,833,405"/><area shape="rect" id="node16" href="etaos_2dirent_8h_source.html" title="etaos/dirent.h" alt="" coords="215,80,316,107"/><area shape="rect" id="node3" href="autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="37,528,181,555"/><area shape="rect" id="node4" href="include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="580,528,681,555"/><area shape="rect" id="node6" href="stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="206,528,311,555"/><area shape="rect" id="node7" href="compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="335,528,454,555"/><area shape="rect" id="node5" href="arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="583,603,678,629"/><area shape="rect" id="node9" href="spinlock_8h.html" title="etaos/spinlock.h" alt="" coords="295,304,412,331"/><area shape="rect" id="node13" href="include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="439,229,547,256"/><area shape="rect" id="node10" href="include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="537,379,620,405"/><area shape="rect" id="node11" href="preempt_8h.html" title="etaos/preempt.h" alt="" coords="295,379,411,405"/><area shape="rect" id="node12" href="arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="195,379,271,405"/><area shape="rect" id="node14" href="arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="503,304,604,331"/></map>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
@@ -123,7 +124,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="vfs_8h__dep__incl.png" border="0" usemap="#include_2etaos_2vfs_8hdep" alt=""/></div>
 <map name="include_2etaos_2vfs_8hdep" id="include_2etaos_2vfs_8hdep">
-<area shape="rect" id="node2" href="devfs_8h_source.html" title="include/etaos/devfs.h" alt="" coords="5,80,152,107"/><area shape="rect" id="node3" href="ramfs_8h_source.html" title="include/etaos/ramfs.h" alt="" coords="176,80,323,107"/><area shape="rect" id="node4" href="romfs_8h_source.html" title="include/etaos/romfs.h" alt="" coords="347,80,493,107"/><area shape="rect" id="node5" href="chardev_8h.html" title="include/etaos/stl/chardev.h" alt="" coords="568,80,747,107"/><area shape="rect" id="node6" href="stl_2eeprom_8h.html" title="include/etaos/stl/eeprom.h" alt="" coords="458,155,633,181"/><area shape="rect" id="node7" href="stl_2sram_8h.html" title="include/etaos/stl/sram.h" alt="" coords="687,155,849,181"/></map>
+<area shape="rect" id="node2" href="etaos_2unistd_8h_source.html" title="include/etaos/unistd.h" alt="" coords="5,80,155,107"/><area shape="rect" id="node4" href="devfs_8h_source.html" title="include/etaos/devfs.h" alt="" coords="179,80,325,107"/><area shape="rect" id="node5" href="ramfs_8h_source.html" title="include/etaos/ramfs.h" alt="" coords="349,80,496,107"/><area shape="rect" id="node6" href="romfs_8h_source.html" title="include/etaos/romfs.h" alt="" coords="520,80,667,107"/><area shape="rect" id="node7" href="chardev_8h.html" title="include/etaos/stl/chardev.h" alt="" coords="741,80,920,107"/><area shape="rect" id="node8" href="stl_2eeprom_8h.html" title="include/etaos/stl/eeprom.h" alt="" coords="631,155,806,181"/><area shape="rect" id="node9" href="stl_2sram_8h.html" title="include/etaos/stl/sram.h" alt="" coords="861,155,1022,181"/><area shape="rect" id="node3" href="unistd_8h_source.html" title="include/unistd.h" alt="" coords="23,155,137,181"/></map>
 </div>
 </div>
 <p><a href="vfs_8h_source.html">Go to the source code of this file.</a></p>
@@ -132,9 +133,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfs__driver.html">fs_driver</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">File system driver.  <a href="structfs__driver.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdirent.html">dirent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directory entry descriptor.  <a href="structdirent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -176,36 +174,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <tr class="memitem:ga944e6bce7fe47ffb1fda59fc8a2ff35d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2etaos_2types_8h.html#a4e10188b042db390e7130d0bbf961005">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga944e6bce7fe47ffb1fda59fc8a2ff35d">vfs_setoffset</a> (struct <a class="el" href="structfile.html">file</a> *<a class="el" href="structfile.html">file</a>, <a class="el" href="include_2etaos_2types_8h.html#a4e10188b042db390e7130d0bbf961005">ssize_t</a> offset, <a class="el" href="include_2etaos_2types_8h.html#a4e10188b042db390e7130d0bbf961005">ssize_t</a> max)</td></tr>
 <tr class="memdesc:ga944e6bce7fe47ffb1fda59fc8a2ff35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current index of a file.  <a href="group__vfs.html#ga944e6bce7fe47ffb1fda59fc8a2ff35d">More...</a><br /></td></tr>
 <tr class="separator:ga944e6bce7fe47ffb1fda59fc8a2ff35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacfbe72946552886069ed9733ac32800f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#gacfbe72946552886069ed9733ac32800f">lseek</a> (struct <a class="el" href="structfile.html">file</a> *<a class="el" href="structfile.html">file</a>, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> offset, int whence)</td></tr>
-<tr class="memdesc:gacfbe72946552886069ed9733ac32800f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The lseek function repositions the offset of the given file.  <a href="group__vfs.html#gacfbe72946552886069ed9733ac32800f">More...</a><br /></td></tr>
-<tr class="separator:gacfbe72946552886069ed9733ac32800f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafeb6cbc06f4dc89199e2c33561b2f77e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#gafeb6cbc06f4dc89199e2c33561b2f77e">mkdir</a> (const char *path)</td></tr>
-<tr class="memdesc:gafeb6cbc06f4dc89199e2c33561b2f77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new directory.  <a href="group__vfs.html#gafeb6cbc06f4dc89199e2c33561b2f77e">More...</a><br /></td></tr>
-<tr class="separator:gafeb6cbc06f4dc89199e2c33561b2f77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9c5dd508e53e51f6d1e10226c41e3f72"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga9c5dd508e53e51f6d1e10226c41e3f72">mount</a> (struct <a class="el" href="structfs__driver.html">fs_driver</a> *fs, const char *path)</td></tr>
-<tr class="memdesc:ga9c5dd508e53e51f6d1e10226c41e3f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mount a file system to a path.  <a href="group__vfs.html#ga9c5dd508e53e51f6d1e10226c41e3f72">More...</a><br /></td></tr>
-<tr class="separator:ga9c5dd508e53e51f6d1e10226c41e3f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28af9471bbdf262321af663e02899a47"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga28af9471bbdf262321af663e02899a47">unlink</a> (const char *path)</td></tr>
-<tr class="memdesc:ga28af9471bbdf262321af663e02899a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a file from the VFS.  <a href="group__vfs.html#ga28af9471bbdf262321af663e02899a47">More...</a><br /></td></tr>
-<tr class="separator:ga28af9471bbdf262321af663e02899a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae8165f16744eaddbdbeda00a6ce96afd"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structdirent.html">dirent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#gae8165f16744eaddbdbeda00a6ce96afd">dirent_create</a> (const char *name)</td></tr>
-<tr class="memdesc:gae8165f16744eaddbdbeda00a6ce96afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new directory entry.  <a href="group__vfs.html#gae8165f16744eaddbdbeda00a6ce96afd">More...</a><br /></td></tr>
-<tr class="separator:gae8165f16744eaddbdbeda00a6ce96afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga317c30a6f7ef86f2f9118d6038cd11b5"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structdirent.html">dirent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5">dirent_find</a> (struct <a class="el" href="structdirent.html">dirent</a> *root, const char *path)</td></tr>
-<tr class="memdesc:ga317c30a6f7ef86f2f9118d6038cd11b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a directory entry.  <a href="group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5">More...</a><br /></td></tr>
-<tr class="separator:ga317c30a6f7ef86f2f9118d6038cd11b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53383e13153ba6ec940596be2b9c0cd3"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structdirent.html">dirent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga53383e13153ba6ec940596be2b9c0cd3">dirent_add_child</a> (struct <a class="el" href="structdirent.html">dirent</a> *parent, struct <a class="el" href="structdirent.html">dirent</a> *child)</td></tr>
-<tr class="memdesc:ga53383e13153ba6ec940596be2b9c0cd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a directory as a child to another directory.  <a href="group__vfs.html#ga53383e13153ba6ec940596be2b9c0cd3">More...</a><br /></td></tr>
-<tr class="separator:ga53383e13153ba6ec940596be2b9c0cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7c5cacd9db023382341701d248c85fcd"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structfile.html">file</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga7c5cacd9db023382341701d248c85fcd">dirent_add_file</a> (struct <a class="el" href="structdirent.html">dirent</a> *dir, struct <a class="el" href="structfile.html">file</a> *<a class="el" href="structfile.html">file</a>)</td></tr>
-<tr class="memdesc:ga7c5cacd9db023382341701d248c85fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a file to a directory entry.  <a href="group__vfs.html#ga7c5cacd9db023382341701d248c85fcd">More...</a><br /></td></tr>
-<tr class="separator:ga7c5cacd9db023382341701d248c85fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0ae0f4204715f91555162d27c61b4ee7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structfile.html">file</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga0ae0f4204715f91555162d27c61b4ee7">dirent_remove_file</a> (struct <a class="el" href="structdirent.html">dirent</a> *dir, struct <a class="el" href="structfile.html">file</a> *<a class="el" href="structfile.html">file</a>)</td></tr>
-<tr class="memdesc:ga0ae0f4204715f91555162d27c61b4ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a file from directory.  <a href="group__vfs.html#ga0ae0f4204715f91555162d27c61b4ee7">More...</a><br /></td></tr>
-<tr class="separator:ga0ae0f4204715f91555162d27c61b4ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga696ea429564516870e2da74812165838"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structfile.html">file</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga696ea429564516870e2da74812165838">dirent_find_file</a> (struct <a class="el" href="structdirent.html">dirent</a> *dir, const char *filename)</td></tr>
-<tr class="memdesc:ga696ea429564516870e2da74812165838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a file in a directory.  <a href="group__vfs.html#ga696ea429564516870e2da74812165838">More...</a><br /></td></tr>
-<tr class="separator:ga696ea429564516870e2da74812165838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e3ff029ffb81cae36275f8197f32b60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__vfs.html#ga9e3ff029ffb81cae36275f8197f32b60">vfs_setindex</a> (struct <a class="el" href="structfile.html">file</a> *<a class="el" href="structfile.html">file</a>, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> index, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> max)</td></tr>
+<tr class="memdesc:ga9e3ff029ffb81cae36275f8197f32b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index of a file.  <a href="group__vfs.html#ga9e3ff029ffb81cae36275f8197f32b60">More...</a><br /></td></tr>
+<tr class="separator:ga9e3ff029ffb81cae36275f8197f32b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>VFS header </p>
@@ -234,6 +205,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <tr><td class="fieldname"><a class="anchor" id="a0617d78add7ebacffcef53b6f7a0c67cabc213cbe222468c82723ebd934f2762e"></a>FS_FILE_CLOSE&#160;</td><td class="fielddoc">
 <p>File closed. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a0617d78add7ebacffcef53b6f7a0c67cad3882225ed324d8700ef2b079b533c91"></a>FS_FILE_UNLINK&#160;</td><td class="fielddoc">
+<p>Remove a file. </p>
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a0617d78add7ebacffcef53b6f7a0c67ca6cb451d89aa681581fd7dda6ccdb3712"></a>FS_DIR_CREATE&#160;</td><td class="fielddoc">
 <p>Directory created. </p>
 </td></tr>
@@ -256,7 +230,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 5 2016 06:18:30 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

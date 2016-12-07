@@ -1,7 +1,7 @@
 <map id="kernel/time/time.c" name="kernel/time/time.c">
 <area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="169,528,273,555"/>
 <area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="785,603,886,629"/>
-<area shape="rect" id="node8" href="$time_8h.html" title="etaos/time.h" alt="" coords="311,155,405,181"/>
+<area shape="rect" id="node8" href="$etaos_2time_8h.html" title="etaos/time.h" alt="" coords="311,155,405,181"/>
 <area shape="rect" id="node16" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="246,304,385,331"/>
 <area shape="rect" id="node17" href="$tick_8h.html" title="etaos/tick.h" alt="" coords="313,80,403,107"/>
 <area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="149,603,293,629"/>

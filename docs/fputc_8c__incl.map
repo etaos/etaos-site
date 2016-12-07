@@ -1,7 +1,7 @@
-<map id="lib/stdio/fputc.c" name="lib/stdio/fputc.c">
+<map id="lib/crt/fputc.c" name="lib/crt/fputc.c">
 <area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="259,528,363,555"/>
 <area shape="rect" id="node8" href="$error_8h_source.html" title="etaos/error.h" alt="" coords="387,80,482,107"/>
-<area shape="rect" id="node9" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="471,229,569,256"/>
+<area shape="rect" id="node9" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="471,229,569,256"/>
 <area shape="rect" id="node16" href="$include_2etaos_2bitops_8h.html" title="etaos/bitops.h" alt="" coords="657,80,761,107"/>
 <area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="239,603,383,629"/>
 <area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="557,603,659,629"/>

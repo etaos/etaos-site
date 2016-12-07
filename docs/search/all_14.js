@@ -71,7 +71,7 @@ var searchData=
   ['spi_5fmode3',['SPI_MODE3',['../group__spi.html#ggad268301d3b918e279269ec49f803488dad9636eac0759655110aa77dd6c22da6c',1,'spi.h']]],
   ['spi_5fmsg',['spi_msg',['../structspi__msg.html',1,'']]],
   ['spi_5fset_5fmode',['spi_set_mode',['../group__spi.html#gac9a3ddca0fbddd501da7918622cd9509',1,'spi-core.c']]],
-  ['spi_5fset_5fspeed',['spi_set_speed',['../group__spi.html#ga299495247902b3003d99d1f25dc9fa3f',1,'spi_set_speed(struct spidev *dev, uint32_t bps):&#160;spi-core.c'],['../group__spi.html#ggad268301d3b918e279269ec49f803488dad9f1d8d4f2158f35c8cdeca0a6a3bbda',1,'SPI_SET_SPEED():&#160;spi.h']]],
+  ['spi_5fset_5fspeed',['SPI_SET_SPEED',['../group__spi.html#ggad268301d3b918e279269ec49f803488dad9f1d8d4f2158f35c8cdeca0a6a3bbda',1,'SPI_SET_SPEED():&#160;spi.h'],['../group__spi.html#ga299495247902b3003d99d1f25dc9fa3f',1,'spi_set_speed(struct spidev *dev, uint32_t bps):&#160;spi-core.c']]],
   ['spi_5fsysbus',['spi_sysbus',['../group__spi.html#ga61bee98d216c108227d04bf7c860a93e',1,'spi_sysbus():&#160;spi-core.c'],['../group__spi.html#ga61bee98d216c108227d04bf7c860a93e',1,'spi_sysbus():&#160;spi-core.c']]],
   ['spi_5ftransfer',['spi_transfer',['../group__spi.html#gae4edeea008c7d373a922dcd42e4ef2be',1,'spi-core.c']]],
   ['spidev',['spidev',['../structspidev.html',1,'']]],

@@ -1,73 +1,73 @@
 <map id="eeprom_24c02_read_byte" name="eeprom_24c02_read_byte">
-<area shape="rect" id="node2" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="765,120,827,147"/>
-<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="1597,652,1659,679"/>
-<area shape="rect" id="node6" href="$group__dev-core.html#ga5232d0e524b1611748943aa408444911" title="Lock a device with synchronization. " alt="" coords="231,1488,340,1515"/>
-<area shape="rect" id="node41" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="1603,1949,1653,1976"/>
-<area shape="rect" id="node70" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="237,2101,333,2128"/>
-<area shape="rect" id="node72" href="$group__dev-core.html#gaceb0363f7690f83ebde2dc871f55f31d" title="Unlock a dev locked with dev_sync_lock. " alt="" coords="224,2152,347,2179"/>
-<area shape="rect" id="node3" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="927,145,1005,172"/>
-<area shape="rect" id="node4" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="931,95,1001,121"/>
-<area shape="rect" id="node7" href="$group__libctime.html#ga41213015bed9d9d3191a724a41518963" title="Get the sytem time. " alt="" coords="1394,1564,1441,1591"/>
-<area shape="rect" id="node14" href="$group__sched.html#gaf884d02ac7bc14a91b776fb092c45094" title="Let a thread wait on a thread queue. " alt="" coords="395,1449,525,1476"/>
-<area shape="rect" id="node67" href="$group__thread.html#ga7cb51f5c2b5cad3766f19eb69c92793b" title="Yield the current thread, if necessary. " alt="" coords="435,837,485,864"/>
-<area shape="rect" id="node8" href="$group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="1555,1564,1701,1591"/>
-<area shape="rect" id="node11" href="$group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="1587,1412,1669,1439"/>
-<area shape="rect" id="node9" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="1763,1539,1891,1565"/>
-<area shape="rect" id="node10" href="$group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="1769,1589,1885,1616"/>
-<area shape="rect" id="node12" href="$group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="1752,1412,1903,1439"/>
-<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="1953,1412,2019,1439"/>
-<area shape="rect" id="node15" href="$group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="1365,500,1470,527"/>
-<area shape="rect" id="node18" href="$group__tm.html#ga15711d26d9190044d7ca7ac1d3899ca4" title="Create a new timer. " alt="" coords="573,1781,704,1808"/>
-<area shape="rect" id="node21" href="$group__sched.html#gabb6df12a0f0c3721e58b5250052a42a2" title="Thread queue timeout function. " alt="" coords="907,1412,1025,1439"/>
-<area shape="rect" id="node26" href="$group__sched.html#ga72ca187dd5dd0ac19af98da3ea9b56e4" title="Add a new thread to a queue. " alt="" coords="575,1475,703,1501"/>
-<area shape="rect" id="node30" href="$group__preempt.html#gac48128e72b303ea22d8ec641a9516b15" title="Reschedule the current run queue. " alt="" coords="601,1225,676,1252"/>
-<area shape="rect" id="node16" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="1564,500,1692,527"/>
-<area shape="rect" id="node17" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="1774,525,1881,552"/>
-<area shape="rect" id="node19" href="$group__tm.html#ga20954f365ba3354a5adb5cb312c8936d" title="Start a new timer. " alt="" coords="1568,1747,1688,1773"/>
-<area shape="rect" id="node20" href="$group__tm.html#ga6501ffdc00b89b8308bc225e1182f213" title="Add a new timer to a clocksource. " alt="" coords="1749,1747,1905,1773"/>
-<area shape="rect" id="node22" href="$group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50" title="Get the thread_queue the given thread is on. " alt="" coords="1358,1412,1477,1439"/>
-<area shape="rect" id="node23" href="$group__sched.html#gaa468a0cc0864610b821b2730abe5c182" title="Remove a thread from a thread_queue. " alt="" coords="1111,1463,1261,1489"/>
-<area shape="rect" id="node25" href="$group__sched.html#ga44292b5df60facfa57dcafc582212a0d" title="Add a thread to a run queue. " alt="" coords="1339,601,1495,628"/>
-<area shape="rect" id="node24" href="$group__sched.html#ga2284d061e42560a7bac2dac7c0aa682f" title="Remove a thread from a thread_queue. " alt="" coords="1328,1463,1507,1489"/>
-<area shape="rect" id="node27" href="$group__sched.html#ga2e34e3f4c49c118e9271e5b6101b020e" title="Add a new thread to a queue. " alt="" coords="888,1513,1044,1540"/>
-<area shape="rect" id="node28" href="$group__sched.html#ga466e412d13a242143847e21dcbd5fea7" title="Remove a thread from a run queue without rescheduling. " alt="" coords="1109,754,1263,795"/>
-<area shape="rect" id="node29" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="1382,753,1453,780"/>
-<area shape="rect" id="node31" href="$group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="1585,1209,1671,1236"/>
-<area shape="rect" id="node32" href="$group__sched.html#ga8dac22a2785f9a88fc16da53874889e2" title="Reschedule the current run queue. " alt="" coords="752,935,840,961"/>
-<area shape="rect" id="node66" href="$group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671" title="Check if a reschedule is required. " alt="" coords="1135,1276,1237,1303"/>
-<area shape="rect" id="node33" href="$group__kernel.html#ga38f4f8022778edff29606cec22897bfc" title="Notify the CPU of a specific event. " alt="" coords="925,728,1007,755"/>
-<area shape="rect" id="node36" href="$group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="1147,601,1225,628"/>
-<area shape="rect" id="node37" href="$group__sched.html#ga99b50b5fd0a5c40e184b7ff5adc4a01d" title="API version of __rq_update_clock. " alt="" coords="907,1073,1025,1100"/>
-<area shape="rect" id="node43" href="$group__sched.html#ga017c639d6dbf8710ad60a22985116618" title="Signal threads that are waiting for an event. " alt="" coords="904,1175,1028,1201"/>
-<area shape="rect" id="node50" href="$group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="1101,297,1271,324"/>
-<area shape="rect" id="node51" href="$group__sched.html#gabb16e47cc3e478d76f303be5bbacde1c" title="Check if the algorithm wants to preempt the current thread. " alt="" coords="917,855,1015,881"/>
-<area shape="rect" id="node52" href="$group__sched.html#ga71fd9dde3968661117e7926bab75f25e" title="Reschedule policy. " alt="" coords="1098,1023,1274,1049"/>
-<area shape="rect" id="node56" href="$group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="895,957,1037,998"/>
-<area shape="rect" id="node57" href="$group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357" title="Prepare the a reschedule. " alt="" coords="1117,972,1255,999"/>
-<area shape="rect" id="node59" href="$group__sched.html#ga761312d2768cc26c49b7f53de33c8477" title="Switch context on a given run queue. " alt="" coords="902,196,1030,223"/>
-<area shape="rect" id="node61" href="$group__sched.html#ga0b1c71305537a28e3a7194016f6b43e6" title="Update a run queue. " alt="" coords="1147,1124,1225,1151"/>
-<area shape="rect" id="node63" href="$group__sched.html#ga13a5b1237d1c0238dd0432a2590e8195" title="Destroy the kill queue. " alt="" coords="1126,1768,1246,1795"/>
-<area shape="rect" id="node34" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="1127,399,1245,425"/>
-<area shape="rect" id="node35" href="$group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="1092,348,1280,375"/>
-<area shape="rect" id="node38" href="$group__sched.html#ga569fc559ba3602cb73b1bd1552aa1daf" title="Update the scheduling clock. " alt="" coords="1121,1513,1251,1540"/>
-<area shape="rect" id="node39" href="$group__tm.html#ga3817a7c75cd4be46bb92c9aa608cdbec" title="Update the clockskew of a clocksource. " alt="" coords="1348,1513,1487,1540"/>
-<area shape="rect" id="node40" href="$group__tm.html#gaf37ee13b8e3698ee03eb932f6bb02c46" title="Process a given clock source and its timers. " alt="" coords="1346,1848,1489,1875"/>
-<area shape="rect" id="node42" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="1791,1949,1864,1976"/>
-<area shape="rect" id="node44" href="$group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa" title="Signal a thread on a wake queue. " alt="" coords="1109,1175,1263,1201"/>
-<area shape="rect" id="node45" href="$group__sched.html#gae1a79ba3d3d2d109c947be1ee5a03f3d" title="Remove a thread from a rq. " alt="" coords="1343,1615,1492,1657"/>
-<area shape="rect" id="node47" href="$group__tm.html#ga8b09cd45bc4628ce347b23f28d39be6a" title="Stop a timer. " alt="" coords="1358,1747,1477,1773"/>
-<area shape="rect" id="node49" href="$group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="1351,1007,1483,1033"/>
-<area shape="rect" id="node46" href="$group__sched.html#ga9806ceeb3d9a5e4b28841b40f20bf30e" title="Remove a thread from the rq_list. " alt="" coords="1575,1627,1681,1653"/>
-<area shape="rect" id="node48" href="$group__tm.html#ga20e856ccf8bbf02684d1c75f61914940" title="Remove a timer from a clocksource. " alt="" coords="1561,1681,1695,1722"/>
-<area shape="rect" id="node53" href="$arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7" title="Clear a bit in register and return the value of nr before clearing. " alt="" coords="1353,956,1481,983"/>
-<area shape="rect" id="node54" href="$group__sched.html#ga0e68a5e318862b42f5472c212668056e" title="Check whether a thread is the idle thread or not. " alt="" coords="1776,1197,1879,1224"/>
-<area shape="rect" id="node55" href="$group__sched.html#ga70e974d78d84a3ef849f69893ed2ca39" title="Reset the time slice for a thread. " alt="" coords="1348,905,1487,932"/>
-<area shape="rect" id="node58" href="$group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9" title="Get the current CPU state. " alt="" coords="1365,1260,1469,1287"/>
-<area shape="rect" id="node60" href="$group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="1117,95,1255,121"/>
-<area shape="rect" id="node62" href="$group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3" title="Set a specific CPU state. " alt="" coords="1365,1361,1469,1388"/>
-<area shape="rect" id="node64" href="$group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c" title="Remove a thread from the kill queue. " alt="" coords="1350,1681,1485,1722"/>
-<area shape="rect" id="node65" href="$group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2" title="Free a stack frame. " alt="" coords="1335,1899,1500,1925"/>
-<area shape="rect" id="node68" href="$group__sched.html#ga16b0328d8a4b4db8c6eb2733218d625e" title="API interface for `yield()&#39;. " alt="" coords="921,297,1011,324"/>
-<area shape="rect" id="node69" href="$group__sched.html#gaa93580e45d2e6c581a96c72bfbd51212" title="Check if the current thread should be rescheduled. " alt="" coords="1103,145,1269,172"/>
-<area shape="rect" id="node71" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="408,2101,512,2128"/>
+<area shape="rect" id="node2" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="765,321,827,348"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="1597,461,1659,488"/>
+<area shape="rect" id="node6" href="$group__dev-core.html#ga5232d0e524b1611748943aa408444911" title="Lock a device with synchronization. " alt="" coords="231,1440,340,1467"/>
+<area shape="rect" id="node41" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="1603,1860,1653,1887"/>
+<area shape="rect" id="node70" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="237,2113,333,2140"/>
+<area shape="rect" id="node72" href="$group__dev-core.html#gaceb0363f7690f83ebde2dc871f55f31d" title="Unlock a dev locked with dev_sync_lock. " alt="" coords="224,2164,347,2191"/>
+<area shape="rect" id="node3" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="927,208,1005,235"/>
+<area shape="rect" id="node4" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="931,259,1001,285"/>
+<area shape="rect" id="node7" href="$group__libctime.html#ga41213015bed9d9d3191a724a41518963" title="Get the sytem time. " alt="" coords="1394,1323,1441,1349"/>
+<area shape="rect" id="node14" href="$group__sched.html#gaf884d02ac7bc14a91b776fb092c45094" title="Let a thread wait on a thread queue. " alt="" coords="395,1465,525,1492"/>
+<area shape="rect" id="node67" href="$group__thread.html#ga7cb51f5c2b5cad3766f19eb69c92793b" title="Yield the current thread, if necessary. " alt="" coords="435,717,485,744"/>
+<area shape="rect" id="node8" href="$group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="1555,1348,1701,1375"/>
+<area shape="rect" id="node11" href="$group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="1587,1297,1669,1324"/>
+<area shape="rect" id="node9" href="$group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="1763,1399,1891,1425"/>
+<area shape="rect" id="node10" href="$group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="1769,1348,1885,1375"/>
+<area shape="rect" id="node12" href="$group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="1752,1297,1903,1324"/>
+<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="1953,1632,2019,1659"/>
+<area shape="rect" id="node15" href="$group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="1365,715,1470,741"/>
+<area shape="rect" id="node18" href="$group__tm.html#ga15711d26d9190044d7ca7ac1d3899ca4" title="Create a new timer. " alt="" coords="573,1757,704,1784"/>
+<area shape="rect" id="node21" href="$group__sched.html#gabb6df12a0f0c3721e58b5250052a42a2" title="Thread queue timeout function. " alt="" coords="907,1491,1025,1517"/>
+<area shape="rect" id="node26" href="$group__sched.html#ga72ca187dd5dd0ac19af98da3ea9b56e4" title="Add a new thread to a queue. " alt="" coords="575,1553,703,1580"/>
+<area shape="rect" id="node30" href="$group__preempt.html#gac48128e72b303ea22d8ec641a9516b15" title="Reschedule the current run queue. " alt="" coords="601,819,676,845"/>
+<area shape="rect" id="node16" href="$group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="1564,639,1692,665"/>
+<area shape="rect" id="node17" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="1774,5,1881,32"/>
+<area shape="rect" id="node19" href="$group__tm.html#ga20954f365ba3354a5adb5cb312c8936d" title="Start a new timer. " alt="" coords="1568,1911,1688,1937"/>
+<area shape="rect" id="node20" href="$group__tm.html#ga6501ffdc00b89b8308bc225e1182f213" title="Add a new timer to a clocksource. " alt="" coords="1749,1911,1905,1937"/>
+<area shape="rect" id="node22" href="$group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50" title="Get the thread_queue the given thread is on. " alt="" coords="1358,1708,1477,1735"/>
+<area shape="rect" id="node23" href="$group__sched.html#gaa468a0cc0864610b821b2730abe5c182" title="Remove a thread from a thread_queue. " alt="" coords="1111,1532,1261,1559"/>
+<area shape="rect" id="node25" href="$group__sched.html#ga44292b5df60facfa57dcafc582212a0d" title="Add a thread to a run queue. " alt="" coords="1339,664,1495,691"/>
+<area shape="rect" id="node24" href="$group__sched.html#ga2284d061e42560a7bac2dac7c0aa682f" title="Remove a thread from a thread_queue. " alt="" coords="1328,1657,1507,1684"/>
+<area shape="rect" id="node27" href="$group__sched.html#ga2e34e3f4c49c118e9271e5b6101b020e" title="Add a new thread to a queue. " alt="" coords="888,1592,1044,1619"/>
+<area shape="rect" id="node28" href="$group__sched.html#ga466e412d13a242143847e21dcbd5fea7" title="Remove a thread from a run queue without rescheduling. " alt="" coords="1109,867,1263,909"/>
+<area shape="rect" id="node29" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="1382,816,1453,843"/>
+<area shape="rect" id="node31" href="$group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="1585,563,1671,589"/>
+<area shape="rect" id="node32" href="$group__sched.html#ga8dac22a2785f9a88fc16da53874889e2" title="Reschedule the current run queue. " alt="" coords="752,819,840,845"/>
+<area shape="rect" id="node66" href="$group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671" title="Check if a reschedule is required. " alt="" coords="1135,1339,1237,1365"/>
+<area shape="rect" id="node33" href="$group__kernel.html#ga38f4f8022778edff29606cec22897bfc" title="Notify the CPU of a specific event. " alt="" coords="925,487,1007,513"/>
+<area shape="rect" id="node36" href="$group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="1147,107,1225,133"/>
+<area shape="rect" id="node37" href="$group__sched.html#ga99b50b5fd0a5c40e184b7ff5adc4a01d" title="API version of __rq_update_clock. " alt="" coords="907,664,1025,691"/>
+<area shape="rect" id="node43" href="$group__sched.html#ga017c639d6dbf8710ad60a22985116618" title="Signal threads that are waiting for an event. " alt="" coords="904,1136,1028,1163"/>
+<area shape="rect" id="node50" href="$group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="1101,664,1271,691"/>
+<area shape="rect" id="node51" href="$group__sched.html#gabb16e47cc3e478d76f303be5bbacde1c" title="Check if the algorithm wants to preempt the current thread. " alt="" coords="917,360,1015,387"/>
+<area shape="rect" id="node52" href="$group__sched.html#ga71fd9dde3968661117e7926bab75f25e" title="Reschedule policy. " alt="" coords="1098,984,1274,1011"/>
+<area shape="rect" id="node56" href="$group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="895,870,1037,911"/>
+<area shape="rect" id="node57" href="$group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357" title="Prepare the a reschedule. " alt="" coords="1117,1035,1255,1061"/>
+<area shape="rect" id="node59" href="$group__sched.html#ga761312d2768cc26c49b7f53de33c8477" title="Switch context on a given run queue. " alt="" coords="902,1237,1030,1264"/>
+<area shape="rect" id="node61" href="$group__sched.html#ga0b1c71305537a28e3a7194016f6b43e6" title="Update a run queue. " alt="" coords="1147,1085,1225,1112"/>
+<area shape="rect" id="node63" href="$group__sched.html#ga13a5b1237d1c0238dd0432a2590e8195" title="Destroy the kill queue. " alt="" coords="1126,1784,1246,1811"/>
+<area shape="rect" id="node34" href="$group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="1127,360,1245,387"/>
+<area shape="rect" id="node35" href="$group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="1092,411,1280,437"/>
+<area shape="rect" id="node38" href="$group__sched.html#ga569fc559ba3602cb73b1bd1552aa1daf" title="Update the scheduling clock. " alt="" coords="1121,1136,1251,1163"/>
+<area shape="rect" id="node39" href="$group__tm.html#ga3817a7c75cd4be46bb92c9aa608cdbec" title="Update the clockskew of a clocksource. " alt="" coords="1348,1272,1487,1299"/>
+<area shape="rect" id="node40" href="$group__tm.html#gaf37ee13b8e3698ee03eb932f6bb02c46" title="Process a given clock source and its timers. " alt="" coords="1346,1556,1489,1583"/>
+<area shape="rect" id="node42" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="1791,1860,1864,1887"/>
+<area shape="rect" id="node44" href="$group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa" title="Signal a thread on a wake queue. " alt="" coords="1109,1187,1263,1213"/>
+<area shape="rect" id="node45" href="$group__sched.html#gae1a79ba3d3d2d109c947be1ee5a03f3d" title="Remove a thread from a rq. " alt="" coords="1343,1374,1492,1415"/>
+<area shape="rect" id="node47" href="$group__tm.html#ga8b09cd45bc4628ce347b23f28d39be6a" title="Stop a timer. " alt="" coords="1358,1607,1477,1633"/>
+<area shape="rect" id="node49" href="$group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="1351,1019,1483,1045"/>
+<area shape="rect" id="node46" href="$group__sched.html#ga9806ceeb3d9a5e4b28841b40f20bf30e" title="Remove a thread from the rq_list. " alt="" coords="1575,1423,1681,1449"/>
+<area shape="rect" id="node48" href="$group__tm.html#ga20e856ccf8bbf02684d1c75f61914940" title="Remove a timer from a clocksource. " alt="" coords="1561,1599,1695,1641"/>
+<area shape="rect" id="node53" href="$arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7" title="Clear a bit in register and return the value of nr before clearing. " alt="" coords="1353,867,1481,893"/>
+<area shape="rect" id="node54" href="$group__sched.html#ga0e68a5e318862b42f5472c212668056e" title="Check whether a thread is the idle thread or not. " alt="" coords="1776,1081,1879,1108"/>
+<area shape="rect" id="node55" href="$group__sched.html#ga70e974d78d84a3ef849f69893ed2ca39" title="Reset the time slice for a thread. " alt="" coords="1348,968,1487,995"/>
+<area shape="rect" id="node58" href="$group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9" title="Get the current CPU state. " alt="" coords="1365,1120,1469,1147"/>
+<area shape="rect" id="node60" href="$group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="1117,1237,1255,1264"/>
+<area shape="rect" id="node62" href="$group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3" title="Set a specific CPU state. " alt="" coords="1365,1171,1469,1197"/>
+<area shape="rect" id="node64" href="$group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c" title="Remove a thread from the kill queue. " alt="" coords="1350,1439,1485,1481"/>
+<area shape="rect" id="node65" href="$group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2" title="Free a stack frame. " alt="" coords="1335,1860,1500,1887"/>
+<area shape="rect" id="node68" href="$group__sched.html#ga16b0328d8a4b4db8c6eb2733218d625e" title="API interface for `yield()&#39;. " alt="" coords="921,411,1011,437"/>
+<area shape="rect" id="node69" href="$group__sched.html#gaa93580e45d2e6c581a96c72bfbd51212" title="Check if the current thread should be rescheduled. " alt="" coords="1103,259,1269,285"/>
+<area shape="rect" id="node71" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="408,2113,512,2140"/>
 </map>

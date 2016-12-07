@@ -1,9 +1,14 @@
-<map id="lib/string/strchr.c" name="lib/string/strchr.c">
-<area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="151,80,255,107"/>
-<area shape="rect" id="node8" href="$string_8h_source.html" title="etaos/string.h" alt="" coords="16,80,117,107"/>
-<area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="131,155,275,181"/>
-<area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="5,155,107,181"/>
-<area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="299,155,405,181"/>
-<area shape="rect" id="node7" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="429,155,547,181"/>
-<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="9,229,103,256"/>
+<map id="lib/crt/strchr.c" name="lib/crt/strchr.c">
+<area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="451,155,555,181"/>
+<area shape="rect" id="node8" href="$etaos_2string_8h_source.html" title="etaos/string.h" alt="" coords="363,80,465,107"/>
+<area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="431,304,575,331"/>
+<area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="365,229,466,256"/>
+<area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="541,229,647,256"/>
+<area shape="rect" id="node7" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="671,229,789,256"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="312,304,407,331"/>
+<area shape="rect" id="node9" href="$io_8h_source.html" title="asm/io.h" alt="" coords="249,155,321,181"/>
+<area shape="rect" id="node13" href="$pgm_8h_source.html" title="asm/pgm.h" alt="" coords="137,155,224,181"/>
+<area shape="rect" id="node10" href="$config_8h_source.html" title="asm/config.h" alt="" coords="5,229,103,256"/>
+<area shape="rect" id="node11" href="$arch_2avr_2include_2asm_2init_8h_source.html" title="asm/init.h" alt="" coords="127,229,205,256"/>
+<area shape="rect" id="node12" href="$iom1280_8h_source.html" title="asm/iom1280.h" alt="" coords="229,229,340,256"/>
 </map>

@@ -1,3 +1,8 @@
 <map id="platform_pin_to_gpio" name="platform_pin_to_gpio">
-<area shape="rect" id="node2" href="$group__gpiolib.html#ga7845f8131da2aa2d2d81c6596ef2a532" title="Get a pin descriptor based on its pin number. " alt="" coords="196,5,315,32"/>
+<area shape="rect" id="node2" href="$group__gpiolib.html#ga7845f8131da2aa2d2d81c6596ef2a532" title="Get a pin descriptor based on its pin number. " alt="" coords="196,81,315,108"/>
+<area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="379,56,441,83"/>
+<area shape="rect" id="node6" href="$group__gpiolib.html#ga0f3a521596d3f4fb0a42ef273750014d" title="Initialise a new pin descriptor. " alt="" coords="363,107,457,133"/>
+<area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="505,5,584,32"/>
+<area shape="rect" id="node5" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="510,56,579,83"/>
+<area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="509,107,580,133"/>
 </map>

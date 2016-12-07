@@ -31,6 +31,8 @@ var searchData=
   ['raw_5fthread_5fadd_5fto_5fwake_5fq',['raw_thread_add_to_wake_q',['../group__sched.html#ga0ef97c57a13bfb6960d699dc4fca5af0',1,'core.c']]],
   ['raw_5fthread_5finit',['raw_thread_init',['../group__thread.html#ga4289b7f9957ab328ffc1390816f01eb1',1,'thread.c']]],
   ['read',['read',['../group__stl.html#gaed3b9cdf6c130852995903934fab923e',1,'CharacterDevice::read()'],['../class_e_e_p_r_o_m.html#a9a8f3a79b5248047738d91c258f3137f',1,'EEPROM::read()'],['../group__stl.html#ga9a8f3a79b5248047738d91c258f3137f',1,'SRAM::read()'],['../group__libcio.html#ga13994b555ec5db1b6d6458bb5563edad',1,'read():&#160;read.c']]],
+  ['readdir',['readdir',['../group__libc.html#gaba71d62969b183020fecdbe17e20195d',1,'readdir(struct dirent *dirp):&#160;readdir.c'],['../group__libc.html#gaba71d62969b183020fecdbe17e20195d',1,'readdir(struct dirent *dirp):&#160;readdir.c']]],
+  ['readdir_5fr',['readdir_r',['../group__libc.html#gab7762e475808cd7b839e54b2af272520',1,'readdir_r(struct dirent *dir, struct dirent *entry, struct dirent **result):&#160;readdir_r.c'],['../group__libc.html#gab7762e475808cd7b839e54b2af272520',1,'readdir_r(struct dirent *dir, struct dirent *entry, struct dirent **result):&#160;readdir_r.c']]],
   ['romfs_5fclose',['romfs_close',['../group__romfs.html#ga7af4dfcdf6714159e4cdc1182136860a',1,'romfs.c']]],
   ['romfs_5fgetc',['romfs_getc',['../group__romfs.html#ga083ff1b215107a9a7d54bdc0be4fdd67',1,'romfs.c']]],
   ['romfs_5fopen',['romfs_open',['../group__romfs.html#gaf2e7a91b7037c414b1972c72d9c6db85',1,'romfs.c']]],

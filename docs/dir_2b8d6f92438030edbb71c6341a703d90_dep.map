@@ -7,7 +7,7 @@
 <area shape="rect" id="node4" href="dir_61c11d9620e853f6d09c3a86a291f066.html" title="eeprom" alt="" coords="603,27,675,75"/>
 <area shape="rect" id="edge2-headlabel" href="dir_000023_000005.html" title="13" alt="" coords="496,127,510,141"/>
 <area shape="rect" id="node5" href="dir_7522d5b305d908ff2a4edbb50846cb1c.html" title="gpio" alt="" coords="507,27,579,75"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000028_000005.html" title="9" alt="" coords="485,109,493,123"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000028_000005.html" title="10" alt="" coords="482,109,496,123"/>
 <area shape="rect" id="node6" href="dir_3ddbb7773ce6ab96e370cee7efe0f8a4.html" title="i2c" alt="" coords="411,27,483,75"/>
 <area shape="rect" id="edge8-headlabel" href="dir_000029_000005.html" title="21" alt="" coords="448,97,462,112"/>
 <area shape="rect" id="node7" href="dir_5c39ce6285cff6ae4e03c38b4e73e93a.html" title="platform" alt="" coords="315,27,387,75"/>

@@ -13,13 +13,13 @@
 <area shape="rect" id="node7" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="463,677,581,704"/>
 <area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="823,752,917,779"/>
 <area shape="rect" id="node12" href="$arch_2avr_2include_2asm_2bitops_8h.html" title="asm/bitops.h" alt="" coords="1220,229,1317,256"/>
-<area shape="rect" id="node13" href="$stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="1115,304,1212,331"/>
+<area shape="rect" id="node13" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="1115,304,1212,331"/>
 <area shape="rect" id="node14" href="$spinlock_8h.html" title="etaos/spinlock.h" alt="" coords="755,453,873,480"/>
 <area shape="rect" id="node17" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="1008,379,1116,405"/>
 <area shape="rect" id="node15" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="908,528,1024,555"/>
 <area shape="rect" id="node16" href="$arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="756,528,832,555"/>
 <area shape="rect" id="node18" href="$arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="910,453,1011,480"/>
-<area shape="rect" id="node20" href="$time_8h.html" title="etaos/time.h" alt="" coords="645,229,740,256"/>
+<area shape="rect" id="node20" href="$etaos_2time_8h.html" title="etaos/time.h" alt="" coords="645,229,740,256"/>
 <area shape="rect" id="node21" href="$include_2etaos_2timer_8h_source.html" title="etaos/timer.h" alt="" coords="643,304,742,331"/>
 <area shape="rect" id="node22" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="491,379,630,405"/>
 <area shape="rect" id="node25" href="$io_8h_source.html" title="asm/io.h" alt="" coords="1550,528,1622,555"/>

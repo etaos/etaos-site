@@ -40,8 +40,9 @@ var searchData=
   ['fs_5ffile_5fclose',['FS_FILE_CLOSE',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67cabc213cbe222468c82723ebd934f2762e',1,'vfs.h']]],
   ['fs_5ffile_5fopen',['FS_FILE_OPEN',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67ca687f3d26737b6f93d818c8c9c772c83d',1,'vfs.h']]],
   ['fs_5ffile_5fread',['FS_FILE_READ',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67caf1d690702101a4a5b77e0f675da92c87',1,'vfs.h']]],
+  ['fs_5ffile_5funlink',['FS_FILE_UNLINK',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67cad3882225ed324d8700ef2b079b533c91',1,'vfs.h']]],
   ['fs_5ffile_5fwrite',['FS_FILE_WRITE',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67ca898761de0a893643c7be2506bdfd3c28',1,'vfs.h']]],
   ['fs_5ffree_5fpath_5fsplit',['fs_free_path_split',['../group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679',1,'util.c']]],
   ['fs_5fsplit_5fpath',['fs_split_path',['../group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd',1,'util.c']]],
-  ['ftell',['ftell',['../structfile.html#aa507e91fb0b28677b0599c838615772d',1,'file::ftell()'],['../group__vfs.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell(struct file *file):&#160;fops.c'],['../group__libcio.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell(struct file *file):&#160;fops.c']]]
+  ['ftell',['ftell',['../structfile.html#aa507e91fb0b28677b0599c838615772d',1,'file::ftell()'],['../group__libcio.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell():&#160;ftell.c']]]
 ];
