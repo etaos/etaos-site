@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -127,7 +128,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="list_8h.html#a277588106ed48ac5d22b678723f63fe2">   33</a></span>&#160;<span class="preprocessor">#define STATIC_INIT_LIST_HEAD(name) { &amp;(name), &amp;(name) }</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;CDECL</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="list_8h.html#a1a568374cf24e55d65a537408bd323e4">   40</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="list_8h.html#a1a568374cf24e55d65a537408bd323e4">list_head_init</a>(<span class="keyword">struct</span> <a class="code" href="structlist__head.html">list_head</a> *list)</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="list_8h.html#a1a568374cf24e55d65a537408bd323e4">   40</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="list_8h.html#a1a568374cf24e55d65a537408bd323e4">list_head_init</a>(<span class="keyword">struct</span> <a class="code" href="structlist__head.html">list_head</a> *<a class="code" href="namespacelist.html">list</a>)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        list-&gt;<a class="code" href="structlist__head.html#ad6116fd07816a828c3a9830f54871bd0">next</a> = list;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        list-&gt;<a class="code" href="structlist__head.html#a792765e96094df4bbaac005e8af89f38">prev</a> = list;</div>
@@ -162,7 +163,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> (head-&gt;<a class="code" href="structlist__head.html#ad6116fd07816a828c3a9830f54871bd0">next</a> == head);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="list_8h.html#ad5c0c492cf872313e8ffceba701139f1">   92</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="list_8h.html#ad5c0c492cf872313e8ffceba701139f1">list_is_last</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="structlist__head.html">list_head</a> *list,</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="list_8h.html#ad5c0c492cf872313e8ffceba701139f1">   92</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="list_8h.html#ad5c0c492cf872313e8ffceba701139f1">list_is_last</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="structlist__head.html">list_head</a> *<a class="code" href="namespacelist.html">list</a>,</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="structlist__head.html">list_head</a> *head)</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> list-&gt;<a class="code" href="structlist__head.html#ad6116fd07816a828c3a9830f54871bd0">next</a> == head;</div>
@@ -170,35 +171,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;CDECL_END</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="list_8h.html#ab8b24e6660ab3760c923e4b4db3fa502">  105</a></span>&#160;<span class="preprocessor">#define list_for_each(pos, head) \</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">                for(pos = (head)-&gt;next; pos != (head); pos = pos-&gt;next)</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="list_8h.html#a19fc06b83f3502a83ce566b8887e6aec">  113</a></span>&#160;<span class="preprocessor">#define list_for_each_prev(pos, head) \</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">                for(pos = (head)-&gt;prev; pos != (head); pos = pos-&gt;prev)</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="list_8h.html#a9e4b9328744994b9d3878f5dad75c09f">  124</a></span>&#160;<span class="preprocessor">#define list_for_each_safe(pos, n, head) \</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor">                for(pos = (head)-&gt;next, n = pos-&gt;next; pos != (head); \</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor">                                pos = n, n = pos-&gt;next)</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
-<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="list_8h.html#a4166108f765690426e9d89f02bff7df4">  135</a></span>&#160;<span class="preprocessor">#define list_for_each_prev_safe(pos, n, head) \</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">                for(pos = (head)-&gt;prev, n = pos-&gt;prev; pos != (head); \</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor">                                pos = n, n = pos-&gt;prev)</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
-<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="list_8h.html#a7036b0e33e238b917f710006bafe55d5">  144</a></span>&#160;<span class="preprocessor">#define list_add(___n, ___h) __list_add(___n, ___h, (___h)-&gt;next)</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
-<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="list_8h.html#a23526d5b4690fa3d5b9971fc4d7b9c09">  150</a></span>&#160;<span class="preprocessor">#define list_add_tail(__n, __h) __list_add(__n, (__h)-&gt;prev, __h)</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
-<div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="list_8h.html#a26c976b7f654e70df318c1843e5094de">  157</a></span>&#160;<span class="preprocessor">#define list_entry(ptr, type, member) container_of(ptr, type, member)</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">#define list_next_entry(pos, member) \</span></div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor">        list_entry((pos)-&gt;member.next, typeof(*(pos)), member)</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keyword">typedef</span> int (*list_comparator_t)(<span class="keyword">struct </span><a class="code" href="structlist__head.html">list_head</a> *lh1, <span class="keyword">struct </span><a class="code" href="structlist__head.html">list_head</a> *lh2);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="list_8h.html#ab8b24e6660ab3760c923e4b4db3fa502">  107</a></span>&#160;<span class="preprocessor">#define list_for_each(pos, head) \</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">                for(pos = (head)-&gt;next; pos != (head); pos = pos-&gt;next)</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="list_8h.html#a19fc06b83f3502a83ce566b8887e6aec">  115</a></span>&#160;<span class="preprocessor">#define list_for_each_prev(pos, head) \</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">                for(pos = (head)-&gt;prev; pos != (head); pos = pos-&gt;prev)</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="list_8h.html#a9e4b9328744994b9d3878f5dad75c09f">  126</a></span>&#160;<span class="preprocessor">#define list_for_each_safe(pos, n, head) \</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor">                for(pos = (head)-&gt;next, n = pos-&gt;next; pos != (head); \</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">                                pos = n, n = pos-&gt;next)</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno"><a class="line" href="list_8h.html#a4166108f765690426e9d89f02bff7df4">  137</a></span>&#160;<span class="preprocessor">#define list_for_each_prev_safe(pos, n, head) \</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="preprocessor">                for(pos = (head)-&gt;prev, n = pos-&gt;prev; pos != (head); \</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">                                pos = n, n = pos-&gt;prev)</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="list_8h.html#a7036b0e33e238b917f710006bafe55d5">  146</a></span>&#160;<span class="preprocessor">#define list_add(___n, ___h) __list_add(___n, ___h, (___h)-&gt;next)</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00152"></a><span class="lineno"><a class="line" href="list_8h.html#a23526d5b4690fa3d5b9971fc4d7b9c09">  152</a></span>&#160;<span class="preprocessor">#define list_add_tail(__n, __h) __list_add(__n, (__h)-&gt;prev, __h)</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="list_8h.html#a26c976b7f654e70df318c1843e5094de">  159</a></span>&#160;<span class="preprocessor">#define list_entry(ptr, type, member) container_of(ptr, type, member)</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor">#define list_next_entry(pos, member) \</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">        list_entry((pos)-&gt;member.next, typeof(*(pos)), member)</span></div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="structlist__head_html"><div class="ttname"><a href="structlist__head.html">list_head</a></div><div class="ttdoc">Linked list structure. </div><div class="ttdef"><b>Definition:</b> types.h:82</div></div>
 <div class="ttc" id="list_8h_html_ab1708206f0f7e0a56550b35372203ba5"><div class="ttname"><a href="list_8h.html#ab1708206f0f7e0a56550b35372203ba5">list_del</a></div><div class="ttdeci">static void list_del(struct list_head *entry)</div><div class="ttdoc">Delete an entry from a linked list. </div><div class="ttdef"><b>Definition:</b> list.h:67</div></div>
 <div class="ttc" id="list_8h_html_a1a568374cf24e55d65a537408bd323e4"><div class="ttname"><a href="list_8h.html#a1a568374cf24e55d65a537408bd323e4">list_head_init</a></div><div class="ttdeci">static void list_head_init(struct list_head *list)</div><div class="ttdoc">Dynamic list initialiser. </div><div class="ttdef"><b>Definition:</b> list.h:40</div></div>
+<div class="ttc" id="namespacelist_html"><div class="ttname"><a href="namespacelist.html">list</a></div><div class="ttdoc">Provides PyMite&#39;s list module. </div><div class="ttdef"><b>Definition:</b> list.py:1</div></div>
 <div class="ttc" id="structlist__head_html_ad6116fd07816a828c3a9830f54871bd0"><div class="ttname"><a href="structlist__head.html#ad6116fd07816a828c3a9830f54871bd0">list_head::next</a></div><div class="ttdeci">struct list_head * next</div><div class="ttdoc">Next node pointer. </div><div class="ttdef"><b>Definition:</b> types.h:83</div></div>
 <div class="ttc" id="list_8h_html_ad5c0c492cf872313e8ffceba701139f1"><div class="ttname"><a href="list_8h.html#ad5c0c492cf872313e8ffceba701139f1">list_is_last</a></div><div class="ttdeci">static int list_is_last(const struct list_head *list, const struct list_head *head)</div><div class="ttdoc">Check if an entry is the last entry of a list. </div><div class="ttdef"><b>Definition:</b> list.h:92</div></div>
 <div class="ttc" id="structlist__head_html_a792765e96094df4bbaac005e8af89f38"><div class="ttname"><a href="structlist__head.html#a792765e96094df4bbaac005e8af89f38">list_head::prev</a></div><div class="ttdeci">struct list_head * prev</div><div class="ttdoc">Previous node pointer. </div><div class="ttdef"><b>Definition:</b> types.h:84</div></div>
@@ -213,7 +217,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

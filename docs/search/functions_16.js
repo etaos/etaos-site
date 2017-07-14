@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['values',['values',['../group__python-dict.html#ga256a242864c931f1a28bd30806ea6758',1,'dict']]],
   ['vfprintf',['vfprintf',['../group__libcio.html#ga1626a680c1454c61eb736e134f2d6574',1,'vfprintf.c']]],
   ['vfprintf_5fp',['vfprintf_P',['../group__libcio.html#ga8fd1656abdc19ffcfb58bcf8394b4feb',1,'vfprintf_p.c']]],
   ['vfs_5fadd_5ffile',['vfs_add_file',['../group__vfs.html#ga2aaca757844a332f7b3f6c8f08039a64',1,'vfs_add_file(const char *path, struct file *file):&#160;vfs.c'],['../group__vfs.html#ga2aaca757844a332f7b3f6c8f08039a64',1,'vfs_add_file(const char *path, struct file *file):&#160;vfs.c']]],

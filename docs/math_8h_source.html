@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -136,18 +137,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga3630cb8cef4560cf0d92e82ae05b03f0">log10</a>(<span class="keywordtype">double</span> __x);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga4ea549372745dda4018ab4b5a94483a6">exp</a>(<span class="keywordtype">double</span> __x);</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="group__math.html#gac7a4583d7a0d257f87483b1b2d9f95e3">  114</a></span>&#160;<span class="preprocessor">#define to_ns(__s) (__s * 1E9) </span></div>
-<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="group__math.html#gafb61ba15d070b9583d00e1c539d8d8a0">  115</a></span>&#160;<span class="preprocessor">#define to_us(__s) (__s * 1E6) </span></div>
-<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="group__math.html#gac3b827d0a22846348cdb92962059ff1f">  116</a></span>&#160;<span class="preprocessor">#define to_ms(__s) (__s * 1E3) </span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#ga537296d1a8f9fb621676038b99ba7edf">fmod</a>(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">double</span> <a class="code" href="group__math.html#gaa56c9494c95edf68386375e97d64159b">pow</a>(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">#define fmodf(__x__, __y__) fmod(__x__, __y__)</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#define powf(__x__, __y__) pow(__x__, __y__)</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="group__math.html#gac7a4583d7a0d257f87483b1b2d9f95e3">  134</a></span>&#160;<span class="preprocessor">#define to_ns(__s) (__s * 1E9) </span></div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="group__math.html#gafb61ba15d070b9583d00e1c539d8d8a0">  135</a></span>&#160;<span class="preprocessor">#define to_us(__s) (__s * 1E6) </span></div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="group__math.html#gac3b827d0a22846348cdb92962059ff1f">  136</a></span>&#160;<span class="preprocessor">#define to_ms(__s) (__s * 1E3) </span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
 <div class="ttc" id="group__math_html_ga46e799ece7e1dd323d22cdb53c81cd73"><div class="ttname"><a href="group__math.html#ga46e799ece7e1dd323d22cdb53c81cd73">sin</a></div><div class="ttdeci">double sin(double __x)</div><div class="ttdoc">Compute the sine of __x. </div></div>
 <div class="ttc" id="group__math_html_ga61470611f23ceef5d3e9cf63d84cd8a7"><div class="ttname"><a href="group__math.html#ga61470611f23ceef5d3e9cf63d84cd8a7">ceil</a></div><div class="ttdeci">double ceil(double __x)</div><div class="ttdoc">Round a number up. </div></div>
 <div class="ttc" id="group__math_html_ga054230cd7e4c12958dbfac75ab6886e5"><div class="ttname"><a href="group__math.html#ga054230cd7e4c12958dbfac75ab6886e5">atan2</a></div><div class="ttdeci">double atan2(double __y, double __x)</div><div class="ttdoc">Compute the arc tangent of __y / __x. </div></div>
+<div class="ttc" id="group__math_html_ga537296d1a8f9fb621676038b99ba7edf"><div class="ttname"><a href="group__math.html#ga537296d1a8f9fb621676038b99ba7edf">fmod</a></div><div class="ttdeci">double fmod(double x, double y)</div><div class="ttdoc">Compute the remainder of the divion of x by y. </div></div>
 <div class="ttc" id="group__math_html_ga0f0bf9ac2651b80846a9d9d89bd4cb85"><div class="ttname"><a href="group__math.html#ga0f0bf9ac2651b80846a9d9d89bd4cb85">floor</a></div><div class="ttdeci">double floor(double __x)</div><div class="ttdoc">Round a number down. </div></div>
 <div class="ttc" id="group__math_html_ga6eb04604d801054c5a2afe195d1dd75d"><div class="ttname"><a href="group__math.html#ga6eb04604d801054c5a2afe195d1dd75d">round</a></div><div class="ttdeci">double round(double __x)</div><div class="ttdoc">Rounds __x to the nearest integer. </div></div>
+<div class="ttc" id="group__math_html_gaa56c9494c95edf68386375e97d64159b"><div class="ttname"><a href="group__math.html#gaa56c9494c95edf68386375e97d64159b">pow</a></div><div class="ttdeci">double pow(double x, double y)</div><div class="ttdoc">Compute the y-th power of x. </div></div>
 <div class="ttc" id="group__math_html_ga3630cb8cef4560cf0d92e82ae05b03f0"><div class="ttname"><a href="group__math.html#ga3630cb8cef4560cf0d92e82ae05b03f0">log10</a></div><div class="ttdeci">double log10(double __x)</div><div class="ttdoc">The log10() function return the logarithm of argument __x to base 10. </div></div>
 <div class="ttc" id="group__math_html_ga98384ad60834911ec93ac5ae1af4cf0a"><div class="ttname"><a href="group__math.html#ga98384ad60834911ec93ac5ae1af4cf0a">asin</a></div><div class="ttdeci">double asin(double __x)</div><div class="ttdoc">Compute the arc sine. </div></div>
 <div class="ttc" id="group__math_html_gae9c5790d8a29cbee8f54f8eb522decbc"><div class="ttname"><a href="group__math.html#gae9c5790d8a29cbee8f54f8eb522decbc">acos</a></div><div class="ttdeci">double acos(double __x)</div><div class="ttdoc">Compute the arc cosine. </div></div>
@@ -166,7 +176,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

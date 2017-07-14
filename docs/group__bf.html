@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -76,7 +77,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -118,6 +119,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <tr class="memitem:ga1cb797f5279b1a30129db3a3ab79a246"><td class="memItemLeft" align="right" valign="top">MEM void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bf.html#ga1cb797f5279b1a30129db3a3ab79a246">mm_alloc</a> (<a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size)</td></tr>
 <tr class="memdesc:ga1cb797f5279b1a30129db3a3ab79a246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new memory region.  <a href="#ga1cb797f5279b1a30129db3a3ab79a246">More...</a><br /></td></tr>
 <tr class="separator:ga1cb797f5279b1a30129db3a3ab79a246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d6b6dc45940c962565166b8b4f886ba"><td class="memItemLeft" align="right" valign="top">MEM void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bf.html#ga7d6b6dc45940c962565166b8b4f886ba">mm_alloc_aligned</a> (<a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> alignment)</td></tr>
+<tr class="memdesc:ga7d6b6dc45940c962565166b8b4f886ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an area of memory aligned to <code>alignment</code>.  <a href="#ga7d6b6dc45940c962565166b8b4f886ba">More...</a><br /></td></tr>
+<tr class="separator:ga7d6b6dc45940c962565166b8b4f886ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac906c2d7849a485d955a895120068e12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bf.html#gac906c2d7849a485d955a895120068e12">mm_free</a> (void *block)</td></tr>
 <tr class="memdesc:gac906c2d7849a485d955a895120068e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a previously allocated memory region.  <a href="#gac906c2d7849a485d955a895120068e12">More...</a><br /></td></tr>
 <tr class="separator:gac906c2d7849a485d955a895120068e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,7 +155,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 </div><div class="memdoc">
 
 <p>Allocate a new memory region. </p>
-<p>Allocated a new memory region.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">size</td><td>Number of bytes to allocate. </td></tr>
@@ -159,6 +162,42 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The allocated memory region of size <code>size</code> or <code>NULL</code>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7d6b6dc45940c962565166b8b4f886ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MEM void* mm_alloc_aligned </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td>
+          <td class="paramname"><em>alignment</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate an area of memory aligned to <code>alignment</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>Minimum size of the region to allocate. </td></tr>
+    <tr><td class="paramname">alignment</td><td>Number of bytes to align <code>size</code> to. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer aligned to <code>alignment</code>. </dd></dl>
 
 </div>
 </div>
@@ -331,7 +370,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

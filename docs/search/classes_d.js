@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['thread',['thread',['../structthread.html',1,'thread'],['../class_thread.html',1,'Thread']]],
-  ['thread_5fattr_5ft',['thread_attr_t',['../structthread__attr__t.html',1,'']]],
-  ['thread_5fqueue',['thread_queue',['../structthread__queue.html',1,'']]],
-  ['timer',['timer',['../structtimer.html',1,'']]],
-  ['tm',['tm',['../structtm.html',1,'']]]
+  ['sched_5fclass',['sched_class',['../structsched__class.html',1,'']]],
+  ['sem_5ft',['sem_t',['../structsem__t.html',1,'']]],
+  ['spi_5fdriver',['spi_driver',['../structspi__driver.html',1,'']]],
+  ['spi_5fmsg',['spi_msg',['../structspi__msg.html',1,'']]],
+  ['spidev',['spidev',['../structspidev.html',1,'']]],
+  ['sram',['sram',['../structsram.html',1,'sram'],['../class_s_r_a_m.html',1,'SRAM']]],
+  ['sync_5ft',['sync_t',['../structsync__t.html',1,'']]]
 ];

@@ -1,7 +1,8 @@
 <map id="basepath" name="basepath">
-<area shape="rect" id="node2" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="133,5,188,32"/>
-<area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="129,56,192,83"/>
-<area shape="rect" id="node6" href="$group__libc.html#ga5868a2c77808dc187e06bfc308cef106" title="Copy a number of bytes of string. " alt="" coords="128,107,193,133"/>
-<area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="241,31,320,57"/>
-<area shape="rect" id="node5" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="246,81,315,108"/>
+<area shape="rect" id="node2" href="$group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be" title="Return the length of s. " alt="" coords="128,5,195,32"/>
+<area shape="rect" id="node3" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="134,56,189,83"/>
+<area shape="rect" id="node4" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="130,107,193,133"/>
+<area shape="rect" id="node7" href="$group__libc.html#ga5868a2c77808dc187e06bfc308cef106" title="Copy a number of bytes of string. " alt="" coords="129,157,194,184"/>
+<area shape="rect" id="node5" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="243,81,321,108"/>
+<area shape="rect" id="node6" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="247,132,317,159"/>
 </map>

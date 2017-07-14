@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,12 +129,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="chardev_8h.html">etaos/stl/chardev.h</a>&gt;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_e_e_p_r_o_m.html">   41</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_e_e_p_r_o_m.html">EEPROM</a> : <span class="keyword">public</span> <a class="code" href="class_character_device.html">CharacterDevice</a> {</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_e_e_p_r_o_m.html">   41</a></span>&#160;<span class="keyword">class </span><a class="code" href="namespace_e_e_p_r_o_m.html">EEPROM</a> : <span class="keyword">public</span> <a class="code" href="class_character_device.html">CharacterDevice</a> {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="class_e_e_p_r_o_m.html">EEPROM</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structfile.html">file</a>);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="class_e_e_p_r_o_m.html">EEPROM</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="namespace_e_e_p_r_o_m.html">EEPROM</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structfile.html">file</a>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="namespace_e_e_p_r_o_m.html">EEPROM</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_e_e_p_r_o_m.html#a9a8f3a79b5248047738d91c258f3137f">read</a>(<span class="keywordtype">size_t</span> addr, <span class="keywordtype">void</span> *buff, <span class="keywordtype">size_t</span>&amp; len);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_e_e_p_r_o_m.html#a9a8f3a79b5248047738d91c258f3137f">read</a>(<span class="keywordtype">size_t</span> addr, <span class="keywordtype">void</span> *buff, <span class="keywordtype">size_t</span>&amp; <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_e_e_p_r_o_m.html#ad05d4ae1ab7b816ed8a7d06f116ada79">write</a>(<span class="keywordtype">size_t</span> addr, <span class="keyword">const</span> <span class="keywordtype">void</span> *buff, <span class="keywordtype">size_t</span>&amp; len);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77">putc</a>(<span class="keywordtype">size_t</span> addr, <span class="keywordtype">int</span> c);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
@@ -142,11 +143,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="ttc" id="namespace_e_e_p_r_o_m_html"><div class="ttname"><a href="namespace_e_e_p_r_o_m.html">EEPROM</a></div><div class="ttdoc">Provides PyMite&#39;s EEPROM module. </div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="vfs_8h_html"><div class="ttname"><a href="vfs_8h.html">vfs.h</a></div></div>
 <div class="ttc" id="class_e_e_p_r_o_m_html_a63704361fdc2b661e9e41036a259cb77"><div class="ttname"><a href="class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77">EEPROM::putc</a></div><div class="ttdeci">int putc(size_t addr, int c)</div><div class="ttdoc">Write a single character. </div><div class="ttdef"><b>Definition:</b> eeprom.cpp:72</div></div>
+<div class="ttc" id="group__python-builtin_html_ga39a4ae10474e5e94d339db8a8a0ad0be"><div class="ttname"><a href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">__bi.len</a></div><div class="ttdeci">def len</div><div class="ttdoc">Return the length of s. </div><div class="ttdef"><b>Definition:</b> __bi.py:332</div></div>
 <div class="ttc" id="chardev_8h_html"><div class="ttname"><a href="chardev_8h.html">chardev.h</a></div></div>
-<div class="ttc" id="class_e_e_p_r_o_m_html"><div class="ttname"><a href="class_e_e_p_r_o_m.html">EEPROM</a></div><div class="ttdoc">UAPI class for EEPROM chips. </div><div class="ttdef"><b>Definition:</b> eeprom.h:41</div></div>
 <div class="ttc" id="class_character_device_html"><div class="ttname"><a href="class_character_device.html">CharacterDevice</a></div><div class="ttdoc">Representation of a character device. </div><div class="ttdef"><b>Definition:</b> chardev.h:39</div></div>
 <div class="ttc" id="class_e_e_p_r_o_m_html_a352c28b8704152967e90fd912df71e40"><div class="ttname"><a href="class_e_e_p_r_o_m.html#a352c28b8704152967e90fd912df71e40">EEPROM::operator[]</a></div><div class="ttdeci">int operator[](size_t idx)</div><div class="ttdoc">Read a single character. </div><div class="ttdef"><b>Definition:</b> eeprom.cpp:84</div></div>
 <div class="ttc" id="class_e_e_p_r_o_m_html_ad05d4ae1ab7b816ed8a7d06f116ada79"><div class="ttname"><a href="class_e_e_p_r_o_m.html#ad05d4ae1ab7b816ed8a7d06f116ada79">EEPROM::write</a></div><div class="ttdeci">int write(size_t addr, const void *buff, size_t &amp;len)</div><div class="ttdoc">Write to an EEPROM chip. </div><div class="ttdef"><b>Definition:</b> eeprom.cpp:59</div></div>
@@ -162,7 +164,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

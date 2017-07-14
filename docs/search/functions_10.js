@@ -14,8 +14,15 @@ var searchData=
   ['pin_5fread',['pin_read',['../group__stl.html#ga1492fe7c9e12b249e90c9f293a1ba40e',1,'CPU::pin_read()'],['../class_platform.html#a1492fe7c9e12b249e90c9f293a1ba40e',1,'Platform::pin_read()']]],
   ['pin_5fwrite',['pin_write',['../group__stl.html#ga7a77dbcbac66c680ebdc110cf14ae068',1,'CPU::pin_write()'],['../class_platform.html#a7a77dbcbac66c680ebdc110cf14ae068',1,'Platform::pin_write()']]],
   ['platform_5fpin_5fto_5fgpio',['platform_pin_to_gpio',['../group__platform.html#gab40076c109ad8b8f4ea2d679bb37893b',1,'platform_pin_to_gpio(int pin):&#160;mega.c'],['../group__platform.html#gab40076c109ad8b8f4ea2d679bb37893b',1,'platform_pin_to_gpio(int pin):&#160;uno.c'],['../group__platform.html#gab40076c109ad8b8f4ea2d679bb37893b',1,'platform_pin_to_gpio(int pin):&#160;mega.c']]],
+  ['pop',['pop',['../group__python-list.html#ga17c5dcb887cba7adca7efa5be9ebce63',1,'list']]],
+  ['port_5fand',['port_and',['../group__python-avr.html#gac350a20504297004966d2ee91a3d7b91',1,'avr']]],
+  ['port_5fdirection_5fand',['port_direction_and',['../group__python-avr.html#ga1b2e20e17802ccb467297d2d38e727eb',1,'avr']]],
+  ['port_5fdirection_5for',['port_direction_or',['../group__python-avr.html#gae31757648c31c58a21db21cdf4e2d37f',1,'avr']]],
+  ['port_5for',['port_or',['../group__python-avr.html#ga226a86801298b35adea8381a10ab4a0b',1,'avr']]],
+  ['port_5fread',['port_read',['../group__python-avr.html#ga34ed65c4184096cf50dfff960313b79d',1,'avr']]],
+  ['pow',['pow',['../group__math.html#gaa56c9494c95edf68386375e97d64159b',1,'pow():&#160;math.h'],['../group__python-builtin.html#ga6d23971863e9d8073b5667bf327cd802',1,'__bi.pow()']]],
   ['power_5fset_5fmode',['power_set_mode',['../group__power.html#ga75ec7b2f09170d6fa05f4972c0cd59d9',1,'power.h']]],
-  ['preempt_5fchk',['preempt_chk',['../group__sched.html#gabb16e47cc3e478d76f303be5bbacde1c',1,'core.c']]],
+  ['preempt_5fcheck',['preempt_check',['../group__sched.html#ga902ac489886eb8c3c23a644234e98bb1',1,'core.c']]],
   ['preempt_5fcounter_5fptr',['preempt_counter_ptr',['../group__preempt.html#gab377aa939771256f71f426bd7650b01a',1,'preempt_counter_ptr(void):&#160;core.c'],['../group__sched.html#gab377aa939771256f71f426bd7650b01a',1,'preempt_counter_ptr(void):&#160;core.c']]],
   ['preempt_5fdec_5fand_5ftest',['preempt_dec_and_test',['../group__preempt.html#gaaa367ac52b57070819284f18643cc0a9',1,'preempt.h']]],
   ['preempt_5fdisable',['preempt_disable',['../group__preempt.html#gae772fcbd15beae355371d56d6f443566',1,'preempt.h']]],
@@ -28,5 +35,6 @@ var searchData=
   ['preempt_5ftest',['preempt_test',['../group__preempt.html#ga30a3151baa4664f4c58d9f6e04c4df0e',1,'preempt.h']]],
   ['printf',['printf',['../group__libcio.html#ga55f3d956bb2ba20b5059e9e25484a47f',1,'printf.c']]],
   ['printf_5fp',['printf_P',['../group__libcio.html#ga8836f9438db121ba9b1784d38858f3e2',1,'printf_p.c']]],
+  ['putb',['putb',['../group__python-sys.html#ga3204199ac550a6eda84b5670aeda17e1',1,'sys']]],
   ['putc',['putc',['../group__stl.html#ga5ddd46e0ecc254c25529b150257bf7b3',1,'CharacterDevice::putc()'],['../class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77',1,'EEPROM::putc()'],['../group__stl.html#ga63704361fdc2b661e9e41036a259cb77',1,'SRAM::putc()'],['../group__libcio.html#gaee02f1b1796d41b51f814f95e890ed44',1,'putc():&#160;putc.c']]]
 ];

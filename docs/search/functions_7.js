@@ -1,6 +1,9 @@
 var searchData=
 [
+  ['gc',['gc',['../group__python-sys.html#ga2f17e3134854ed811bba00fc14fb4d6b',1,'sys']]],
+  ['getb',['getb',['../group__python-sys.html#ga4c3d074587bc5a80a866bf7faca1b529',1,'sys']]],
   ['getc',['getc',['../group__stl.html#ga12fe8585ae3714e7d4a71cae12fbb110',1,'CharacterDevice::getc()'],['../group__libcio.html#ga75ef1508eb99733cdb4036aad25cef16',1,'getc():&#160;getc.c']]],
+  ['globals',['globals',['../group__python-builtin.html#ga9651b2e728ff0743ed32bdcad7d6c358',1,'__bi']]],
   ['gmtime',['gmtime',['../group__libctime.html#ga142b3ded08ee65200fe6e4c4c8664d4c',1,'gmtime.c']]],
   ['gmtime_5fr',['gmtime_r',['../group__libctime.html#gacc202793fe079a9a5555faa8023686f1',1,'gmtime.c']]],
   ['gpio_5fchip_5finit',['gpio_chip_init',['../group__gpiolib.html#gae05dcb5aa48047960c7775358ecdad11',1,'gpiolib.c']]],

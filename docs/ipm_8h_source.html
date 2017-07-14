@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -102,7 +103,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <a href="ipm_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *  ETA/OS - Inter-Process Messages</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *  Copyright (C) 2014   Michel Megens</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *  Copyright (C) 2014, 2015, 2016, 2017   Michel Megens</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *  This program is free software: you can redistribute it and/or modify</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *  it under the terms of the GNU Lesser General Public License as published by</span></div>
@@ -128,7 +129,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="include_2etaos_2types_8h.html">etaos/types.h</a>&gt;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="spinlock_8h.html">etaos/spinlock.h</a>&gt;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structipm.html">   40</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structipm.html">ipm</a> {</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structipm.html">   40</a></span>&#160;<span class="keyword">struct </span><a class="code" href="namespaceipm.html">ipm</a> {</div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structipm.html#a0d49d74db4c035719c3867723cf7e779">   41</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">void</span> *<a class="code" href="structipm.html#a0d49d74db4c035719c3867723cf7e779">data</a>; </div>
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="structipm.html#a7360b55975153b822efc5217b7734e6a">   42</a></span>&#160;        <span class="keywordtype">size_t</span> <a class="code" href="structipm.html#a7360b55975153b822efc5217b7734e6a">len</a>; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
@@ -138,15 +139,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="structipm__queue.html#abea371f9030e15a5d2a4c181576833d8">   51</a></span>&#160;        <a class="code" href="include_2etaos_2types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code" href="structipm__queue.html#abea371f9030e15a5d2a4c181576833d8">num</a>; </div>
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structipm__queue.html#a2095fb8c5e2c45840cf19afdb351dc3b">   52</a></span>&#160;        <a class="code" href="include_2etaos_2types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code" href="structipm__queue.html#a2095fb8c5e2c45840cf19afdb351dc3b">wr_idx</a>; </div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="structipm__queue.html#ad8fd68ab24846a228f66556cffab8608">   53</a></span>&#160;        <a class="code" href="include_2etaos_2types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code" href="structipm__queue.html#ad8fd68ab24846a228f66556cffab8608">rd_idx</a>; </div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="structipm__queue.html#af1c0716eeeaf441ef5b5e193bbfc9171">   54</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structipm.html">ipm</a> *<a class="code" href="structipm__queue.html#af1c0716eeeaf441ef5b5e193bbfc9171">msgs</a>; </div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="structipm__queue.html#af1c0716eeeaf441ef5b5e193bbfc9171">   54</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="namespaceipm.html">ipm</a> *<a class="code" href="structipm__queue.html#af1c0716eeeaf441ef5b5e193bbfc9171">msgs</a>; </div>
 <div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="structipm__queue.html#a79cda015c79ff2b4c1444e3070f0bb5d">   55</a></span>&#160;        spinlock_t <a class="code" href="structipm__queue.html#a79cda015c79ff2b4c1444e3070f0bb5d">lock</a>; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;CDECL</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__ipm.html#gadce9d719285fd2ef91a4c2d1c4df5405">ipm_queue_init</a>(<span class="keyword">struct</span> <a class="code" href="structipm__queue.html">ipm_queue</a> *qp, <span class="keywordtype">size_t</span> <a class="code" href="structipm.html#a7360b55975153b822efc5217b7734e6a">len</a>);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__ipm.html#ga66c377b53ae232cedd1650f995ce9bb0">ipm_post_msg</a>(<span class="keyword">struct</span> <a class="code" href="structipm__queue.html">ipm_queue</a> *qp, <span class="keyword">const</span> <span class="keywordtype">void</span> *<a class="code" href="structipm.html#a0d49d74db4c035719c3867723cf7e779">data</a>, <span class="keywordtype">size_t</span> <a class="code" href="structipm.html#a7360b55975153b822efc5217b7734e6a">len</a>);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__ipm.html#gab0bb4f6548c213ac4eaa4e84b62dfb97">ipm_get_msg</a>(<span class="keyword">struct</span> <a class="code" href="structipm__queue.html">ipm_queue</a> *qp, <span class="keyword">struct</span> <a class="code" href="structipm.html">ipm</a> *msg);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__ipm.html#gadce9d719285fd2ef91a4c2d1c4df5405">ipm_queue_init</a>(<span class="keyword">struct</span> <a class="code" href="structipm__queue.html">ipm_queue</a> *qp, <span class="keywordtype">size_t</span> <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__ipm.html#ga66c377b53ae232cedd1650f995ce9bb0">ipm_post_msg</a>(<span class="keyword">struct</span> <a class="code" href="structipm__queue.html">ipm_queue</a> *qp, <span class="keyword">const</span> <span class="keywordtype">void</span> *<a class="code" href="structipm.html#a0d49d74db4c035719c3867723cf7e779">data</a>, <span class="keywordtype">size_t</span> <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__ipm.html#gab0bb4f6548c213ac4eaa4e84b62dfb97">ipm_get_msg</a>(<span class="keyword">struct</span> <a class="code" href="structipm__queue.html">ipm_queue</a> *qp, <span class="keyword">struct</span> <a class="code" href="namespaceipm.html">ipm</a> *msg);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="group__ipm.html#ga2ac76e823da0fcf94e9f32cfe937ee70">ipm_reset_queue</a>(<span class="keyword">struct</span> <a class="code" href="structipm__queue.html">ipm_queue</a> *iq);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;CDECL_END</div>
@@ -161,10 +162,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="group__ipm_html_ga66c377b53ae232cedd1650f995ce9bb0"><div class="ttname"><a href="group__ipm.html#ga66c377b53ae232cedd1650f995ce9bb0">ipm_post_msg</a></div><div class="ttdeci">void ipm_post_msg(struct ipm_queue *qp, const void *data, size_t len)</div><div class="ttdoc">Send a message to queue. </div><div class="ttdef"><b>Definition:</b> ipm.c:66</div></div>
 <div class="ttc" id="spinlock_8h_html"><div class="ttname"><a href="spinlock_8h.html">spinlock.h</a></div></div>
+<div class="ttc" id="group__python-builtin_html_ga39a4ae10474e5e94d339db8a8a0ad0be"><div class="ttname"><a href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">__bi.len</a></div><div class="ttdeci">def len</div><div class="ttdoc">Return the length of s. </div><div class="ttdef"><b>Definition:</b> __bi.py:332</div></div>
 <div class="ttc" id="structipm_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="structipm.html#a7360b55975153b822efc5217b7734e6a">ipm::len</a></div><div class="ttdeci">size_t len</div><div class="ttdoc">Message data length. </div><div class="ttdef"><b>Definition:</b> ipm.h:42</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="include_2etaos_2types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdoc">Unsigned 8-bit integer. </div><div class="ttdef"><b>Definition:</b> types.h:51</div></div>
 <div class="ttc" id="thread_8h_html"><div class="ttname"><a href="thread_8h.html">thread.h</a></div></div>
 <div class="ttc" id="structipm__queue_html_a4a8e297584c64128b91c4cfe9400c73c"><div class="ttname"><a href="structipm__queue.html#a4a8e297584c64128b91c4cfe9400c73c">ipm_queue::qp</a></div><div class="ttdeci">struct thread_queue qp</div><div class="ttdoc">Thread queue to wait in. </div><div class="ttdef"><b>Definition:</b> ipm.h:50</div></div>
+<div class="ttc" id="namespaceipm_html"><div class="ttname"><a href="namespaceipm.html">ipm</a></div><div class="ttdef"><b>Definition:</b> ipm.py:1</div></div>
 <div class="ttc" id="structipm__queue_html_ad8fd68ab24846a228f66556cffab8608"><div class="ttname"><a href="structipm__queue.html#ad8fd68ab24846a228f66556cffab8608">ipm_queue::rd_idx</a></div><div class="ttdeci">uint8_t rd_idx</div><div class="ttdoc">Read index. </div><div class="ttdef"><b>Definition:</b> ipm.h:53</div></div>
 <div class="ttc" id="structipm__queue_html_a2095fb8c5e2c45840cf19afdb351dc3b"><div class="ttname"><a href="structipm__queue.html#a2095fb8c5e2c45840cf19afdb351dc3b">ipm_queue::wr_idx</a></div><div class="ttdeci">uint8_t wr_idx</div><div class="ttdoc">Write index. </div><div class="ttdef"><b>Definition:</b> ipm.h:52</div></div>
 <div class="ttc" id="structipm__queue_html_af1c0716eeeaf441ef5b5e193bbfc9171"><div class="ttname"><a href="structipm__queue.html#af1c0716eeeaf441ef5b5e193bbfc9171">ipm_queue::msgs</a></div><div class="ttdeci">struct ipm * msgs</div><div class="ttdoc">Message array. </div><div class="ttdef"><b>Definition:</b> ipm.h:54</div></div>
@@ -173,7 +176,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="group__ipm_html_gadce9d719285fd2ef91a4c2d1c4df5405"><div class="ttname"><a href="group__ipm.html#gadce9d719285fd2ef91a4c2d1c4df5405">ipm_queue_init</a></div><div class="ttdeci">void ipm_queue_init(struct ipm_queue *qp, size_t len)</div><div class="ttdoc">Initialise a new IPM queue. </div><div class="ttdef"><b>Definition:</b> ipm.c:44</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
 <div class="ttc" id="structipm__queue_html_abea371f9030e15a5d2a4c181576833d8"><div class="ttname"><a href="structipm__queue.html#abea371f9030e15a5d2a4c181576833d8">ipm_queue::num</a></div><div class="ttdeci">uint8_t num</div><div class="ttdoc">Length of the message array. </div><div class="ttdef"><b>Definition:</b> ipm.h:51</div></div>
-<div class="ttc" id="structipm_html"><div class="ttname"><a href="structipm.html">ipm</a></div><div class="ttdoc">IPM message structure. </div><div class="ttdef"><b>Definition:</b> ipm.h:40</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -183,7 +185,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

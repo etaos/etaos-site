@@ -1,5 +1,6 @@
 <map id="i2c_master_recv" name="i2c_master_recv">
 <area shape="rect" id="node2" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="189,5,251,32"/>
-<area shape="rect" id="node3" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="172,56,268,83"/>
-<area shape="rect" id="node4" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="316,56,420,83"/>
+<area shape="rect" id="node3" href="$group__python-list.html#ga6f68e784976582e93cda71a7309a798e" title="Count occurances of v in l. " alt="" coords="183,56,257,83"/>
+<area shape="rect" id="node4" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="172,107,268,133"/>
+<area shape="rect" id="node5" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="316,107,420,133"/>
 </map>

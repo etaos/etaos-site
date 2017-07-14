@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -125,23 +126,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="device_8h.html">etaos/device.h</a>&gt;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;etaos/mutex.h&gt;</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structsram.html">   37</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structsram.html">sram</a> {</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structsram.html">   37</a></span>&#160;<span class="keyword">struct </span><a class="code" href="namespacesram.html">sram</a> {</div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="structsram.html#a8f8f80d37794cde9472343e4487ba3eb">   38</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structsram.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>; </div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structsram.html#a213da43af7bbd0fe6affe3a2ad80c593">   39</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structfile.html">file</a> *<a class="code" href="structsram.html#a213da43af7bbd0fe6affe3a2ad80c593">file</a>; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        </div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structsram.html#a8b6505c37d4ff95854b8b00527e4d9fa">   41</a></span>&#160;        <span class="keywordtype">void</span> *<a class="code" href="structsram.html#a8b6505c37d4ff95854b8b00527e4d9fa">priv</a>; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="structsram.html#ae0989fd1c8681fda24a2668310b91379">   50</a></span>&#160;        int (*<a class="code" href="structsram.html#ae0989fd1c8681fda24a2668310b91379">read</a>)(<span class="keyword">struct </span><a class="code" href="structsram.html">sram</a> *ram, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="structsram.html#ae0989fd1c8681fda24a2668310b91379">   50</a></span>&#160;        int (*<a class="code" href="structsram.html#ae0989fd1c8681fda24a2668310b91379">read</a>)(<span class="keyword">struct </span><a class="code" href="namespacesram.html">sram</a> *ram, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        </div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="structsram.html#a64f31e3ef5653d173d64b2d036549aae">   59</a></span>&#160;        int (*<a class="code" href="structsram.html#a64f31e3ef5653d173d64b2d036549aae">write</a>)(<span class="keyword">struct </span><a class="code" href="structsram.html">sram</a> *ram, <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="structsram.html#a64f31e3ef5653d173d64b2d036549aae">   59</a></span>&#160;        int (*<a class="code" href="structsram.html#a64f31e3ef5653d173d64b2d036549aae">write</a>)(<span class="keyword">struct </span><a class="code" href="namespacesram.html">sram</a> *ram, <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="structsram.html#af451661ba0b5e17a8dc9200a65563497">   66</a></span>&#160;        int (*<a class="code" href="structsram.html#af451661ba0b5e17a8dc9200a65563497">read_byte</a>)(<span class="keyword">struct </span><a class="code" href="structsram.html">sram</a> *ram);</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="structsram.html#af451661ba0b5e17a8dc9200a65563497">   66</a></span>&#160;        int (*<a class="code" href="structsram.html#af451661ba0b5e17a8dc9200a65563497">read_byte</a>)(<span class="keyword">struct </span><a class="code" href="namespacesram.html">sram</a> *ram);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        </div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="structsram.html#a6f1a1a06c2e9ac9f58a6b53c74035dc3">   74</a></span>&#160;        int (*<a class="code" href="structsram.html#a6f1a1a06c2e9ac9f58a6b53c74035dc3">write_byte</a>)(<span class="keyword">struct </span><a class="code" href="structsram.html">sram</a> *ram, <span class="keywordtype">int</span> c);</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="structsram.html#a6f1a1a06c2e9ac9f58a6b53c74035dc3">   74</a></span>&#160;        int (*<a class="code" href="structsram.html#a6f1a1a06c2e9ac9f58a6b53c74035dc3">write_byte</a>)(<span class="keyword">struct </span><a class="code" href="namespacesram.html">sram</a> *ram, <span class="keywordtype">int</span> c);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;CDECL</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__sram.html#gae0a8506e56c96a6a326fb767a72bb747">sram_chip_init</a>(<span class="keyword">struct</span> <a class="code" href="structsram.html">sram</a> *ram, <span class="keyword">struct</span> <a class="code" href="structdevice.html">device</a> *dev);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__sram.html#gae0a8506e56c96a6a326fb767a72bb747">sram_chip_init</a>(<span class="keyword">struct</span> <a class="code" href="namespacesram.html">sram</a> *ram, <span class="keyword">struct</span> <a class="code" href="structdevice.html">device</a> *dev);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;CDECL_END</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -151,13 +152,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structsram_html_a8b6505c37d4ff95854b8b00527e4d9fa"><div class="ttname"><a href="structsram.html#a8b6505c37d4ff95854b8b00527e4d9fa">sram::priv</a></div><div class="ttdeci">void * priv</div><div class="ttdoc">Private data. </div><div class="ttdef"><b>Definition:</b> sram.h:41</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="structsram_html_ae0989fd1c8681fda24a2668310b91379"><div class="ttname"><a href="structsram.html#ae0989fd1c8681fda24a2668310b91379">sram::read</a></div><div class="ttdeci">int(* read)(struct sram *ram, void *buf, size_t len)</div><div class="ttdoc">Read function pointer. </div><div class="ttdef"><b>Definition:</b> sram.h:50</div></div>
+<div class="ttc" id="group__python-builtin_html_ga39a4ae10474e5e94d339db8a8a0ad0be"><div class="ttname"><a href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">__bi.len</a></div><div class="ttdeci">def len</div><div class="ttdoc">Return the length of s. </div><div class="ttdef"><b>Definition:</b> __bi.py:332</div></div>
 <div class="ttc" id="structsram_html_a64f31e3ef5653d173d64b2d036549aae"><div class="ttname"><a href="structsram.html#a64f31e3ef5653d173d64b2d036549aae">sram::write</a></div><div class="ttdeci">int(* write)(struct sram *ram, const void *buf, size_t len)</div><div class="ttdoc">Write function pointer. </div><div class="ttdef"><b>Definition:</b> sram.h:59</div></div>
-<div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:56</div></div>
+<div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:55</div></div>
 <div class="ttc" id="structsram_html_a213da43af7bbd0fe6affe3a2ad80c593"><div class="ttname"><a href="structsram.html#a213da43af7bbd0fe6affe3a2ad80c593">sram::file</a></div><div class="ttdeci">struct file * file</div><div class="ttdoc">SRAM device file. </div><div class="ttdef"><b>Definition:</b> sram.h:39</div></div>
 <div class="ttc" id="structsram_html_af451661ba0b5e17a8dc9200a65563497"><div class="ttname"><a href="structsram.html#af451661ba0b5e17a8dc9200a65563497">sram::read_byte</a></div><div class="ttdeci">int(* read_byte)(struct sram *ram)</div><div class="ttdoc">Read a single byte from the SRAM chip memory. </div><div class="ttdef"><b>Definition:</b> sram.h:66</div></div>
 <div class="ttc" id="group__sram_html_gae0a8506e56c96a6a326fb767a72bb747"><div class="ttname"><a href="group__sram.html#gae0a8506e56c96a6a326fb767a72bb747">sram_chip_init</a></div><div class="ttdeci">void sram_chip_init(struct sram *ram, struct device *dev)</div><div class="ttdoc">Initialise a new SRAM chip data structure. </div><div class="ttdef"><b>Definition:</b> sram.c:177</div></div>
-<div class="ttc" id="structsram_html"><div class="ttname"><a href="structsram.html">sram</a></div><div class="ttdoc">SRAM descriptor. </div><div class="ttdef"><b>Definition:</b> sram.h:37</div></div>
 <div class="ttc" id="device_8h_html"><div class="ttname"><a href="device_8h.html">device.h</a></div></div>
+<div class="ttc" id="namespacesram_html"><div class="ttname"><a href="namespacesram.html">sram</a></div><div class="ttdef"><b>Definition:</b> sram.py:1</div></div>
 <div class="ttc" id="structfile_html"><div class="ttname"><a href="structfile.html">file</a></div><div class="ttdoc">File definition. </div><div class="ttdef"><b>Definition:</b> stdio.h:107</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -168,7 +170,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

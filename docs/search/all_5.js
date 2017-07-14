@@ -1,7 +1,8 @@
 var searchData=
 [
   ['data',['data',['../structipm.html#a0d49d74db4c035719c3867723cf7e779',1,'ipm::data()'],['../structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095',1,'romfs::data()'],['../structfile.html#a735984d41155bc1032e09bece8f8d66d',1,'file::data()']]],
-  ['deadline',['deadline',['../group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463',1,'edf.c']]],
+  ['days',['days',['../classtime_1_1_time.html#ae58c00673cd15f8de2f60b8b8684ad42',1,'time::Time']]],
+  ['deadline',['deadline',['../structrr__entity.html#a7c7ecbbe8cbe11eef42e202a3c1303d8',1,'rr_entity::deadline()'],['../group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463',1,'deadline():&#160;edf.c']]],
   ['define_5fthread_5fqueue',['DEFINE_THREAD_QUEUE',['../group__thread.html#gae01ffae51cc14590cef5e3b7af14bac0',1,'thread.h']]],
   ['delay',['delay',['../group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71',1,'delay.c']]],
   ['delay_2eh',['delay.h',['../delay_8h.html',1,'']]],
@@ -31,7 +32,8 @@ var searchData=
   ['device_5finitialize',['device_initialize',['../group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da',1,'core.c']]],
   ['devices',['devices',['../structspi__driver.html#af7e77a67049a4baa91fc207ec1e483b9',1,'spi_driver']]],
   ['devs',['devs',['../structdevice.html#ab63a1027889ec7cbc8840c82d8028636',1,'device']]],
-  ['dir',['DIR',['../group__libcio.html#ga6c8de73bb604d91743c7f6f356eb171e',1,'stdio.h']]],
+  ['dict',['dict',['../namespacedict.html',1,'']]],
+  ['dir',['DIR',['../group__libcio.html#ga6c8de73bb604d91743c7f6f356eb171e',1,'DIR():&#160;stdio.h'],['../group__python-builtin.html#gaafd2c7caae3ab0b314887c005c2a8426',1,'__bi.dir()']]],
   ['direction_5finput',['direction_input',['../structgpio__chip.html#a1f588d03acb6672517600be19e7a3a25',1,'gpio_chip']]],
   ['direction_5foutput',['direction_output',['../structgpio__chip.html#a9b1c5e9f59817fbd85aaf8095c049b2c',1,'gpio_chip']]],
   ['dirent',['dirent',['../structdirent.html',1,'']]],
@@ -42,5 +44,6 @@ var searchData=
   ['dirent_5ffind_5ffile',['dirent_find_file',['../group__vfs.html#ga696ea429564516870e2da74812165838',1,'dirent_find_file(struct dirent *dir, const char *filename):&#160;dirent.c'],['../group__vfs.html#ga696ea429564516870e2da74812165838',1,'dirent_find_file(struct dirent *dir, const char *filename):&#160;dirent.c']]],
   ['dirent_5ffree',['dirent_free',['../group__vfs.html#ga6f837d78e2b0f609565a79fe7fdfbfaa',1,'dirent.c']]],
   ['dirent_5fremove_5ffile',['dirent_remove_file',['../group__vfs.html#ga0ae0f4204715f91555162d27c61b4ee7',1,'dirent_remove_file(struct dirent *dir, struct file *file):&#160;dirent.c'],['../group__vfs.html#ga0ae0f4204715f91555162d27c61b4ee7',1,'dirent_remove_file(struct dirent *dir, struct file *file):&#160;dirent.c']]],
-  ['disable',['disable',['../structclocksource.html#a313b4cb0f5b62908bfc7da718e31def7',1,'clocksource']]]
+  ['disable',['disable',['../structclocksource.html#a313b4cb0f5b62908bfc7da718e31def7',1,'clocksource']]],
+  ['dictionaries',['Dictionaries',['../group__python-dict.html',1,'']]]
 ];

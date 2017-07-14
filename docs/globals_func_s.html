@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -118,7 +119,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -133,6 +134,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>sched_create_stack_frame()
 : <a class="el" href="group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a">sched.h</a>
+</li>
+<li>sched_find_thread_by_name()
+: <a class="el" href="group__sched.html#gacb85085105394503a93e7ebc75e65445">sched.h</a>
 </li>
 <li>sched_free_stack_frame()
 : <a class="el" href="group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2">sched.h</a>
@@ -154,6 +158,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>sched_init_idle()
 : <a class="el" href="group__thread.html#ga75c980f556ff8123b9b976148f68a464">thread.h</a>
+</li>
+<li>sched_mark_remote_kill()
+: <a class="el" href="group__sched.html#ga0d44902c5d3430ff04e4aacd738af0b8">sched.h</a>
+</li>
+<li>sched_remote_kill_if()
+: <a class="el" href="group__sched.html#ga2a33aa8e229c79764e00338e98b512ad">core.c</a>
 </li>
 <li>sched_select_rq()
 : <a class="el" href="group__arch_a_p_i.html#gab090ee79717fcdd58de691ed935f6445">sched.h</a>
@@ -199,6 +209,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="group__preempt.html#gada97a499438abc44548acb43e582dc73">preempt.h</a>
 , <a class="el" href="group__sched.html#gada97a499438abc44548acb43e582dc73">sched.h</a>
 </li>
+<li>should_resched_cputime()
+: <a class="el" href="group__sched.html#ga334da66e6883352ef369f85803eefec4">core.c</a>
+</li>
 <li>signal()
 : <a class="el" href="group__thread.html#ga72afa09255d40fb4ffbcbfd008daec44">thread.h</a>
 </li>
@@ -230,8 +243,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="group__spi.html#gae4edeea008c7d373a922dcd42e4ef2be">spi-core.c</a>
 </li>
 <li>sram_23k256_init()
-: <a class="el" href="group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3">23k256.c</a>
-, <a class="el" href="group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3">23k256.h</a>
+: <a class="el" href="group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3">23k256.h</a>
+, <a class="el" href="group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3">23k256.c</a>
 </li>
 <li>sram_set_mode()
 : <a class="el" href="23k256_8c.html#a4d4934310f00678cf0497f6755f90374">23k256.c</a>
@@ -273,7 +286,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:25 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:05 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

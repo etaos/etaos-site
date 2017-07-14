@@ -1,0 +1,5 @@
+<map id="rq_update_clock" name="rq_update_clock">
+<area shape="rect" id="node2" href="$group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="171,5,256,32"/>
+<area shape="rect" id="node3" href="$group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="174,56,253,83"/>
+<area shape="rect" id="node4" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="304,56,411,83"/>
+</map>

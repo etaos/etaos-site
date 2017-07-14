@@ -1,6 +1,0 @@
-<map id="__rq_update_clock" name="__rq_update_clock">
-<area shape="rect" id="node2" href="$group__tm.html#ga3817a7c75cd4be46bb92c9aa608cdbec" title="Update the clockskew of a clocksource. " alt="" coords="186,5,325,32"/>
-<area shape="rect" id="node3" href="$group__tm.html#gaf37ee13b8e3698ee03eb932f6bb02c46" title="Process a given clock source and its timers. " alt="" coords="184,56,327,83"/>
-<area shape="rect" id="node4" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="375,56,425,83"/>
-<area shape="rect" id="node5" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="473,56,547,83"/>
-</map>

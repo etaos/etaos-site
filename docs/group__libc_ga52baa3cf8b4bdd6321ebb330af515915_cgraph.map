@@ -3,7 +3,7 @@
 <area shape="rect" id="node5" href="$group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1" title="Get the size of a memory region. " alt="" coords="120,81,231,108"/>
 <area shape="rect" id="node6" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="150,132,201,159"/>
 <area shape="rect" id="node8" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="139,183,211,209"/>
-<area shape="rect" id="node3" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="279,5,357,32"/>
+<area shape="rect" id="node3" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="279,5,357,32"/>
 <area shape="rect" id="node4" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="283,56,353,83"/>
 <area shape="rect" id="node7" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="281,132,355,159"/>
 </map>

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['days',['days',['../classtime_1_1_time.html#ae58c00673cd15f8de2f60b8b8684ad42',1,'time::Time']]],
   ['deadline',['deadline',['../group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463',1,'edf.c']]],
   ['delay',['delay',['../group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71',1,'delay.c']]],
   ['delay_5fus',['delay_us',['../group__tm.html#ga834d7c6c28e84d4e64dd096e651c2463',1,'delay.c']]],
@@ -16,6 +17,7 @@ var searchData=
   ['devfs_5fioctl',['devfs_ioctl',['../group__devfs.html#ga8ef08ea209a23eea8bb4eac55e26d8da',1,'devfs.c']]],
   ['device_5fcreate',['device_create',['../group__dev-core.html#gae77e5c7996b7cea008468dbf16626ed5',1,'core.c']]],
   ['device_5finitialize',['device_initialize',['../group__dev-core.html#ga23e56d7ff65fbe8167cfa173d818c6da',1,'core.c']]],
+  ['dir',['dir',['../group__python-builtin.html#gaafd2c7caae3ab0b314887c005c2a8426',1,'__bi']]],
   ['dirent_5fadd_5fchild',['dirent_add_child',['../group__vfs.html#ga53383e13153ba6ec940596be2b9c0cd3',1,'dirent_add_child(struct dirent *parent, struct dirent *child):&#160;dirent.c'],['../group__vfs.html#ga53383e13153ba6ec940596be2b9c0cd3',1,'dirent_add_child(struct dirent *parent, struct dirent *child):&#160;dirent.c']]],
   ['dirent_5fadd_5ffile',['dirent_add_file',['../group__vfs.html#ga7c5cacd9db023382341701d248c85fcd',1,'dirent_add_file(struct dirent *dir, struct file *file):&#160;dirent.c'],['../group__vfs.html#ga7c5cacd9db023382341701d248c85fcd',1,'dirent_add_file(struct dirent *dir, struct file *file):&#160;dirent.c']]],
   ['dirent_5fcreate',['dirent_create',['../group__vfs.html#gae8165f16744eaddbdbeda00a6ce96afd',1,'dirent_create(const char *name):&#160;dirent.c'],['../group__vfs.html#gae8165f16744eaddbdbeda00a6ce96afd',1,'dirent_create(const char *name):&#160;dirent.c']]],

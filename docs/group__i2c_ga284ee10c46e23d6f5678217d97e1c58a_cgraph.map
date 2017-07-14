@@ -1,4 +1,5 @@
 <map id="i2c_master_send" name="i2c_master_send">
-<area shape="rect" id="node2" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="175,5,271,32"/>
-<area shape="rect" id="node3" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="319,5,423,32"/>
+<area shape="rect" id="node2" href="$group__python-list.html#ga6f68e784976582e93cda71a7309a798e" title="Count occurances of v in l. " alt="" coords="185,5,260,32"/>
+<area shape="rect" id="node3" href="$group__i2c.html#gac55a8a2288888a2021bd62bbf2a5a4c1" title="Transfer a given amount of I2C messages. " alt="" coords="175,56,271,83"/>
+<area shape="rect" id="node4" href="$group__i2c.html#ga902ecafefb3c31114ada5c6da1184719" title="Transfer a given amount of I2C messages. " alt="" coords="319,56,423,83"/>
 </map>

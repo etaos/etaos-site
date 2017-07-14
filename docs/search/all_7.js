@@ -2,7 +2,6 @@ var searchData=
 [
   ['fd',['fd',['../structfile.html#a6f8059414f0228f0256115e024eeed4b',1,'file::fd()'],['../class_character_device.html#a6f8059414f0228f0256115e024eeed4b',1,'CharacterDevice::fd()']]],
   ['fdev_5fsetup_5fstream',['FDEV_SETUP_STREAM',['../group__libcio.html#ga17e61ec686cfa0dbd27d32e1f41f5616',1,'stdio.h']]],
-  ['ff',['Ff',['../group__ff.html',1,'']]],
   ['fgetc',['fgetc',['../group__libcio.html#ga25603b2a24e056c937fe41c93859855a',1,'fgetc.c']]],
   ['fgets',['fgets',['../group__libcio.html#ga74ef5e87da45537412d3c4422b35c67d',1,'fgets.c']]],
   ['fifo_20scheduler',['FIFO scheduler',['../group__fifo.html',1,'']]],
@@ -17,10 +16,12 @@ var searchData=
   ['file',['file',['../structfile.html',1,'file'],['../structdevice.html#a6c3cd9b35b621234e7802ad78fea5473',1,'device::file()'],['../structeeprom.html#a213da43af7bbd0fe6affe3a2ad80c593',1,'eeprom::file()'],['../structsram.html#a213da43af7bbd0fe6affe3a2ad80c593',1,'sram::file()'],['../group__libcio.html#ga3e8cefeee58f762ff50bcef35fa12eec',1,'FILE():&#160;stdio.h']]],
   ['file_5fhead',['file_head',['../structdirent.html#a39c876ab8426c7c9585ec7ccc06dfaa2',1,'dirent']]],
   ['filep',['filep',['../group__libcio.html#gae9449fc17cbc721d6cc8c7fa701f83d7',1,'stdio.h']]],
-  ['first_2dfit_2ec',['first-fit.c',['../first-fit_8c.html',1,'']]],
+  ['filter',['filter',['../group__python-builtin.html#ga7dccd06c09c45af61d3fac77e84b2166',1,'__bi']]],
+  ['find',['find',['../group__python-string.html#gaf1d551a6a31bb5ebb75988b603b8edbd',1,'string']]],
   ['flags',['flags',['../structgpio__pin.html#a9e339c2784bd040b26a5112866700bff',1,'gpio_pin::flags()'],['../structi2c__msg.html#a9e339c2784bd040b26a5112866700bff',1,'i2c_msg::flags()'],['../structirq__data.html#a9e339c2784bd040b26a5112866700bff',1,'irq_data::flags()'],['../structspidev.html#a9e339c2784bd040b26a5112866700bff',1,'spidev::flags()'],['../structfile.html#a9e339c2784bd040b26a5112866700bff',1,'file::flags()'],['../structthread.html#a9e339c2784bd040b26a5112866700bff',1,'thread::flags()']]],
   ['floor',['floor',['../group__math.html#ga0f0bf9ac2651b80846a9d9d89bd4cb85',1,'math.h']]],
   ['flush',['flush',['../structdev__file__ops.html#a33cf6c24d1d266d477c637c6e32dbdeb',1,'dev_file_ops::flush()'],['../structfile.html#a33cf6c24d1d266d477c637c6e32dbdeb',1,'file::flush()'],['../structfs__driver.html#a33cf6c24d1d266d477c637c6e32dbdeb',1,'fs_driver::flush()']]],
+  ['fmod',['fmod',['../group__math.html#ga537296d1a8f9fb621676038b99ba7edf',1,'math.h']]],
   ['fops',['fops',['../structi2c__device__info.html#a2f0794927fc4a44f61d6eeaaa01d8465',1,'i2c_device_info::fops()'],['../group__fops.html',1,'(Global Namespace)']]],
   ['for_5feach_5fcpu',['FOR_EACH_CPU',['../group__kernel.html#gac9db63f013b7877c98c4fcb4c7287731',1,'cpu.h']]],
   ['fprintf',['fprintf',['../group__libcio.html#ga7bd6f0bd261e83a701fe9a9f835c2da8',1,'fprintf.c']]],
@@ -44,5 +45,7 @@ var searchData=
   ['fs_5ffile_5fwrite',['FS_FILE_WRITE',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67ca898761de0a893643c7be2506bdfd3c28',1,'vfs.h']]],
   ['fs_5ffree_5fpath_5fsplit',['fs_free_path_split',['../group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679',1,'util.c']]],
   ['fs_5fsplit_5fpath',['fs_split_path',['../group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd',1,'util.c']]],
-  ['ftell',['ftell',['../structfile.html#aa507e91fb0b28677b0599c838615772d',1,'file::ftell()'],['../group__libcio.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell():&#160;ftell.c']]]
+  ['ftell',['ftell',['../structfile.html#aa507e91fb0b28677b0599c838615772d',1,'file::ftell()'],['../group__libcio.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell():&#160;ftell.c']]],
+  ['func',['func',['../namespacefunc.html',1,'']]],
+  ['function_20support',['Function support',['../group__python-func.html',1,'']]]
 ];

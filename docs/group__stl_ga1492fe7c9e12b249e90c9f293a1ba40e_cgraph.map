@@ -4,7 +4,7 @@
 <area shape="rect" id="node10" href="$group__gpiolib.html#gac42f820a587530c9807fd3a46121244f" title="Read the value of a gpio pin. " alt="" coords="133,208,235,235"/>
 <area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="326,56,389,83"/>
 <area shape="rect" id="node6" href="$group__gpiolib.html#ga0f3a521596d3f4fb0a42ef273750014d" title="Initialise a new pin descriptor. " alt="" coords="310,107,405,133"/>
-<area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="471,5,549,32"/>
+<area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="471,5,549,32"/>
 <area shape="rect" id="node5" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="475,56,545,83"/>
 <area shape="rect" id="node7" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="475,107,545,133"/>
 <area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="298,157,417,184"/>

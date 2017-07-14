@@ -1,10 +1,11 @@
 <map id="fs_split_path" name="fs_split_path">
-<area shape="rect" id="node2" href="$group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df" title="Duplicate a string. " alt="" coords="149,69,208,96"/>
-<area shape="rect" id="node8" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="153,132,204,159"/>
-<area shape="rect" id="node3" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="265,5,320,32"/>
-<area shape="rect" id="node4" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="261,56,324,83"/>
-<area shape="rect" id="node7" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="257,107,329,133"/>
-<area shape="rect" id="node5" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="377,31,456,57"/>
-<area shape="rect" id="node6" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="382,81,451,108"/>
-<area shape="rect" id="node9" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="256,157,329,184"/>
+<area shape="rect" id="node2" href="$group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df" title="Duplicate a string. " alt="" coords="149,107,208,133"/>
+<area shape="rect" id="node9" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="153,183,204,209"/>
+<area shape="rect" id="node3" href="$group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be" title="Return the length of s. " alt="" coords="259,5,326,32"/>
+<area shape="rect" id="node4" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="265,56,320,83"/>
+<area shape="rect" id="node5" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="261,107,324,133"/>
+<area shape="rect" id="node8" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="257,157,329,184"/>
+<area shape="rect" id="node6" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="377,81,456,108"/>
+<area shape="rect" id="node7" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="382,132,451,159"/>
+<area shape="rect" id="node10" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="256,208,329,235"/>
 </map>

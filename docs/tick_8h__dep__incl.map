@@ -3,4 +3,5 @@
 <area shape="rect" id="node3" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="171,80,307,107"/>
 <area shape="rect" id="node4" href="$systick_8c.html" title="kernel/time/systick.c" alt="" coords="331,80,473,107"/>
 <area shape="rect" id="node5" href="$kernel_2time_2time_8c.html" title="kernel/time/time.c" alt="" coords="497,80,624,107"/>
+<area shape="rect" id="node6" href="$kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="649,80,779,107"/>
 </map>

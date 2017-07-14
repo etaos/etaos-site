@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['platform',['Platform',['../class_platform.html',1,'']]],
-  ['platform_5fdevice',['platform_device',['../structplatform__device.html',1,'']]]
+  ['object',['object',['../class____bi_1_1object.html',1,'__bi']]]
 ];

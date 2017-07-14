@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -126,23 +127,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="device_8h.html">etaos/device.h</a>&gt;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;etaos/mutex.h&gt;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structeeprom.html">   39</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structeeprom.html">eeprom</a> {</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structeeprom.html">   39</a></span>&#160;<span class="keyword">struct </span><a class="code" href="namespaceeeprom.html">eeprom</a> {</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structeeprom.html#a8f8f80d37794cde9472343e4487ba3eb">   40</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structeeprom.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>; </div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structeeprom.html#a213da43af7bbd0fe6affe3a2ad80c593">   41</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structfile.html">file</a> *<a class="code" href="structeeprom.html#a213da43af7bbd0fe6affe3a2ad80c593">file</a>; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
 <div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="structeeprom.html#a8b6505c37d4ff95854b8b00527e4d9fa">   43</a></span>&#160;        <span class="keywordtype">void</span> *<a class="code" href="structeeprom.html#a8b6505c37d4ff95854b8b00527e4d9fa">priv</a>; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structeeprom.html#aa26c7b753c53e7504ff08ed574362247">   52</a></span>&#160;        int (*<a class="code" href="structeeprom.html#aa26c7b753c53e7504ff08ed574362247">read</a>)(<span class="keyword">struct </span><a class="code" href="structeeprom.html">eeprom</a> *ee, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structeeprom.html#aa26c7b753c53e7504ff08ed574362247">   52</a></span>&#160;        int (*<a class="code" href="structeeprom.html#aa26c7b753c53e7504ff08ed574362247">read</a>)(<span class="keyword">struct </span><a class="code" href="namespaceeeprom.html">eeprom</a> *ee, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="structeeprom.html#a306dffe8cb7e601065aad073d89a6ec2">   61</a></span>&#160;        int (*<a class="code" href="structeeprom.html#a306dffe8cb7e601065aad073d89a6ec2">write</a>)(<span class="keyword">struct </span><a class="code" href="structeeprom.html">eeprom</a> *ee, <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="structeeprom.html#a306dffe8cb7e601065aad073d89a6ec2">   61</a></span>&#160;        int (*<a class="code" href="structeeprom.html#a306dffe8cb7e601065aad073d89a6ec2">write</a>)(<span class="keyword">struct </span><a class="code" href="namespaceeeprom.html">eeprom</a> *ee, <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>);</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="structeeprom.html#ad5c6ca81e12a8c170c5dcfd4a6fd36b6">   68</a></span>&#160;        int (*<a class="code" href="structeeprom.html#ad5c6ca81e12a8c170c5dcfd4a6fd36b6">read_byte</a>)(<span class="keyword">struct </span><a class="code" href="structeeprom.html">eeprom</a> *ee);</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="structeeprom.html#ad5c6ca81e12a8c170c5dcfd4a6fd36b6">   68</a></span>&#160;        int (*<a class="code" href="structeeprom.html#ad5c6ca81e12a8c170c5dcfd4a6fd36b6">read_byte</a>)(<span class="keyword">struct </span><a class="code" href="namespaceeeprom.html">eeprom</a> *ee);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="structeeprom.html#ab4f92221532ff3dd1e9b2efe77dfdf88">   76</a></span>&#160;        int (*<a class="code" href="structeeprom.html#ab4f92221532ff3dd1e9b2efe77dfdf88">write_byte</a>)(<span class="keyword">struct </span><a class="code" href="structeeprom.html">eeprom</a> *ee, <span class="keywordtype">int</span> c);</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="structeeprom.html#ab4f92221532ff3dd1e9b2efe77dfdf88">   76</a></span>&#160;        int (*<a class="code" href="structeeprom.html#ab4f92221532ff3dd1e9b2efe77dfdf88">write_byte</a>)(<span class="keyword">struct </span><a class="code" href="namespaceeeprom.html">eeprom</a> *ee, <span class="keywordtype">int</span> c);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;};</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;CDECL</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__ee.html#ga70b3a1287ac2c2a0e4436fa42588a60c">eeprom_chip_init</a>(<span class="keyword">struct</span> <a class="code" href="structeeprom.html">eeprom</a> *ee, <span class="keyword">struct</span> <a class="code" href="structdevice.html">device</a> *dev);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__ee.html#ga70b3a1287ac2c2a0e4436fa42588a60c">eeprom_chip_init</a>(<span class="keyword">struct</span> <a class="code" href="namespaceeeprom.html">eeprom</a> *ee, <span class="keyword">struct</span> <a class="code" href="structdevice.html">device</a> *dev);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;CDECL_END</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -150,11 +151,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structeeprom_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structeeprom.html#a8f8f80d37794cde9472343e4487ba3eb">eeprom::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">EEPROM chip name. </div><div class="ttdef"><b>Definition:</b> eeprom.h:40</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="structeeprom_html_a306dffe8cb7e601065aad073d89a6ec2"><div class="ttname"><a href="structeeprom.html#a306dffe8cb7e601065aad073d89a6ec2">eeprom::write</a></div><div class="ttdeci">int(* write)(struct eeprom *ee, const void *buf, size_t len)</div><div class="ttdoc">Write function pointer. </div><div class="ttdef"><b>Definition:</b> eeprom.h:61</div></div>
-<div class="ttc" id="structeeprom_html"><div class="ttname"><a href="structeeprom.html">eeprom</a></div><div class="ttdoc">EEPROM chip descriptor. </div><div class="ttdef"><b>Definition:</b> eeprom.h:39</div></div>
+<div class="ttc" id="group__python-builtin_html_ga39a4ae10474e5e94d339db8a8a0ad0be"><div class="ttname"><a href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">__bi.len</a></div><div class="ttdeci">def len</div><div class="ttdoc">Return the length of s. </div><div class="ttdef"><b>Definition:</b> __bi.py:332</div></div>
 <div class="ttc" id="structeeprom_html_ab4f92221532ff3dd1e9b2efe77dfdf88"><div class="ttname"><a href="structeeprom.html#ab4f92221532ff3dd1e9b2efe77dfdf88">eeprom::write_byte</a></div><div class="ttdeci">int(* write_byte)(struct eeprom *ee, int c)</div><div class="ttdoc">Write a single byte to the EEPROM chip memory. </div><div class="ttdef"><b>Definition:</b> eeprom.h:76</div></div>
-<div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:56</div></div>
+<div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:55</div></div>
 <div class="ttc" id="structeeprom_html_a8b6505c37d4ff95854b8b00527e4d9fa"><div class="ttname"><a href="structeeprom.html#a8b6505c37d4ff95854b8b00527e4d9fa">eeprom::priv</a></div><div class="ttdeci">void * priv</div><div class="ttdoc">Private data, usually set to the i2c_client. </div><div class="ttdef"><b>Definition:</b> eeprom.h:43</div></div>
 <div class="ttc" id="structeeprom_html_aa26c7b753c53e7504ff08ed574362247"><div class="ttname"><a href="structeeprom.html#aa26c7b753c53e7504ff08ed574362247">eeprom::read</a></div><div class="ttdeci">int(* read)(struct eeprom *ee, void *buf, size_t len)</div><div class="ttdoc">Read function pointer. </div><div class="ttdef"><b>Definition:</b> eeprom.h:52</div></div>
+<div class="ttc" id="namespaceeeprom_html"><div class="ttname"><a href="namespaceeeprom.html">eeprom</a></div><div class="ttdef"><b>Definition:</b> eeprom.py:1</div></div>
 <div class="ttc" id="device_8h_html"><div class="ttname"><a href="device_8h.html">device.h</a></div></div>
 <div class="ttc" id="structeeprom_html_ad5c6ca81e12a8c170c5dcfd4a6fd36b6"><div class="ttname"><a href="structeeprom.html#ad5c6ca81e12a8c170c5dcfd4a6fd36b6">eeprom::read_byte</a></div><div class="ttdeci">int(* read_byte)(struct eeprom *ee)</div><div class="ttdoc">Read a single byte from the EEPROM chip memory. </div><div class="ttdef"><b>Definition:</b> eeprom.h:68</div></div>
 <div class="ttc" id="group__ee_html_ga70b3a1287ac2c2a0e4436fa42588a60c"><div class="ttname"><a href="group__ee.html#ga70b3a1287ac2c2a0e4436fa42588a60c">eeprom_chip_init</a></div><div class="ttdeci">void eeprom_chip_init(struct eeprom *ee, struct device *dev)</div><div class="ttdoc">Initialise a new EEPROM chip driver. </div><div class="ttdef"><b>Definition:</b> eeprom.c:174</div></div>
@@ -169,7 +171,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

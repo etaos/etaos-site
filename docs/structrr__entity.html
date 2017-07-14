@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -82,7 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="structrr__entity__coll__graph.png" border="0" usemap="#rr__entity_coll__map" alt="Collaboration graph"/></div>
 <map name="rr__entity_coll__map" id="rr__entity_coll__map">
-<area shape="rect" id="node2" href="structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="297,557,404,811"/><area shape="rect" id="node3" href="structthread__queue.html" title="Thread queue descriptor. " alt="" coords="44,1145,144,1223"/><area shape="rect" id="node4" href="structsched__class.html" title="Scheduling class descriptor. " alt="" coords="296,888,415,1068"/><area shape="rect" id="node8" href="structrq.html" title="Run queue descriptor. " alt="" coords="408,1131,519,1237"/><area shape="rect" id="node9" href="structrr__rq.html" title="Round robin run queue. " alt="" coords="512,939,560,1017"/><area shape="rect" id="node5" href="structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="246,373,332,495"/><area shape="rect" id="node6" href="structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="319,145,411,311"/><area shape="rect" id="node7" href="structlist__head.html" title="Linked list structure. " alt="" coords="328,5,402,83"/></map>
+<area shape="rect" id="node2" href="structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="224,329,330,597"/><area shape="rect" id="node4" href="structthread__queue.html" title="Thread queue descriptor. " alt="" coords="38,932,138,1009"/><area shape="rect" id="node5" href="structsched__class.html" title="Scheduling class descriptor. " alt="" coords="224,675,343,855"/><area shape="rect" id="node8" href="structrq.html" title="Run queue descriptor. " alt="" coords="426,917,536,1024"/><area shape="rect" id="node9" href="structrr__rq.html" title="Round robin run queue. " alt="" coords="402,726,450,803"/><area shape="rect" id="node3" href="structlist__head.html" title="Linked list structure. " alt="" coords="538,5,613,83"/><area shape="rect" id="node6" href="structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="458,145,544,267"/><area shape="rect" id="node7" href="structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="536,381,628,546"/></map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -120,6 +121,10 @@ Data Fields</h2></td></tr>
 struct <a class="el" href="structthread.html">thread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrr__entity.html#a61f580a4141de6d8cbde8e41f101ca9b">next</a></td></tr>
 <tr class="memdesc:a61f580a4141de6d8cbde8e41f101ca9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">List entry pointer. <br /></td></tr>
 <tr class="separator:a61f580a4141de6d8cbde8e41f101ca9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c7ecbbe8cbe11eef42e202a3c1303d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c7ecbbe8cbe11eef42e202a3c1303d8"></a>
+<a class="el" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrr__entity.html#a7c7ecbbe8cbe11eef42e202a3c1303d8">deadline</a></td></tr>
+<tr class="memdesc:a7c7ecbbe8cbe11eef42e202a3c1303d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">EDF deadline timestamp. <br /></td></tr>
+<tr class="separator:a7c7ecbbe8cbe11eef42e202a3c1303d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Round robin entity. </p>
@@ -135,7 +140,7 @@ struct <a class="el" href="structthread.html">thread</a> *&#160;</td><td class="
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:23 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

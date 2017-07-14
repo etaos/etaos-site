@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -145,12 +146,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="group__tm.html#ga16870f08add529f9c5af2645a5487916">   73</a></span>&#160;<span class="preprocessor">#define time_before(a, b) ((a) &lt; (b))</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __TICK_H__ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#define time_at_or_after(x, y) ((x) &gt;= (y))</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="ttc" id="group__tm_html_ga58edd6f43293e3068262d70c1e87c7f5"><div class="ttname"><a href="group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5">systick_get_seconds</a></div><div class="ttdeci">time_t systick_get_seconds(void)</div><div class="ttdoc">Get the system tick in seconds. </div><div class="ttdef"><b>Definition:</b> systick.c:67</div></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __TICK_H__ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="ttc" id="group__tm_html_ga58edd6f43293e3068262d70c1e87c7f5"><div class="ttname"><a href="group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5">systick_get_seconds</a></div><div class="ttdeci">time_t systick_get_seconds(void)</div><div class="ttdoc">Get the system tick in seconds. </div><div class="ttdef"><b>Definition:</b> systick.c:75</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
-<div class="ttc" id="structclocksource_html"><div class="ttname"><a href="structclocksource.html">clocksource</a></div><div class="ttdoc">The clocksource describes the source of a hardware time. </div><div class="ttdef"><b>Definition:</b> clocksource.h:31</div></div>
-<div class="ttc" id="group__tm_html_ga73a24b405057db87fc9088b8f46da0a3"><div class="ttname"><a href="group__tm.html#ga73a24b405057db87fc9088b8f46da0a3">systick_setup</a></div><div class="ttdeci">void systick_setup(int irq, struct clocksource *src)</div><div class="ttdoc">Setup the system tick. </div><div class="ttdef"><b>Definition:</b> systick.c:78</div></div>
+<div class="ttc" id="structclocksource_html"><div class="ttname"><a href="structclocksource.html">clocksource</a></div><div class="ttdoc">The clocksource describes the source of a hardware time. </div><div class="ttdef"><b>Definition:</b> clocksource.h:32</div></div>
+<div class="ttc" id="group__tm_html_ga73a24b405057db87fc9088b8f46da0a3"><div class="ttname"><a href="group__tm.html#ga73a24b405057db87fc9088b8f46da0a3">systick_setup</a></div><div class="ttdeci">void systick_setup(int irq, struct clocksource *src)</div><div class="ttdoc">Setup the system tick. </div><div class="ttdef"><b>Definition:</b> systick.c:86</div></div>
 <div class="ttc" id="etaos_2time_8h_html"><div class="ttname"><a href="etaos_2time_8h.html">time.h</a></div></div>
 <div class="ttc" id="group__tm_html_gad7753fdcc44ef21b90f460deca48f182"><div class="ttname"><a href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">sys_get_clock</a></div><div class="ttdeci">static struct clocksource * sys_get_clock(void)</div><div class="ttdoc">Get the system clock. </div><div class="ttdef"><b>Definition:</b> tick.h:45</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_a7f5991675a84025dc7c24754a9b257c0"><div class="ttname"><a href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a></div><div class="ttdeci">int64_t time_t</div><div class="ttdoc">System time type. </div><div class="ttdef"><b>Definition:</b> types.h:46</div></div>
@@ -164,7 +167,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

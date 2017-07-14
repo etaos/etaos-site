@@ -1,10 +1,10 @@
 <map id="thread" name="thread">
-<area shape="rect" id="node2" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="44,1145,144,1223"/>
-<area shape="rect" id="node3" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="167,888,286,1068"/>
-<area shape="rect" id="node7" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="534,939,617,1017"/>
-<area shape="rect" id="node8" href="$structrq.html" title="Run queue descriptor. " alt="" coords="374,1131,484,1237"/>
-<area shape="rect" id="node9" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="326,939,374,1017"/>
-<area shape="rect" id="node4" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="502,373,588,495"/>
-<area shape="rect" id="node5" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="575,145,667,311"/>
-<area shape="rect" id="node6" href="$structlist__head.html" title="Linked list structure. " alt="" coords="584,5,658,83"/>
+<area shape="rect" id="node3" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="187,932,287,1009"/>
+<area shape="rect" id="node4" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="310,675,429,855"/>
+<area shape="rect" id="node7" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="5,726,88,803"/>
+<area shape="rect" id="node8" href="$structrq.html" title="Run queue descriptor. " alt="" coords="562,917,673,1024"/>
+<area shape="rect" id="node9" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="555,726,603,803"/>
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="640,5,715,83"/>
+<area shape="rect" id="node5" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="559,145,646,267"/>
+<area shape="rect" id="node6" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="643,381,735,546"/>
 </map>

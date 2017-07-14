@@ -1,5 +1,5 @@
 <map id="lottery_generate_tickets" name="lottery_generate_tickets">
 <area shape="rect" id="node2" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="215,31,277,57"/>
-<area shape="rect" id="node3" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="325,5,404,32"/>
+<area shape="rect" id="node3" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="325,5,404,32"/>
 <area shape="rect" id="node4" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="330,56,399,83"/>
 </map>

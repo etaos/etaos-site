@@ -17,8 +17,11 @@ var searchData=
   ['eeprom_5fput',['eeprom_put',['../group__ee.html#gabc8da5c346d2430606d7f9d2430da71c',1,'eeprom.c']]],
   ['eeprom_5fread',['eeprom_read',['../group__ee.html#ga14667c61f1a9060a903e83b5dec4bc80',1,'eeprom.c']]],
   ['eeprom_5fwrite',['eeprom_write',['../group__ee.html#gaca25c00254089a032c335dbd340125e9',1,'eeprom.c']]],
+  ['eval',['eval',['../group__python-builtin.html#ga90c07e0375ae4dd1caf9944cc781b333',1,'__bi']]],
   ['event_5fnotify',['event_notify',['../group__evm.html#ga2192b6e38f6927a3b4e59cffcc03bf68',1,'event.c']]],
   ['event_5fnotify_5firq',['event_notify_irq',['../group__evm.html#ga442d104bf2f6cd10c847ec41e5fa1684',1,'event.c']]],
   ['event_5fwait',['event_wait',['../group__evm.html#gab1270952e323d52d1b4b908cc216500e',1,'event.c']]],
-  ['exp',['exp',['../group__math.html#ga4ea549372745dda4018ab4b5a94483a6',1,'math.h']]]
+  ['exit',['exit',['../group__python-sys.html#gabf45d6eb9e0803f71b96387da92c03e6',1,'sys']]],
+  ['exp',['exp',['../group__math.html#ga4ea549372745dda4018ab4b5a94483a6',1,'math.h']]],
+  ['extend',['extend',['../group__python-list.html#gabcde56d6c54c3c96055926b11270e460',1,'list']]]
 ];

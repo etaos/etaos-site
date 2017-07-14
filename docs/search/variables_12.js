@@ -10,7 +10,6 @@ var searchData=
   ['rm_5fthread',['rm_thread',['../structsched__class.html#a43307eb0742b086fa326202322d14702',1,'sched_class']]],
   ['romfs',['romfs',['../group__romfs.html#ga99d724a74f00deeedafbd593e3fd196b',1,'romfs():&#160;romfs.c'],['../group__romfs.html#ga99d724a74f00deeedafbd593e3fd196b',1,'romfs():&#160;romfs.c']]],
   ['rq',['rq',['../structthread.html#a944189d6913e48909b439453f278f53e',1,'thread']]],
-  ['rq_5fnext',['rq_next',['../structthread.html#a04e09e1cf7094253594718b632f0565f',1,'thread']]],
   ['rr_5fclass',['rr_class',['../group__rr.html#ga89bc3f7e7e6c0042ad508637e5db5b59',1,'rr.c']]],
   ['rr_5frq',['rr_rq',['../structrq.html#ab0d6f613bfa5e6b05a29e4330031b974',1,'rq']]],
   ['run_5fqueue',['run_queue',['../structrr__rq.html#ae060bbe32dab0d2100ab040123351f7b',1,'rr_rq']]],

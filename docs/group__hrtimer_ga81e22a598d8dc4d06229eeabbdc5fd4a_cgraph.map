@@ -1,5 +1,4 @@
 <map id="hrtimer_stop" name="hrtimer_stop">
-<area shape="rect" id="node2" href="$group__hrtimer.html#ga951da26b412997ce0d96beb4b778624d" title="Get the base clocksource of a hrtimer. " alt="" coords="148,5,275,32"/>
-<area shape="rect" id="node3" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="186,56,237,83"/>
-<area shape="rect" id="node4" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="323,56,396,83"/>
+<area shape="rect" id="node2" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="148,5,199,32"/>
+<area shape="rect" id="node3" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="247,5,320,32"/>
 </map>

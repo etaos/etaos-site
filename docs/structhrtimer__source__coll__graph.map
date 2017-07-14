@@ -1,6 +1,0 @@
-<map id="hrtimer_source" name="hrtimer_source">
-<area shape="rect" id="node2" href="$structhrtimer.html" title="High resolution timer structure. " alt="" coords="5,557,139,679"/>
-<area shape="rect" id="node3" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="98,145,190,311"/>
-<area shape="rect" id="node5" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="166,373,253,495"/>
-<area shape="rect" id="node4" href="$structlist__head.html" title="Linked list structure. " alt="" coords="107,5,181,83"/>
-</map>

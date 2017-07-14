@@ -1,5 +1,0 @@
-<map id="timer_stop_timer" name="timer_stop_timer">
-<area shape="rect" id="node2" href="$group__tm.html#ga20e856ccf8bbf02684d1c75f61914940" title="Remove a timer from a clocksource. " alt="" coords="172,5,307,47"/>
-<area shape="rect" id="node3" href="$group__tm.html#ga20954f365ba3354a5adb5cb312c8936d" title="Start a new timer. " alt="" coords="179,71,299,98"/>
-<area shape="rect" id="node4" href="$group__tm.html#ga6501ffdc00b89b8308bc225e1182f213" title="Add a new timer to a clocksource. " alt="" coords="355,71,511,98"/>
-</map>

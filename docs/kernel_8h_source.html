@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -136,63 +137,65 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#define ERR_PTR ((void*)-1)</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define FALSE 0</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#define TRUE !FALSE</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#define true TRUE</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define false FALSE</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#ifdef __compiler_offsetof</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define USED(__x__) ((void)__x__)</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#define FALSE 0</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#define TRUE !FALSE</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define true TRUE</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define false FALSE</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#define offsetof(TYPE, MEMBER) __compiler_offsetof(TYPE,MEMBER)</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#define offsetof(TYPE, MEMBER) ((size_t) &amp;((TYPE *)0)-&gt;MEMBER)</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="group__kernel.html#gaf8c317a42292b61c93aae91e59118a46">   69</a></span>&#160;<span class="preprocessor">#define container_of(ptr, type, member) ({              \</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">                const typeof( ((type *)0)-&gt;member) *__mptr = (ptr); \</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">                (type *)( ( char *)__mptr - offsetof(type,member) );})</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#ifdef __compiler_offsetof</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#define offsetof(TYPE, MEMBER) __compiler_offsetof(TYPE,MEMBER)</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#define offsetof(TYPE, MEMBER) ((size_t) &amp;((TYPE *)0)-&gt;MEMBER)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="group__kernel.html#gaf8c317a42292b61c93aae91e59118a46">   71</a></span>&#160;<span class="preprocessor">#define container_of(ptr, type, member) ({              \</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">                const typeof( ((type *)0)-&gt;member) *__mptr = (ptr); \</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">                (type *)( ( char *)__mptr - offsetof(type,member) );})</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;__extension__ <span class="keyword">typedef</span> <span class="keywordtype">int</span> __guard <a class="code" href="group__atmega.html#ga189705fbc4254ff3cc332e052cd13215">__attribute__</a>((mode (__DI__)));</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">int</span> __cxa_guard_acquire(__guard *);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> __cxa_guard_release (__guard *);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> __cxa_guard_abort (__guard *);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> __cxa_pure_virtual(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#define CDECL extern &quot;C&quot; {</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#define CDECL_END }</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#define CDECL</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#define CDECL_END</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">   92</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> sys_ctl {</div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">   97</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">SYS_SET_STDOUT</a>,</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">  103</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">SYS_SET_STDERR</a>,</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        </div>
-<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">  109</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">SYS_SET_STDIN</a>,</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        SYS_SET_SYSCLK,</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        SYS_SET_HR_CLK,</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;} <a class="code" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;__extension__ <span class="keyword">typedef</span> <span class="keywordtype">int</span> __guard <a class="code" href="group__atmega.html#ga189705fbc4254ff3cc332e052cd13215">__attribute__</a>((mode (__DI__)));</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">int</span> __cxa_guard_acquire(__guard *);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> __cxa_guard_release (__guard *);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> __cxa_guard_abort (__guard *);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> __cxa_pure_virtual(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#define CDECL extern &quot;C&quot; {</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#define CDECL_END }</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#define CDECL</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#define CDECL_END</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">   94</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> sys_ctl {</div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">   99</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">SYS_SET_STDOUT</a>,</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">  105</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">SYS_SET_STDERR</a>,</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        </div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">  111</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">SYS_SET_STDIN</a>,</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        SYS_SET_SYSCLK,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        SYS_SET_HR_CLK,</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;CDECL</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__kernel.html#ga108852e41423be8946eedc2a338e431c">sysctl</a>(<a class="code" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a> ctl, ...);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;CDECL_END</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;} <a class="code" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;CDECL</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__kernel.html#ga108852e41423be8946eedc2a338e431c">sysctl</a>(<a class="code" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a> ctl, ...);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;CDECL_END</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">SYS_SET_STDIN</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:109</div></div>
-<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">SYS_SET_STDERR</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:103</div></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">SYS_SET_STDIN</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:111</div></div>
+<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">SYS_SET_STDERR</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:105</div></div>
 <div class="ttc" id="group__atmega_html_ga189705fbc4254ff3cc332e052cd13215"><div class="ttname"><a href="group__atmega.html#ga189705fbc4254ff3cc332e052cd13215">__attribute__</a></div><div class="ttdeci">void __attribute__((noinline))</div><div class="ttdoc">AVR system initialisation. </div><div class="ttdef"><b>Definition:</b> init.c:49</div></div>
-<div class="ttc" id="group__kernel_html_gad44ffc8242f731979132e3582d76b085"><div class="ttname"><a href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a></div><div class="ttdeci">sys_ctl_t</div><div class="ttdoc">sysctl settings type. </div><div class="ttdef"><b>Definition:</b> kernel.h:92</div></div>
+<div class="ttc" id="group__kernel_html_gad44ffc8242f731979132e3582d76b085"><div class="ttname"><a href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a></div><div class="ttdeci">sys_ctl_t</div><div class="ttdoc">sysctl settings type. </div><div class="ttdef"><b>Definition:</b> kernel.h:94</div></div>
 <div class="ttc" id="group__kernel_html_ga108852e41423be8946eedc2a338e431c"><div class="ttname"><a href="group__kernel.html#ga108852e41423be8946eedc2a338e431c">sysctl</a></div><div class="ttdeci">int sysctl(sys_ctl_t ctl,...)</div><div class="ttdoc">sysctl - change system wide settings. </div><div class="ttdef"><b>Definition:</b> sys.c:35</div></div>
-<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">SYS_SET_STDOUT</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:97</div></div>
+<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">SYS_SET_STDOUT</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:99</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -203,7 +206,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -1,4 +1,4 @@
 <map id="timer" name="timer">
-<area shape="rect" id="node2" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="79,189,171,355"/>
-<area shape="rect" id="node3" href="$structlist__head.html" title="Linked list structure. " alt="" coords="178,27,253,105"/>
+<area shape="rect" id="node3" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="23,329,115,495"/>
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="65,5,140,83"/>
 </map>

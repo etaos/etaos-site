@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -129,60 +130,54 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;etaos/clocksource.h&gt;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structtimer.html">   39</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> {</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structtimer.html#a03aa09a036d9fdc67c301f8ebe74ef39">   40</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> *<a class="code" href="structtimer.html#a03aa09a036d9fdc67c301f8ebe74ef39">next</a>; </div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structtimer.html#a7b2343683040124347c5d5818f57b507">   41</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> *<a class="code" href="structtimer.html#a7b2343683040124347c5d5818f57b507">prev</a>; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">struct </span><a class="code" href="structlist__head.html">list_head</a> entry;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">   41</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *<a class="code" href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">source</a>; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">   43</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *<a class="code" href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">source</a>; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">   51</a></span>&#160;        void (*<a class="code" href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">handle</a>)(<span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> *<a class="code" href="structtimer.html">timer</a>, <span class="keywordtype">void</span> *arg);</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5">   52</a></span>&#160;        <span class="keywordtype">void</span> *<a class="code" href="structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5">priv_data</a>; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="structtimer.html#a7d55571f3bfe843d12d791f5e5fbd02c">   54</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="structtimer.html#a7d55571f3bfe843d12d791f5e5fbd02c">tleft</a>; </div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="structtimer.html#a7204e5acba6fa12ae6f2b03ed64b7684">   55</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="structtimer.html#a7204e5acba6fa12ae6f2b03ed64b7684">ticks</a>; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="group__tm.html#ga306dbcfb7a0d342408f4f2adeb957052">   65</a></span>&#160;<span class="preprocessor">#define TIMER_ONESHOT_FLAG 0</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="group__tm.html#gade2038d4123308f12ba1fb558ad03079">   71</a></span>&#160;<span class="preprocessor">#define TIMER_ONESHOT_MASK (1&lt;&lt;TIMER_ONESHOT_FLAG)</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="group__tm.html#gac0be7ea82a4b52e703b78936cd853093">   78</a></span>&#160;<span class="preprocessor">#define cs_last_update(__cs) __cs-&gt;tc_update</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#define NEVER -1</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;CDECL</div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__tm.html#ga8a7ac70726a08cc5bce8d75a097c626d">   87</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__tm.html#ga8a7ac70726a08cc5bce8d75a097c626d">timer_source_inc</a>(<span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *cs)</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        cs-&gt;<a class="code" href="structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c">count</a> += 1LL;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> *<a class="code" href="group__tm.html#ga15711d26d9190044d7ca7ac1d3899ca4">timer_create_timer</a>(<span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *cs, <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> ms,</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">   49</a></span>&#160;        void (*<a class="code" href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">handle</a>)(<span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> *<a class="code" href="structtimer.html">timer</a>, <span class="keywordtype">void</span> *arg);</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5">   50</a></span>&#160;        <span class="keywordtype">void</span> *<a class="code" href="structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5">priv_data</a>; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a> expire_at;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> interval;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__tm.html#ga306dbcfb7a0d342408f4f2adeb957052">   62</a></span>&#160;<span class="preprocessor">#define TIMER_ONESHOT_FLAG 0</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="group__tm.html#gade2038d4123308f12ba1fb558ad03079">   68</a></span>&#160;<span class="preprocessor">#define TIMER_ONESHOT_MASK (1&lt;&lt;TIMER_ONESHOT_FLAG)</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="group__tm.html#gac0be7ea82a4b52e703b78936cd853093">   75</a></span>&#160;<span class="preprocessor">#define cs_last_update(__cs) __cs-&gt;tc_update</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#define NEVER -1</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;CDECL</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="group__tm.html#ga8a7ac70726a08cc5bce8d75a097c626d">   84</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__tm.html#ga8a7ac70726a08cc5bce8d75a097c626d">timer_source_inc</a>(<span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *cs)</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        cs-&gt;<a class="code" href="structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c">count</a> += 1ULL;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *timer_get_source_by_name(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> timer_process(<span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *cs);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> *timer_create(<span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *cs, <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> ms,</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <span class="keywordtype">void</span> (*<a class="code" href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">handle</a>)(<span class="keyword">struct</span> <a class="code" href="structtimer.html">timer</a>*,<span class="keywordtype">void</span>*), <span class="keywordtype">void</span> *arg,</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> flags);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__tm.html#ga8b09cd45bc4628ce347b23f28d39be6a">timer_stop_timer</a>(<span class="keyword">struct</span> <a class="code" href="structtimer.html">timer</a> *<a class="code" href="structtimer.html">timer</a>);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__tm.html#gaf37ee13b8e3698ee03eb932f6bb02c46">timer_process_clock</a>(<span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *cs, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> diff);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *timer_get_source_by_name(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a>);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;CDECL_END</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __TIMER_H__ */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> timer_stop(<span class="keyword">struct</span> <a class="code" href="structtimer.html">timer</a> *<a class="code" href="structtimer.html">timer</a>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> raw_timer_stop(<span class="keyword">struct</span> <a class="code" href="structtimer.html">timer</a> *<a class="code" href="structtimer.html">timer</a>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;CDECL_END</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __TIMER_H__ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="spinlock_8h_html"><div class="ttname"><a href="spinlock_8h.html">spinlock.h</a></div></div>
-<div class="ttc" id="structclocksource_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">clocksource::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">Timer name. </div><div class="ttdef"><b>Definition:</b> clocksource.h:32</div></div>
+<div class="ttc" id="structclocksource_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">clocksource::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">Timer name. </div><div class="ttdef"><b>Definition:</b> clocksource.h:33</div></div>
+<div class="ttc" id="structlist__head_html"><div class="ttname"><a href="structlist__head.html">list_head</a></div><div class="ttdoc">Linked list structure. </div><div class="ttdef"><b>Definition:</b> types.h:82</div></div>
 <div class="ttc" id="structtimer_html"><div class="ttname"><a href="structtimer.html">timer</a></div><div class="ttdoc">Describes a single (virtual) timer. </div><div class="ttdef"><b>Definition:</b> timer.h:39</div></div>
-<div class="ttc" id="group__tm_html_ga8a7ac70726a08cc5bce8d75a097c626d"><div class="ttname"><a href="group__tm.html#ga8a7ac70726a08cc5bce8d75a097c626d">timer_source_inc</a></div><div class="ttdeci">static void timer_source_inc(struct clocksource *cs)</div><div class="ttdoc">Safely increment the tick count of a clock source. </div><div class="ttdef"><b>Definition:</b> timer.h:87</div></div>
-<div class="ttc" id="structclocksource_html_a5adffc9b8f555f4c611ad1fc874a205c"><div class="ttname"><a href="structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c">clocksource::count</a></div><div class="ttdeci">volatile tick_t count</div><div class="ttdoc">Tick counter. </div><div class="ttdef"><b>Definition:</b> clocksource.h:46</div></div>
-<div class="ttc" id="structtimer_html_a7b2343683040124347c5d5818f57b507"><div class="ttname"><a href="structtimer.html#a7b2343683040124347c5d5818f57b507">timer::prev</a></div><div class="ttdeci">struct timer * prev</div><div class="ttdoc">Previous pointer. </div><div class="ttdef"><b>Definition:</b> timer.h:41</div></div>
-<div class="ttc" id="structtimer_html_a33e7865dc6cf5cbd56a8f1a654e306a5"><div class="ttname"><a href="structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5">timer::priv_data</a></div><div class="ttdeci">void * priv_data</div><div class="ttdoc">Private timer data. </div><div class="ttdef"><b>Definition:</b> timer.h:52</div></div>
-<div class="ttc" id="structtimer_html_ae9924d77c8e5c2ed155927aed3d3fd4a"><div class="ttname"><a href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">timer::handle</a></div><div class="ttdeci">void(* handle)(struct timer *timer, void *arg)</div><div class="ttdoc">Timer trigger. </div><div class="ttdef"><b>Definition:</b> timer.h:51</div></div>
-<div class="ttc" id="structclocksource_html"><div class="ttname"><a href="structclocksource.html">clocksource</a></div><div class="ttdoc">The clocksource describes the source of a hardware time. </div><div class="ttdef"><b>Definition:</b> clocksource.h:31</div></div>
-<div class="ttc" id="group__tm_html_ga15711d26d9190044d7ca7ac1d3899ca4"><div class="ttname"><a href="group__tm.html#ga15711d26d9190044d7ca7ac1d3899ca4">timer_create_timer</a></div><div class="ttdeci">struct timer * timer_create_timer(struct clocksource *cs, unsigned long ms, void(*handle)(struct timer *, void *), void *arg, unsigned long flags)</div><div class="ttdoc">Create a new timer. </div><div class="ttdef"><b>Definition:</b> timer.c:56</div></div>
-<div class="ttc" id="structtimer_html_a7d55571f3bfe843d12d791f5e5fbd02c"><div class="ttname"><a href="structtimer.html#a7d55571f3bfe843d12d791f5e5fbd02c">timer::tleft</a></div><div class="ttdeci">unsigned long tleft</div><div class="ttdoc">Ticks left. </div><div class="ttdef"><b>Definition:</b> timer.h:54</div></div>
-<div class="ttc" id="group__tm_html_ga8b09cd45bc4628ce347b23f28d39be6a"><div class="ttname"><a href="group__tm.html#ga8b09cd45bc4628ce347b23f28d39be6a">timer_stop_timer</a></div><div class="ttdeci">int timer_stop_timer(struct timer *timer)</div><div class="ttdoc">Stop a timer. </div><div class="ttdef"><b>Definition:</b> timer.c:88</div></div>
-<div class="ttc" id="group__tm_html_gaf37ee13b8e3698ee03eb932f6bb02c46"><div class="ttname"><a href="group__tm.html#gaf37ee13b8e3698ee03eb932f6bb02c46">timer_process_clock</a></div><div class="ttdeci">void timer_process_clock(struct clocksource *cs, unsigned int diff)</div><div class="ttdoc">Process a given clock source and its timers. </div><div class="ttdef"><b>Definition:</b> timer.c:117</div></div>
-<div class="ttc" id="structtimer_html_a7204e5acba6fa12ae6f2b03ed64b7684"><div class="ttname"><a href="structtimer.html#a7204e5acba6fa12ae6f2b03ed64b7684">timer::ticks</a></div><div class="ttdeci">unsigned long ticks</div><div class="ttdoc">Total ticks,used for non ONE_SHOT timers. </div><div class="ttdef"><b>Definition:</b> timer.h:55</div></div>
-<div class="ttc" id="structtimer_html_a2b65695e8376d96cb88ff98075a98ffe"><div class="ttname"><a href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">timer::source</a></div><div class="ttdeci">struct clocksource * source</div><div class="ttdoc">Source of the timer. </div><div class="ttdef"><b>Definition:</b> timer.h:43</div></div>
-<div class="ttc" id="structtimer_html_a03aa09a036d9fdc67c301f8ebe74ef39"><div class="ttname"><a href="structtimer.html#a03aa09a036d9fdc67c301f8ebe74ef39">timer::next</a></div><div class="ttdeci">struct timer * next</div><div class="ttdoc">Next pointer. </div><div class="ttdef"><b>Definition:</b> timer.h:40</div></div>
+<div class="ttc" id="group__tm_html_ga8a7ac70726a08cc5bce8d75a097c626d"><div class="ttname"><a href="group__tm.html#ga8a7ac70726a08cc5bce8d75a097c626d">timer_source_inc</a></div><div class="ttdeci">static void timer_source_inc(struct clocksource *cs)</div><div class="ttdoc">Safely increment the tick count of a clock source. </div><div class="ttdef"><b>Definition:</b> timer.h:84</div></div>
+<div class="ttc" id="structclocksource_html_a5adffc9b8f555f4c611ad1fc874a205c"><div class="ttname"><a href="structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c">clocksource::count</a></div><div class="ttdeci">volatile tick_t count</div><div class="ttdoc">Tick counter. </div><div class="ttdef"><b>Definition:</b> clocksource.h:47</div></div>
+<div class="ttc" id="structtimer_html_a33e7865dc6cf5cbd56a8f1a654e306a5"><div class="ttname"><a href="structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5">timer::priv_data</a></div><div class="ttdeci">void * priv_data</div><div class="ttdoc">Private timer data. </div><div class="ttdef"><b>Definition:</b> timer.h:50</div></div>
+<div class="ttc" id="structtimer_html_ae9924d77c8e5c2ed155927aed3d3fd4a"><div class="ttname"><a href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">timer::handle</a></div><div class="ttdeci">void(* handle)(struct timer *timer, void *arg)</div><div class="ttdoc">Timer trigger. </div><div class="ttdef"><b>Definition:</b> timer.h:49</div></div>
+<div class="ttc" id="structclocksource_html"><div class="ttname"><a href="structclocksource.html">clocksource</a></div><div class="ttdoc">The clocksource describes the source of a hardware time. </div><div class="ttdef"><b>Definition:</b> clocksource.h:32</div></div>
+<div class="ttc" id="include_2etaos_2types_8h_html_a7f5991675a84025dc7c24754a9b257c0"><div class="ttname"><a href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a></div><div class="ttdeci">int64_t time_t</div><div class="ttdoc">System time type. </div><div class="ttdef"><b>Definition:</b> types.h:46</div></div>
+<div class="ttc" id="structtimer_html_a2b65695e8376d96cb88ff98075a98ffe"><div class="ttname"><a href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">timer::source</a></div><div class="ttdeci">struct clocksource * source</div><div class="ttdoc">Source of the timer. </div><div class="ttdef"><b>Definition:</b> timer.h:41</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -193,7 +188,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:01 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

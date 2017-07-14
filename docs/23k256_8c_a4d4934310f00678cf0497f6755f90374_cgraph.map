@@ -1,23 +1,24 @@
 <map id="sram_set_mode" name="sram_set_mode">
 <area shape="rect" id="node2" href="$group__spi.html#ga53785a38bd8eb10898001d729ccdae03" title="Allocate a new SPI message. " alt="" coords="169,31,274,57"/>
-<area shape="rect" id="node6" href="$group__spi.html#ga299495247902b3003d99d1f25dc9fa3f" title="Set the bitrate of the SPI bus. " alt="" coords="168,81,275,108"/>
-<area shape="rect" id="node7" href="$group__spi.html#gac9a3ddca0fbddd501da7918622cd9509" title="Change the SPI bus mode. " alt="" coords="170,132,273,159"/>
-<area shape="rect" id="node9" href="$group__spi.html#gae4edeea008c7d373a922dcd42e4ef2be" title="Transfer an SPI message. " alt="" coords="176,183,267,209"/>
-<area shape="rect" id="node20" href="$group__spi.html#ga74ada4f1e4ee185cacc17c2332644b78" title="Free a SPI message. " alt="" coords="171,233,271,260"/>
+<area shape="rect" id="node7" href="$group__spi.html#ga299495247902b3003d99d1f25dc9fa3f" title="Set the bitrate of the SPI bus. " alt="" coords="168,81,275,108"/>
+<area shape="rect" id="node8" href="$group__spi.html#gac9a3ddca0fbddd501da7918622cd9509" title="Change the SPI bus mode. " alt="" coords="170,132,273,159"/>
+<area shape="rect" id="node10" href="$group__spi.html#gae4edeea008c7d373a922dcd42e4ef2be" title="Transfer an SPI message. " alt="" coords="176,183,267,209"/>
+<area shape="rect" id="node21" href="$group__spi.html#ga74ada4f1e4ee185cacc17c2332644b78" title="Free a SPI message. " alt="" coords="171,233,271,260"/>
 <area shape="rect" id="node3" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="333,31,395,57"/>
-<area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="474,5,553,32"/>
+<area shape="rect" id="node6" href="$group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be" title="Return the length of s. " alt="" coords="331,81,397,108"/>
+<area shape="rect" id="node4" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="474,5,553,32"/>
 <area shape="rect" id="node5" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="479,56,548,83"/>
-<area shape="rect" id="node8" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="333,132,395,159"/>
-<area shape="rect" id="node10" href="$group__spi.html#gabce57fcf76cfe56149f69f76dfb3e8f7" title="SPI core backend for SPI transmissions. " alt="" coords="323,183,405,209"/>
-<area shape="rect" id="node11" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="453,119,573,145"/>
-<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="1004,220,1069,247"/>
-<area shape="rect" id="node14" href="$group__gpiolib.html#gaae67b44542e3ae6c2be5f5815f25617f" title="Write a boolean value to a GPIO pin. " alt="" coords="461,220,566,247"/>
-<area shape="rect" id="node12" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="631,119,749,145"/>
-<area shape="rect" id="node15" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="621,325,759,352"/>
-<area shape="rect" id="node18" href="$group__gpiolib.html#gaba62ab29aee995a91a86fc97b14b2bb6" title="Write a boolean value to a GPIO pin. " alt="" coords="623,271,757,297"/>
-<area shape="rect" id="node16" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="808,322,952,363"/>
-<area shape="rect" id="node17" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="1001,329,1072,356"/>
-<area shape="rect" id="node19" href="$group__gpiolib.html#ga5d2389cb21a58fd4e4d55d79637e6eee" title="Write a boolean value to a GPIO pin. " alt="" coords="807,271,953,297"/>
-<area shape="rect" id="node21" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="339,233,389,260"/>
-<area shape="rect" id="node22" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="477,271,550,297"/>
+<area shape="rect" id="node9" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="333,132,395,159"/>
+<area shape="rect" id="node11" href="$group__spi.html#gabce57fcf76cfe56149f69f76dfb3e8f7" title="SPI core backend for SPI transmissions. " alt="" coords="323,183,405,209"/>
+<area shape="rect" id="node12" href="$group__gpiolib.html#ga7a3f35d16818c78ea09509c70f3c8120" title="Request a pin for usage. " alt="" coords="453,119,573,145"/>
+<area shape="rect" id="node14" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="1004,220,1069,247"/>
+<area shape="rect" id="node15" href="$group__gpiolib.html#gaae67b44542e3ae6c2be5f5815f25617f" title="Write a boolean value to a GPIO pin. " alt="" coords="461,220,566,247"/>
+<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a" title="Set a bit in register and return the value of nr before setting it. " alt="" coords="631,119,749,145"/>
+<area shape="rect" id="node16" href="$group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="621,325,759,352"/>
+<area shape="rect" id="node19" href="$group__gpiolib.html#gaba62ab29aee995a91a86fc97b14b2bb6" title="Write a boolean value to a GPIO pin. " alt="" coords="623,271,757,297"/>
+<area shape="rect" id="node17" href="$group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="808,322,952,363"/>
+<area shape="rect" id="node18" href="$arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="1001,329,1072,356"/>
+<area shape="rect" id="node20" href="$group__gpiolib.html#ga5d2389cb21a58fd4e4d55d79637e6eee" title="Write a boolean value to a GPIO pin. " alt="" coords="807,271,953,297"/>
+<area shape="rect" id="node22" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="339,233,389,260"/>
+<area shape="rect" id="node23" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="477,271,550,297"/>
 </map>

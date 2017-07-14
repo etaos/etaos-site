@@ -1,34 +1,36 @@
 <map id="lm35_read" name="lm35_read">
-<area shape="rect" id="node2" href="$group__lm35.html#ga84385347b503f3aec36d20b3404cc50d" title="Set the analog the device the LM35 driver should use. " alt="" coords="136,205,301,232"/>
-<area shape="rect" id="node3" href="$group__libc.html#ga34faed0b162387a0d9f7e706a9b9e5fa" title="Concatinate two strings. " alt="" coords="191,256,246,283"/>
-<area shape="rect" id="node4" href="$group__analog.html#ga268d54a08be0f9f8cb8fbdf166136523" title="Get the name of an ADC. " alt="" coords="145,307,293,333"/>
-<area shape="rect" id="node5" href="$group__libcio.html#ga0b5471640e66a70163f75a05748bfa40" title="Open a file on the virtual file system. " alt="" coords="193,357,244,384"/>
-<area shape="rect" id="node27" href="$group__libcio.html#gad80dd68a15cdbb62ab57decaee670625" title="Drive file control options. " alt="" coords="365,408,412,435"/>
-<area shape="rect" id="node29" href="$group__libcio.html#ga75ef1508eb99733cdb4036aad25cef16" title="Read a single byte from a file. " alt="" coords="195,459,242,485"/>
-<area shape="rect" id="node31" href="$group__libcio.html#ga5bbe56a416af8f77723b652362f742f7" title="Close a file. " alt="" coords="192,509,245,536"/>
-<area shape="rect" id="node6" href="$group__vfs.html#gaeb36dfcf4ef0886942b94d1f2467451e" title="Open a file. " alt="" coords="351,281,426,308"/>
-<area shape="rect" id="node7" href="$group__vfs.html#ga89337fe05f23e40f6ef8416dab2fde12" title="Find a file in the VFS. " alt="" coords="484,231,576,257"/>
-<area shape="rect" id="node8" href="$group__fops.html#gad36c72340db694b5faa7b3a2cf4502be" title="Return the base path of a path. " alt="" coords="964,256,1039,283"/>
-<area shape="rect" id="node16" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="976,104,1027,131"/>
-<area shape="rect" id="node25" href="$group__vfs.html#gaadccc004bb14c592155546a91a1661a4" title="Add a file to the file descriptor array. " alt="" coords="497,408,563,435"/>
-<area shape="rect" id="node26" href="$group__vfs.html#gae74c86f66c6348899048895b5abcd90a" title="Get the file system driver of a path. " alt="" coords="476,141,584,168"/>
-<area shape="rect" id="node14" href="$group__fops.html#ga01a030e7926bdefb2886016e0bf8b67b" title="Return the base name of a path. " alt="" coords="960,307,1043,333"/>
-<area shape="rect" id="node18" href="$group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5" title="Find a directory entry. " alt="" coords="644,104,727,131"/>
-<area shape="rect" id="node24" href="$group__vfs.html#ga696ea429564516870e2da74812165838" title="Find a file in a directory. " alt="" coords="632,155,739,181"/>
-<area shape="rect" id="node9" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="1100,205,1155,232"/>
-<area shape="rect" id="node10" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="1096,256,1159,283"/>
-<area shape="rect" id="node13" href="$group__libc.html#ga5868a2c77808dc187e06bfc308cef106" title="Copy a number of bytes of string. " alt="" coords="1095,307,1160,333"/>
-<area shape="rect" id="node11" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="1212,231,1291,257"/>
-<area shape="rect" id="node12" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="1217,281,1286,308"/>
-<area shape="rect" id="node15" href="$group__libc.html#ga1a8e0d046aa6ccaf2c9947e3142e4786" title="Copy a string. " alt="" coords="1098,357,1157,384"/>
-<area shape="rect" id="node17" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="1091,104,1164,131"/>
-<area shape="rect" id="node19" href="$group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d" title="Compare two strings. " alt="" coords="818,155,881,181"/>
-<area shape="rect" id="node20" href="$group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd" title="Split a path into an array. " alt="" coords="801,104,897,131"/>
-<area shape="rect" id="node23" href="$group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679" title="Free the result of fs_split_path. " alt="" coords="787,53,912,80"/>
-<area shape="rect" id="node21" href="$group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df" title="Duplicate a string. " alt="" coords="972,180,1031,207"/>
-<area shape="rect" id="node22" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="1091,155,1163,181"/>
-<area shape="rect" id="node28" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="497,459,563,485"/>
-<area shape="rect" id="node30" href="$group__libcio.html#ga25603b2a24e056c937fe41c93859855a" title="Read a single byte from a file. " alt="" coords="363,459,414,485"/>
-<area shape="rect" id="node32" href="$group__vfs.html#ga60d1dba40888b0dadfbb4f0a30e1cb89" title="Close an open file. " alt="" coords="349,509,428,536"/>
-<area shape="rect" id="node33" href="$group__vfs.html#gae70d2b52d02913247aa5bc9bae05a32a" title="Remove a file from the FD array. " alt="" coords="485,509,575,536"/>
+<area shape="rect" id="node2" href="$group__lm35.html#ga84385347b503f3aec36d20b3404cc50d" title="Set the analog the device the LM35 driver should use. " alt="" coords="136,178,301,205"/>
+<area shape="rect" id="node3" href="$group__libc.html#ga34faed0b162387a0d9f7e706a9b9e5fa" title="Concatinate two strings. " alt="" coords="191,229,246,255"/>
+<area shape="rect" id="node4" href="$group__analog.html#ga268d54a08be0f9f8cb8fbdf166136523" title="Get the name of an ADC. " alt="" coords="145,279,293,306"/>
+<area shape="rect" id="node5" href="$group__libcio.html#ga0b5471640e66a70163f75a05748bfa40" title="Open a file on the virtual file system. " alt="" coords="193,330,244,357"/>
+<area shape="rect" id="node29" href="$group__libcio.html#gad80dd68a15cdbb62ab57decaee670625" title="Drive file control options. " alt="" coords="365,381,412,407"/>
+<area shape="rect" id="node31" href="$group__libcio.html#ga75ef1508eb99733cdb4036aad25cef16" title="Read a single byte from a file. " alt="" coords="195,431,242,458"/>
+<area shape="rect" id="node33" href="$group__libcio.html#ga5bbe56a416af8f77723b652362f742f7" title="Close a file. " alt="" coords="192,482,245,509"/>
+<area shape="rect" id="node6" href="$group__vfs.html#gaeb36dfcf4ef0886942b94d1f2467451e" title="Open a file. " alt="" coords="351,153,426,179"/>
+<area shape="rect" id="node7" href="$group__python-builtin.html#gaafd2c7caae3ab0b314887c005c2a8426" title="Return a list of attributes for a scope. " alt="" coords="653,26,717,53"/>
+<area shape="rect" id="node8" href="$group__vfs.html#ga89337fe05f23e40f6ef8416dab2fde12" title="Find a file in the VFS. " alt="" coords="484,153,576,179"/>
+<area shape="rect" id="node9" href="$group__fops.html#gad36c72340db694b5faa7b3a2cf4502be" title="Return the base path of a path. " alt="" coords="964,229,1039,255"/>
+<area shape="rect" id="node18" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="976,39,1027,66"/>
+<area shape="rect" id="node27" href="$group__vfs.html#gaadccc004bb14c592155546a91a1661a4" title="Add a file to the file descriptor array. " alt="" coords="497,381,563,407"/>
+<area shape="rect" id="node28" href="$group__vfs.html#gae74c86f66c6348899048895b5abcd90a" title="Get the file system driver of a path. " alt="" coords="476,77,584,103"/>
+<area shape="rect" id="node16" href="$group__fops.html#ga01a030e7926bdefb2886016e0bf8b67b" title="Return the base name of a path. " alt="" coords="960,279,1043,306"/>
+<area shape="rect" id="node20" href="$group__vfs.html#ga317c30a6f7ef86f2f9118d6038cd11b5" title="Find a directory entry. " alt="" coords="644,77,727,103"/>
+<area shape="rect" id="node26" href="$group__vfs.html#ga696ea429564516870e2da74812165838" title="Find a file in a directory. " alt="" coords="632,127,739,154"/>
+<area shape="rect" id="node10" href="$group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be" title="Return the length of s. " alt="" coords="1094,203,1161,230"/>
+<area shape="rect" id="node11" href="$group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="1100,254,1155,281"/>
+<area shape="rect" id="node12" href="$group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="1096,153,1159,179"/>
+<area shape="rect" id="node15" href="$group__libc.html#ga5868a2c77808dc187e06bfc308cef106" title="Copy a number of bytes of string. " alt="" coords="1095,305,1160,331"/>
+<area shape="rect" id="node13" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="1212,127,1291,154"/>
+<area shape="rect" id="node14" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="1217,178,1286,205"/>
+<area shape="rect" id="node17" href="$group__libc.html#ga1a8e0d046aa6ccaf2c9947e3142e4786" title="Copy a string. " alt="" coords="1098,355,1157,382"/>
+<area shape="rect" id="node19" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="1091,39,1164,66"/>
+<area shape="rect" id="node21" href="$group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d" title="Compare two strings. " alt="" coords="818,127,881,154"/>
+<area shape="rect" id="node22" href="$group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd" title="Split a path into an array. " alt="" coords="801,77,897,103"/>
+<area shape="rect" id="node25" href="$group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679" title="Free the result of fs_split_path. " alt="" coords="787,26,912,53"/>
+<area shape="rect" id="node23" href="$group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df" title="Duplicate a string. " alt="" coords="972,153,1031,179"/>
+<area shape="rect" id="node24" href="$group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="1091,102,1163,129"/>
+<area shape="rect" id="node30" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="497,431,563,458"/>
+<area shape="rect" id="node32" href="$group__libcio.html#ga25603b2a24e056c937fe41c93859855a" title="Read a single byte from a file. " alt="" coords="363,431,414,458"/>
+<area shape="rect" id="node34" href="$group__vfs.html#ga60d1dba40888b0dadfbb4f0a30e1cb89" title="Close an open file. " alt="" coords="349,482,428,509"/>
+<area shape="rect" id="node35" href="$group__vfs.html#gae70d2b52d02913247aa5bc9bae05a32a" title="Remove a file from the FD array. " alt="" coords="485,482,575,509"/>
 </map>

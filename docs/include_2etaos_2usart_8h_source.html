@@ -28,10 +28,10 @@
             <div class="container">
 		<div class="row">
 		    <div class="col-sm-2 logo">
-			<img alt="Logo" src="etaos-logo.svg"/>
+			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">4.6.4</a>
+                        <a class="navbar-brand">5.0.0</a>
 		    </div>
 	        </div>
             </div>
@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -81,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -137,7 +138,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                        <span class="keywordtype">size_t</span> txlen);</div>
 <div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="structusart.html#aa00ced81deecb3716c3cc31fc5e069f2">   60</a></span>&#160;        int (*<a class="code" href="structusart.html#aa00ced81deecb3716c3cc31fc5e069f2">putc</a>)(<span class="keyword">struct </span><a class="code" href="structusart.html">usart</a>* uart, <span class="keywordtype">int</span> c);</div>
 <div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="structusart.html#a1ba5588c95558238d0a5fdbcce1bf7b1">   66</a></span>&#160;        int (*<a class="code" href="structusart.html#a1ba5588c95558238d0a5fdbcce1bf7b1">getc</a>)(<span class="keyword">struct </span><a class="code" href="structusart.html">usart</a>* uart);</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="structusart.html#a150aa721cb1b5d3a88b0fba83d55704d">   73</a></span>&#160;        int (*<a class="code" href="structusart.html#a150aa721cb1b5d3a88b0fba83d55704d">read</a>)(<span class="keyword">struct </span><a class="code" href="structusart.html">usart</a> *uart, <span class="keywordtype">void</span> *rx, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="structusart.html#a150aa721cb1b5d3a88b0fba83d55704d">   73</a></span>&#160;        int (*<a class="code" href="structusart.html#a150aa721cb1b5d3a88b0fba83d55704d">read</a>)(<span class="keyword">struct </span><a class="code" href="structusart.html">usart</a> *uart, <span class="keywordtype">void</span> *rx, <span class="keywordtype">size_t</span> <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;};</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;CDECL</div>
@@ -154,8 +155,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structusart_html_a493b57f443cc38b3d3df9c1e584d9d82"><div class="ttname"><a href="structusart.html#a493b57f443cc38b3d3df9c1e584d9d82">usart::timeout</a></div><div class="ttdeci">int timeout</div><div class="ttdoc">Transmission timeout. </div><div class="ttdef"><b>Definition:</b> usart.h:41</div></div>
 <div class="ttc" id="structusart_html"><div class="ttname"><a href="structusart.html">usart</a></div><div class="ttdoc">USART descriptor. </div><div class="ttdef"><b>Definition:</b> usart.h:40</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
+<div class="ttc" id="group__python-builtin_html_ga39a4ae10474e5e94d339db8a8a0ad0be"><div class="ttname"><a href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">__bi.len</a></div><div class="ttdeci">def len</div><div class="ttdoc">Return the length of s. </div><div class="ttdef"><b>Definition:</b> __bi.py:332</div></div>
 <div class="ttc" id="structusart_html_adfc9dbc9a621f3bed34215a242da5fd7"><div class="ttname"><a href="structusart.html#adfc9dbc9a621f3bed34215a242da5fd7">usart::dev</a></div><div class="ttdeci">struct device dev</div><div class="ttdoc">Backend USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:44</div></div>
-<div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:56</div></div>
+<div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:55</div></div>
 <div class="ttc" id="structusart_html_a183c2dbca2436692b2873763ebbe25c3"><div class="ttname"><a href="structusart.html#a183c2dbca2436692b2873763ebbe25c3">usart::write</a></div><div class="ttdeci">int(* write)(struct usart *uart, const void *tx, size_t txlen)</div><div class="ttdoc">Write to the USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:52</div></div>
 <div class="ttc" id="structusart_html_aa00ced81deecb3716c3cc31fc5e069f2"><div class="ttname"><a href="structusart.html#aa00ced81deecb3716c3cc31fc5e069f2">usart::putc</a></div><div class="ttdeci">int(* putc)(struct usart *uart, int c)</div><div class="ttdoc">Write a single byte to the USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:60</div></div>
 <div class="ttc" id="structusart_html_a1ba5588c95558238d0a5fdbcce1bf7b1"><div class="ttname"><a href="structusart.html#a1ba5588c95558238d0a5fdbcce1bf7b1">usart::getc</a></div><div class="ttdeci">int(* getc)(struct usart *uart)</div><div class="ttdoc">Read a single byte from the USART. </div><div class="ttdef"><b>Definition:</b> usart.h:66</div></div>
@@ -172,7 +174,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 09:09:22 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 14 2017 16:06:01 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

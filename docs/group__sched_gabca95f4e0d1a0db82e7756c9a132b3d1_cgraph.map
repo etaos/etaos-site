@@ -5,7 +5,7 @@
 <area shape="rect" id="node9" href="$group__thread.html#ga75c980f556ff8123b9b976148f68a464" title="Create the idle thread. " alt="" coords="145,385,253,412"/>
 <area shape="rect" id="node3" href="$group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="316,5,423,32"/>
 <area shape="rect" id="node5" href="$group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151" title="Getter for the ATmega AVR system clock. " alt="" coords="311,56,428,83"/>
-<area shape="rect" id="node7" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocated a new memory region. " alt="" coords="330,107,409,133"/>
+<area shape="rect" id="node7" href="$group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="330,107,409,133"/>
 <area shape="rect" id="node8" href="$group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="692,208,761,235"/>
 <area shape="rect" id="node10" href="$group__thread.html#ga4289b7f9957ab328ffc1390816f01eb1" title="Thread initialise backend. " alt="" coords="314,385,425,412"/>
 <area shape="rect" id="node18" href="$arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="515,579,576,605"/>
