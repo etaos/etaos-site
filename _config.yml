@@ -24,10 +24,9 @@ author :
 
 project :
   download : https://git.bietje.net/etaos/etaos/archive/v5.0.0.tar.gz
-  github : https://github.com/bietje/etaos
-  gitlab : https://git.bietje.net/etaos/etaos
+  browse : https://git.bietje.net/etaos/etaos
   issue : https://git.bietje.net/etaos/etaos/issues/new
-  docs : http://etaos.bietje.net
+  docs : http://etaos.bietje.net/docs
 
 leftmenu:
   url1:
