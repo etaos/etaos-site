@@ -10,7 +10,7 @@
 <area shape="rect" id="node9" href="$group__sched.html#gaa119db667033233b449e211df34dc4c3" title="Add a kill thread. " alt="" coords="1051,1002,1177,1029"/>
 <area shape="rect" id="node10" href="$group__sched.html#ga6b05483e9f719152875cb406386fcd5c" title="Add a thread to rq_list. " alt="" coords="1297,1002,1382,1029"/>
 <area shape="rect" id="node12" href="$group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="1071,1054,1157,1081"/>
-<area shape="rect" id="node13" href="$group__sched.html#ga95b99712c508a0627d2b9ac453aa0b53" title="Reschedule the current run queue. " alt="" coords="215,836,303,862"/>
+<area shape="rect" id="node13" href="$group__sched.html#ga835c9de7e384665a6e425fc55f63872a" title="Reschedule the current run queue. " alt="" coords="215,836,303,862"/>
 <area shape="rect" id="node54" href="$group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671" title="Check if a reschedule is required. " alt="" coords="606,1308,709,1334"/>
 <area shape="rect" id="node14" href="$group__kernel.html#ga38f4f8022778edff29606cec22897bfc" title="Notify the CPU of a specific event. " alt="" coords="841,669,924,696"/>
 <area shape="rect" id="node17" href="$group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="618,1054,697,1081"/>
@@ -49,7 +49,7 @@
 <area shape="rect" id="node46" href="$group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3" title="Set a specific CPU state. " alt="" coords="831,1054,935,1081"/>
 <area shape="rect" id="node48" href="$group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c" title="Remove a thread from the kill queue. " alt="" coords="815,720,950,762"/>
 <area shape="rect" id="node49" href="$group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2" title="Free a stack frame. " alt="" coords="800,112,965,138"/>
-<area shape="rect" id="node50" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="1089,112,1139,138"/>
-<area shape="rect" id="node51" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="1303,112,1376,138"/>
+<area shape="rect" id="node50" href="$group__libc.html#ga069f85a5001d71bc44d8be6532a4e432" title="Free an allocated memory region. " alt="" coords="1089,112,1139,138"/>
+<area shape="rect" id="node51" href="$group__mm.html#gac906c2d7849a485d955a895120068e12" title="Free a previously allocated memory region. " alt="" coords="1303,112,1376,138"/>
 <area shape="rect" id="node53" href="$group__sched.html#gad02b6c3e73322a0593793f30f8af56c1" title="Return the current thread for a given run queue. " alt="" coords="1051,416,1177,442"/>
 </map>

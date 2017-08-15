@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sched_5fclock_5ftick',['sched_clock_tick',['../group__sched.html#ga71fc9ccede8c1a1e84cd901e3d06bf47',1,'clock.c']]],
   ['sched_5fcreate_5fstack_5fframe',['sched_create_stack_frame',['../group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a',1,'sched_create_stack_frame(struct thread *tp, stack_t *stack, size_t stack_size, thread_handle_t handle):&#160;sched.c'],['../group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a',1,'sched_create_stack_frame(struct thread *tp, stack_t *stack, size_t stack_size, thread_handle_t handle):&#160;sched.c']]],
   ['sched_5ffind_5fthread_5fby_5fname',['sched_find_thread_by_name',['../group__sched.html#gacb85085105394503a93e7ebc75e65445',1,'core.c']]],
   ['sched_5ffree_5fstack_5fframe',['sched_free_stack_frame',['../group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2',1,'sched_free_stack_frame(struct thread *tp):&#160;sched.c'],['../group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2',1,'sched_free_stack_frame(struct thread *tp):&#160;sched.c']]],
@@ -57,8 +58,11 @@ var searchData=
   ['strcmp',['strcmp',['../group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d',1,'strcmp(const char *s1, const char *s2):&#160;strcmp.c'],['../group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d',1,'strcmp(const char *s1, const char *s2):&#160;strcmp.c']]],
   ['strcpy',['strcpy',['../group__libc.html#ga1a8e0d046aa6ccaf2c9947e3142e4786',1,'strcpy(char *dst, const char *src):&#160;strcpy.c'],['../group__libc.html#ga1a8e0d046aa6ccaf2c9947e3142e4786',1,'strcpy(char *dst, const char *src):&#160;strcpy.c']]],
   ['strdup',['strdup',['../group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df',1,'strdup(const char *s):&#160;strdup.c'],['../group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df',1,'strdup(const char *str):&#160;strdup.c']]],
+  ['stricmp',['stricmp',['../group__libc.html#ga7f886f6fb9d16724acb21dca4110ec29',1,'stricmp(const char *s1, const char *s2):&#160;stricmp.c'],['../group__libc.html#ga7f886f6fb9d16724acb21dca4110ec29',1,'stricmp(const char *s1, const char *s2):&#160;stricmp.c']]],
   ['strlen',['strlen',['../group__libc.html#ga008e171a518fe0e0352f31b245e03875',1,'strlen(const char *str):&#160;strlen.c'],['../group__libc.html#ga008e171a518fe0e0352f31b245e03875',1,'strlen(const char *x):&#160;strlen.c'],['../group__libc.html#ga008e171a518fe0e0352f31b245e03875',1,'strlen(const char *str):&#160;strlen.c']]],
+  ['strncat',['strncat',['../group__libc.html#gae9190e8967437ba6e966f98aca483e18',1,'strncat(char *dst, const char *src, size_t size):&#160;strcat.c'],['../group__libc.html#gae9190e8967437ba6e966f98aca483e18',1,'strncat(char *dst, const char *src, size_t size):&#160;strcat.c']]],
   ['strncpy',['strncpy',['../group__libc.html#ga5868a2c77808dc187e06bfc308cef106',1,'strncpy(char *dst, const char *src, size_t num):&#160;strncpy.c'],['../group__libc.html#ga5868a2c77808dc187e06bfc308cef106',1,'strncpy(char *dst, const char *src, size_t num):&#160;strncpy.c']]],
+  ['strnicmp',['strnicmp',['../group__libc.html#ga7667a5db3ccb2462398e8b721a180681',1,'strnicmp(const char *s1, const char *s2, int n):&#160;stricmp.c'],['../group__libc.html#ga7667a5db3ccb2462398e8b721a180681',1,'strnicmp(const char *s1, const char *s2, int n):&#160;stricmp.c']]],
   ['strnlen',['strnlen',['../group__libc.html#gaae36108083bc46b961fa054082b1dce1',1,'strnlen(const char *str, size_t size):&#160;strnlen.c'],['../group__libc.html#gaae36108083bc46b961fa054082b1dce1',1,'strnlen(const char *str, size_t size):&#160;strnlen.c']]],
   ['strtok',['strtok',['../group__libc.html#ga8fa9cf67dfd810893d4e6d6c53edacc9',1,'strtok(char *s, const char *delimeter):&#160;strtok.c'],['../group__libc.html#ga8fa9cf67dfd810893d4e6d6c53edacc9',1,'strtok(char *s, const char *delimeter):&#160;strtok.c']]],
   ['strtok_5fr',['strtok_r',['../group__libc.html#gaf18c3fca5cc30bc1313728d45c031ae9',1,'strtok_r(char *s, const char *delimeter, char **last):&#160;strtok.c'],['../group__libc.html#gaf18c3fca5cc30bc1313728d45c031ae9',1,'strtok_r(char *s, const char *delim, char **last):&#160;strtok.c']]],
@@ -67,7 +71,5 @@ var searchData=
   ['sum',['sum',['../group__python-builtin.html#ga77c9daccea4eed8cb074a540cdb42c88',1,'__bi']]],
   ['sys_5fget_5fclock',['sys_get_clock',['../group__tm.html#gad7753fdcc44ef21b90f460deca48f182',1,'tick.h']]],
   ['sysctl',['sysctl',['../group__kernel.html#ga108852e41423be8946eedc2a338e431c',1,'sys.c']]],
-  ['systick_5fget_5fseconds',['systick_get_seconds',['../group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5',1,'systick.c']]],
-  ['systick_5firq_5fhandle',['systick_irq_handle',['../group__tm.html#ga8792d30a4c8b2bc7bd73fcbb1c5c735c',1,'systick.c']]],
-  ['systick_5fsetup',['systick_setup',['../group__tm.html#ga73a24b405057db87fc9088b8f46da0a3',1,'systick.c']]]
+  ['systick_5fsetup',['systick_setup',['../group__tm.html#ga73a24b405057db87fc9088b8f46da0a3',1,'irq.c']]]
 ];

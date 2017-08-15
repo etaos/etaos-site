@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -290,30 +290,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">char</span> <a class="code" href="group__atmega.html#ga189705fbc4254ff3cc332e052cd13215">__attribute__</a>((__progmem__)) <a class="code" href="group__atmega.html#ga8c58c1a4bc98cdbf19a2a070cf889524">prog_char</a>;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00201"></a><span class="lineno"><a class="line" href="group__atmega.html#ga9c19b85ced7db4aa2b17dd428adec104">  201</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> *<a class="code" href="group__atmega.html#ga9c19b85ced7db4aa2b17dd428adec104">memcpy_P</a>(<span class="keywordtype">void</span> *_dest, <span class="keyword">const</span> <span class="keywordtype">void</span> *_src, <span class="keywordtype">size_t</span> size)</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;{</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordtype">size_t</span> idx;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordtype">char</span> *dest = _dest;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *src = _src;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">for</span>(idx = 0; idx &lt; size; idx++)</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                dest[idx] = pgm_read_byte(src+idx);</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">void</span>*)dest;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;}</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">size_t</span> strlen_P(<span class="keyword">const</span> <span class="keywordtype">char</span> *s)</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;{</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *c;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keywordflow">for</span>(c = s; pgm_read_byte(c); ++c);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">size_t</span>)(c - s);</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;}</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;CDECL</div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="group__atmega.html#ga9c19b85ced7db4aa2b17dd428adec104">  202</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> *<a class="code" href="group__atmega.html#ga9c19b85ced7db4aa2b17dd428adec104">memcpy_P</a>(<span class="keywordtype">void</span> *_dest, <span class="keyword">const</span> <span class="keywordtype">void</span> *_src, <span class="keywordtype">size_t</span> size)</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordtype">size_t</span> idx;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordtype">char</span> *dest = (<span class="keywordtype">char</span>*)_dest;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *src = (<span class="keyword">const</span> <span class="keywordtype">char</span>*)_src;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">for</span>(idx = 0; idx &lt; size; idx++)</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                dest[idx] = pgm_read_byte(src+idx);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">void</span>*)dest;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">size_t</span> strlen_P(<span class="keyword">const</span> <span class="keywordtype">char</span> *s)</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;{</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *c;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordflow">for</span>(c = s; pgm_read_byte(c); ++c);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">size_t</span>)(c - s);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;}</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;CDECL_END</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="group__atmega_html_ga8c58c1a4bc98cdbf19a2a070cf889524"><div class="ttname"><a href="group__atmega.html#ga8c58c1a4bc98cdbf19a2a070cf889524">prog_char</a></div><div class="ttdeci">char prog_char</div><div class="ttdoc">Program memory character. </div><div class="ttdef"><b>Definition:</b> pgm.h:188</div></div>
 <div class="ttc" id="group__atmega_html_ga189705fbc4254ff3cc332e052cd13215"><div class="ttname"><a href="group__atmega.html#ga189705fbc4254ff3cc332e052cd13215">__attribute__</a></div><div class="ttdeci">void __attribute__((noinline))</div><div class="ttdoc">AVR system initialisation. </div><div class="ttdef"><b>Definition:</b> init.c:49</div></div>
-<div class="ttc" id="group__atmega_html_ga9c19b85ced7db4aa2b17dd428adec104"><div class="ttname"><a href="group__atmega.html#ga9c19b85ced7db4aa2b17dd428adec104">memcpy_P</a></div><div class="ttdeci">static void * memcpy_P(void *_dest, const void *_src, size_t size)</div><div class="ttdoc">Copy memory from program memroy in data memory. </div><div class="ttdef"><b>Definition:</b> pgm.h:201</div></div>
+<div class="ttc" id="group__atmega_html_ga9c19b85ced7db4aa2b17dd428adec104"><div class="ttname"><a href="group__atmega.html#ga9c19b85ced7db4aa2b17dd428adec104">memcpy_P</a></div><div class="ttdeci">static void * memcpy_P(void *_dest, const void *_src, size_t size)</div><div class="ttdoc">Copy memory from program memroy in data memory. </div><div class="ttdef"><b>Definition:</b> pgm.h:202</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -323,7 +325,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:01 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

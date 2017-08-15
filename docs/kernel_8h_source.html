@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -172,30 +172,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#define CDECL_END</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">   94</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> sys_ctl {</div>
-<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">   99</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">SYS_SET_STDOUT</a>,</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">  105</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">SYS_SET_STDERR</a>,</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        </div>
-<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">  111</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">SYS_SET_STDIN</a>,</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        SYS_SET_SYSCLK,</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        SYS_SET_HR_CLK,</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;} <a class="code" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a>;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;CDECL</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__kernel.html#ga108852e41423be8946eedc2a338e431c">sysctl</a>(<a class="code" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a> ctl, ...);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;CDECL_END</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#define DEBUG_ON(__condi__) \</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">        (__condi__) ? fprintf_P(stderr, PSTR(&quot;[ASSERTION FAILED] %s:%i in %s: %s\n&quot;), \</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">                        __FILE__, __LINE__, __func__, #__condi__) : (void)0</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#define DEBUG_ON_STR(__condi__, msg) \</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">        (__condi__) ? fprintf_P(stderr, PSTR(&quot;[ASSERTION FAILED]: %s - %s:%i in %s: %s\n&quot;), \</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">                        msg, __FILE__, __LINE__, __func__, #__condi__) : (void)0</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">  102</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> sys_ctl {</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">  107</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">SYS_SET_STDOUT</a>,</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">  113</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">SYS_SET_STDERR</a>,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        </div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">  119</a></span>&#160;        <a class="code" href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">SYS_SET_STDIN</a>,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        SYS_SET_SYSCLK,</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        SYS_SET_HR_CLK,</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
-<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">SYS_SET_STDIN</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:111</div></div>
-<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">SYS_SET_STDERR</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:105</div></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;} <a class="code" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;CDECL</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__kernel.html#ga108852e41423be8946eedc2a338e431c">sysctl</a>(<a class="code" href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a> ctl, ...);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;CDECL_END</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afddae5aacfa1be5329785559f0bf7637">SYS_SET_STDIN</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:119</div></div>
+<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085a2af3003888b10486a585dbf99427de28">SYS_SET_STDERR</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:113</div></div>
 <div class="ttc" id="group__atmega_html_ga189705fbc4254ff3cc332e052cd13215"><div class="ttname"><a href="group__atmega.html#ga189705fbc4254ff3cc332e052cd13215">__attribute__</a></div><div class="ttdeci">void __attribute__((noinline))</div><div class="ttdoc">AVR system initialisation. </div><div class="ttdef"><b>Definition:</b> init.c:49</div></div>
-<div class="ttc" id="group__kernel_html_gad44ffc8242f731979132e3582d76b085"><div class="ttname"><a href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a></div><div class="ttdeci">sys_ctl_t</div><div class="ttdoc">sysctl settings type. </div><div class="ttdef"><b>Definition:</b> kernel.h:94</div></div>
+<div class="ttc" id="group__kernel_html_gad44ffc8242f731979132e3582d76b085"><div class="ttname"><a href="group__kernel.html#gad44ffc8242f731979132e3582d76b085">sys_ctl_t</a></div><div class="ttdeci">sys_ctl_t</div><div class="ttdoc">sysctl settings type. </div><div class="ttdef"><b>Definition:</b> kernel.h:102</div></div>
 <div class="ttc" id="group__kernel_html_ga108852e41423be8946eedc2a338e431c"><div class="ttname"><a href="group__kernel.html#ga108852e41423be8946eedc2a338e431c">sysctl</a></div><div class="ttdeci">int sysctl(sys_ctl_t ctl,...)</div><div class="ttdoc">sysctl - change system wide settings. </div><div class="ttdef"><b>Definition:</b> sys.c:35</div></div>
-<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">SYS_SET_STDOUT</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:99</div></div>
+<div class="ttc" id="group__kernel_html_ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2"><div class="ttname"><a href="group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2">SYS_SET_STDOUT</a></div><div class="ttdoc">Set the stdout stream. </div><div class="ttdef"><b>Definition:</b> kernel.h:107</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -206,7 +214,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

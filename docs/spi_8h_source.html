@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -183,7 +183,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keyword">struct </span><a class="code" href="structspi__msg.html">spi_msg</a> *msg;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">if</span>((msg = <a class="code" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f">kzalloc</a>(<span class="keyword">sizeof</span>(*msg))) == NULL)</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">if</span>((msg = <a class="code" href="group__libc.html#ga913f2de31558b9cca9405d2cd05a402a">kzalloc</a>(<span class="keyword">sizeof</span>(*msg))) == NULL)</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <span class="keywordflow">return</span> NULL;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        msg-&gt;<a class="code" href="structspi__msg.html#a1ba3576bdd05536aab734f002627747d">rx</a> = <a class="code" href="structspi__msg.html#a1ba3576bdd05536aab734f002627747d">rx</a>;</div>
@@ -194,7 +194,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
 <div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="group__spi.html#ga74ada4f1e4ee185cacc17c2332644b78">  143</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__spi.html#ga74ada4f1e4ee185cacc17c2332644b78">spi_free_msg</a>(<span class="keyword">struct</span> <a class="code" href="structspi__msg.html">spi_msg</a> *msg)</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;{</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <a class="code" href="group__mm.html#gacee1960bdb3a19cb495341ec725cafef">kfree</a>(msg);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <a class="code" href="group__libc.html#ga069f85a5001d71bc44d8be6532a4e432">kfree</a>(msg);</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;}</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;CDECL</div>
@@ -227,7 +227,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structspi__driver_html_ab83892a0c4877cd9fdd0498126f20d19"><div class="ttname"><a href="structspi__driver.html#ab83892a0c4877cd9fdd0498126f20d19">spi_driver::clk</a></div><div class="ttdeci">struct gpio_pin * clk</div><div class="ttdoc">Serial clock. </div><div class="ttdef"><b>Definition:</b> spi.h:70</div></div>
 <div class="ttc" id="group__spi_html_ggad268301d3b918e279269ec49f803488daacf2eef6aadb9f0de11862660cd9ade6"><div class="ttname"><a href="group__spi.html#ggad268301d3b918e279269ec49f803488daacf2eef6aadb9f0de11862660cd9ade6">SPI_MODE0</a></div><div class="ttdoc">CPOL:0 CPHA:0. </div><div class="ttdef"><b>Definition:</b> spi.h:40</div></div>
 <div class="ttc" id="structlist__head_html"><div class="ttname"><a href="structlist__head.html">list_head</a></div><div class="ttdoc">Linked list structure. </div><div class="ttdef"><b>Definition:</b> types.h:82</div></div>
-<div class="ttc" id="group__mm_html_gacee1960bdb3a19cb495341ec725cafef"><div class="ttname"><a href="group__mm.html#gacee1960bdb3a19cb495341ec725cafef">kfree</a></div><div class="ttdeci">void kfree(void *)</div><div class="ttdoc">Free an allocated memory region. </div><div class="ttdef"><b>Definition:</b> kfree.c:33</div></div>
 <div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:55</div></div>
 <div class="ttc" id="group__spi_html_ggad268301d3b918e279269ec49f803488dabd92ab028fcac05cf2ed27b4838d1590"><div class="ttname"><a href="group__spi.html#ggad268301d3b918e279269ec49f803488dabd92ab028fcac05cf2ed27b4838d1590">SPI_MODE1</a></div><div class="ttdoc">CPOL:0 CPHA:1. </div><div class="ttdef"><b>Definition:</b> spi.h:41</div></div>
 <div class="ttc" id="structspi__driver_html"><div class="ttname"><a href="structspi__driver.html">spi_driver</a></div><div class="ttdoc">SPI driver structure. Represents an SPI bus. </div><div class="ttdef"><b>Definition:</b> spi.h:63</div></div>
@@ -235,6 +234,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structspi__driver_html_a4809a44287139541dfe44c4b1c0c76ed"><div class="ttname"><a href="structspi__driver.html#a4809a44287139541dfe44c4b1c0c76ed">spi_driver::transfer</a></div><div class="ttdeci">int(* transfer)(struct spidev *spi, struct spi_msg *msg)</div><div class="ttdoc">Start a new transmission. </div><div class="ttdef"><b>Definition:</b> spi.h:79</div></div>
 <div class="ttc" id="namespacelist_html"><div class="ttname"><a href="namespacelist.html">list</a></div><div class="ttdoc">Provides PyMite&#39;s list module. </div><div class="ttdef"><b>Definition:</b> list.py:1</div></div>
 <div class="ttc" id="group__spi_html_ggad268301d3b918e279269ec49f803488dad9f1d8d4f2158f35c8cdeca0a6a3bbda"><div class="ttname"><a href="group__spi.html#ggad268301d3b918e279269ec49f803488dad9f1d8d4f2158f35c8cdeca0a6a3bbda">SPI_SET_SPEED</a></div><div class="ttdoc">Set the SPI bitrate. </div><div class="ttdef"><b>Definition:</b> spi.h:44</div></div>
+<div class="ttc" id="group__libc_html_ga913f2de31558b9cca9405d2cd05a402a"><div class="ttname"><a href="group__libc.html#ga913f2de31558b9cca9405d2cd05a402a">kzalloc</a></div><div class="ttdeci">void * kzalloc(size_t num)</div><div class="ttdoc">Allocate a memory regeion. </div><div class="ttdef"><b>Definition:</b> kzalloc.c:36</div></div>
 <div class="ttc" id="group__spi_html_gace9b30367f22180a800067543908bbe6"><div class="ttname"><a href="group__spi.html#gace9b30367f22180a800067543908bbe6">spi_bus_init</a></div><div class="ttdeci">int spi_bus_init(struct spi_driver *driver)</div><div class="ttdoc">Initialise a new SPI bus. </div><div class="ttdef"><b>Definition:</b> spi-core.c:196</div></div>
 <div class="ttc" id="group__spi_html_ggad268301d3b918e279269ec49f803488da2607e91fc0c8ae3334284808d7f94cf5"><div class="ttname"><a href="group__spi.html#ggad268301d3b918e279269ec49f803488da2607e91fc0c8ae3334284808d7f94cf5">SPI_MODE2</a></div><div class="ttdoc">CPOL:1 CPHA:0. </div><div class="ttdef"><b>Definition:</b> spi.h:42</div></div>
 <div class="ttc" id="structspi__msg_html_a1ba3576bdd05536aab734f002627747d"><div class="ttname"><a href="structspi__msg.html#a1ba3576bdd05536aab734f002627747d">spi_msg::rx</a></div><div class="ttdeci">void * rx</div><div class="ttdoc">Receive buffer. </div><div class="ttdef"><b>Definition:</b> spi.h:54</div></div>
@@ -248,13 +248,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structspi__driver_html_ad705af46d9bcf6c6b49a42e2aea9ed0b"><div class="ttname"><a href="structspi__driver.html#ad705af46d9bcf6c6b49a42e2aea9ed0b">spi_driver::ctrl</a></div><div class="ttdeci">int(* ctrl)(struct spidev *spi, spi_ctrl_t cmd, void *arg)</div><div class="ttdoc">Control the SPI bus. </div><div class="ttdef"><b>Definition:</b> spi.h:86</div></div>
 <div class="ttc" id="structspidev_html_a7058b77ee83524c214267b12e6911065"><div class="ttname"><a href="structspidev.html#a7058b77ee83524c214267b12e6911065">spidev::cs</a></div><div class="ttdeci">struct gpio_pin * cs</div><div class="ttdoc">Chip select pin. </div><div class="ttdef"><b>Definition:</b> spi.h:98</div></div>
 <div class="ttc" id="structspi__msg_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="structspi__msg.html#a7360b55975153b822efc5217b7734e6a">spi_msg::len</a></div><div class="ttdeci">size_t len</div><div class="ttdoc">Length of rx and tx. </div><div class="ttdef"><b>Definition:</b> spi.h:56</div></div>
-<div class="ttc" id="group__mm_html_ga2302e63a197562dfefd07f8eb428a62f"><div class="ttname"><a href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f">kzalloc</a></div><div class="ttdeci">void * kzalloc(size_t num)</div><div class="ttdoc">Allocate a memory regeion. </div><div class="ttdef"><b>Definition:</b> kzalloc.c:36</div></div>
 <div class="ttc" id="device_8h_html"><div class="ttname"><a href="device_8h.html">device.h</a></div></div>
 <div class="ttc" id="structgpio__pin_html"><div class="ttname"><a href="structgpio__pin.html">gpio_pin</a></div><div class="ttdoc">GPIO pin descriptor. </div><div class="ttdef"><b>Definition:</b> gpio.h:41</div></div>
 <div class="ttc" id="structspi__driver_html_a493b57f443cc38b3d3df9c1e584d9d82"><div class="ttname"><a href="structspi__driver.html#a493b57f443cc38b3d3df9c1e584d9d82">spi_driver::timeout</a></div><div class="ttdeci">int timeout</div><div class="ttdoc">Transmission timeout. </div><div class="ttdef"><b>Definition:</b> spi.h:67</div></div>
 <div class="ttc" id="structspidev_html_a3f30b6beb1a638ead20598be6c165fb2"><div class="ttname"><a href="structspidev.html#a3f30b6beb1a638ead20598be6c165fb2">spidev::master</a></div><div class="ttdeci">struct spi_driver * master</div><div class="ttdoc">Bus master. </div><div class="ttdef"><b>Definition:</b> spi.h:96</div></div>
 <div class="ttc" id="group__spi_html_ga0c5e2c4ec0fc0956d0618ec44e41d2ad"><div class="ttname"><a href="group__spi.html#ga0c5e2c4ec0fc0956d0618ec44e41d2ad">spi_add_device</a></div><div class="ttdeci">void spi_add_device(struct spi_driver *driver, struct spidev *dev)</div><div class="ttdoc">Add a new SPI device to an existing SPI bus. </div><div class="ttdef"><b>Definition:</b> spi-core.c:210</div></div>
 <div class="ttc" id="group__spi_html_gac9a3ddca0fbddd501da7918622cd9509"><div class="ttname"><a href="group__spi.html#gac9a3ddca0fbddd501da7918622cd9509">spi_set_mode</a></div><div class="ttdeci">int spi_set_mode(struct spidev *dev, spi_ctrl_t mode)</div><div class="ttdoc">Change the SPI bus mode. </div><div class="ttdef"><b>Definition:</b> spi-core.c:46</div></div>
+<div class="ttc" id="group__libc_html_ga069f85a5001d71bc44d8be6532a4e432"><div class="ttname"><a href="group__libc.html#ga069f85a5001d71bc44d8be6532a4e432">kfree</a></div><div class="ttdeci">void kfree(void *)</div><div class="ttdoc">Free an allocated memory region. </div><div class="ttdef"><b>Definition:</b> kfree.c:33</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -264,7 +264,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

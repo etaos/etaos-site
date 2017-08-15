@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['uint16_5ft',['uint16_t',['../include_2etaos_2types_8h.html#a273cf69d639a59973b6019625df33e30',1,'types.h']]],
-  ['uint8_5ft',['uint8_t',['../include_2etaos_2types_8h.html#aba7bc1797add20fe3efdf37ced1182c5',1,'types.h']]],
-  ['uintptr_5ft',['uintptr_t',['../include_2etaos_2types_8h.html#a46d30f10b56cc57713eb284f0c9712f8',1,'types.h']]]
+  ['thread_5fhandle_5ft',['thread_handle_t',['../group__thread.html#gace878050e933ac56f0a7f858cba29dc6',1,'thread.h']]],
+  ['tick_5ft',['tick_t',['../include_2etaos_2types_8h.html#a52183d06eb13da2c0f515d0cd90f9004',1,'types.h']]],
+  ['time_5ft',['time_t',['../include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0',1,'types.h']]]
 ];

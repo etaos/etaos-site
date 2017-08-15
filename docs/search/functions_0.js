@@ -11,7 +11,7 @@ var searchData=
   ['_5f_5fraw_5fgpio_5fpin_5fwrite',['__raw_gpio_pin_write',['../group__gpiolib.html#ga5d2389cb21a58fd4e4d55d79637e6eee',1,'gpiolib.c']]],
   ['_5f_5fsched_5fset_5fcurrent_5fthread',['__sched_set_current_thread',['../group__sched.html#ga50b33afa078200d35ad86a7e10287291',1,'core.c']]],
   ['_5f_5fsched_5fswitch_5fcount',['__sched_switch_count',['../group__sched.html#ga7e596ab331b3af0d627de2e80681acf2',1,'core.c']]],
-  ['_5f_5fschedule',['__schedule',['../group__sched.html#ga95b99712c508a0627d2b9ac453aa0b53',1,'core.c']]],
+  ['_5f_5fschedule',['__schedule',['../group__sched.html#ga835c9de7e384665a6e425fc55f63872a',1,'core.c']]],
   ['_5f_5fschedule_5fneed_5fresched',['__schedule_need_resched',['../group__sched.html#ga71fd9dde3968661117e7926bab75f25e',1,'core.c']]],
   ['_5f_5fschedule_5fprepare',['__schedule_prepare',['../group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357',1,'core.c']]],
   ['_5f_5fspi_5fxfer',['__spi_xfer',['../group__spi.html#gabce57fcf76cfe56149f69f76dfb3e8f7',1,'spi-core.c']]],

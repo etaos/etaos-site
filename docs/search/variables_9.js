@@ -5,6 +5,7 @@ var searchData=
   ['idx',['idx',['../structi2c__msg.html#a103fe1fcacccda7d9cdacde44721faef',1,'i2c_msg']]],
   ['index',['index',['../structfile.html#a3f42f10d93f6edb91d7d3f6edad25921',1,'file']]],
   ['init',['init',['../structsched__class.html#aa60f25561bf45254be017b56fcece4c7',1,'sched_class']]],
+  ['interval',['interval',['../structtimer.html#a23545cd41cdc93998f5b3caeb3e29936',1,'timer']]],
   ['io_5fbase',['io_base',['../structplatform__device.html#a8446f0f9247549ee6d651a4da69d2e0c',1,'platform_device']]],
   ['ioctl',['ioctl',['../structdev__file__ops.html#aeecfedce336edf1953d7cd6f9cbc68e5',1,'dev_file_ops::ioctl()'],['../structfs__driver.html#aeecfedce336edf1953d7cd6f9cbc68e5',1,'fs_driver::ioctl()']]],
   ['irq',['irq',['../structirq__data.html#aae59578d5805bbf4af7e7033129ab168',1,'irq_data']]],

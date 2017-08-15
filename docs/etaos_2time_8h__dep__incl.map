@@ -1,12 +1,12 @@
 <map id="include/etaos/time.h" name="include/etaos/time.h">
-<area shape="rect" id="node2" href="$tick_8h.html" title="include/etaos/tick.h" alt="" coords="487,80,622,107"/>
+<area shape="rect" id="node2" href="$tick_8h.html" title="include/etaos/tick.h" alt="" coords="474,80,609,107"/>
 <area shape="rect" id="node3" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="158,155,301,181"/>
-<area shape="rect" id="node5" href="$systick_8c.html" title="kernel/time/systick.c" alt="" coords="483,155,626,181"/>
-<area shape="rect" id="node6" href="$kernel_2time_2time_8c.html" title="kernel/time/time.c" alt="" coords="805,155,931,181"/>
-<area shape="rect" id="node8" href="$include_2etaos_2sched_8h.html" title="include/etaos/sched.h" alt="" coords="313,80,463,107"/>
-<area shape="rect" id="node10" href="$time_8h_source.html" title="include/time.h" alt="" coords="749,80,851,107"/>
-<area shape="rect" id="node11" href="$clocksource_8c.html" title="kernel/time/clocksource.c" alt="" coords="876,80,1047,107"/>
+<area shape="rect" id="node5" href="$kernel_2time_2irq_8c.html" title="kernel/time/irq.c" alt="" coords="484,155,599,181"/>
+<area shape="rect" id="node6" href="$kernel_2time_2time_8c.html" title="kernel/time/time.c" alt="" coords="778,155,905,181"/>
+<area shape="rect" id="node8" href="$include_2etaos_2sched_8h.html" title="include/etaos/sched.h" alt="" coords="300,80,449,107"/>
+<area shape="rect" id="node10" href="$time_8h_source.html" title="include/time.h" alt="" coords="735,80,838,107"/>
+<area shape="rect" id="node11" href="$clocksource_8c.html" title="kernel/time/clocksource.c" alt="" coords="863,80,1033,107"/>
 <area shape="rect" id="node4" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="324,155,460,181"/>
-<area shape="rect" id="node7" href="$kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="649,155,780,181"/>
+<area shape="rect" id="node7" href="$kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="623,155,753,181"/>
 <area shape="rect" id="node9" href="$handle_8c.html" title="kernel/irq/handle.c" alt="" coords="5,155,133,181"/>
 </map>

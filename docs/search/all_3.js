@@ -3,6 +3,7 @@ var searchData=
   ['base',['base',['../structramfs__file.html#af6822e7d43133a627a8c243772cc5693',1,'ramfs_file']]],
   ['basename',['basename',['../group__fops.html#ga01a030e7926bdefb2886016e0bf8b67b',1,'basename.c']]],
   ['basepath',['basepath',['../group__fops.html#gad36c72340db694b5faa7b3a2cf4502be',1,'basename.c']]],
+  ['best_5ffit',['BEST_FIT',['../group__mm.html#gga1e27d70e872f8eead5fef5ca3e916bbeaf78ff891c96ec23919b6c7068f25a05d',1,'mem.h']]],
   ['best_20fit_20allocator',['Best fit allocator',['../group__bf.html',1,'']]],
   ['bitops_2eh',['bitops.h',['../include_2etaos_2bitops_8h.html',1,'']]],
   ['bitops_2eh',['bitops.h',['../arch_2avr_2include_2asm_2bitops_8h.html',1,'']]],

@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -91,6 +91,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#groups">Modules</a> &#124;
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Memory management<div class="ingroups"><a class="el" href="group__kernel.html">ETA/OS kernel</a></div></div>  </div>
@@ -106,14 +108,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <center><table><tr><td><img src="group__mm.png" border="0" alt="" usemap="#group____mm"/>
 <map name="group____mm" id="group____mm">
-<area shape="rect" id="node1" href="group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,5,116,32"/><area shape="rect" id="node2" href="group__bf.html" title="Best fit memeory allocation algorithm. " alt="" coords="360,5,477,32"/></map>
+<area shape="rect" id="node1" href="group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,56,116,83"/><area shape="rect" id="node2" href="group__bf.html" title="Best fit memory allocation algorithm. " alt="" coords="364,5,481,32"/><area shape="rect" id="node3" href="group__ff.html" title="First fit memory allocation algorithm. " alt="" coords="365,56,481,83"/><area shape="rect" id="node5" href="group__wf.html" title="Worst fit memory allocation algorithm. " alt="" coords="360,107,485,133"/></map>
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
 <tr class="memitem:group__bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bf.html">Best fit allocator</a></td></tr>
-<tr class="memdesc:group__bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Best fit memeory allocation algorithm. <br /></td></tr>
+<tr class="memdesc:group__bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Best fit memory allocation algorithm. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ff.html">First fit allocator</a></td></tr>
+<tr class="memdesc:group__ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">First fit memory allocation algorithm. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:group__wf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__wf.html">Worst fit allocator</a></td></tr>
+<tr class="memdesc:group__wf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worst fit memory allocation algorithm. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -129,42 +137,49 @@ Macros</h2></td></tr>
 <tr class="memdesc:ga1c3525dad118c12355728fab8ef99279"><td class="mdescLeft">&#160;</td><td class="mdescRight">This bit becomes set after allocation. <br /></td></tr>
 <tr class="separator:ga1c3525dad118c12355728fab8ef99279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gac25a375eaefebe575fc7e4e0a4d27592"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac25a375eaefebe575fc7e4e0a4d27592"></a>
+typedef int(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#gac25a375eaefebe575fc7e4e0a4d27592">mm_comparator_t</a> )(struct <a class="el" href="structheap__node.html">heap_node</a> *, struct <a class="el" href="structheap__node.html">heap_node</a> *)</td></tr>
+<tr class="memdesc:gac25a375eaefebe575fc7e4e0a4d27592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heap comparator. <br /></td></tr>
+<tr class="separator:gac25a375eaefebe575fc7e4e0a4d27592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga1e27d70e872f8eead5fef5ca3e916bbe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga1e27d70e872f8eead5fef5ca3e916bbe">allocator_t</a> </td></tr>
+<tr class="memdesc:ga1e27d70e872f8eead5fef5ca3e916bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocator type.  <a href="group__mm.html#ga1e27d70e872f8eead5fef5ca3e916bbe">More...</a><br /></td></tr>
+<tr class="separator:ga1e27d70e872f8eead5fef5ca3e916bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0e28f3e895b382fa242f95904440248e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga0e28f3e895b382fa242f95904440248e">mm_free</a> (void *)</td></tr>
-<tr class="memdesc:ga0e28f3e895b382fa242f95904440248e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a previously allocated memory region.  <a href="#ga0e28f3e895b382fa242f95904440248e">More...</a><br /></td></tr>
-<tr class="separator:ga0e28f3e895b382fa242f95904440248e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacee1960bdb3a19cb495341ec725cafef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#gacee1960bdb3a19cb495341ec725cafef">kfree</a> (void *)</td></tr>
-<tr class="memdesc:gacee1960bdb3a19cb495341ec725cafef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free an allocated memory region.  <a href="#gacee1960bdb3a19cb495341ec725cafef">More...</a><br /></td></tr>
-<tr class="separator:gacee1960bdb3a19cb495341ec725cafef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga46c473ceee9a0e300aa809ddcb7e7089"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga46c473ceee9a0e300aa809ddcb7e7089"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga46c473ceee9a0e300aa809ddcb7e7089">mm_init</a> (void)</td></tr>
 <tr class="memdesc:ga46c473ceee9a0e300aa809ddcb7e7089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the memory allocator. <br /></td></tr>
 <tr class="separator:ga46c473ceee9a0e300aa809ddcb7e7089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga976aa63e6eb9949290a9e73f094f37fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga976aa63e6eb9949290a9e73f094f37fe">mm_heap_add_block</a> (void *start, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size)</td></tr>
-<tr class="memdesc:ga976aa63e6eb9949290a9e73f094f37fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new memory region to the allocator.  <a href="#ga976aa63e6eb9949290a9e73f094f37fe">More...</a><br /></td></tr>
-<tr class="separator:ga976aa63e6eb9949290a9e73f094f37fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53becb50024c663730d42a047100ae31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga53becb50024c663730d42a047100ae31">raw_mm_heap_add_block</a> (void *start, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size)</td></tr>
-<tr class="memdesc:ga53becb50024c663730d42a047100ae31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new memory region to the allocator.  <a href="#ga53becb50024c663730d42a047100ae31">More...</a><br /></td></tr>
-<tr class="separator:ga53becb50024c663730d42a047100ae31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96ee3cd2b9c9c8e41a612740805ee0f4"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga96ee3cd2b9c9c8e41a612740805ee0f4">raw_mm_heap_alloc</a> (struct <a class="el" href="structheap__node.html">heap_node</a> **root, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size, <a class="el" href="group__mm.html#gac25a375eaefebe575fc7e4e0a4d27592">mm_comparator_t</a> compare)</td></tr>
+<tr class="memdesc:ga96ee3cd2b9c9c8e41a612740805ee0f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new memory region.  <a href="#ga96ee3cd2b9c9c8e41a612740805ee0f4">More...</a><br /></td></tr>
+<tr class="separator:ga96ee3cd2b9c9c8e41a612740805ee0f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6628ff23c1a4f10cc9b11409afce63b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1">mm_node_size</a> (void *ptr)</td></tr>
 <tr class="memdesc:ga6628ff23c1a4f10cc9b11409afce63b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of a memory region.  <a href="#ga6628ff23c1a4f10cc9b11409afce63b1">More...</a><br /></td></tr>
 <tr class="separator:ga6628ff23c1a4f10cc9b11409afce63b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa53b1247077e2a9fea4b8a19ead165ce"><td class="memItemLeft" align="right" valign="top">MEM void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce">mm_alloc</a> (<a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>)</td></tr>
-<tr class="memdesc:gaa53b1247077e2a9fea4b8a19ead165ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new memory region.  <a href="#gaa53b1247077e2a9fea4b8a19ead165ce">More...</a><br /></td></tr>
-<tr class="separator:gaa53b1247077e2a9fea4b8a19ead165ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77588995bd53765837257a8b2d4f8f56"><td class="memItemLeft" align="right" valign="top">MEM void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga77588995bd53765837257a8b2d4f8f56">mm_heap_alloc</a> (<a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size, <a class="el" href="group__mm.html#ga1e27d70e872f8eead5fef5ca3e916bbe">allocator_t</a> allocator)</td></tr>
+<tr class="memdesc:ga77588995bd53765837257a8b2d4f8f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new memory region using a specific allocator.  <a href="#ga77588995bd53765837257a8b2d4f8f56">More...</a><br /></td></tr>
+<tr class="separator:ga77588995bd53765837257a8b2d4f8f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cb797f5279b1a30129db3a3ab79a246"><td class="memItemLeft" align="right" valign="top">MEM void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga1cb797f5279b1a30129db3a3ab79a246">mm_alloc</a> (<a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size)</td></tr>
+<tr class="memdesc:ga1cb797f5279b1a30129db3a3ab79a246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new memory region.  <a href="#ga1cb797f5279b1a30129db3a3ab79a246">More...</a><br /></td></tr>
+<tr class="separator:ga1cb797f5279b1a30129db3a3ab79a246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7d6b6dc45940c962565166b8b4f886ba"><td class="memItemLeft" align="right" valign="top">MEM void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga7d6b6dc45940c962565166b8b4f886ba">mm_alloc_aligned</a> (<a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> alignment)</td></tr>
 <tr class="memdesc:ga7d6b6dc45940c962565166b8b4f886ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an area of memory aligned to <code>alignment</code>.  <a href="#ga7d6b6dc45940c962565166b8b4f886ba">More...</a><br /></td></tr>
 <tr class="separator:ga7d6b6dc45940c962565166b8b4f886ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2302e63a197562dfefd07f8eb428a62f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f">kzalloc</a> (<a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> num)</td></tr>
-<tr class="memdesc:ga2302e63a197562dfefd07f8eb428a62f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a memory regeion.  <a href="#ga2302e63a197562dfefd07f8eb428a62f">More...</a><br /></td></tr>
-<tr class="separator:ga2302e63a197562dfefd07f8eb428a62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga716cbac40f033139a972130cd3ed9de7"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga716cbac40f033139a972130cd3ed9de7">kmalloc</a> (<a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> num)</td></tr>
-<tr class="memdesc:ga716cbac40f033139a972130cd3ed9de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new memory region.  <a href="#ga716cbac40f033139a972130cd3ed9de7">More...</a><br /></td></tr>
-<tr class="separator:ga716cbac40f033139a972130cd3ed9de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52baa3cf8b4bdd6321ebb330af515915"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga52baa3cf8b4bdd6321ebb330af515915">krealloc</a> (void *old, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> newsize)</td></tr>
-<tr class="memdesc:ga52baa3cf8b4bdd6321ebb330af515915"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expand or shrink an allocated memory region.  <a href="#ga52baa3cf8b4bdd6321ebb330af515915">More...</a><br /></td></tr>
-<tr class="separator:ga52baa3cf8b4bdd6321ebb330af515915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac906c2d7849a485d955a895120068e12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#gac906c2d7849a485d955a895120068e12">mm_free</a> (void *block)</td></tr>
+<tr class="memdesc:gac906c2d7849a485d955a895120068e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a previously allocated memory region.  <a href="#gac906c2d7849a485d955a895120068e12">More...</a><br /></td></tr>
+<tr class="separator:gac906c2d7849a485d955a895120068e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga31599d93272a2ddfabe319043f5698aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga31599d93272a2ddfabe319043f5698aa">raw_mm_heap_add_block</a> (void *addr, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size)</td></tr>
+<tr class="memdesc:ga31599d93272a2ddfabe319043f5698aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new memory region to the allocator.  <a href="#ga31599d93272a2ddfabe319043f5698aa">More...</a><br /></td></tr>
+<tr class="separator:ga31599d93272a2ddfabe319043f5698aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92aa43f88f3691a427af53e9e93ad05d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga92aa43f88f3691a427af53e9e93ad05d">mm_heap_add_block</a> (void *addr, <a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a> size)</td></tr>
+<tr class="memdesc:ga92aa43f88f3691a427af53e9e93ad05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new memory region to the allocator.  <a href="#ga92aa43f88f3691a427af53e9e93ad05d">More...</a><br /></td></tr>
+<tr class="separator:ga92aa43f88f3691a427af53e9e93ad05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga349dc4e29bbe1c449a780afa2469e34f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mm.html#ga349dc4e29bbe1c449a780afa2469e34f">mm_heap_available</a> (void)</td></tr>
 <tr class="memdesc:ga349dc4e29bbe1c449a780afa2469e34f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of bytes available in the allocator.  <a href="#ga349dc4e29bbe1c449a780afa2469e34f">More...</a><br /></td></tr>
 <tr class="separator:ga349dc4e29bbe1c449a780afa2469e34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,162 +187,38 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Dynamic memory management. </p>
 <p>Dynamic memory allocations are made from the heap. The heap is a global resource containing all of the free memory in the system. The heap is handled in data structure of unused blocks of memory, the so called free-list. </p>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga1e27d70e872f8eead5fef5ca3e916bbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__mm.html#ga1e27d70e872f8eead5fef5ca3e916bbe">allocator_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocator type. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__mm.html#ga77588995bd53765837257a8b2d4f8f56" title="Allocate a new memory region using a specific allocator. ">mm_heap_alloc</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga1e27d70e872f8eead5fef5ca3e916bbeaf78ff891c96ec23919b6c7068f25a05d"></a>BEST_FIT&#160;</td><td class="fielddoc">
+<p>Best fit allocator. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga1e27d70e872f8eead5fef5ca3e916bbea8dba223d467d98a5827105bfb9e1f7f9"></a>FIRST_FIT&#160;</td><td class="fielddoc">
+<p>First fit allocator. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga1e27d70e872f8eead5fef5ca3e916bbea098cc23820123f049543fb83a4ed22f1"></a>WORST_FIT&#160;</td><td class="fielddoc">
+<p>Worst fit allocator. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga1e27d70e872f8eead5fef5ca3e916bbea3d948149254e3b81ddc09312bebeb94d"></a>SYSTEM_ALLOCATOR&#160;</td><td class="fielddoc">
+<p>Default allocator. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="gacee1960bdb3a19cb495341ec725cafef"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void kfree </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>ptr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Free an allocated memory region. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ptr</td><td>Memory region to free. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__mm_gacee1960bdb3a19cb495341ec725cafef_cgraph.png" border="0" usemap="#group__mm_gacee1960bdb3a19cb495341ec725cafef_cgraph" alt=""/></div>
-<map name="group__mm_gacee1960bdb3a19cb495341ec725cafef_cgraph" id="group__mm_gacee1960bdb3a19cb495341ec725cafef_cgraph">
-<area shape="rect" id="node2" href="group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="104,5,177,32"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ga716cbac40f033139a972130cd3ed9de7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* kmalloc </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allocate a new memory region. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">size</td><td>Size of the memory region to allocate </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__mm_ga716cbac40f033139a972130cd3ed9de7_cgraph.png" border="0" usemap="#group__mm_ga716cbac40f033139a972130cd3ed9de7_cgraph" alt=""/></div>
-<map name="group__mm_ga716cbac40f033139a972130cd3ed9de7_cgraph" id="group__mm_ga716cbac40f033139a972130cd3ed9de7_cgraph">
-<area shape="rect" id="node2" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="120,5,199,32"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ga52baa3cf8b4bdd6321ebb330af515915"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* krealloc </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>old</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td>
-          <td class="paramname"><em>newsize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Expand or shrink an allocated memory region. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">old</td><td>Memory region that needs shrinking or expansion. </td></tr>
-    <tr><td class="paramname">newsize</td><td>Desired size. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The reallocated memory of size <code>newsize</code>.</dd></dl>
-<p>All data that is already stored in <code>old</code> will be copied to the new buffer by realloc, up to a maximum of <code>newsize</code> bytes. </p>
-
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__mm_ga52baa3cf8b4bdd6321ebb330af515915_cgraph.png" border="0" usemap="#group__mm_ga52baa3cf8b4bdd6321ebb330af515915_cgraph" alt=""/></div>
-<map name="group__mm_ga52baa3cf8b4bdd6321ebb330af515915_cgraph" id="group__mm_ga52baa3cf8b4bdd6321ebb330af515915_cgraph">
-<area shape="rect" id="node2" href="group__mm.html#ga2302e63a197562dfefd07f8eb428a62f" title="Allocate a memory regeion. " alt="" coords="144,31,207,57"/><area shape="rect" id="node5" href="group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1" title="Get the size of a memory region. " alt="" coords="120,81,231,108"/><area shape="rect" id="node6" href="group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="150,132,201,159"/><area shape="rect" id="node8" href="group__libc.html#ga884f0378c1e1c3568f7d3426faa84fac" title="Copy a memory region to another region. " alt="" coords="139,183,211,209"/><area shape="rect" id="node3" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="279,5,357,32"/><area shape="rect" id="node4" href="group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="283,56,353,83"/><area shape="rect" id="node7" href="group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="281,132,355,159"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ga2302e63a197562dfefd07f8eb428a62f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* kzalloc </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Allocate a memory regeion. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">size</td><td>Size of the region.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>The content of the allocated region will be set to 0. </p>
-
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__mm_ga2302e63a197562dfefd07f8eb428a62f_cgraph.png" border="0" usemap="#group__mm_ga2302e63a197562dfefd07f8eb428a62f_cgraph" alt=""/></div>
-<map name="group__mm_ga2302e63a197562dfefd07f8eb428a62f_cgraph" id="group__mm_ga2302e63a197562dfefd07f8eb428a62f_cgraph">
-<area shape="rect" id="node2" href="group__mm.html#gaa53b1247077e2a9fea4b8a19ead165ce" title="Allocate a new memory region. " alt="" coords="116,5,195,32"/><area shape="rect" id="node3" href="group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="121,56,190,83"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="gaa53b1247077e2a9fea4b8a19ead165ce"></a>
+<a class="anchor" id="ga1cb797f5279b1a30129db3a3ab79a246"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -349,6 +240,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The allocated memory region of size <code>size</code> or <code>NULL</code>. </dd></dl>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__mm_ga1cb797f5279b1a30129db3a3ab79a246_cgraph.png" border="0" usemap="#group__mm_ga1cb797f5279b1a30129db3a3ab79a246_cgraph" alt=""/></div>
+<map name="group__mm_ga1cb797f5279b1a30129db3a3ab79a246_cgraph" id="group__mm_ga1cb797f5279b1a30129db3a3ab79a246_cgraph">
+<area shape="rect" id="node2" href="group__mm.html#ga96ee3cd2b9c9c8e41a612740805ee0f4" title="Allocate a new memory region. " alt="" coords="132,586,273,613"/><area shape="rect" id="node3" href="group__kernel.html#gad1f1a1dc0581a11b597453f148106393" title="Halt the system. " alt="" coords="321,586,375,613"/><area shape="rect" id="node4" href="group__libcio.html#ga7bd6f0bd261e83a701fe9a9f835c2da8" title="Write a formated string to a stream. " alt="" coords="423,536,477,562"/><area shape="rect" id="node5" href="group__libcio.html#ga1626a680c1454c61eb736e134f2d6574" title="Backend for fprintf, printf, etc. " alt="" coords="525,536,588,562"/><area shape="rect" id="node6" href="group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="1778,1816,1895,1842"/><area shape="rect" id="node7" href="group__libcio.html#ga2d0905fb7948d08b0c0ac7df64436bcc" title="Write one character to a stream. " alt="" coords="837,24,888,50"/><area shape="rect" id="node9" href="group__libcio.html#ga96f2a80acb7e2aad3ea50c4be0c818f4" title="Write a string to a stream. " alt="" coords="1811,125,1862,152"/><area shape="rect" id="node13" href="group__preempt.html#ga74ed4ec841ea18a152916f55920b9a9e" title="Enable preemption. " alt="" coords="636,536,751,562"/><area shape="rect" id="node8" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="2388,341,2453,368"/><area shape="rect" id="node10" href="group__libcio.html#ga89acafaa5cef01cecfe4270f1521a2c3" title="Write to a file. " alt="" coords="2027,62,2077,89"/><area shape="rect" id="node12" href="group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="2025,164,2079,190"/><area shape="rect" id="node11" href="group__vfs.html#gaa5276dfc97187735837ed66b5507f5a6" title="Write to a file. " alt="" coords="2219,62,2294,89"/><area shape="rect" id="node14" href="group__preempt.html#gaaa367ac52b57070819284f18643cc0a9" title="Decrease the preemption counter of the current thread and test it. " alt="" coords="1097,417,1252,444"/><area shape="rect" id="node21" href="group__preempt.html#ga4e684afa3732b2e8b2f3bc70f055e1a2" title="Reschedule the current run queue with preemption in mind. " alt="" coords="799,561,927,588"/><area shape="rect" id="node15" href="group__preempt.html#gab377aa939771256f71f426bd7650b01a" title="Get the preemption counter pointer of the current thread. " alt="" coords="1315,417,1456,444"/><area shape="rect" id="node19" href="group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212" title="Check if the current thread should be rescheduled. " alt="" coords="1302,290,1469,317"/><area shape="rect" id="node16" href="group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="1784,417,1889,444"/><area shape="rect" id="node17" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="1988,417,2116,444"/><area shape="rect" id="node18" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="2203,433,2310,460"/><area shape="rect" id="node20" href="group__preempt.html#gada97a499438abc44548acb43e582dc73" title="Check if a reschedule is needed. " alt="" coords="1550,265,1663,292"/><area shape="rect" id="node22" href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15" title="Reschedule the current run queue. " alt="" coords="975,653,1049,680"/><area shape="rect" id="node23" href="group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="2009,1562,2095,1589"/><area shape="rect" id="node24" href="group__sched.html#ga835c9de7e384665a6e425fc55f63872a" title="Reschedule the current run queue. " alt="" coords="1131,838,1219,865"/><area shape="rect" id="node67" href="group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671" title="Check if a reschedule is required. " alt="" coords="1555,468,1658,494"/><area shape="rect" id="node25" href="group__kernel.html#ga38f4f8022778edff29606cec22897bfc" title="Notify the CPU of a specific event. " alt="" coords="1565,1664,1648,1690"/><area shape="rect" id="node29" href="group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="1567,737,1646,764"/><area shape="rect" id="node30" href="group__sched.html#gab2764024285204f6151db8ab70baf2ee" title="Update the system clock. " alt="" coords="1327,889,1444,916"/><area shape="rect" id="node31" href="group__sched.html#ga017c639d6dbf8710ad60a22985116618" title="Signal threads that are waiting for an event. " alt="" coords="1323,838,1447,865"/><area shape="rect" id="node44" href="group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="1300,636,1471,662"/><area shape="rect" id="node45" href="group__sched.html#ga902ac489886eb8c3c23a644234e98bb1" title="Check if the algorithm wants to preempt the current thread. " alt="" coords="1781,1613,1892,1640"/><area shape="rect" id="node47" href="group__sched.html#ga71fd9dde3968661117e7926bab75f25e" title="Reschedule policy. " alt="" coords="1519,1157,1695,1184"/><area shape="rect" id="node51" href="group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="1314,570,1457,611"/><area shape="rect" id="node52" href="group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357" title="Prepare the a reschedule. " alt="" coords="1537,788,1676,814"/><area shape="rect" id="node54" href="group__sched.html#ga761312d2768cc26c49b7f53de33c8477" title="Switch context on a given run queue. " alt="" coords="1321,518,1449,545"/><area shape="rect" id="node56" href="group__sched.html#ga0b1c71305537a28e3a7194016f6b43e6" title="Update a run queue. " alt="" coords="1567,897,1646,924"/><area shape="rect" id="node58" href="group__sched.html#ga13a5b1237d1c0238dd0432a2590e8195" title="Destroy the kill queue. " alt="" coords="1547,1024,1667,1050"/><area shape="rect" id="node63" href="group__sched.html#ga2a33aa8e229c79764e00338e98b512ad" title="Kill the current thread if its marked for removal. " alt="" coords="1536,1334,1677,1361"/><area shape="rect" id="node26" href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="2021,1410,2083,1437"/><area shape="rect" id="node27" href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="1801,1360,1872,1386"/><area shape="rect" id="node28" href="group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="1743,1714,1931,1741"/><area shape="rect" id="node32" href="group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa" title="Signal a thread on a wake queue. " alt="" coords="1529,838,1684,865"/><area shape="rect" id="node33" href="group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50" title="Get the thread_queue the given thread is on. " alt="" coords="1777,701,1896,728"/><area shape="rect" id="node34" href="group__sched.html#gae1a79ba3d3d2d109c947be1ee5a03f3d" title="Remove a thread from a rq. " alt="" coords="1762,519,1911,560"/><area shape="rect" id="node42" href="group__sched.html#ga2284d061e42560a7bac2dac7c0aa682f" title="Remove a thread from a thread_queue. " alt="" coords="1747,752,1926,778"/><area shape="rect" id="node43" href="group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="1771,1005,1903,1032"/><area shape="rect" id="node35" href="group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="1979,596,2125,622"/><area shape="rect" id="node38" href="group__sched.html#ga79134da818e6f628f51093579aa51107" title="Remove a thread from the rq_list. " alt="" coords="1999,526,2105,553"/><area shape="rect" id="node40" href="group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="2011,650,2093,677"/><area shape="rect" id="node36" href="group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="2193,600,2321,626"/><area shape="rect" id="node37" href="group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="2199,549,2315,576"/><area shape="rect" id="node39" href="list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="2225,498,2288,525"/><area shape="rect" id="node41" href="group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="2181,650,2332,677"/><area shape="rect" id="node46" href="group__sched.html#ga334da66e6883352ef369f85803eefec4" title="should_resched_cputime" alt="" coords="2173,1461,2340,1488"/><area shape="rect" id="node48" href="arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7" title="Clear a bit in register and return the value of nr before clearing. " alt="" coords="1773,1157,1901,1184"/><area shape="rect" id="node49" href="group__sched.html#ga0e68a5e318862b42f5472c212668056e" title="Check whether a thread is the idle thread or not. " alt="" coords="2205,1182,2308,1209"/><area shape="rect" id="node50" href="group__sched.html#ga70e974d78d84a3ef849f69893ed2ca39" title="Reset the time slice for a thread. " alt="" coords="1767,802,1906,829"/><area shape="rect" id="node53" href="group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9" title="Get the current CPU state. " alt="" coords="1785,650,1889,677"/><area shape="rect" id="node55" href="group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="1537,518,1676,545"/><area shape="rect" id="node57" href="group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3" title="Set a specific CPU state. " alt="" coords="1785,904,1889,930"/><area shape="rect" id="node59" href="group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c" title="Remove a thread from the kill queue. " alt="" coords="1769,584,1904,626"/><area shape="rect" id="node60" href="group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2" title="Free a stack frame. " alt="" coords="1754,1056,1919,1082"/><area shape="rect" id="node61" href="group__libc.html#ga069f85a5001d71bc44d8be6532a4e432" title="Free an allocated memory region. " alt="" coords="2027,1056,2077,1082"/><area shape="rect" id="node62" href="group__mm.html#gac906c2d7849a485d955a895120068e12" title="Free a previously allocated memory region. " alt="" coords="2220,1056,2293,1082"/><area shape="rect" id="node64" href="group__sched.html#gad02b6c3e73322a0593793f30f8af56c1" title="Return the current thread for a given run queue. " alt="" coords="1773,1309,1900,1336"/><area shape="rect" id="node65" href="group__sched.html#gaa119db667033233b449e211df34dc4c3" title="Add a kill thread. " alt="" coords="1773,1512,1900,1538"/><area shape="rect" id="node66" href="group__sched.html#ga6b05483e9f719152875cb406386fcd5c" title="Add a thread to rq_list. " alt="" coords="2009,1512,2095,1538"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -388,7 +290,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 
 </div>
 </div>
-<a class="anchor" id="ga0e28f3e895b382fa242f95904440248e"></a>
+<a class="anchor" id="gac906c2d7849a485d955a895120068e12"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -420,7 +322,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 
 </div>
 </div>
-<a class="anchor" id="ga976aa63e6eb9949290a9e73f094f37fe"></a>
+<a class="anchor" id="ga92aa43f88f3691a427af53e9e93ad05d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -454,14 +356,61 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This function acquires the global memory lock. </dd></dl>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__mm_ga976aa63e6eb9949290a9e73f094f37fe_cgraph.png" border="0" usemap="#group__mm_ga976aa63e6eb9949290a9e73f094f37fe_cgraph" alt=""/></div>
-<map name="group__mm_ga976aa63e6eb9949290a9e73f094f37fe_cgraph" id="group__mm_ga976aa63e6eb9949290a9e73f094f37fe_cgraph">
-<area shape="rect" id="node2" href="group__bf.html#ga31599d93272a2ddfabe319043f5698aa" title="Add a new memory region to the allocator. " alt="" coords="199,5,372,32"/></map>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__mm_ga92aa43f88f3691a427af53e9e93ad05d_cgraph.png" border="0" usemap="#group__mm_ga92aa43f88f3691a427af53e9e93ad05d_cgraph" alt=""/></div>
+<map name="group__mm_ga92aa43f88f3691a427af53e9e93ad05d_cgraph" id="group__mm_ga92aa43f88f3691a427af53e9e93ad05d_cgraph">
+<area shape="rect" id="node2" href="group__mm.html#ga31599d93272a2ddfabe319043f5698aa" title="Add a new memory region to the allocator. " alt="" coords="199,5,372,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga77588995bd53765837257a8b2d4f8f56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MEM void* mm_heap_alloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__mm.html#ga1e27d70e872f8eead5fef5ca3e916bbe">allocator_t</a>&#160;</td>
+          <td class="paramname"><em>allocator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate a new memory region using a specific allocator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>Number of bytes to allocate. </td></tr>
+    <tr><td class="paramname">allocator</td><td>Allocator to use for the allocation. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An allocated region of memory. </dd></dl>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__mm_ga77588995bd53765837257a8b2d4f8f56_cgraph.png" border="0" usemap="#group__mm_ga77588995bd53765837257a8b2d4f8f56_cgraph" alt=""/></div>
+<map name="group__mm_ga77588995bd53765837257a8b2d4f8f56_cgraph" id="group__mm_ga77588995bd53765837257a8b2d4f8f56_cgraph">
+<area shape="rect" id="node2" href="group__bf.html#gaa01c33a4b9c5f03154ecf6384e1beb72" title="Allocate a new memory region. " alt="" coords="170,720,298,746"/><area shape="rect" id="node70" href="group__ff.html#gac2b7fc6329dbf8f999ae8d6cce56bf16" title="Allocate a new memory region. " alt="" coords="171,821,297,848"/><area shape="rect" id="node72" href="group__wf.html#gaedb42b4101d5e5e8e41658b352ee2660" title="Allocate a new memory region. " alt="" coords="167,872,301,898"/><area shape="rect" id="node74" href="group__mm.html#ga1cb797f5279b1a30129db3a3ab79a246" title="Allocate a new memory region. " alt="" coords="195,770,273,797"/><area shape="rect" id="node3" href="group__mm.html#ga96ee3cd2b9c9c8e41a612740805ee0f4" title="Allocate a new memory region. " alt="" coords="358,770,499,797"/><area shape="rect" id="node69" href="group__bf.html#ga1907eafe2acc0e6ebffaf7d48d52eaa5" title="Best fit comparator. " alt="" coords="353,720,504,746"/><area shape="rect" id="node4" href="group__kernel.html#gad1f1a1dc0581a11b597453f148106393" title="Halt the system. " alt="" coords="556,770,609,797"/><area shape="rect" id="node5" href="group__libcio.html#ga7bd6f0bd261e83a701fe9a9f835c2da8" title="Write a formated string to a stream. " alt="" coords="657,720,712,746"/><area shape="rect" id="node6" href="group__libcio.html#ga1626a680c1454c61eb736e134f2d6574" title="Backend for fprintf, printf, etc. " alt="" coords="760,720,823,746"/><area shape="rect" id="node7" href="group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="2013,1816,2130,1842"/><area shape="rect" id="node8" href="group__libcio.html#ga2d0905fb7948d08b0c0ac7df64436bcc" title="Write one character to a stream. " alt="" coords="1072,37,1123,64"/><area shape="rect" id="node10" href="group__libcio.html#ga96f2a80acb7e2aad3ea50c4be0c818f4" title="Write a string to a stream. " alt="" coords="2046,132,2097,158"/><area shape="rect" id="node14" href="group__preempt.html#ga74ed4ec841ea18a152916f55920b9a9e" title="Enable preemption. " alt="" coords="871,720,985,746"/><area shape="rect" id="node9" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="2623,341,2688,368"/><area shape="rect" id="node11" href="group__libcio.html#ga89acafaa5cef01cecfe4270f1521a2c3" title="Write to a file. " alt="" coords="2261,62,2312,89"/><area shape="rect" id="node13" href="group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="2259,164,2314,190"/><area shape="rect" id="node12" href="group__vfs.html#gaa5276dfc97187735837ed66b5507f5a6" title="Write to a file. " alt="" coords="2454,62,2529,89"/><area shape="rect" id="node15" href="group__preempt.html#gaaa367ac52b57070819284f18643cc0a9" title="Decrease the preemption counter of the current thread and test it. " alt="" coords="1332,417,1487,444"/><area shape="rect" id="node22" href="group__preempt.html#ga4e684afa3732b2e8b2f3bc70f055e1a2" title="Reschedule the current run queue with preemption in mind. " alt="" coords="1033,745,1161,772"/><area shape="rect" id="node16" href="group__preempt.html#gab377aa939771256f71f426bd7650b01a" title="Get the preemption counter pointer of the current thread. " alt="" coords="1549,417,1691,444"/><area shape="rect" id="node20" href="group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212" title="Check if the current thread should be rescheduled. " alt="" coords="1537,290,1703,317"/><area shape="rect" id="node17" href="group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="2019,417,2124,444"/><area shape="rect" id="node18" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="2223,417,2351,444"/><area shape="rect" id="node19" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="2438,432,2545,458"/><area shape="rect" id="node21" href="group__preempt.html#gada97a499438abc44548acb43e582dc73" title="Check if a reschedule is needed. " alt="" coords="1785,265,1898,292"/><area shape="rect" id="node23" href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15" title="Reschedule the current run queue. " alt="" coords="1209,792,1284,818"/><area shape="rect" id="node24" href="group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="2244,1562,2329,1589"/><area shape="rect" id="node25" href="group__sched.html#ga835c9de7e384665a6e425fc55f63872a" title="Reschedule the current run queue. " alt="" coords="1365,838,1453,865"/><area shape="rect" id="node68" href="group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671" title="Check if a reschedule is required. " alt="" coords="1790,468,1893,494"/><area shape="rect" id="node26" href="group__kernel.html#ga38f4f8022778edff29606cec22897bfc" title="Notify the CPU of a specific event. " alt="" coords="1800,1664,1883,1690"/><area shape="rect" id="node30" href="group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="1802,737,1881,764"/><area shape="rect" id="node31" href="group__sched.html#gab2764024285204f6151db8ab70baf2ee" title="Update the system clock. " alt="" coords="1561,889,1679,916"/><area shape="rect" id="node32" href="group__sched.html#ga017c639d6dbf8710ad60a22985116618" title="Signal threads that are waiting for an event. " alt="" coords="1558,838,1682,865"/><area shape="rect" id="node45" href="group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="1535,636,1705,662"/><area shape="rect" id="node46" href="group__sched.html#ga902ac489886eb8c3c23a644234e98bb1" title="Check if the algorithm wants to preempt the current thread. " alt="" coords="2016,1613,2127,1640"/><area shape="rect" id="node48" href="group__sched.html#ga71fd9dde3968661117e7926bab75f25e" title="Reschedule policy. " alt="" coords="1753,1157,1929,1184"/><area shape="rect" id="node52" href="group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="1549,570,1691,611"/><area shape="rect" id="node53" href="group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357" title="Prepare the a reschedule. " alt="" coords="1772,788,1911,814"/><area shape="rect" id="node55" href="group__sched.html#ga761312d2768cc26c49b7f53de33c8477" title="Switch context on a given run queue. " alt="" coords="1556,518,1684,545"/><area shape="rect" id="node57" href="group__sched.html#ga0b1c71305537a28e3a7194016f6b43e6" title="Update a run queue. " alt="" coords="1802,897,1881,924"/><area shape="rect" id="node59" href="group__sched.html#ga13a5b1237d1c0238dd0432a2590e8195" title="Destroy the kill queue. " alt="" coords="1781,1037,1901,1064"/><area shape="rect" id="node64" href="group__sched.html#ga2a33aa8e229c79764e00338e98b512ad" title="Kill the current thread if its marked for removal. " alt="" coords="1771,1334,1912,1361"/><area shape="rect" id="node27" href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="2256,1410,2317,1437"/><area shape="rect" id="node28" href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="2036,1360,2107,1386"/><area shape="rect" id="node29" href="group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="1977,1714,2165,1741"/><area shape="rect" id="node33" href="group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa" title="Signal a thread on a wake queue. " alt="" coords="1764,838,1919,865"/><area shape="rect" id="node34" href="group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50" title="Get the thread_queue the given thread is on. " alt="" coords="2012,701,2131,728"/><area shape="rect" id="node35" href="group__sched.html#gae1a79ba3d3d2d109c947be1ee5a03f3d" title="Remove a thread from a rq. " alt="" coords="1997,519,2146,560"/><area shape="rect" id="node43" href="group__sched.html#ga2284d061e42560a7bac2dac7c0aa682f" title="Remove a thread from a thread_queue. " alt="" coords="1982,752,2161,778"/><area shape="rect" id="node44" href="group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="2005,1005,2137,1032"/><area shape="rect" id="node36" href="group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="2213,596,2360,622"/><area shape="rect" id="node39" href="group__sched.html#ga79134da818e6f628f51093579aa51107" title="Remove a thread from the rq_list. " alt="" coords="2233,526,2340,553"/><area shape="rect" id="node41" href="group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="2245,650,2328,677"/><area shape="rect" id="node37" href="group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="2427,600,2555,626"/><area shape="rect" id="node38" href="group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="2433,549,2549,576"/><area shape="rect" id="node40" href="list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="2460,498,2523,525"/><area shape="rect" id="node42" href="group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="2416,650,2567,677"/><area shape="rect" id="node47" href="group__sched.html#ga334da66e6883352ef369f85803eefec4" title="should_resched_cputime" alt="" coords="2408,1461,2575,1488"/><area shape="rect" id="node49" href="arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7" title="Clear a bit in register and return the value of nr before clearing. " alt="" coords="2007,1157,2135,1184"/><area shape="rect" id="node50" href="group__sched.html#ga0e68a5e318862b42f5472c212668056e" title="Check whether a thread is the idle thread or not. " alt="" coords="2440,1182,2543,1209"/><area shape="rect" id="node51" href="group__sched.html#ga70e974d78d84a3ef849f69893ed2ca39" title="Reset the time slice for a thread. " alt="" coords="2002,802,2141,829"/><area shape="rect" id="node54" href="group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9" title="Get the current CPU state. " alt="" coords="2019,650,2123,677"/><area shape="rect" id="node56" href="group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="1772,518,1911,545"/><area shape="rect" id="node58" href="group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3" title="Set a specific CPU state. " alt="" coords="2019,904,2123,930"/><area shape="rect" id="node60" href="group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c" title="Remove a thread from the kill queue. " alt="" coords="2004,584,2139,626"/><area shape="rect" id="node61" href="group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2" title="Free a stack frame. " alt="" coords="1989,1056,2154,1082"/><area shape="rect" id="node62" href="group__libc.html#ga069f85a5001d71bc44d8be6532a4e432" title="Free an allocated memory region. " alt="" coords="2261,1056,2312,1082"/><area shape="rect" id="node63" href="group__mm.html#gac906c2d7849a485d955a895120068e12" title="Free a previously allocated memory region. " alt="" coords="2455,1056,2528,1082"/><area shape="rect" id="node65" href="group__sched.html#gad02b6c3e73322a0593793f30f8af56c1" title="Return the current thread for a given run queue. " alt="" coords="2008,1309,2135,1336"/><area shape="rect" id="node66" href="group__sched.html#gaa119db667033233b449e211df34dc4c3" title="Add a kill thread. " alt="" coords="2008,1512,2135,1538"/><area shape="rect" id="node67" href="group__sched.html#ga6b05483e9f719152875cb406386fcd5c" title="Add a thread to rq_list. " alt="" coords="2244,1512,2329,1538"/><area shape="rect" id="node71" href="group__ff.html#gac175abedbe1ebcd7ab53563a45fc3583" title="First fit comparator. " alt="" coords="355,821,503,848"/><area shape="rect" id="node73" href="group__wf.html#ga6a5278354282a5cebd97c579f70d7567" title="First fit comparator. " alt="" coords="349,872,508,898"/></map>
 </div>
 </p>
 
@@ -512,7 +461,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 
 </div>
 </div>
-<a class="anchor" id="ga53becb50024c663730d42a047100ae31"></a>
+<a class="anchor" id="ga31599d93272a2ddfabe319043f5698aa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -548,6 +497,60 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 
 </div>
 </div>
+<a class="anchor" id="ga96ee3cd2b9c9c8e41a612740805ee0f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* raw_mm_heap_alloc </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structheap__node.html">heap_node</a> **&#160;</td>
+          <td class="paramname"><em>root</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="include_2etaos_2types_8h.html#a87dc151519afbd8c4fb19730a4b0e0db">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__mm.html#gac25a375eaefebe575fc7e4e0a4d27592">mm_comparator_t</a>&#160;</td>
+          <td class="paramname"><em>compare</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate a new memory region. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">root</td><td>Free list root. </td></tr>
+    <tr><td class="paramname">size</td><td>Number of bytes to allocate. </td></tr>
+    <tr><td class="paramname">compare</td><td>Heap comparator. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>NULL</code> or an allocated region of memory. </dd></dl>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__mm_ga96ee3cd2b9c9c8e41a612740805ee0f4_cgraph.png" border="0" usemap="#group__mm_ga96ee3cd2b9c9c8e41a612740805ee0f4_cgraph" alt=""/></div>
+<map name="group__mm_ga96ee3cd2b9c9c8e41a612740805ee0f4_cgraph" id="group__mm_ga96ee3cd2b9c9c8e41a612740805ee0f4_cgraph">
+<area shape="rect" id="node2" href="group__kernel.html#gad1f1a1dc0581a11b597453f148106393" title="Halt the system. " alt="" coords="195,586,248,613"/><area shape="rect" id="node3" href="group__libcio.html#ga7bd6f0bd261e83a701fe9a9f835c2da8" title="Write a formated string to a stream. " alt="" coords="296,536,351,562"/><area shape="rect" id="node4" href="group__libcio.html#ga1626a680c1454c61eb736e134f2d6574" title="Backend for fprintf, printf, etc. " alt="" coords="399,536,461,562"/><area shape="rect" id="node5" href="group__preempt.html#gae772fcbd15beae355371d56d6f443566" title="Disable preemption. " alt="" coords="1651,1816,1769,1842"/><area shape="rect" id="node6" href="group__libcio.html#ga2d0905fb7948d08b0c0ac7df64436bcc" title="Write one character to a stream. " alt="" coords="711,24,761,50"/><area shape="rect" id="node8" href="group__libcio.html#ga96f2a80acb7e2aad3ea50c4be0c818f4" title="Write a string to a stream. " alt="" coords="1685,125,1735,152"/><area shape="rect" id="node12" href="group__preempt.html#ga74ed4ec841ea18a152916f55920b9a9e" title="Enable preemption. " alt="" coords="509,536,624,562"/><area shape="rect" id="node7" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="2261,341,2327,368"/><area shape="rect" id="node9" href="group__libcio.html#ga89acafaa5cef01cecfe4270f1521a2c3" title="Write to a file. " alt="" coords="1900,62,1951,89"/><area shape="rect" id="node11" href="group__libc.html#ga008e171a518fe0e0352f31b245e03875" title="Determine the length of a string. " alt="" coords="1898,164,1953,190"/><area shape="rect" id="node10" href="group__vfs.html#gaa5276dfc97187735837ed66b5507f5a6" title="Write to a file. " alt="" coords="2093,62,2167,89"/><area shape="rect" id="node13" href="group__preempt.html#gaaa367ac52b57070819284f18643cc0a9" title="Decrease the preemption counter of the current thread and test it. " alt="" coords="971,417,1125,444"/><area shape="rect" id="node20" href="group__preempt.html#ga4e684afa3732b2e8b2f3bc70f055e1a2" title="Reschedule the current run queue with preemption in mind. " alt="" coords="672,561,800,588"/><area shape="rect" id="node14" href="group__preempt.html#gab377aa939771256f71f426bd7650b01a" title="Get the preemption counter pointer of the current thread. " alt="" coords="1188,417,1329,444"/><area shape="rect" id="node18" href="group__preempt.html#gaa93580e45d2e6c581a96c72bfbd51212" title="Check if the current thread should be rescheduled. " alt="" coords="1175,290,1342,317"/><area shape="rect" id="node15" href="group__thread.html#ga739f7885bb2e863d7d39df7eea03afa5" title="Get a pointer to the current thread. " alt="" coords="1657,417,1763,444"/><area shape="rect" id="node16" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe" title="Get the run queue of the current CPU. " alt="" coords="1861,417,1989,444"/><area shape="rect" id="node17" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="2077,433,2183,460"/><area shape="rect" id="node19" href="group__preempt.html#gada97a499438abc44548acb43e582dc73" title="Check if a reschedule is needed. " alt="" coords="1423,265,1537,292"/><area shape="rect" id="node21" href="group__preempt.html#gac48128e72b303ea22d8ec641a9516b15" title="Reschedule the current run queue. " alt="" coords="848,653,923,680"/><area shape="rect" id="node22" href="group__atmega.html#ga45e277ef6f2d431ec2bf827fe3fe1127" title="Get the ID of the current CPU. " alt="" coords="1883,1562,1968,1589"/><area shape="rect" id="node23" href="group__sched.html#ga835c9de7e384665a6e425fc55f63872a" title="Reschedule the current run queue. " alt="" coords="1004,838,1092,865"/><area shape="rect" id="node66" href="group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671" title="Check if a reschedule is required. " alt="" coords="1429,468,1531,494"/><area shape="rect" id="node24" href="group__kernel.html#ga38f4f8022778edff29606cec22897bfc" title="Notify the CPU of a specific event. " alt="" coords="1439,1664,1521,1690"/><area shape="rect" id="node28" href="group__arch_a_p_i.html#gabc3ea24600f8a7b491077f26ccbbd5c8" title="Get the RQ of the given cpu. " alt="" coords="1441,737,1519,764"/><area shape="rect" id="node29" href="group__sched.html#gab2764024285204f6151db8ab70baf2ee" title="Update the system clock. " alt="" coords="1200,889,1317,916"/><area shape="rect" id="node30" href="group__sched.html#ga017c639d6dbf8710ad60a22985116618" title="Signal threads that are waiting for an event. " alt="" coords="1197,838,1321,865"/><area shape="rect" id="node43" href="group__sched.html#ga550ca50260ef89432c99ba6dcc150644" title="Obtain the next runnable task of a run queue. " alt="" coords="1173,636,1344,662"/><area shape="rect" id="node44" href="group__sched.html#ga902ac489886eb8c3c23a644234e98bb1" title="Check if the algorithm wants to preempt the current thread. " alt="" coords="1655,1613,1765,1640"/><area shape="rect" id="node46" href="group__sched.html#ga71fd9dde3968661117e7926bab75f25e" title="Reschedule policy. " alt="" coords="1392,1157,1568,1184"/><area shape="rect" id="node50" href="group__sched.html#ga50b33afa078200d35ad86a7e10287291" title="Set the current thread for rq. " alt="" coords="1187,570,1330,611"/><area shape="rect" id="node51" href="group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357" title="Prepare the a reschedule. " alt="" coords="1411,788,1549,814"/><area shape="rect" id="node53" href="group__sched.html#ga761312d2768cc26c49b7f53de33c8477" title="Switch context on a given run queue. " alt="" coords="1195,518,1323,545"/><area shape="rect" id="node55" href="group__sched.html#ga0b1c71305537a28e3a7194016f6b43e6" title="Update a run queue. " alt="" coords="1441,897,1519,924"/><area shape="rect" id="node57" href="group__sched.html#ga13a5b1237d1c0238dd0432a2590e8195" title="Destroy the kill queue. " alt="" coords="1420,1024,1540,1050"/><area shape="rect" id="node62" href="group__sched.html#ga2a33aa8e229c79764e00338e98b512ad" title="Kill the current thread if its marked for removal. " alt="" coords="1409,1334,1551,1361"/><area shape="rect" id="node25" href="arch_2avr_2include_2asm_2bitops_8h.html#ad394bdb06d1587dd749fef3e818e82ae" title="Set a bit in a register. " alt="" coords="1895,1410,1956,1437"/><area shape="rect" id="node26" href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="1675,1360,1745,1386"/><area shape="rect" id="node27" href="group__preempt.html#ga0be0edad7c14b013f7a4083b645fed6b" title="Enable preemption, but do never reschedule. " alt="" coords="1616,1714,1804,1741"/><area shape="rect" id="node31" href="group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa" title="Signal a thread on a wake queue. " alt="" coords="1403,838,1557,865"/><area shape="rect" id="node32" href="group__sched.html#gace05e070b7507c5df0d9ae2e6fa7eb50" title="Get the thread_queue the given thread is on. " alt="" coords="1651,701,1769,728"/><area shape="rect" id="node33" href="group__sched.html#gae1a79ba3d3d2d109c947be1ee5a03f3d" title="Remove a thread from a rq. " alt="" coords="1635,519,1785,560"/><area shape="rect" id="node41" href="group__sched.html#ga2284d061e42560a7bac2dac7c0aa682f" title="Remove a thread from a thread_queue. " alt="" coords="1621,752,1799,778"/><area shape="rect" id="node42" href="group__sched.html#ga6bfa8964506ed9b9b7cc8e04c2f2bbf1" title="Add a thread to a run queue. " alt="" coords="1644,1005,1776,1032"/><area shape="rect" id="node34" href="group__irq.html#ga518bb9818fc4064c745c7cdfc612b16b" title="Save IRQ flags and disable them. " alt="" coords="1852,596,1999,622"/><area shape="rect" id="node37" href="group__sched.html#ga79134da818e6f628f51093579aa51107" title="Remove a thread from the rq_list. " alt="" coords="1872,526,1979,553"/><area shape="rect" id="node39" href="group__irq.html#gac43df2a88dde564ea7f7c0331cb2aaae" title="Restore the IRQ flags. " alt="" coords="1884,650,1967,677"/><area shape="rect" id="node35" href="group__arch_a_p_i.html#ga53732d1458648e51671e939c0a929c75" title="Get the IRQ flags. " alt="" coords="2066,600,2194,626"/><area shape="rect" id="node36" href="group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6" title="Disable the global interrupts. " alt="" coords="2072,549,2188,576"/><area shape="rect" id="node38" href="list_8h.html#ab1708206f0f7e0a56550b35372203ba5" title="Delete an entry from a linked list. " alt="" coords="2099,498,2161,525"/><area shape="rect" id="node40" href="group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a" title="Restore the IRQ flags. " alt="" coords="2055,650,2205,677"/><area shape="rect" id="node45" href="group__sched.html#ga334da66e6883352ef369f85803eefec4" title="should_resched_cputime" alt="" coords="2047,1461,2213,1488"/><area shape="rect" id="node47" href="arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7" title="Clear a bit in register and return the value of nr before clearing. " alt="" coords="1646,1157,1774,1184"/><area shape="rect" id="node48" href="group__sched.html#ga0e68a5e318862b42f5472c212668056e" title="Check whether a thread is the idle thread or not. " alt="" coords="2079,1182,2181,1209"/><area shape="rect" id="node49" href="group__sched.html#ga70e974d78d84a3ef849f69893ed2ca39" title="Reset the time slice for a thread. " alt="" coords="1641,802,1779,829"/><area shape="rect" id="node52" href="group__kernel.html#gada0281da446125e1f1a91dd476c4d6d9" title="Get the current CPU state. " alt="" coords="1658,650,1762,677"/><area shape="rect" id="node54" href="group__arch_a_p_i.html#gaa79e3c72ee6f1dee4720d0f00958009b" title="Reschedule the CPU. " alt="" coords="1411,518,1549,545"/><area shape="rect" id="node56" href="group__kernel.html#ga7619df5a7d0e340ca42ee39bcb6b2cc3" title="Set a specific CPU state. " alt="" coords="1658,904,1762,930"/><area shape="rect" id="node58" href="group__sched.html#ga754b469e7ba40ebd207bee7e1743dd6c" title="Remove a thread from the kill queue. " alt="" coords="1643,584,1777,626"/><area shape="rect" id="node59" href="group__arch_a_p_i.html#gaf680731a9b2e0753de2dfa185b0a13d2" title="Free a stack frame. " alt="" coords="1627,1056,1793,1082"/><area shape="rect" id="node60" href="group__libc.html#ga069f85a5001d71bc44d8be6532a4e432" title="Free an allocated memory region. " alt="" coords="1900,1056,1951,1082"/><area shape="rect" id="node61" href="group__mm.html#gac906c2d7849a485d955a895120068e12" title="Free a previously allocated memory region. " alt="" coords="2093,1056,2167,1082"/><area shape="rect" id="node63" href="group__sched.html#gad02b6c3e73322a0593793f30f8af56c1" title="Return the current thread for a given run queue. " alt="" coords="1647,1309,1773,1336"/><area shape="rect" id="node64" href="group__sched.html#gaa119db667033233b449e211df34dc4c3" title="Add a kill thread. " alt="" coords="1647,1512,1773,1538"/><area shape="rect" id="node65" href="group__sched.html#ga6b05483e9f719152875cb406386fcd5c" title="Add a thread to rq_list. " alt="" coords="1883,1512,1968,1538"/></map>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -557,7 +560,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:14 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

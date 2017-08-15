@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -103,14 +103,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">panic.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div class="textblock"><code>#include &lt;<a class="el" href="kernel_8h_source.html">etaos/kernel.h</a>&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for panic.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="panic_8h__incl.png" border="0" usemap="#include_2etaos_2panic_8h" alt=""/></div>
+<map name="include_2etaos_2panic_8h" id="include_2etaos_2panic_8h">
+<area shape="rect" id="node2" href="kernel_8h.html" title="etaos/kernel.h" alt="" coords="236,80,340,107"/><area shape="rect" id="node3" href="autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="5,155,149,181"/><area shape="rect" id="node4" href="include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="173,155,275,181"/><area shape="rect" id="node6" href="stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="299,155,405,181"/><area shape="rect" id="node7" href="compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="429,155,547,181"/><area shape="rect" id="node5" href="arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="177,229,271,256"/></map>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="panic_8h__dep__incl.png" border="0" usemap="#include_2etaos_2panic_8hdep" alt=""/></div>
 <map name="include_2etaos_2panic_8hdep" id="include_2etaos_2panic_8hdep">
-<area shape="rect" id="node2" href="kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="10,80,146,107"/></map>
+<area shape="rect" id="node2" href="assert_8h_source.html" title="include/etaos/assert.h" alt="" coords="5,80,156,107"/><area shape="rect" id="node3" href="kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="181,80,317,107"/></map>
 </div>
 </div>
 <p><a href="panic_8h_source.html">Go to the source code of this file.</a></p>
@@ -120,6 +130,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gad1f1a1dc0581a11b597453f148106393"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__kernel.html#gad1f1a1dc0581a11b597453f148106393">panic</a> (const char *fmt,...)</td></tr>
 <tr class="memdesc:gad1f1a1dc0581a11b597453f148106393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt the system.  <a href="group__kernel.html#gad1f1a1dc0581a11b597453f148106393">More...</a><br /></td></tr>
 <tr class="separator:gad1f1a1dc0581a11b597453f148106393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1ba8761360705bb3ea0d14500ac98ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__kernel.html#gad1ba8761360705bb3ea0d14500ac98ba">panic_P</a> (const char *fmt,...)</td></tr>
+<tr class="memdesc:gad1ba8761360705bb3ea0d14500ac98ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt the system.  <a href="group__kernel.html#gad1ba8761360705bb3ea0d14500ac98ba">More...</a><br /></td></tr>
+<tr class="separator:gad1ba8761360705bb3ea0d14500ac98ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_kernel.html" title="Utility class for system pheripherals. ">Kernel</a> panic </p>
@@ -132,7 +145,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

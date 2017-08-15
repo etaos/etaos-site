@@ -1,3 +1,4 @@
 <map id="include/etaos/panic.h" name="include/etaos/panic.h">
-<area shape="rect" id="node2" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="10,80,146,107"/>
+<area shape="rect" id="node2" href="$assert_8h_source.html" title="include/etaos/assert.h" alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node3" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="181,80,317,107"/>
 </map>

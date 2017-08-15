@@ -5,6 +5,7 @@ var searchData=
   ['adc_5fread',['adc_read',['../group__stl.html#ga85726fd22ea1528e5de6ae4d70552b40',1,'CPU']]],
   ['add_5fthread',['add_thread',['../structsched__class.html#a2bba13411bc41d7a4d04a03f20be86c9',1,'sched_class']]],
   ['addr',['addr',['../structi2c__client.html#a41a6aad09727eb120338c35535a652a6',1,'i2c_client::addr()'],['../structi2c__device__info.html#a41a6aad09727eb120338c35535a652a6',1,'i2c_device_info::addr()']]],
+  ['allocator_5ft',['allocator_t',['../group__mm.html#ga1e27d70e872f8eead5fef5ca3e916bbe',1,'mem.h']]],
   ['adc',['ADC',['../group__analog.html',1,'']]],
   ['atmega_20adc_20driver',['ATmega ADC driver',['../group__analog-atmega.html',1,'']]],
   ['analog_2eh',['analog.h',['../analog_8h.html',1,'']]],

@@ -36,5 +36,6 @@ var searchData=
   ['printf',['printf',['../group__libcio.html#ga55f3d956bb2ba20b5059e9e25484a47f',1,'printf.c']]],
   ['printf_5fp',['printf_P',['../group__libcio.html#ga8836f9438db121ba9b1784d38858f3e2',1,'printf_p.c']]],
   ['putb',['putb',['../group__python-sys.html#ga3204199ac550a6eda84b5670aeda17e1',1,'sys']]],
-  ['putc',['putc',['../group__stl.html#ga5ddd46e0ecc254c25529b150257bf7b3',1,'CharacterDevice::putc()'],['../class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77',1,'EEPROM::putc()'],['../group__stl.html#ga63704361fdc2b661e9e41036a259cb77',1,'SRAM::putc()'],['../group__libcio.html#gaee02f1b1796d41b51f814f95e890ed44',1,'putc():&#160;putc.c']]]
+  ['putc',['putc',['../group__stl.html#ga5ddd46e0ecc254c25529b150257bf7b3',1,'CharacterDevice::putc()'],['../class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77',1,'EEPROM::putc()'],['../group__stl.html#ga63704361fdc2b661e9e41036a259cb77',1,'SRAM::putc()'],['../group__libcio.html#gaee02f1b1796d41b51f814f95e890ed44',1,'putc():&#160;putc.c']]],
+  ['putchar',['putchar',['../group__libcio.html#gaf4de2514b7778805db3815e8dd6cf09a',1,'putchar.c']]]
 ];

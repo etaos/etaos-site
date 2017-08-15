@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$device_8h.html" title="include/etaos/device.h" alt="" coords="561,155,713,181"/>
 <area shape="rect" id="node18" href="$include_2etaos_2sched_8h.html" title="include/etaos/sched.h" alt="" coords="1041,80,1190,107"/>
 <area shape="rect" id="node19" href="$handle_8c.html" title="kernel/irq/handle.c" alt="" coords="939,155,1067,181"/>
-<area shape="rect" id="node20" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="1258,155,1394,181"/>
+<area shape="rect" id="node20" href="$kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="1230,155,1366,181"/>
 <area shape="rect" id="node22" href="$ipm_8h.html" title="include/etaos/ipm.h" alt="" coords="1265,80,1400,107"/>
 <area shape="rect" id="node23" href="$semaphore_8h.html" title="include/etaos/semaphore.h" alt="" coords="1425,80,1603,107"/>
 <area shape="rect" id="node24" href="$stl_2kernel_8h.html" title="include/etaos/stl/kernel.h" alt="" coords="1628,80,1795,107"/>
@@ -23,5 +23,5 @@
 <area shape="rect" id="node12" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="357,304,487,345"/>
 <area shape="rect" id="node13" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="511,311,653,338"/>
 <area shape="rect" id="node17" href="$stl_2sram_8h.html" title="include/etaos/stl/sram.h" alt="" coords="889,311,1051,338"/>
-<area shape="rect" id="node21" href="$systick_8c.html" title="kernel/time/systick.c" alt="" coords="1092,155,1235,181"/>
+<area shape="rect" id="node21" href="$kernel_2time_2irq_8c.html" title="kernel/time/irq.c" alt="" coords="1091,155,1206,181"/>
 </map>

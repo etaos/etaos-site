@@ -1,9 +1,11 @@
 var searchData=
 [
   ['tc_5fupdate',['tc_update',['../structclocksource.html#a73453ce8e13954ce9e56032961edbbd0',1,'clocksource']]],
+  ['thead',['thead',['../structclocksource.html#aef1e65e59d4c4c7b4e0f8935a30c49bf',1,'clocksource']]],
   ['thread_5fafter',['thread_after',['../structsched__class.html#ac2682f32a764b57969499dba5f5e492c',1,'sched_class']]],
   ['timeout',['timeout',['../structi2c__bus.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'i2c_bus::timeout()'],['../structspi__driver.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'spi_driver::timeout()'],['../structusart.html#a493b57f443cc38b3d3df9c1e584d9d82',1,'usart::timeout()']]],
   ['timer',['timer',['../structthread.html#ab463f927d6f0fc323a2e4f31a4c46fd8',1,'thread']]],
+  ['timers',['timers',['../structclocksource.html#ab2a208053f6765aea8495691e0fe5324',1,'clocksource']]],
   ['tm_5fhour',['tm_hour',['../structtm.html#a4d171061df9e012fcfbd1172b8440d5f',1,'tm']]],
   ['tm_5fisdst',['tm_isdst',['../structtm.html#a7d102a87f898878ebf37ebd87504e099',1,'tm']]],
   ['tm_5fmday',['tm_mday',['../structtm.html#a02048604d30b880033311cf542d63f92',1,'tm']]],

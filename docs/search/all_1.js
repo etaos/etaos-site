@@ -13,7 +13,7 @@ var searchData=
   ['_5f_5fsapp',['__SAPP',['../group__libcio.html#gaf02883e30cff4d634ec1abaf2e092a80',1,'stdio.h']]],
   ['_5f_5fsched_5fset_5fcurrent_5fthread',['__sched_set_current_thread',['../group__sched.html#ga50b33afa078200d35ad86a7e10287291',1,'core.c']]],
   ['_5f_5fsched_5fswitch_5fcount',['__sched_switch_count',['../group__sched.html#ga7e596ab331b3af0d627de2e80681acf2',1,'core.c']]],
-  ['_5f_5fschedule',['__schedule',['../group__sched.html#ga95b99712c508a0627d2b9ac453aa0b53',1,'core.c']]],
+  ['_5f_5fschedule',['__schedule',['../group__sched.html#ga835c9de7e384665a6e425fc55f63872a',1,'core.c']]],
   ['_5f_5fschedule_5fneed_5fresched',['__schedule_need_resched',['../group__sched.html#ga71fd9dde3968661117e7926bab75f25e',1,'core.c']]],
   ['_5f_5fschedule_5fprepare',['__schedule_prepare',['../group__sched.html#ga0525e4ff6155f8f5f4ae76d6cb034357',1,'core.c']]],
   ['_5f_5fseof',['__SEOF',['../group__libcio.html#ga63f42c2888ed9bd0f00ee25002ee3b02',1,'stdio.h']]],

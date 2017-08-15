@@ -87,6 +87,9 @@ var searchData=
   ['putb',['putb',['../group__python-sys.html#ga3204199ac550a6eda84b5670aeda17e1',1,'sys']]],
   ['putc',['putc',['../structusart.html#aa00ced81deecb3716c3cc31fc5e069f2',1,'usart::putc()'],['../group__stl.html#ga5ddd46e0ecc254c25529b150257bf7b3',1,'CharacterDevice::putc()'],['../class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77',1,'EEPROM::putc()'],['../group__stl.html#ga63704361fdc2b661e9e41036a259cb77',1,'SRAM::putc()'],['../group__libcio.html#gaee02f1b1796d41b51f814f95e890ed44',1,'putc():&#160;putc.c']]],
   ['putc_2ec',['putc.c',['../putc_8c.html',1,'']]],
+  ['putchar',['putchar',['../group__libcio.html#gaf4de2514b7778805db3815e8dd6cf09a',1,'putchar.c']]],
   ['python_20stl',['Python STL',['../group__python.html',1,'']]],
-  ['python_20avr',['Python AVR',['../group__python-avr.html',1,'']]]
+  ['python_20avr',['Python AVR',['../group__python-avr.html',1,'']]],
+  ['pyusrlib_2ec',['pyusrlib.c',['../stress_2pyusrlib_8c.html',1,'']]],
+  ['pyusrlib_2ec',['pyusrlib.c',['../python_2pyusrlib_8c.html',1,'']]]
 ];

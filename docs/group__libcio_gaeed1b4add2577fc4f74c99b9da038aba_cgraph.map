@@ -1,0 +1,5 @@
+<map id="fclose" name="fclose">
+<area shape="rect" id="node2" href="$group__libcio.html#ga5bbe56a416af8f77723b652362f742f7" title="Close a file. " alt="" coords="111,5,164,32"/>
+<area shape="rect" id="node3" href="$group__vfs.html#ga60d1dba40888b0dadfbb4f0a30e1cb89" title="Close an open file. " alt="" coords="212,5,291,32"/>
+<area shape="rect" id="node4" href="$group__vfs.html#gae70d2b52d02913247aa5bc9bae05a32a" title="Remove a file from the FD array. " alt="" coords="339,5,428,32"/>
+</map>

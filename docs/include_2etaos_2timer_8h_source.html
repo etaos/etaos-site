@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -130,13 +130,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;etaos/clocksource.h&gt;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structtimer.html">   39</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">struct </span><a class="code" href="structlist__head.html">list_head</a> entry;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structtimer.html#a5fd7875e6394d07974bfd19f39960033">   40</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structlist__head.html">list_head</a> <a class="code" href="structtimer.html#a5fd7875e6394d07974bfd19f39960033">entry</a>; </div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">   41</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *<a class="code" href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">source</a>; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">   49</a></span>&#160;        void (*<a class="code" href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">handle</a>)(<span class="keyword">struct </span><a class="code" href="structtimer.html">timer</a> *<a class="code" href="structtimer.html">timer</a>, <span class="keywordtype">void</span> *arg);</div>
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5">   50</a></span>&#160;        <span class="keywordtype">void</span> *<a class="code" href="structtimer.html#a33e7865dc6cf5cbd56a8f1a654e306a5">priv_data</a>; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a> expire_at;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> interval;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="structtimer.html#a55a33904efb1022ae2925360f87bf184">   51</a></span>&#160;        <a class="code" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a> <a class="code" href="structtimer.html#a55a33904efb1022ae2925360f87bf184">expire_at</a>; </div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structtimer.html#a23545cd41cdc93998f5b3caeb3e29936">   52</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structtimer.html#a23545cd41cdc93998f5b3caeb3e29936">interval</a>; </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__tm.html#ga306dbcfb7a0d342408f4f2adeb957052">   62</a></span>&#160;<span class="preprocessor">#define TIMER_ONESHOT_FLAG 0</span></div>
@@ -177,8 +177,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structtimer_html_ae9924d77c8e5c2ed155927aed3d3fd4a"><div class="ttname"><a href="structtimer.html#ae9924d77c8e5c2ed155927aed3d3fd4a">timer::handle</a></div><div class="ttdeci">void(* handle)(struct timer *timer, void *arg)</div><div class="ttdoc">Timer trigger. </div><div class="ttdef"><b>Definition:</b> timer.h:49</div></div>
 <div class="ttc" id="structclocksource_html"><div class="ttname"><a href="structclocksource.html">clocksource</a></div><div class="ttdoc">The clocksource describes the source of a hardware time. </div><div class="ttdef"><b>Definition:</b> clocksource.h:32</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_a7f5991675a84025dc7c24754a9b257c0"><div class="ttname"><a href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a></div><div class="ttdeci">int64_t time_t</div><div class="ttdoc">System time type. </div><div class="ttdef"><b>Definition:</b> types.h:46</div></div>
+<div class="ttc" id="structtimer_html_a5fd7875e6394d07974bfd19f39960033"><div class="ttname"><a href="structtimer.html#a5fd7875e6394d07974bfd19f39960033">timer::entry</a></div><div class="ttdeci">struct list_head entry</div><div class="ttdoc">Timer list entry. </div><div class="ttdef"><b>Definition:</b> timer.h:40</div></div>
+<div class="ttc" id="structtimer_html_a23545cd41cdc93998f5b3caeb3e29936"><div class="ttname"><a href="structtimer.html#a23545cd41cdc93998f5b3caeb3e29936">timer::interval</a></div><div class="ttdeci">unsigned int interval</div><div class="ttdoc">Timer interval. </div><div class="ttdef"><b>Definition:</b> timer.h:52</div></div>
 <div class="ttc" id="structtimer_html_a2b65695e8376d96cb88ff98075a98ffe"><div class="ttname"><a href="structtimer.html#a2b65695e8376d96cb88ff98075a98ffe">timer::source</a></div><div class="ttdeci">struct clocksource * source</div><div class="ttdoc">Source of the timer. </div><div class="ttdef"><b>Definition:</b> timer.h:41</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
+<div class="ttc" id="structtimer_html_a55a33904efb1022ae2925360f87bf184"><div class="ttname"><a href="structtimer.html#a55a33904efb1022ae2925360f87bf184">timer::expire_at</a></div><div class="ttdeci">time_t expire_at</div><div class="ttdoc">Expiry time stamp. </div><div class="ttdef"><b>Definition:</b> timer.h:51</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -188,7 +191,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:01 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

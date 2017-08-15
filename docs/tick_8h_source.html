@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -126,37 +126,43 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="include_2etaos_2types_8h.html">etaos/types.h</a>&gt;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="etaos_2time_8h.html">etaos/time.h</a>&gt;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;CDECL</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__tm.html#ga73a24b405057db87fc9088b8f46da0a3">systick_setup</a>(<span class="keywordtype">int</span> irq, <span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *src);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *sys_clk;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">extern</span> <a class="code" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a> <a class="code" href="group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5">systick_get_seconds</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">   45</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *<a class="code" href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">sys_get_clock</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> sys_clk;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;CDECL_END</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="group__tm.html#gab437b71d7ac8ff13cd2c37f0c9b00758">   58</a></span>&#160;<span class="preprocessor">#define sys_tick clocksource_get_tick(sys_clk)</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="group__tm.html#ga940ffa4d01a51f01f4ef9df4b3d37e68">   67</a></span>&#160;<span class="preprocessor">#define time_after(x, y) ((x) &gt; (y))</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="group__tm.html#gab437b71d7ac8ff13cd2c37f0c9b00758">   39</a></span>&#160;<span class="preprocessor">#define sys_tick clocksource_get_tick(sys_clk)</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;CDECL</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__tm.html#ga73a24b405057db87fc9088b8f46da0a3">systick_setup</a>(<span class="keywordtype">int</span> irq, <span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *src);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *sys_clk;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="group__tm.html#ga563688762e0e29d4a1d1928880a179d6">   50</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <a class="code" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a> <a class="code" href="group__tm.html#ga563688762e0e29d4a1d1928880a179d6">tick_get_seconds</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a> now = (<a class="code" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a>)<a class="code" href="group__tm.html#gab437b71d7ac8ff13cd2c37f0c9b00758">sys_tick</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a>)(now / 1000);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">   61</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">struct </span><a class="code" href="structclocksource.html">clocksource</a> *<a class="code" href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">sys_get_clock</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> sys_clk;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;CDECL_END</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="group__tm.html#ga16870f08add529f9c5af2645a5487916">   73</a></span>&#160;<span class="preprocessor">#define time_before(a, b) ((a) &lt; (b))</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#define time_at_or_after(x, y) ((x) &gt;= (y))</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __TICK_H__ */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="ttc" id="group__tm_html_ga58edd6f43293e3068262d70c1e87c7f5"><div class="ttname"><a href="group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5">systick_get_seconds</a></div><div class="ttdeci">time_t systick_get_seconds(void)</div><div class="ttdoc">Get the system tick in seconds. </div><div class="ttdef"><b>Definition:</b> systick.c:75</div></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="group__tm.html#ga940ffa4d01a51f01f4ef9df4b3d37e68">   76</a></span>&#160;<span class="preprocessor">#define time_after(x, y) ((x) &gt; (y))</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__tm.html#ga16870f08add529f9c5af2645a5487916">   82</a></span>&#160;<span class="preprocessor">#define time_before(a, b) ((a) &lt; (b))</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="group__tm.html#ga3b85efafe813e24667b56254c6438a0a">   88</a></span>&#160;<span class="preprocessor">#define time_at_or_after(x, y) ((x) &gt;= (y))</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __TICK_H__ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
+<div class="ttc" id="group__tm_html_gab437b71d7ac8ff13cd2c37f0c9b00758"><div class="ttname"><a href="group__tm.html#gab437b71d7ac8ff13cd2c37f0c9b00758">sys_tick</a></div><div class="ttdeci">#define sys_tick</div><div class="ttdoc">Get the system tick. </div><div class="ttdef"><b>Definition:</b> tick.h:39</div></div>
 <div class="ttc" id="structclocksource_html"><div class="ttname"><a href="structclocksource.html">clocksource</a></div><div class="ttdoc">The clocksource describes the source of a hardware time. </div><div class="ttdef"><b>Definition:</b> clocksource.h:32</div></div>
-<div class="ttc" id="group__tm_html_ga73a24b405057db87fc9088b8f46da0a3"><div class="ttname"><a href="group__tm.html#ga73a24b405057db87fc9088b8f46da0a3">systick_setup</a></div><div class="ttdeci">void systick_setup(int irq, struct clocksource *src)</div><div class="ttdoc">Setup the system tick. </div><div class="ttdef"><b>Definition:</b> systick.c:86</div></div>
+<div class="ttc" id="group__tm_html_ga73a24b405057db87fc9088b8f46da0a3"><div class="ttname"><a href="group__tm.html#ga73a24b405057db87fc9088b8f46da0a3">systick_setup</a></div><div class="ttdeci">void systick_setup(int irq, struct clocksource *src)</div><div class="ttdoc">Setup the system tick. </div><div class="ttdef"><b>Definition:</b> irq.c:61</div></div>
 <div class="ttc" id="etaos_2time_8h_html"><div class="ttname"><a href="etaos_2time_8h.html">time.h</a></div></div>
-<div class="ttc" id="group__tm_html_gad7753fdcc44ef21b90f460deca48f182"><div class="ttname"><a href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">sys_get_clock</a></div><div class="ttdeci">static struct clocksource * sys_get_clock(void)</div><div class="ttdoc">Get the system clock. </div><div class="ttdef"><b>Definition:</b> tick.h:45</div></div>
+<div class="ttc" id="group__tm_html_gad7753fdcc44ef21b90f460deca48f182"><div class="ttname"><a href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">sys_get_clock</a></div><div class="ttdeci">static struct clocksource * sys_get_clock(void)</div><div class="ttdoc">Get the system clock. </div><div class="ttdef"><b>Definition:</b> tick.h:61</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_a7f5991675a84025dc7c24754a9b257c0"><div class="ttname"><a href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a></div><div class="ttdeci">int64_t time_t</div><div class="ttdoc">System time type. </div><div class="ttdef"><b>Definition:</b> types.h:46</div></div>
+<div class="ttc" id="group__tm_html_ga563688762e0e29d4a1d1928880a179d6"><div class="ttname"><a href="group__tm.html#ga563688762e0e29d4a1d1928880a179d6">tick_get_seconds</a></div><div class="ttdeci">static time_t tick_get_seconds(void)</div><div class="ttdoc">Get the system tick in seconds. </div><div class="ttdef"><b>Definition:</b> tick.h:50</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -167,7 +173,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

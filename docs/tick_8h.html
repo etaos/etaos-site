@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -123,7 +123,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="tick_8h__dep__incl.png" border="0" usemap="#include_2etaos_2tick_8hdep" alt=""/></div>
 <map name="include_2etaos_2tick_8hdep" id="include_2etaos_2tick_8hdep">
-<area shape="rect" id="node2" href="spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="5,80,148,107"/><area shape="rect" id="node3" href="kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="171,80,307,107"/><area shape="rect" id="node4" href="systick_8c.html" title="kernel/time/systick.c" alt="" coords="331,80,473,107"/><area shape="rect" id="node5" href="kernel_2time_2time_8c.html" title="kernel/time/time.c" alt="" coords="497,80,624,107"/><area shape="rect" id="node6" href="kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="649,80,779,107"/></map>
+<area shape="rect" id="node2" href="spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="5,80,148,107"/><area shape="rect" id="node3" href="kernel_2sched_2core_8c.html" title="kernel/sched/core.c" alt="" coords="171,80,307,107"/><area shape="rect" id="node4" href="kernel_2time_2irq_8c.html" title="kernel/time/irq.c" alt="" coords="331,80,446,107"/><area shape="rect" id="node5" href="kernel_2time_2time_8c.html" title="kernel/time/time.c" alt="" coords="471,80,597,107"/><area shape="rect" id="node6" href="kernel_2time_2timer_8c.html" title="kernel/time/timer.c" alt="" coords="622,80,753,107"/></map>
 </div>
 </div>
 <p><a href="tick_8h_source.html">Go to the source code of this file.</a></p>
@@ -139,15 +139,17 @@ Macros</h2></td></tr>
 <tr class="memitem:ga16870f08add529f9c5af2645a5487916"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#ga16870f08add529f9c5af2645a5487916">time_before</a>(a, b)&#160;&#160;&#160;((a) &lt; (b))</td></tr>
 <tr class="memdesc:ga16870f08add529f9c5af2645a5487916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate if a <code>b</code> is before <code>a</code>.  <a href="group__tm.html#ga16870f08add529f9c5af2645a5487916">More...</a><br /></td></tr>
 <tr class="separator:ga16870f08add529f9c5af2645a5487916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b85efafe813e24667b56254c6438a0a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#ga3b85efafe813e24667b56254c6438a0a">time_at_or_after</a>(x, y)&#160;&#160;&#160;((x) &gt;= (y))</td></tr>
+<tr class="separator:ga3b85efafe813e24667b56254c6438a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga73a24b405057db87fc9088b8f46da0a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#ga73a24b405057db87fc9088b8f46da0a3">systick_setup</a> (int irq, struct <a class="el" href="structclocksource.html">clocksource</a> *src)</td></tr>
 <tr class="memdesc:ga73a24b405057db87fc9088b8f46da0a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the system tick.  <a href="group__tm.html#ga73a24b405057db87fc9088b8f46da0a3">More...</a><br /></td></tr>
 <tr class="separator:ga73a24b405057db87fc9088b8f46da0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga58edd6f43293e3068262d70c1e87c7f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5">systick_get_seconds</a> (void)</td></tr>
-<tr class="memdesc:ga58edd6f43293e3068262d70c1e87c7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the system tick in seconds.  <a href="group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5">More...</a><br /></td></tr>
-<tr class="separator:ga58edd6f43293e3068262d70c1e87c7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga563688762e0e29d4a1d1928880a179d6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#ga563688762e0e29d4a1d1928880a179d6">tick_get_seconds</a> (void)</td></tr>
+<tr class="memdesc:ga563688762e0e29d4a1d1928880a179d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the system tick in seconds.  <a href="group__tm.html#ga563688762e0e29d4a1d1928880a179d6">More...</a><br /></td></tr>
+<tr class="separator:ga563688762e0e29d4a1d1928880a179d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad7753fdcc44ef21b90f460deca48f182"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structclocksource.html">clocksource</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">sys_get_clock</a> (void)</td></tr>
 <tr class="memdesc:gad7753fdcc44ef21b90f460deca48f182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the system clock.  <a href="group__tm.html#gad7753fdcc44ef21b90f460deca48f182">More...</a><br /></td></tr>
 <tr class="separator:gad7753fdcc44ef21b90f460deca48f182"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,7 +163,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

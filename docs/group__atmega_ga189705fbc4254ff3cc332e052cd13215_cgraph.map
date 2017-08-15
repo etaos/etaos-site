@@ -1,5 +1,5 @@
 <map id="__attribute__" name="__attribute__">
 <area shape="rect" id="node2" href="$group__atmega.html#ga84f967f707b33052ec12bd1d7f15080a" title="Enable the external SRAM interface. " alt="" coords="205,5,270,32"/>
 <area shape="rect" id="node3" href="$group__mm.html#ga46c473ceee9a0e300aa809ddcb7e7089" title="Initialise the memory allocator. " alt="" coords="203,56,271,83"/>
-<area shape="rect" id="node4" href="$group__mm.html#ga53becb50024c663730d42a047100ae31" title="Add a new memory region to the allocator. " alt="" coords="151,107,324,133"/>
+<area shape="rect" id="node4" href="$group__mm.html#ga31599d93272a2ddfabe319043f5698aa" title="Add a new memory region to the allocator. " alt="" coords="151,107,324,133"/>
 </map>

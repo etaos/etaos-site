@@ -1,4 +1,4 @@
 <map id="fs_free_path_split" name="fs_free_path_split">
-<area shape="rect" id="node2" href="$group__mm.html#gacee1960bdb3a19cb495341ec725cafef" title="Free an allocated memory region. " alt="" coords="179,5,229,32"/>
-<area shape="rect" id="node3" href="$group__mm.html#ga0e28f3e895b382fa242f95904440248e" title="Free a previously allocated memory region. " alt="" coords="277,5,351,32"/>
+<area shape="rect" id="node2" href="$group__libc.html#ga069f85a5001d71bc44d8be6532a4e432" title="Free an allocated memory region. " alt="" coords="179,5,229,32"/>
+<area shape="rect" id="node3" href="$group__mm.html#gac906c2d7849a485d955a895120068e12" title="Free a previously allocated memory region. " alt="" coords="277,5,351,32"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xor_2dlist_20library',['XOR-list library',['../group__xorlist.html',1,'']]]
+  ['worst_20fit_20allocator',['Worst fit allocator',['../group__wf.html',1,'']]]
 ];

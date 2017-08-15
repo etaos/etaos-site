@@ -5,6 +5,7 @@ var searchData=
   ['get_5fdirection',['get_direction',['../structgpio__chip.html#a11733f51d58967fb777c9fce2a1201b0',1,'gpio_chip']]],
   ['getb',['getb',['../group__python-sys.html#ga4c3d074587bc5a80a866bf7faca1b529',1,'sys']]],
   ['getc',['getc',['../structusart.html#a1ba5588c95558238d0a5fdbcce1bf7b1',1,'usart::getc()'],['../group__stl.html#ga12fe8585ae3714e7d4a71cae12fbb110',1,'CharacterDevice::getc()'],['../group__libcio.html#ga75ef1508eb99733cdb4036aad25cef16',1,'getc():&#160;getc.c']]],
+  ['getchar',['getchar',['../group__libcio.html#ga3e29caa20f7cffe18f410f01278905a8',1,'getchar.c']]],
   ['globals',['globals',['../group__python-builtin.html#ga9651b2e728ff0743ed32bdcad7d6c358',1,'__bi']]],
   ['gmtime',['gmtime',['../group__libctime.html#ga142b3ded08ee65200fe6e4c4c8664d4c',1,'gmtime.c']]],
   ['gmtime_5fr',['gmtime_r',['../group__libctime.html#gacc202793fe079a9a5555faa8023686f1',1,'gmtime.c']]],

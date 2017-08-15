@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -95,7 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Python <a class="el" href="classeeprom_1_1_e_e_p_r_o_m.html" title="EEPROM object. ">EEPROM</a> drivers..  
+<p>Python <a class="el" href="classeeprom_1_1_e_e_p_r_o_m.html" title="EEPROM object. ">EEPROM</a> drivers.  
 <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for EEPROM:</div>
@@ -121,8 +121,21 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Python <a class="el" href="classeeprom_1_1_e_e_p_r_o_m.html" title="EEPROM object. ">EEPROM</a> drivers.. </p>
-</div><!-- contents -->
+<p>Python <a class="el" href="classeeprom_1_1_e_e_p_r_o_m.html" title="EEPROM object. ">EEPROM</a> drivers. </p>
+<h3>Usage</h3>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;read_example(eeprom, addr, num):</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structeeprom.html#aa26c7b753c53e7504ff08ed574362247">eeprom.read</a>(addr, num)</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;example_write(eeprom, addr, ary):</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <a class="code" href="structeeprom.html#a306dffe8cb7e601065aad073d89a6ec2">eeprom.write</a>(addr, ary, <a class="code" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">len</a>(ary))</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<a class="code" href="namespacemain.html">main</a>():</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        ee = <a class="code" href="class_e_e_p_r_o_m.html">EEPROM</a>(<span class="stringliteral">&quot;24C02&quot;</span>)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        write_example(ee, 0x40, [20, 0x10, 40, 100])</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        data = read_example(ee, 0x40, 4)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">for</span> x <span class="keywordflow">in</span> data:</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keywordflow">print</span> x</div>
+</div><!-- fragment --> </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
 </div>
@@ -131,7 +144,7 @@ Data Structures</h2></td></tr>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:14 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

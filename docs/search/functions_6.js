@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['fclose',['fclose',['../group__libcio.html#gaeed1b4add2577fc4f74c99b9da038aba',1,'fclose.c']]],
+  ['feof',['feof',['../group__libcio.html#gad1a4ddf2afdeebac37db9ce4334d0ef4',1,'feof.c']]],
+  ['ferror',['ferror',['../group__libcio.html#gae76e7b80521611f019051d1360b63105',1,'ferror.c']]],
+  ['fflush',['fflush',['../group__libcio.html#gac3a65037e9b1d6f095b612d2798aa81a',1,'fflush.c']]],
   ['fgetc',['fgetc',['../group__libcio.html#ga25603b2a24e056c937fe41c93859855a',1,'fgetc.c']]],
   ['fgets',['fgets',['../group__libcio.html#ga74ef5e87da45537412d3c4422b35c67d',1,'fgets.c']]],
   ['fifo_5fadd_5fthread',['fifo_add_thread',['../group__fifo.html#ga9130f30bb6e30300decbd5debbed3058',1,'fifo.c']]],
@@ -9,15 +13,21 @@ var searchData=
   ['fifo_5fthread_5fafter',['fifo_thread_after',['../group__fifo.html#ga3f501d922a35e2e98736eb18ab2b0d91',1,'fifo.c']]],
   ['fifo_5fthread_5fqueue_5fadd',['fifo_thread_queue_add',['../group__fifo.html#ga8b12671a977b155a5528178dd07f1483',1,'fifo.c']]],
   ['fifo_5fthread_5fqueue_5fremove',['fifo_thread_queue_remove',['../group__fifo.html#gadab1ddc3aa1a0362753a79e4dddc214c',1,'fifo.c']]],
+  ['fileno',['fileno',['../group__libcio.html#gad734637efed379794a3be42cd7a85189',1,'fileno.c']]],
   ['filter',['filter',['../group__python-builtin.html#ga7dccd06c09c45af61d3fac77e84b2166',1,'__bi']]],
   ['find',['find',['../group__python-string.html#gaf1d551a6a31bb5ebb75988b603b8edbd',1,'string']]],
   ['floor',['floor',['../group__math.html#ga0f0bf9ac2651b80846a9d9d89bd4cb85',1,'math.h']]],
+  ['flush',['flush',['../group__libcio.html#ga657fb8ce15f4bf9e908592293889c0e0',1,'flush.c']]],
   ['fmod',['fmod',['../group__math.html#ga537296d1a8f9fb621676038b99ba7edf',1,'math.h']]],
+  ['fmode',['fmode',['../group__libcio.html#ga041143c238dcd23b2c51b3615f363a46',1,'fmode.c']]],
+  ['fopen',['fopen',['../group__libcio.html#ga7a783dc33bb2be5460b8f3e619994241',1,'fopen(const char *, const char *):&#160;fopen.c'],['../group__libcio.html#ga7a783dc33bb2be5460b8f3e619994241',1,'fopen(const char *name, const char *modes):&#160;fopen.c']]],
   ['fprintf',['fprintf',['../group__libcio.html#ga7bd6f0bd261e83a701fe9a9f835c2da8',1,'fprintf.c']]],
   ['fprintf_5fp',['fprintf_P',['../group__libcio.html#gac0f997ca8e6e12624a456fafbec03a5d',1,'fprintf_P.c']]],
   ['fputc',['fputc',['../group__libcio.html#ga2d0905fb7948d08b0c0ac7df64436bcc',1,'fputc.c']]],
   ['fputs',['fputs',['../group__libcio.html#ga96f2a80acb7e2aad3ea50c4be0c818f4',1,'fputs.c']]],
+  ['fread',['fread',['../group__libcio.html#gaf99bce98be10e09fb7a9b2d337245a2d',1,'fread.c']]],
   ['fs_5ffree_5fpath_5fsplit',['fs_free_path_split',['../group__fops.html#ga7d5e5d6a7ba13a169d3cc7e96d2ef679',1,'util.c']]],
   ['fs_5fsplit_5fpath',['fs_split_path',['../group__fops.html#gab80dbf008d6c8fae99a702aae6b4e5bd',1,'util.c']]],
-  ['ftell',['ftell',['../group__libcio.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell.c']]]
+  ['ftell',['ftell',['../group__libcio.html#ga87538ea2b888fc1cec062e52baef79fa',1,'ftell.c']]],
+  ['fwrite',['fwrite',['../group__libcio.html#ga6bb7f9838e6c09ad68e7809cac1d383b',1,'fwrite.c']]]
 ];

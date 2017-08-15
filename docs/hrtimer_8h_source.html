@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.0</a>
+                        <a class="navbar-brand">5.0.1</a>
 		    </div>
 	        </div>
             </div>
@@ -157,10 +157,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">extern</span> <a class="code" href="group__irq.html#gac994ac3cabeec5dfa2e596bad98f2bb3">irqreturn_t</a> <a class="code" href="group__hrtimer.html#gaeeb4b92d6fa211fb613e8af4246ef1b9">hrtimer_tick</a>(<span class="keyword">struct</span> <a class="code" href="structirq__data.html">irq_data</a> *data, <span class="keywordtype">void</span> *arg);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="group__hrtimer.html#ga15d582408c059a762b6f41e809c1bdc3">hrtimer_init</a>(<span class="keywordtype">int</span> irq, <span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *src);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__hrtimer.html#ga81e22a598d8dc4d06229eeabbdc5fd4a">hrtimer_stop</a>(<span class="keyword">struct</span> <a class="code" href="structhrtimer.html">hrtimer</a> *<a class="code" href="structtimer.html">timer</a>);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;CDECL_END</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> hrtimer_handle(<span class="keyword">struct</span> <a class="code" href="structclocksource.html">clocksource</a> *cs);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;CDECL_END</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
 <div class="ttc" id="structhrtimer_html"><div class="ttname"><a href="structhrtimer.html">hrtimer</a></div><div class="ttdoc">High resolution timer structure. </div><div class="ttdef"><b>Definition:</b> hrtimer.h:39</div></div>
 <div class="ttc" id="group__hrtimer_html_ga636fe0431433b985725fad5fdac7fd27"><div class="ttname"><a href="group__hrtimer.html#ga636fe0431433b985725fad5fdac7fd27">hrtimer_create</a></div><div class="ttdeci">struct hrtimer * hrtimer_create(struct clocksource *src, uint64_t ns, void(*handle)(struct hrtimer *, void *), void *arg, unsigned long flags)</div><div class="ttdoc">Create a new high resolution timer. </div><div class="ttdef"><b>Definition:</b> hrtimer.c:61</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
@@ -174,8 +175,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structhrtimer_html_ac7c0a9c260035859dba8baa11cfd39db"><div class="ttname"><a href="structhrtimer.html#ac7c0a9c260035859dba8baa11cfd39db">hrtimer::handle</a></div><div class="ttdeci">void(* handle)(struct hrtimer *timer, void *arg)</div><div class="ttdoc">Handler for the timer. </div><div class="ttdef"><b>Definition:</b> hrtimer.h:48</div></div>
 <div class="ttc" id="structclocksource_html"><div class="ttname"><a href="structclocksource.html">clocksource</a></div><div class="ttdoc">The clocksource describes the source of a hardware time. </div><div class="ttdef"><b>Definition:</b> clocksource.h:32</div></div>
 <div class="ttc" id="list_8h_html"><div class="ttname"><a href="list_8h.html">list.h</a></div></div>
-<div class="ttc" id="group__hrtimer_html_ga15d582408c059a762b6f41e809c1bdc3"><div class="ttname"><a href="group__hrtimer.html#ga15d582408c059a762b6f41e809c1bdc3">hrtimer_init</a></div><div class="ttdeci">void hrtimer_init(int irq, struct clocksource *src)</div><div class="ttdoc">Initialise the hrtimer core. </div><div class="ttdef"><b>Definition:</b> hrtimer.c:170</div></div>
-<div class="ttc" id="group__hrtimer_html_gaeeb4b92d6fa211fb613e8af4246ef1b9"><div class="ttname"><a href="group__hrtimer.html#gaeeb4b92d6fa211fb613e8af4246ef1b9">hrtimer_tick</a></div><div class="ttdeci">irqreturn_t hrtimer_tick(struct irq_data *data, void *arg)</div><div class="ttdoc">High resolution timer interrupt. </div><div class="ttdef"><b>Definition:</b> hrtimer.c:154</div></div>
+<div class="ttc" id="group__hrtimer_html_ga15d582408c059a762b6f41e809c1bdc3"><div class="ttname"><a href="group__hrtimer.html#ga15d582408c059a762b6f41e809c1bdc3">hrtimer_init</a></div><div class="ttdeci">void hrtimer_init(int irq, struct clocksource *src)</div><div class="ttdoc">Initialise the hrtimer core. </div><div class="ttdef"><b>Definition:</b> hrtimer.c:152</div></div>
+<div class="ttc" id="group__hrtimer_html_gaeeb4b92d6fa211fb613e8af4246ef1b9"><div class="ttname"><a href="group__hrtimer.html#gaeeb4b92d6fa211fb613e8af4246ef1b9">hrtimer_tick</a></div><div class="ttdeci">irqreturn_t hrtimer_tick(struct irq_data *data, void *arg)</div><div class="ttdoc">High resolution timer interrupt. </div><div class="ttdef"><b>Definition:</b> irq.c:74</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_a7f5991675a84025dc7c24754a9b257c0"><div class="ttname"><a href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a></div><div class="ttdeci">int64_t time_t</div><div class="ttdoc">System time type. </div><div class="ttdef"><b>Definition:</b> types.h:46</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -186,7 +187,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 14 2017 16:06:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

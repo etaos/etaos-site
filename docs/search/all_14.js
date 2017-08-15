@@ -1,11 +1,13 @@
 var searchData=
 [
   ['standard_20i_2fo',['Standard I/O',['../group__libcio.html',1,'']]],
+  ['sram',['SRAM',['../group__python-sram.html',1,'']]],
   ['string_20api',['String API',['../group__python-string.html',1,'']]],
   ['system_20api',['System API',['../group__python-sys.html',1,'']]],
   ['scheduling_20core',['Scheduling core',['../group__sched.html',1,'']]],
   ['sched_2eh',['sched.h',['../include_2etaos_2sched_8h.html',1,'']]],
   ['sched_5fclass',['sched_class',['../structsched__class.html',1,'sched_class'],['../structrq.html#ad0486fc61e7f3eb706d02e60125c91f7',1,'rq::sched_class()'],['../structthread__queue.html#ad0486fc61e7f3eb706d02e60125c91f7',1,'thread_queue::sched_class()']]],
+  ['sched_5fclock_5ftick',['sched_clock_tick',['../group__sched.html#ga71fc9ccede8c1a1e84cd901e3d06bf47',1,'clock.c']]],
   ['sched_5fcreate_5fstack_5fframe',['sched_create_stack_frame',['../group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a',1,'sched_create_stack_frame(struct thread *tp, stack_t *stack, size_t stack_size, thread_handle_t handle):&#160;sched.c'],['../group__arch_a_p_i.html#gaed72f26eb7fa076193388c2200e2571a',1,'sched_create_stack_frame(struct thread *tp, stack_t *stack, size_t stack_size, thread_handle_t handle):&#160;sched.c']]],
   ['sched_5fdefault_5fprio',['SCHED_DEFAULT_PRIO',['../group__thread.html#gae3fd23be576bff245fc70bfde8088ee3',1,'thread.h']]],
   ['sched_5fenter',['SCHED_ENTER',['../group__kernel.html#ggad6d9db91247652a54cb6b13d774d61eba630d89f35fb8be013da09770b1856898',1,'cpu.h']]],
@@ -80,7 +82,7 @@ var searchData=
   ['spi_5fmode3',['SPI_MODE3',['../group__spi.html#ggad268301d3b918e279269ec49f803488dad9636eac0759655110aa77dd6c22da6c',1,'spi.h']]],
   ['spi_5fmsg',['spi_msg',['../structspi__msg.html',1,'']]],
   ['spi_5fset_5fmode',['spi_set_mode',['../group__spi.html#gac9a3ddca0fbddd501da7918622cd9509',1,'spi-core.c']]],
-  ['spi_5fset_5fspeed',['spi_set_speed',['../group__spi.html#ga299495247902b3003d99d1f25dc9fa3f',1,'spi_set_speed(struct spidev *dev, uint32_t bps):&#160;spi-core.c'],['../group__spi.html#ggad268301d3b918e279269ec49f803488dad9f1d8d4f2158f35c8cdeca0a6a3bbda',1,'SPI_SET_SPEED():&#160;spi.h']]],
+  ['spi_5fset_5fspeed',['SPI_SET_SPEED',['../group__spi.html#ggad268301d3b918e279269ec49f803488dad9f1d8d4f2158f35c8cdeca0a6a3bbda',1,'SPI_SET_SPEED():&#160;spi.h'],['../group__spi.html#ga299495247902b3003d99d1f25dc9fa3f',1,'spi_set_speed(struct spidev *dev, uint32_t bps):&#160;spi-core.c']]],
   ['spi_5fsysbus',['spi_sysbus',['../group__spi.html#ga61bee98d216c108227d04bf7c860a93e',1,'spi_sysbus():&#160;spi-core.c'],['../group__spi.html#ga61bee98d216c108227d04bf7c860a93e',1,'spi_sysbus():&#160;spi-core.c']]],
   ['spi_5ftransfer',['spi_transfer',['../group__spi.html#gae4edeea008c7d373a922dcd42e4ef2be',1,'spi-core.c']]],
   ['spidev',['spidev',['../structspidev.html',1,'']]],
@@ -110,10 +112,13 @@ var searchData=
   ['strcmp_2ec',['strcmp.c',['../strcmp_8c.html',1,'']]],
   ['strcpy',['strcpy',['../group__libc.html#ga1a8e0d046aa6ccaf2c9947e3142e4786',1,'strcpy(char *dst, const char *src):&#160;strcpy.c'],['../group__libc.html#ga1a8e0d046aa6ccaf2c9947e3142e4786',1,'strcpy(char *dst, const char *src):&#160;strcpy.c']]],
   ['strdup',['strdup',['../group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df',1,'strdup(const char *s):&#160;strdup.c'],['../group__libc.html#ga2c4f14c424a31db9c57fd046c3b9f0df',1,'strdup(const char *str):&#160;strdup.c']]],
+  ['stricmp',['stricmp',['../group__libc.html#ga7f886f6fb9d16724acb21dca4110ec29',1,'stricmp(const char *s1, const char *s2):&#160;stricmp.c'],['../group__libc.html#ga7f886f6fb9d16724acb21dca4110ec29',1,'stricmp(const char *s1, const char *s2):&#160;stricmp.c']]],
   ['string',['string',['../namespacestring.html',1,'']]],
   ['strlen',['strlen',['../group__libc.html#ga008e171a518fe0e0352f31b245e03875',1,'strlen(const char *str):&#160;strlen.c'],['../group__libc.html#ga008e171a518fe0e0352f31b245e03875',1,'strlen(const char *x):&#160;strlen.c'],['../group__libc.html#ga008e171a518fe0e0352f31b245e03875',1,'strlen(const char *str):&#160;strlen.c']]],
   ['strlen_2ec',['strlen.c',['../strlen_8c.html',1,'']]],
+  ['strncat',['strncat',['../group__libc.html#gae9190e8967437ba6e966f98aca483e18',1,'strncat(char *dst, const char *src, size_t size):&#160;strcat.c'],['../group__libc.html#gae9190e8967437ba6e966f98aca483e18',1,'strncat(char *dst, const char *src, size_t size):&#160;strcat.c']]],
   ['strncpy',['strncpy',['../group__libc.html#ga5868a2c77808dc187e06bfc308cef106',1,'strncpy(char *dst, const char *src, size_t num):&#160;strncpy.c'],['../group__libc.html#ga5868a2c77808dc187e06bfc308cef106',1,'strncpy(char *dst, const char *src, size_t num):&#160;strncpy.c']]],
+  ['strnicmp',['strnicmp',['../group__libc.html#ga7667a5db3ccb2462398e8b721a180681',1,'strnicmp(const char *s1, const char *s2, int n):&#160;stricmp.c'],['../group__libc.html#ga7667a5db3ccb2462398e8b721a180681',1,'strnicmp(const char *s1, const char *s2, int n):&#160;stricmp.c']]],
   ['strnlen',['strnlen',['../group__libc.html#gaae36108083bc46b961fa054082b1dce1',1,'strnlen(const char *str, size_t size):&#160;strnlen.c'],['../group__libc.html#gaae36108083bc46b961fa054082b1dce1',1,'strnlen(const char *str, size_t size):&#160;strnlen.c']]],
   ['strtok',['strtok',['../group__libc.html#ga8fa9cf67dfd810893d4e6d6c53edacc9',1,'strtok(char *s, const char *delimeter):&#160;strtok.c'],['../group__libc.html#ga8fa9cf67dfd810893d4e6d6c53edacc9',1,'strtok(char *s, const char *delimeter):&#160;strtok.c']]],
   ['strtok_5fr',['strtok_r',['../group__libc.html#gaf18c3fca5cc30bc1313728d45c031ae9',1,'strtok_r(char *s, const char *delimeter, char **last):&#160;strtok.c'],['../group__libc.html#gaf18c3fca5cc30bc1313728d45c031ae9',1,'strtok_r(char *s, const char *delim, char **last):&#160;strtok.c']]],
@@ -131,8 +136,6 @@ var searchData=
   ['sys_5fset_5fstdout',['SYS_SET_STDOUT',['../group__kernel.html#ggad44ffc8242f731979132e3582d76b085afc0f8917275c70f3f5c745aaaedc33e2',1,'kernel.h']]],
   ['sys_5ftick',['sys_tick',['../group__tm.html#gab437b71d7ac8ff13cd2c37f0c9b00758',1,'tick.h']]],
   ['sysctl',['sysctl',['../group__kernel.html#ga108852e41423be8946eedc2a338e431c',1,'sys.c']]],
-  ['systick_2ec',['systick.c',['../systick_8c.html',1,'']]],
-  ['systick_5fget_5fseconds',['systick_get_seconds',['../group__tm.html#ga58edd6f43293e3068262d70c1e87c7f5',1,'systick.c']]],
-  ['systick_5firq_5fhandle',['systick_irq_handle',['../group__tm.html#ga8792d30a4c8b2bc7bd73fcbb1c5c735c',1,'systick.c']]],
-  ['systick_5fsetup',['systick_setup',['../group__tm.html#ga73a24b405057db87fc9088b8f46da0a3',1,'systick.c']]]
+  ['system_5fallocator',['SYSTEM_ALLOCATOR',['../group__mm.html#gga1e27d70e872f8eead5fef5ca3e916bbea3d948149254e3b81ddc09312bebeb94d',1,'mem.h']]],
+  ['systick_5fsetup',['systick_setup',['../group__tm.html#ga73a24b405057db87fc9088b8f46da0a3',1,'irq.c']]]
 ];
