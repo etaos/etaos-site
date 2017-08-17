@@ -3,6 +3,7 @@ var searchData=
   ['data',['data',['../structipm.html#a0d49d74db4c035719c3867723cf7e779',1,'ipm::data()'],['../structromfs.html#a8f64897c7ccc5c13f276d1d07c4e7095',1,'romfs::data()'],['../structfile.html#a735984d41155bc1032e09bece8f8d66d',1,'file::data()']]],
   ['days',['days',['../classtime_1_1_time.html#ae58c00673cd15f8de2f60b8b8684ad42',1,'time::Time']]],
   ['deadline',['deadline',['../structrr__entity.html#a7c7ecbbe8cbe11eef42e202a3c1303d8',1,'rr_entity::deadline()'],['../group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463',1,'deadline():&#160;edf.c']]],
+  ['define_5fmutex',['DEFINE_MUTEX',['../group__mutex.html#ga4bd88986f981acf217fd831bcafe69a9',1,'mutex.h']]],
   ['define_5fthread_5fqueue',['DEFINE_THREAD_QUEUE',['../group__thread.html#gae01ffae51cc14590cef5e3b7af14bac0',1,'thread.h']]],
   ['delay',['delay',['../group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71',1,'delay.c']]],
   ['delay_2eh',['delay.h',['../delay_8h.html',1,'']]],

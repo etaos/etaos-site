@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['recursive_20mutex',['Recursive mutex',['../group__mutex.html',1,'']]],
   ['ramfs',['ramfs',['../group__ramfs.html#ga13a20491dce973099f9f68f54d386e02',1,'ramfs.c']]],
   ['ramfs_5fclose',['ramfs_close',['../group__ramfs.html#ga6d01c7ab81fc3a279cd89527ac88351e',1,'ramfs.c']]],
   ['ramfs_5fcreate',['ramfs_create',['../group__ramfs.html#gacd8b281c94b4b4eef9a6c0433981537a',1,'ramfs.c']]],

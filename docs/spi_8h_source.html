@@ -150,7 +150,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="structspi__driver.html#af7e77a67049a4baa91fc207ec1e483b9">   65</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structlist__head.html">list_head</a> <a class="code" href="structspi__driver.html#af7e77a67049a4baa91fc207ec1e483b9">devices</a>; </div>
 <div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="structspi__driver.html#aa08098f316260c0d74039e1f7520abb7">   66</a></span>&#160;        <span class="keywordtype">char</span> <a class="code" href="structspi__driver.html#aa08098f316260c0d74039e1f7520abb7">retries</a>; </div>
 <div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="structspi__driver.html#a493b57f443cc38b3d3df9c1e584d9d82">   67</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structspi__driver.html#a493b57f443cc38b3d3df9c1e584d9d82">timeout</a>; </div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="structspi__driver.html#af302237f7e2352081ec19fe14f11a646">   68</a></span>&#160;        mutex_t <a class="code" href="structspi__driver.html#af302237f7e2352081ec19fe14f11a646">lock</a>; </div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="structspi__driver.html#af302237f7e2352081ec19fe14f11a646">   68</a></span>&#160;        <a class="code" href="structmutex__t.html">mutex_t</a> <a class="code" href="structspi__driver.html#af302237f7e2352081ec19fe14f11a646">lock</a>; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="structspi__driver.html#a3d3367378616f37e3ec399b2a9e4eb3e">   70</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structgpio__pin.html">gpio_pin</a> *<a class="code" href="structspi__driver.html#a3d3367378616f37e3ec399b2a9e4eb3e">mosi</a>, </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                        *<a class="code" href="structspi__driver.html#a4636d8a241843c600e6d2f34c62785f8">miso</a>, </div>
@@ -248,6 +248,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structspi__driver_html_ad705af46d9bcf6c6b49a42e2aea9ed0b"><div class="ttname"><a href="structspi__driver.html#ad705af46d9bcf6c6b49a42e2aea9ed0b">spi_driver::ctrl</a></div><div class="ttdeci">int(* ctrl)(struct spidev *spi, spi_ctrl_t cmd, void *arg)</div><div class="ttdoc">Control the SPI bus. </div><div class="ttdef"><b>Definition:</b> spi.h:86</div></div>
 <div class="ttc" id="structspidev_html_a7058b77ee83524c214267b12e6911065"><div class="ttname"><a href="structspidev.html#a7058b77ee83524c214267b12e6911065">spidev::cs</a></div><div class="ttdeci">struct gpio_pin * cs</div><div class="ttdoc">Chip select pin. </div><div class="ttdef"><b>Definition:</b> spi.h:98</div></div>
 <div class="ttc" id="structspi__msg_html_a7360b55975153b822efc5217b7734e6a"><div class="ttname"><a href="structspi__msg.html#a7360b55975153b822efc5217b7734e6a">spi_msg::len</a></div><div class="ttdeci">size_t len</div><div class="ttdoc">Length of rx and tx. </div><div class="ttdef"><b>Definition:</b> spi.h:56</div></div>
+<div class="ttc" id="structmutex__t_html"><div class="ttname"><a href="structmutex__t.html">mutex_t</a></div><div class="ttdoc">Recursive mutex data structure. </div><div class="ttdef"><b>Definition:</b> mutex.h:36</div></div>
 <div class="ttc" id="device_8h_html"><div class="ttname"><a href="device_8h.html">device.h</a></div></div>
 <div class="ttc" id="structgpio__pin_html"><div class="ttname"><a href="structgpio__pin.html">gpio_pin</a></div><div class="ttdoc">GPIO pin descriptor. </div><div class="ttdef"><b>Definition:</b> gpio.h:41</div></div>
 <div class="ttc" id="structspi__driver_html_a493b57f443cc38b3d3df9c1e584d9d82"><div class="ttname"><a href="structspi__driver.html#a493b57f443cc38b3d3df9c1e584d9d82">spi_driver::timeout</a></div><div class="ttdeci">int timeout</div><div class="ttdoc">Transmission timeout. </div><div class="ttdef"><b>Definition:</b> spi.h:67</div></div>
@@ -264,7 +265,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 17 2017 15:21:41 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

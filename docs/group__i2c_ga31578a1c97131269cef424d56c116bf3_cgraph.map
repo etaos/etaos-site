@@ -1,3 +1,5 @@
 <map id="i2c_init_bus" name="i2c_init_bus">
-<area shape="rect" id="node2" href="$list_8h.html#a1a568374cf24e55d65a537408bd323e4" title="Dynamic list initialiser. " alt="" coords="144,5,243,32"/>
+<area shape="rect" id="node2" href="$group__mutex.html#ga863625fd3252b5ebdadafaa6509ddb6d" title="Initialise a mutex. " alt="" coords="152,5,235,32"/>
+<area shape="rect" id="node4" href="$list_8h.html#a1a568374cf24e55d65a537408bd323e4" title="Dynamic list initialiser. " alt="" coords="144,56,243,83"/>
+<area shape="rect" id="node3" href="$group__thread.html#ga512d7ca8d457038cebefec83b3b02065" title="Initialise a thread queue during run time. " alt="" coords="291,5,415,32"/>
 </map>

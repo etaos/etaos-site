@@ -6,7 +6,7 @@ var searchData=
   ['clients',['clients',['../structi2c__bus.html#a74c85a085f2b500b65e8869e0be43bbf',1,'i2c_bus']]],
   ['clk',['clk',['../structspi__driver.html#ab83892a0c4877cd9fdd0498126f20d19',1,'spi_driver']]],
   ['close',['close',['../structdev__file__ops.html#a70bda09c35e076caf11ff355fcfdc515',1,'dev_file_ops::close()'],['../structfile.html#a70bda09c35e076caf11ff355fcfdc515',1,'file::close()'],['../structfs__driver.html#a70bda09c35e076caf11ff355fcfdc515',1,'fs_driver::close()']]],
-  ['count',['count',['../structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c',1,'clocksource']]],
+  ['count',['count',['../structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c',1,'clocksource::count()'],['../structmutex__t.html#ad43c3812e6d13e0518d9f8b8f463ffcf',1,'mutex_t::count()']]],
   ['cpu_5fstate',['cpu_state',['../structthread.html#acd2b8f4bb987e94927841856b321e1b6',1,'thread']]],
   ['cputime',['cputime',['../structthread.html#ab45abffba6809ffb0f625bb4da52364d',1,'thread']]],
   ['cs',['cs',['../structspidev.html#a7058b77ee83524c214267b12e6911065',1,'spidev']]],

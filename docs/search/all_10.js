@@ -6,5 +6,5 @@ var searchData=
   ['opendir',['opendir',['../group__libc.html#ga7157e0c57bb7ed85b9301378fce2444d',1,'opendir(const char *dirname):&#160;opendir.c'],['../group__libc.html#ga7157e0c57bb7ed85b9301378fce2444d',1,'opendir(const char *dirname):&#160;opendir.c']]],
   ['operator_5b_5d',['operator[]',['../class_e_e_p_r_o_m.html#a352c28b8704152967e90fd912df71e40',1,'EEPROM::operator[]()'],['../group__stl.html#ga352c28b8704152967e90fd912df71e40',1,'SRAM::operator[]()']]],
   ['ord',['ord',['../group__python-builtin.html#ga468dd299e29007c55f9da7bf67ccb943',1,'__bi']]],
-  ['owner',['owner',['../structirq__thread__data.html#ad275bd1847bd44836e6e39e789e59f6e',1,'irq_thread_data']]]
+  ['owner',['owner',['../structirq__thread__data.html#ad275bd1847bd44836e6e39e789e59f6e',1,'irq_thread_data::owner()'],['../structmutex__t.html#ad275bd1847bd44836e6e39e789e59f6e',1,'mutex_t::owner()']]]
 ];

@@ -155,7 +155,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        </div>
 <div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="structi2c__bus.html#a1e6b395d5b77e914747167dcddfce938">   85</a></span>&#160;        int (*<a class="code" href="structi2c__bus.html#a1e6b395d5b77e914747167dcddfce938">ctrl</a>)(<span class="keyword">struct </span><a class="code" href="structi2c__bus.html">i2c_bus</a> *bus, <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> reg, <span class="keywordtype">void</span> *value);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="structi2c__bus.html#af302237f7e2352081ec19fe14f11a646">   87</a></span>&#160;        mutex_t <a class="code" href="structi2c__bus.html#af302237f7e2352081ec19fe14f11a646">lock</a>; </div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="structi2c__bus.html#af302237f7e2352081ec19fe14f11a646">   87</a></span>&#160;        <a class="code" href="structmutex__t.html">mutex_t</a> <a class="code" href="structi2c__bus.html#af302237f7e2352081ec19fe14f11a646">lock</a>; </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;};</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="structi2c__client.html">   95</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structi2c__client.html">i2c_client</a> {</div>
@@ -249,6 +249,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structi2c__device__info_html_a2f0794927fc4a44f61d6eeaaa01d8465"><div class="ttname"><a href="structi2c__device__info.html#a2f0794927fc4a44f61d6eeaaa01d8465">i2c_device_info::fops</a></div><div class="ttdeci">struct dev_file_ops fops</div><div class="ttdoc">Device file operations. </div><div class="ttdef"><b>Definition:</b> i2c.h:111</div></div>
 <div class="ttc" id="structi2c__msg_html_a103fe1fcacccda7d9cdacde44721faef"><div class="ttname"><a href="structi2c__msg.html#a103fe1fcacccda7d9cdacde44721faef">i2c_msg::idx</a></div><div class="ttdeci">size_t idx</div><div class="ttdoc">Index in buff, internal use only. </div><div class="ttdef"><b>Definition:</b> i2c.h:58</div></div>
 <div class="ttc" id="structi2c__device__info_html_a8f8f80d37794cde9472343e4487ba3eb"><div class="ttname"><a href="structi2c__device__info.html#a8f8f80d37794cde9472343e4487ba3eb">i2c_device_info::name</a></div><div class="ttdeci">const char * name</div><div class="ttdoc">Device name. </div><div class="ttdef"><b>Definition:</b> i2c.h:108</div></div>
+<div class="ttc" id="structmutex__t_html"><div class="ttname"><a href="structmutex__t.html">mutex_t</a></div><div class="ttdoc">Recursive mutex data structure. </div><div class="ttdef"><b>Definition:</b> mutex.h:36</div></div>
 <div class="ttc" id="group__i2c_html_gga959f71dc73216bb24a1640a4ea619522ad2c694d9f11c6ae20a28e90df0d2ca88"><div class="ttname"><a href="group__i2c.html#gga959f71dc73216bb24a1640a4ea619522ad2c694d9f11c6ae20a28e90df0d2ca88">I2C_SET_SPEED</a></div><div class="ttdoc">Set the speed of an I2C bus. </div><div class="ttdef"><b>Definition:</b> i2c.h:44</div></div>
 <div class="ttc" id="device_8h_html"><div class="ttname"><a href="device_8h.html">device.h</a></div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_a273cf69d639a59973b6019625df33e30"><div class="ttname"><a href="include_2etaos_2types_8h.html#a273cf69d639a59973b6019625df33e30">uint16_t</a></div><div class="ttdeci">unsigned short uint16_t</div><div class="ttdoc">Unsigned 16-bit integer. </div><div class="ttdef"><b>Definition:</b> types.h:55</div></div>
@@ -271,7 +272,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 17 2017 15:21:41 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

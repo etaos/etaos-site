@@ -130,7 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structusart.html">   40</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structusart.html">usart</a> {</div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structusart.html#a493b57f443cc38b3d3df9c1e584d9d82">   41</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structusart.html#a493b57f443cc38b3d3df9c1e584d9d82">timeout</a>; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        mutex_t rx, tx;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="structmutex__t.html">mutex_t</a> rx, tx;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="structusart.html#adfc9dbc9a621f3bed34215a242da5fd7">   44</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structdevice.html">device</a> <a class="code" href="structusart.html#adfc9dbc9a621f3bed34215a242da5fd7">dev</a>; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
@@ -160,6 +160,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:55</div></div>
 <div class="ttc" id="structusart_html_a183c2dbca2436692b2873763ebbe25c3"><div class="ttname"><a href="structusart.html#a183c2dbca2436692b2873763ebbe25c3">usart::write</a></div><div class="ttdeci">int(* write)(struct usart *uart, const void *tx, size_t txlen)</div><div class="ttdoc">Write to the USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:52</div></div>
 <div class="ttc" id="structusart_html_aa00ced81deecb3716c3cc31fc5e069f2"><div class="ttname"><a href="structusart.html#aa00ced81deecb3716c3cc31fc5e069f2">usart::putc</a></div><div class="ttdeci">int(* putc)(struct usart *uart, int c)</div><div class="ttdoc">Write a single byte to the USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:60</div></div>
+<div class="ttc" id="structmutex__t_html"><div class="ttname"><a href="structmutex__t.html">mutex_t</a></div><div class="ttdoc">Recursive mutex data structure. </div><div class="ttdef"><b>Definition:</b> mutex.h:36</div></div>
 <div class="ttc" id="structusart_html_a1ba5588c95558238d0a5fdbcce1bf7b1"><div class="ttname"><a href="structusart.html#a1ba5588c95558238d0a5fdbcce1bf7b1">usart::getc</a></div><div class="ttdeci">int(* getc)(struct usart *uart)</div><div class="ttdoc">Read a single byte from the USART. </div><div class="ttdef"><b>Definition:</b> usart.h:66</div></div>
 <div class="ttc" id="device_8h_html"><div class="ttname"><a href="device_8h.html">device.h</a></div></div>
 <div class="ttc" id="structusart_html_a150aa721cb1b5d3a88b0fba83d55704d"><div class="ttname"><a href="structusart.html#a150aa721cb1b5d3a88b0fba83d55704d">usart::read</a></div><div class="ttdeci">int(* read)(struct usart *uart, void *rx, size_t len)</div><div class="ttdoc">Read from a USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:73</div></div>
@@ -174,7 +175,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 15 2017 21:28:13 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 17 2017 15:21:41 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

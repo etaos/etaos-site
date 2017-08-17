@@ -104,6 +104,7 @@ var searchData=
   ['stack_5fsize',['stack_size',['../structthread.html#a83dd59dda8568c45f603e4c4b50d2e33',1,'thread::stack_size()'],['../structthread__attr__t.html#a83dd59dda8568c45f603e4c4b50d2e33',1,'thread_attr_t::stack_size()']]],
   ['start',['start',['../group__stl.html#ga60de64d75454385b23995437f1d72669',1,'Thread']]],
   ['static_5finit_5flist_5fhead',['STATIC_INIT_LIST_HEAD',['../list_8h.html#a277588106ed48ac5d22b678723f63fe2',1,'list.h']]],
+  ['static_5fmutex_5finit',['STATIC_MUTEX_INIT',['../group__mutex.html#ga9d3d497a4eb69e1447a6914d6315c38a',1,'mutex.h']]],
   ['stime',['stime',['../group__libctime.html#gab3b4bc501fc6be8bf0f654f06e4710f1',1,'time.c']]],
   ['strcat',['strcat',['../group__libc.html#ga34faed0b162387a0d9f7e706a9b9e5fa',1,'strcat(char *src, const char *dst):&#160;strcat.c'],['../group__libc.html#ga34faed0b162387a0d9f7e706a9b9e5fa',1,'strcat(char *dst, const char *src):&#160;strcat.c']]],
   ['strchr',['strchr',['../group__libc.html#gafcd97f487174f9092b0f23c7ac78a55a',1,'strchr(const char *str, int c):&#160;strchr.c'],['../group__libc.html#gafcd97f487174f9092b0f23c7ac78a55a',1,'strchr(const char *str, int c):&#160;strchr.c']]],

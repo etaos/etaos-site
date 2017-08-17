@@ -24,5 +24,11 @@ var searchData=
   ['mm_5fworst_5ffit_5falloc',['mm_worst_fit_alloc',['../group__wf.html#gaedb42b4101d5e5e8e41658b352ee2660',1,'mm_worst_fit_alloc(size_t size):&#160;worst-fit.c'],['../group__wf.html#gaedb42b4101d5e5e8e41658b352ee2660',1,'mm_worst_fit_alloc(size_t size):&#160;worst-fit.c']]],
   ['mm_5fworst_5ffit_5fcompare',['mm_worst_fit_compare',['../group__wf.html#ga6a5278354282a5cebd97c579f70d7567',1,'mm_worst_fit_compare(struct heap_node *prev, struct heap_node *current):&#160;worst-fit.c'],['../group__wf.html#ga6a5278354282a5cebd97c579f70d7567',1,'mm_worst_fit_compare(struct heap_node *prev, struct heap_node *current):&#160;worst-fit.c']]],
   ['months',['months',['../classtime_1_1_time.html#a64fbca76bbeef75def13a13633895427',1,'time::Time']]],
-  ['mount',['mount',['../group__libc.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;mount.c'],['../group__libc.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;mount.c']]]
+  ['mount',['mount',['../group__libc.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;mount.c'],['../group__libc.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;mount.c']]],
+  ['mutex_5finit',['mutex_init',['../group__mutex.html#ga863625fd3252b5ebdadafaa6509ddb6d',1,'mutex.h']]],
+  ['mutex_5flock',['mutex_lock',['../group__mutex.html#ga02638427dd92f49a4357982589ae7519',1,'mutex.c']]],
+  ['mutex_5funlock',['mutex_unlock',['../group__mutex.html#ga05ccabe849d63b032f6317323da60187',1,'mutex.c']]],
+  ['mutex_5funlock_5firq',['mutex_unlock_irq',['../group__mutex.html#gafb7c3af541e65503bd7f0954a86abcc8',1,'mutex.c']]],
+  ['mutex_5fwait',['mutex_wait',['../group__mutex.html#gadd92e4fbbd2da66070996ed83639bbc4',1,'mutex.c']]],
+  ['mutex_5fwait_5ftmo',['mutex_wait_tmo',['../group__mutex.html#ga5138decf80b6a80299c369346503b7f6',1,'mutex.c']]]
 ];

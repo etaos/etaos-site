@@ -1,9 +1,10 @@
 <map id="Scheduling core" name="Scheduling core">
 <area shape="rect" id="node1" href="$group__edf.html" title="Documentation for the (virtual) earliest deadline first algorithm. " alt="" coords="348,5,499,47"/>
-<area shape="rect" id="node2" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,147,116,174"/>
+<area shape="rect" id="node2" href="$group__kernel.html" title="ETA/OS kernel API. " alt="" coords="5,173,116,199"/>
 <area shape="rect" id="node3" href="$group__lottery.html" title="Probabilistic lottery scheduling. " alt="" coords="362,71,485,98"/>
 <area shape="rect" id="node5" href="$group__fifo.html" title="First&#45;in First&#45;out scheduler. " alt="" coords="367,122,479,149"/>
 <area shape="rect" id="node6" href="$group__ipm.html" title="Inter&#45;Process messages. " alt="" coords="327,173,520,199"/>
-<area shape="rect" id="node7" href="$group__rr.html" title="The round robin scheduling algorithm. " alt="" coords="347,223,499,250"/>
-<area shape="rect" id="node8" href="$group__preempt.html" title="Preemption API. " alt="" coords="379,274,467,301"/>
+<area shape="rect" id="node7" href="$group__mutex.html" title="Thread synchronization support. " alt="" coords="363,223,484,250"/>
+<area shape="rect" id="node8" href="$group__rr.html" title="The round robin scheduling algorithm. " alt="" coords="347,274,499,301"/>
+<area shape="rect" id="node9" href="$group__preempt.html" title="Preemption API. " alt="" coords="379,325,467,351"/>
 </map>

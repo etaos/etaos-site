@@ -33,7 +33,7 @@ var searchData=
   ['copyright',['Copyright',['../copying.html',1,'']]],
   ['core_2ec',['core.c',['../kernel_2sched_2core_8c.html',1,'']]],
   ['cos',['cos',['../group__math.html#ga542f5e42e0d3b5df63de0e34ec06bb40',1,'math.h']]],
-  ['count',['count',['../structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c',1,'clocksource::count()'],['../group__python-list.html#ga6f68e784976582e93cda71a7309a798e',1,'list.count()'],['../group__python-string.html#gad6aec6f0982de66a4c1d3e737bc9ee80',1,'string.count()']]],
+  ['count',['count',['../structclocksource.html#a5adffc9b8f555f4c611ad1fc874a205c',1,'clocksource::count()'],['../structmutex__t.html#ad43c3812e6d13e0518d9f8b8f463ffcf',1,'mutex_t::count()'],['../group__python-list.html#ga6f68e784976582e93cda71a7309a798e',1,'list.count()'],['../group__python-string.html#gad6aec6f0982de66a4c1d3e737bc9ee80',1,'string.count()']]],
   ['cpu',['CPU',['../class_c_p_u.html',1,'CPU'],['../namespacecpu.html',1,'cpu']]],
   ['cpu_2eh',['cpu.h',['../cpu_8h.html',1,'']]],
   ['cpu_2eh',['cpu.h',['../stl_2cpu_8h.html',1,'']]],

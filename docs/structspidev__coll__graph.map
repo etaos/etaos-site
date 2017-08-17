@@ -1,10 +1,19 @@
 <map id="spidev" name="spidev">
-<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="485,79,560,156"/>
-<area shape="rect" id="node5" href="$structdevice.html" title="Device driver descriptor. " alt="" coords="315,343,402,465"/>
-<area shape="rect" id="node9" href="$structspi__driver.html" title="SPI driver structure. Represents an SPI bus. " alt="" coords="577,329,655,479"/>
-<area shape="rect" id="node3" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="727,71,798,163"/>
-<area shape="rect" id="node4" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="679,321,806,487"/>
-<area shape="rect" id="node6" href="$structplatform__device.html" title="Platform device structure. " alt="" coords="5,71,120,163"/>
-<area shape="rect" id="node7" href="$structfile.html" title="File definition. " alt="" coords="144,5,251,229"/>
-<area shape="rect" id="node8" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="337,79,434,156"/>
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="209,5,284,83"/>
+<area shape="rect" id="node5" href="$structdevice.html" title="Device driver descriptor. " alt="" coords="533,1432,619,1539"/>
+<area shape="rect" id="node9" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="488,329,595,597"/>
+<area shape="rect" id="node10" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="323,145,410,267"/>
+<area shape="rect" id="node11" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="245,381,337,546"/>
+<area shape="rect" id="node13" href="$structrq.html" title="Run queue descriptor. " alt="" coords="283,917,394,1024"/>
+<area shape="rect" id="node18" href="$structspi__driver.html" title="SPI driver structure. Represents an SPI bus. " alt="" coords="935,1417,1014,1553"/>
+<area shape="rect" id="node3" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="1130,1153,1201,1245"/>
+<area shape="rect" id="node4" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="1194,1403,1321,1568"/>
+<area shape="rect" id="node6" href="$structmutex__t.html" title="Recursive mutex data structure. " alt="" coords="712,1160,781,1237"/>
+<area shape="rect" id="node7" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="697,932,797,1009"/>
+<area shape="rect" id="node8" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="579,675,698,855"/>
+<area shape="rect" id="node12" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="819,726,901,803"/>
+<area shape="rect" id="node14" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="283,726,331,803"/>
+<area shape="rect" id="node15" href="$structplatform__device.html" title="Platform device structure. " alt="" coords="259,1153,373,1245"/>
+<area shape="rect" id="node16" href="$structfile.html" title="File definition. " alt="" coords="397,1087,504,1311"/>
+<area shape="rect" id="node17" href="$structsync__t.html" title="Synchronization lock type. " alt="" coords="590,1160,687,1237"/>
 </map>
