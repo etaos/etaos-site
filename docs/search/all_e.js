@@ -1,9 +1,10 @@
 var searchData=
 [
   ['message_20queue_20management',['Message queue management',['../group__ipm.html',1,'']]],
+  ['malloc',['malloc',['../group__libc.html#gae7b142b904e0ed204c178255fdd9c66b',1,'stdlib.h']]],
   ['map',['map',['../group__python-builtin.html#gad7d6a1a1a735c43396c981f33674cd48',1,'__bi']]],
   ['master',['master',['../structspidev.html#a3f30b6beb1a638ead20598be6c165fb2',1,'spidev']]],
-  ['math_20library',['Math library',['../group__math.html',1,'']]],
+  ['math',['math',['../namespacemath.html',1,'math'],['../group__math.html',1,'(Global Namespace)']]],
   ['max_5fopen',['MAX_OPEN',['../group__libcio.html#ga292e0ac17a826bd96b134079979fffa9',1,'stdio.h']]],
   ['mem_2eh',['mem.h',['../mem_8h.html',1,'']]],
   ['memchr',['memchr',['../group__libc.html#ga16d6b0bd660cc3f9910924c6b6f4af8e',1,'memchr(const void *s, int c, size_t n):&#160;memchr.c'],['../group__libc.html#ga16d6b0bd660cc3f9910924c6b6f4af8e',1,'memchr(const void *s, int c, size_t n):&#160;memchr.c']]],
@@ -32,6 +33,7 @@ var searchData=
   ['mm_5fnode_5fsize',['mm_node_size',['../group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1',1,'mm_node_size(void *ptr):&#160;heap.c'],['../group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1',1,'mm_node_size(void *ptr):&#160;heap.c']]],
   ['mm_5fworst_5ffit_5falloc',['mm_worst_fit_alloc',['../group__wf.html#gaedb42b4101d5e5e8e41658b352ee2660',1,'mm_worst_fit_alloc(size_t size):&#160;worst-fit.c'],['../group__wf.html#gaedb42b4101d5e5e8e41658b352ee2660',1,'mm_worst_fit_alloc(size_t size):&#160;worst-fit.c']]],
   ['mm_5fworst_5ffit_5fcompare',['mm_worst_fit_compare',['../group__wf.html#ga6a5278354282a5cebd97c579f70d7567',1,'mm_worst_fit_compare(struct heap_node *prev, struct heap_node *current):&#160;worst-fit.c'],['../group__wf.html#ga6a5278354282a5cebd97c579f70d7567',1,'mm_worst_fit_compare(struct heap_node *prev, struct heap_node *current):&#160;worst-fit.c']]],
+  ['mod',['mod',['../group__python-math.html#gade2d46e3f2a4cfa41544e0b3a2e45b20',1,'math']]],
   ['module_5finit',['module_init',['../group__kern-init.html#ga3035e2f9c636eda870dd0cf2cf5ac6f3',1,'init.h']]],
   ['months',['months',['../classtime_1_1_time.html#a64fbca76bbeef75def13a13633895427',1,'time::Time']]],
   ['mosi',['mosi',['../structspi__driver.html#a3d3367378616f37e3ec399b2a9e4eb3e',1,'spi_driver']]],
@@ -44,5 +46,6 @@ var searchData=
   ['mutex_5funlock_5firq',['mutex_unlock_irq',['../group__mutex.html#gafb7c3af541e65503bd7f0954a86abcc8',1,'mutex.c']]],
   ['mutex_5fwait',['mutex_wait',['../group__mutex.html#gadd92e4fbbd2da66070996ed83639bbc4',1,'mutex.c']]],
   ['mutex_5fwait_5ftmo',['mutex_wait_tmo',['../group__mutex.html#ga5138decf80b6a80299c369346503b7f6',1,'mutex.c']]],
+  ['mathematical_20functions',['Mathematical functions',['../group__python-math.html',1,'']]],
   ['micro_20rom_20file_20system',['Micro ROM file system',['../group__romfs.html',1,'']]]
 ];

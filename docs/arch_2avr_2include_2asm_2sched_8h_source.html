@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.1</a>
+                        <a class="navbar-brand">5.1.0</a>
 		    </div>
 	        </div>
             </div>
@@ -128,7 +128,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;asm/io.h&gt;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;CDECL</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> avr_save_stack(stack_t *<a class="code" href="structthread.html#afc0da95553742561773d762fa905fdab">stack</a>, <span class="keyword">struct</span> <a class="code" href="structthread.html">thread</a> *current);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> avr_save_stack(stack_t *stack, <span class="keyword">struct</span> <a class="code" href="structthread.html">thread</a> *current);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> avr_switch_context(stack_t *s, <span class="keyword">struct</span> <a class="code" href="structthread.html">thread</a> *tp);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">extern</span> <span class="keyword">struct </span><a class="code" href="structrq.html">rq</a> *<a class="code" href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe">sched_get_cpu_rq</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
@@ -141,7 +141,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="structthread_html"><div class="ttname"><a href="structthread.html">thread</a></div><div class="ttdoc">Thread descriptor.All information available for a thread is stored in this structure. </div><div class="ttdef"><b>Definition:</b> thread.h:139</div></div>
-<div class="ttc" id="structthread_html_afc0da95553742561773d762fa905fdab"><div class="ttname"><a href="structthread.html#afc0da95553742561773d762fa905fdab">thread::stack</a></div><div class="ttdeci">void * stack</div><div class="ttdoc">Root stack pointer. </div><div class="ttdef"><b>Definition:</b> thread.h:159</div></div>
 <div class="ttc" id="group__arch_a_p_i_html_ga224ed7aae41f53a7d6f579ebbf3ba7fe"><div class="ttname"><a href="group__arch_a_p_i.html#ga224ed7aae41f53a7d6f579ebbf3ba7fe">sched_get_cpu_rq</a></div><div class="ttdeci">struct rq * sched_get_cpu_rq(void)</div><div class="ttdoc">Get the run queue of the current CPU. </div><div class="ttdef"><b>Definition:</b> sched.c:53</div></div>
 <div class="ttc" id="structrq_html"><div class="ttname"><a href="structrq.html">rq</a></div><div class="ttdoc">Run queue descriptor. </div><div class="ttdef"><b>Definition:</b> sched.h:165</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html"><div class="ttname"><a href="include_2etaos_2types_8h.html">types.h</a></div></div>
@@ -154,7 +153,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 17 2017 15:21:41 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 17 2017 20:47:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

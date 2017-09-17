@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.1</a>
+                        <a class="navbar-brand">5.1.0</a>
 		    </div>
 	        </div>
             </div>
@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -108,6 +109,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga9ce218e4748ae86da44c04136f8a0b54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edf.html#ga9ce218e4748ae86da44c04136f8a0b54">edf_prio_ratio</a>(__p)&#160;&#160;&#160;(((13 * __p) / 24) + 10)</td></tr>
+<tr class="memdesc:ga9ce218e4748ae86da44c04136f8a0b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the EDF priority ratio.  <a href="#ga9ce218e4748ae86da44c04136f8a0b54">More...</a><br /></td></tr>
+<tr class="separator:ga9ce218e4748ae86da44c04136f8a0b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga7d3603bad1d55ac391f4236f3c254d96"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edf.html#ga7d3603bad1d55ac391f4236f3c254d96">edf_calc_ratio</a> (unsigned char prio)</td></tr>
@@ -137,15 +144,18 @@ Functions</h2></td></tr>
 <tr class="memitem:gaeeff9109092b6c95569eee4c692f345f"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structthread.html">thread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edf.html#gaeeff9109092b6c95569eee4c692f345f">edf_next_runnable</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>)</td></tr>
 <tr class="memdesc:gaeeff9109092b6c95569eee4c692f345f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next runnable thread on the run queue.  <a href="#gaeeff9109092b6c95569eee4c692f345f">More...</a><br /></td></tr>
 <tr class="separator:gaeeff9109092b6c95569eee4c692f345f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa4478c4a5442ff99b13ed0f467f7a719"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edf.html#gaa4478c4a5442ff99b13ed0f467f7a719">edf_preempt_chk</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *cur, struct <a class="el" href="structthread.html">thread</a> *nxt)</td></tr>
-<tr class="memdesc:gaa4478c4a5442ff99b13ed0f467f7a719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current thread should be preempted.  <a href="#gaa4478c4a5442ff99b13ed0f467f7a719">More...</a><br /></td></tr>
-<tr class="separator:gaa4478c4a5442ff99b13ed0f467f7a719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad43f54587a8933dd741a163815213305"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edf.html#gad43f54587a8933dd741a163815213305">edf_preempt_check</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *cur, struct <a class="el" href="structthread.html">thread</a> *nxt)</td></tr>
+<tr class="memdesc:gad43f54587a8933dd741a163815213305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current thread should be preempted.  <a href="#gad43f54587a8933dd741a163815213305">More...</a><br /></td></tr>
+<tr class="separator:gad43f54587a8933dd741a163815213305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga16601b567c27a761d179fbb762e59c28"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="structthread.html">thread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edf.html#ga16601b567c27a761d179fbb762e59c28">edf_thread_after</a> (struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
 <tr class="memdesc:ga16601b567c27a761d179fbb762e59c28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next runnable thread after <code>tp</code>.  <a href="#ga16601b567c27a761d179fbb762e59c28">More...</a><br /></td></tr>
 <tr class="separator:ga16601b567c27a761d179fbb762e59c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:ga80fe707c4ccca1c8ce25ce70dba407e0"><td class="memItemLeft" align="right" valign="top">static const unsigned char __pgm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edf.html#ga80fe707c4ccca1c8ce25ce70dba407e0">__prio_array</a> []</td></tr>
+<tr class="memdesc:ga80fe707c4ccca1c8ce25ce70dba407e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">EDF priority lookup table.  <a href="#ga80fe707c4ccca1c8ce25ce70dba407e0">More...</a><br /></td></tr>
+<tr class="separator:ga80fe707c4ccca1c8ce25ce70dba407e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4b488aff64490029135f4b78e523b07f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4b488aff64490029135f4b78e523b07f"></a>
 struct <a class="el" href="structsched__class.html">sched_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__edf.html#ga4b488aff64490029135f4b78e523b07f">edf_class</a></td></tr>
 <tr class="memdesc:ga4b488aff64490029135f4b78e523b07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">EDF scheduling class. <br /></td></tr>
@@ -164,16 +174,41 @@ Prinicple</h1>
 <h1><a class="anchor" id="prios"></a>
 Priorities</h1>
 <p>Priorities can be handled by using so called <em>priority</em> <em>ratios</em>. A priority is calculated using the nice value of a thread with the following formula:</p>
-<p><img class="formulaInl" alt="$f(p) = \frac{13p}{24} + 10$" src="form_10.png"/></p>
+<p><img class="formulaInl" alt="$f(p) = \frac{13p}{24} + 10$" src="form_11.png"/></p>
 <p>Where:</p><ul>
 <li>p is the nice value of the thread</li>
 </ul>
 <p>The actual deadline can then be calculated using:</p>
-<p><img class="formulaInl" alt="$D = t + f(p)$" src="form_11.png"/></p>
+<p><img class="formulaInl" alt="$D = t + f(p)$" src="form_12.png"/></p>
 <p>Where:</p><ul>
 <li>D is the deadline</li>
 <li>t is currently tick on the scheduling clock </li>
 </ul>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="ga9ce218e4748ae86da44c04136f8a0b54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define edf_prio_ratio</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">__p</td><td>)</td>
+          <td>&#160;&#160;&#160;(((13 * __p) / 24) + 10)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the EDF priority ratio. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">__p</td><td>priority to calculate the ratio for. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="gac1ee462fb5be9d722da7e3af2d7a7463"></a>
 <div class="memitem">
@@ -294,11 +329,11 @@ Priorities</h1>
 <dl class="section return"><dt>Returns</dt><dd>The priority ratio for <code>pio</code>.</dd></dl>
 <p>The priority ratio is calculated using the following formula:<br />
 <br />
- <img class="formulaInl" alt="$f(p) = \frac{13}{24}p + 10$" src="form_7.png"/><br />
+ <img class="formulaInl" alt="$f(p) = \frac{13}{24}p + 10$" src="form_8.png"/><br />
 <br />
 Where:</p><ul>
-<li><img class="formulaInl" alt="$f(p)$" src="form_8.png"/> is the priority ratio</li>
-<li><img class="formulaInl" alt="$p$" src="form_9.png"/> is the nice value </li>
+<li><img class="formulaInl" alt="$f(p)$" src="form_9.png"/> is the priority ratio</li>
+<li><img class="formulaInl" alt="$p$" src="form_10.png"/> is the nice value </li>
 </ul>
 
 </div>
@@ -353,7 +388,7 @@ Where:</p><ul>
 
 </div>
 </div>
-<a class="anchor" id="gaa4478c4a5442ff99b13ed0f467f7a719"></a>
+<a class="anchor" id="gad43f54587a8933dd741a163815213305"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -361,7 +396,7 @@ Where:</p><ul>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a> edf_preempt_chk </td>
+          <td class="memname">static <a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a> edf_preempt_check </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structrq.html">rq</a> *&#160;</td>
           <td class="paramname"><em>rq</em>, </td>
@@ -408,9 +443,9 @@ Where:</p><ul>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__edf_gaa4478c4a5442ff99b13ed0f467f7a719_cgraph.png" border="0" usemap="#group__edf_gaa4478c4a5442ff99b13ed0f467f7a719_cgraph" alt=""/></div>
-<map name="group__edf_gaa4478c4a5442ff99b13ed0f467f7a719_cgraph" id="group__edf_gaa4478c4a5442ff99b13ed0f467f7a719_cgraph">
-<area shape="rect" id="node2" href="group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463" title="Get the deadline from a round robin entity. " alt="" coords="176,5,247,32"/></map>
+<div class="center"><img src="group__edf_gad43f54587a8933dd741a163815213305_cgraph.png" border="0" usemap="#group__edf_gad43f54587a8933dd741a163815213305_cgraph" alt=""/></div>
+<map name="group__edf_gad43f54587a8933dd741a163815213305_cgraph" id="group__edf_gad43f54587a8933dd741a163815213305_cgraph">
+<area shape="rect" id="node2" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="192,5,257,32"/><area shape="rect" id="node3" href="group__edf.html#gac1ee462fb5be9d722da7e3af2d7a7463" title="Get the deadline from a round robin entity. " alt="" coords="189,56,260,83"/></map>
 </div>
 </p>
 
@@ -701,6 +736,30 @@ Where:</p><ul>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ga80fe707c4ccca1c8ce25ce70dba407e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const unsigned char __pgm __prio_array[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>EDF priority lookup table. </p>
+<p>Lookup table for EDF priority time offsets. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -710,7 +769,7 @@ Where:</p><ul>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 17 2017 15:21:42 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 17 2017 20:47:03 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

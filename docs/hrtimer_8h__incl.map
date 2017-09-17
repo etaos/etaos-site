@@ -1,17 +1,20 @@
 <map id="include/etaos/hrtimer.h" name="include/etaos/hrtimer.h">
-<area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="656,379,760,405"/>
-<area shape="rect" id="node8" href="$list_8h.html" title="etaos/list.h" alt="" coords="746,229,833,256"/>
-<area shape="rect" id="node9" href="$include_2etaos_2timer_8h_source.html" title="etaos/timer.h" alt="" coords="340,80,439,107"/>
-<area shape="rect" id="node16" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="639,155,777,181"/>
-<area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="792,453,936,480"/>
-<area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="163,453,264,480"/>
-<area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="519,453,625,480"/>
-<area shape="rect" id="node7" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="649,453,767,480"/>
-<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="166,528,261,555"/>
-<area shape="rect" id="node10" href="$include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="93,304,176,331"/>
-<area shape="rect" id="node11" href="$spinlock_8h.html" title="etaos/spinlock.h" alt="" coords="331,229,448,256"/>
-<area shape="rect" id="node14" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="223,155,331,181"/>
-<area shape="rect" id="node12" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="351,304,467,331"/>
-<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="251,304,327,331"/>
-<area shape="rect" id="node15" href="$arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="165,229,267,256"/>
+<area shape="rect" id="node2" href="$kernel_8h.html" title="etaos/kernel.h" alt="" coords="823,528,927,555"/>
+<area shape="rect" id="node8" href="$list_8h.html" title="etaos/list.h" alt="" coords="926,453,1013,480"/>
+<area shape="rect" id="node9" href="$include_2etaos_2timer_8h_source.html" title="etaos/timer.h" alt="" coords="617,80,716,107"/>
+<area shape="rect" id="node19" href="$clocksource_8h_source.html" title="etaos/clocksource.h" alt="" coords="755,379,893,405"/>
+<area shape="rect" id="node3" href="$autoconf_8h_source.html" title="generated/autoconf.h" alt="" coords="959,603,1103,629"/>
+<area shape="rect" id="node4" href="$include_2etaos_2types_8h.html" title="etaos/types.h" alt="" coords="367,603,468,629"/>
+<area shape="rect" id="node6" href="$stddef_8h_source.html" title="etaos/stddef.h" alt="" coords="686,603,791,629"/>
+<area shape="rect" id="node7" href="$compiler_8h_source.html" title="etaos/compiler.h" alt="" coords="815,603,934,629"/>
+<area shape="rect" id="node5" href="$arch_2avr_2include_2asm_2types_8h_source.html" title="asm/types.h" alt="" coords="370,677,465,704"/>
+<area shape="rect" id="node10" href="$include_2etaos_2irq_8h_source.html" title="etaos/irq.h" alt="" coords="480,155,563,181"/>
+<area shape="rect" id="node11" href="$spinlock_8h.html" title="etaos/spinlock.h" alt="" coords="531,453,648,480"/>
+<area shape="rect" id="node17" href="$include_2etaos_2atomic_8h_source.html" title="etaos/atomic.h" alt="" coords="195,453,303,480"/>
+<area shape="rect" id="node14" href="$include_2etaos_2bitops_8h.html" title="etaos/bitops.h" alt="" coords="424,229,528,256"/>
+<area shape="rect" id="node12" href="$preempt_8h.html" title="etaos/preempt.h" alt="" coords="531,528,647,555"/>
+<area shape="rect" id="node13" href="$arch_2avr_2include_2asm_2irq_8h_source.html" title="asm/irq.h" alt="" coords="671,528,747,555"/>
+<area shape="rect" id="node15" href="$arch_2avr_2include_2asm_2bitops_8h.html" title="asm/bitops.h" alt="" coords="429,304,526,331"/>
+<area shape="rect" id="node16" href="$etaos_2stdio_8h_source.html" title="etaos/stdio.h" alt="" coords="430,379,527,405"/>
+<area shape="rect" id="node18" href="$arch_2avr_2include_2asm_2atomic_8h_source.html" title="asm/atomic.h" alt="" coords="147,528,248,555"/>
 </map>

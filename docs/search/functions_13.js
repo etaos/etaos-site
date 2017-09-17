@@ -20,6 +20,7 @@ var searchData=
   ['sched_5fswitch_5fcount',['sched_switch_count',['../group__sched.html#gaf73c5dc7cda9379cb9e99169b92dbbee',1,'core.c']]],
   ['sched_5fyield',['sched_yield',['../group__sched.html#ga16b0328d8a4b4db8c6eb2733218d625e',1,'core.c']]],
   ['schedule',['schedule',['../group__stl.html#gac48128e72b303ea22d8ec641a9516b15',1,'Kernel::schedule()'],['../group__preempt.html#gac48128e72b303ea22d8ec641a9516b15',1,'schedule(void):&#160;core.c'],['../group__sched.html#gac48128e72b303ea22d8ec641a9516b15',1,'schedule(void):&#160;core.c']]],
+  ['schedule_5fdecide',['schedule_decide',['../group__sched.html#gaf1e5f36155c3619302723e71d64d3e55',1,'core.c']]],
   ['seconds',['seconds',['../classtime_1_1_time.html#a12cb0bd410bf2f0407934d0eda227e8a',1,'time::Time']]],
   ['sem_5finit',['sem_init',['../group__sem.html#ga7a1c7cb29452e2e54a628a0d5cfd04ed',1,'semaphore.c']]],
   ['sem_5fsignal',['sem_signal',['../group__sem.html#gad994e433f3a6bf8626272437cb54c114',1,'semaphore.c']]],
@@ -31,7 +32,7 @@ var searchData=
   ['should_5fresched',['should_resched',['../group__preempt.html#gada97a499438abc44548acb43e582dc73',1,'should_resched(void):&#160;core.c'],['../group__sched.html#gada97a499438abc44548acb43e582dc73',1,'should_resched(void):&#160;core.c']]],
   ['should_5fresched_5fcputime',['should_resched_cputime',['../group__sched.html#ga334da66e6883352ef369f85803eefec4',1,'core.c']]],
   ['signal',['signal',['../group__stl.html#ga72afa09255d40fb4ffbcbfd008daec44',1,'Kernel::signal()'],['../group__thread.html#ga72afa09255d40fb4ffbcbfd008daec44',1,'signal():&#160;thread.c']]],
-  ['sin',['sin',['../group__math.html#ga46e799ece7e1dd323d22cdb53c81cd73',1,'math.h']]],
+  ['sin',['sin',['../group__math.html#ga46e799ece7e1dd323d22cdb53c81cd73',1,'sin():&#160;math.h'],['../group__python-math.html#ga7cc4075568126f17e39133ed5fab6091',1,'math.sin()']]],
   ['sleep',['sleep',['../group__stl.html#ga41adeb31ed2f82e869d0feef0cdcea34',1,'Kernel::sleep()'],['../group__thread.html#gad6030c18a18c28e7b660172bf521b384',1,'sleep():&#160;thread.c']]],
   ['spi_5fadd_5fdevice',['spi_add_device',['../group__spi.html#ga0c5e2c4ec0fc0956d0618ec44e41d2ad',1,'spi-core.c']]],
   ['spi_5falloc_5fmsg',['spi_alloc_msg',['../group__spi.html#ga53785a38bd8eb10898001d729ccdae03',1,'spi.h']]],
@@ -41,7 +42,7 @@ var searchData=
   ['spi_5fset_5fmode',['spi_set_mode',['../group__spi.html#gac9a3ddca0fbddd501da7918622cd9509',1,'spi-core.c']]],
   ['spi_5fset_5fspeed',['spi_set_speed',['../group__spi.html#ga299495247902b3003d99d1f25dc9fa3f',1,'spi-core.c']]],
   ['spi_5ftransfer',['spi_transfer',['../group__spi.html#gae4edeea008c7d373a922dcd42e4ef2be',1,'spi-core.c']]],
-  ['sqrt',['sqrt',['../group__math.html#gadd1e40e370b2165c186f72ec631b1853',1,'math.h']]],
+  ['sqrt',['sqrt',['../group__math.html#gadd1e40e370b2165c186f72ec631b1853',1,'sqrt():&#160;math.h'],['../group__python-math.html#gacfd1f553c0f547ea8220ea3830ad1dd0',1,'math.sqrt()']]],
   ['sram',['SRAM',['../group__stl.html#gadca7b66acb4638879f7076cdc77ddfa7',1,'SRAM']]],
   ['sram_5f23k256_5finit',['sram_23k256_init',['../group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3',1,'sram_23k256_init(void):&#160;23k256.c'],['../group__sram-23k256.html#ga2327d1153f0d26dce7177d946c2567d3',1,'sram_23k256_init(void):&#160;23k256.c']]],
   ['sram_5fchip_5finit',['sram_chip_init',['../group__sram.html#gae0a8506e56c96a6a326fb767a72bb747',1,'sram.c']]],
@@ -70,6 +71,7 @@ var searchData=
   ['strtoul',['strtoul',['../group__libc.html#gaea3dfd9fd35d46f2a364a5927635751b',1,'strtol.c']]],
   ['sum',['sum',['../group__python-builtin.html#ga77c9daccea4eed8cb074a540cdb42c88',1,'__bi']]],
   ['sys_5fget_5fclock',['sys_get_clock',['../group__tm.html#gad7753fdcc44ef21b90f460deca48f182',1,'tick.h']]],
+  ['sys_5fyield',['sys_yield',['../group__python-sys.html#gafec4ee9708ac4fddb1580c2b4f440ec9',1,'sys']]],
   ['sysctl',['sysctl',['../group__kernel.html#ga108852e41423be8946eedc2a338e431c',1,'sys.c']]],
   ['systick_5fsetup',['systick_setup',['../group__tm.html#ga73a24b405057db87fc9088b8f46da0a3',1,'irq.c']]]
 ];

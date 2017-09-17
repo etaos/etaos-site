@@ -3,7 +3,7 @@ var searchData=
   ['edf_5fadd_5fthread',['edf_add_thread',['../group__edf.html#gae22b1a568a69431604d8a8757398b13b',1,'edf.c']]],
   ['edf_5fcalc_5fratio',['edf_calc_ratio',['../group__edf.html#ga7d3603bad1d55ac391f4236f3c254d96',1,'edf.c']]],
   ['edf_5fnext_5frunnable',['edf_next_runnable',['../group__edf.html#gaeeff9109092b6c95569eee4c692f345f',1,'edf.c']]],
-  ['edf_5fpreempt_5fchk',['edf_preempt_chk',['../group__edf.html#gaa4478c4a5442ff99b13ed0f467f7a719',1,'edf.c']]],
+  ['edf_5fpreempt_5fcheck',['edf_preempt_check',['../group__edf.html#gad43f54587a8933dd741a163815213305',1,'edf.c']]],
   ['edf_5frm_5fthread',['edf_rm_thread',['../group__edf.html#ga2bb0acf8f625ab5b2a4cf7a4637f3c8e',1,'edf.c']]],
   ['edf_5fsort_5fbefore',['edf_sort_before',['../group__edf.html#gacd0b123b5be831d783e3907ca37026b9',1,'edf.c']]],
   ['edf_5fthread_5fafter',['edf_thread_after',['../group__edf.html#ga16601b567c27a761d179fbb762e59c28',1,'edf.c']]],
@@ -22,6 +22,6 @@ var searchData=
   ['event_5fnotify_5firq',['event_notify_irq',['../group__evm.html#ga442d104bf2f6cd10c847ec41e5fa1684',1,'event.c']]],
   ['event_5fwait',['event_wait',['../group__evm.html#gab1270952e323d52d1b4b908cc216500e',1,'event.c']]],
   ['exit',['exit',['../group__python-sys.html#gabf45d6eb9e0803f71b96387da92c03e6',1,'sys']]],
-  ['exp',['exp',['../group__math.html#ga4ea549372745dda4018ab4b5a94483a6',1,'math.h']]],
+  ['exp',['exp',['../group__math.html#ga4ea549372745dda4018ab4b5a94483a6',1,'exp():&#160;math.h'],['../group__python-math.html#ga8ac530b756e5a2fe716d78913ed8e54f',1,'math.exp()']]],
   ['extend',['extend',['../group__python-list.html#gabcde56d6c54c3c96055926b11270e460',1,'list']]]
 ];

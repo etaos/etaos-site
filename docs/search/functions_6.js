@@ -16,7 +16,7 @@ var searchData=
   ['fileno',['fileno',['../group__libcio.html#gad734637efed379794a3be42cd7a85189',1,'fileno.c']]],
   ['filter',['filter',['../group__python-builtin.html#ga7dccd06c09c45af61d3fac77e84b2166',1,'__bi']]],
   ['find',['find',['../group__python-string.html#gaf1d551a6a31bb5ebb75988b603b8edbd',1,'string']]],
-  ['floor',['floor',['../group__math.html#ga0f0bf9ac2651b80846a9d9d89bd4cb85',1,'math.h']]],
+  ['floor',['floor',['../group__math.html#ga0f0bf9ac2651b80846a9d9d89bd4cb85',1,'floor():&#160;math.h'],['../group__python-math.html#ga0821a99ce380919e6c296388617287d2',1,'math.floor()']]],
   ['flush',['flush',['../group__libcio.html#ga657fb8ce15f4bf9e908592293889c0e0',1,'flush.c']]],
   ['fmod',['fmod',['../group__math.html#ga537296d1a8f9fb621676038b99ba7edf',1,'math.h']]],
   ['fmode',['fmode',['../group__libcio.html#ga041143c238dcd23b2c51b3615f363a46',1,'fmode.c']]],

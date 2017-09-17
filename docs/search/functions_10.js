@@ -20,7 +20,7 @@ var searchData=
   ['port_5fdirection_5for',['port_direction_or',['../group__python-avr.html#gae31757648c31c58a21db21cdf4e2d37f',1,'avr']]],
   ['port_5for',['port_or',['../group__python-avr.html#ga226a86801298b35adea8381a10ab4a0b',1,'avr']]],
   ['port_5fread',['port_read',['../group__python-avr.html#ga34ed65c4184096cf50dfff960313b79d',1,'avr']]],
-  ['pow',['pow',['../group__math.html#gaa56c9494c95edf68386375e97d64159b',1,'pow():&#160;math.h'],['../group__python-builtin.html#ga6d23971863e9d8073b5667bf327cd802',1,'__bi.pow()']]],
+  ['pow',['pow',['../group__math.html#gaa56c9494c95edf68386375e97d64159b',1,'pow():&#160;math.h'],['../group__python-builtin.html#ga6d23971863e9d8073b5667bf327cd802',1,'__bi.pow()'],['../group__python-math.html#ga9feb4d234f605b8a4e8b1dd4515b1a6f',1,'math.pow()']]],
   ['power_5fset_5fmode',['power_set_mode',['../group__power.html#ga75ec7b2f09170d6fa05f4972c0cd59d9',1,'power.h']]],
   ['preempt_5fcheck',['preempt_check',['../group__sched.html#ga902ac489886eb8c3c23a644234e98bb1',1,'core.c']]],
   ['preempt_5fcounter_5fptr',['preempt_counter_ptr',['../group__preempt.html#gab377aa939771256f71f426bd7650b01a',1,'preempt_counter_ptr(void):&#160;core.c'],['../group__sched.html#gab377aa939771256f71f426bd7650b01a',1,'preempt_counter_ptr(void):&#160;core.c']]],
@@ -37,5 +37,11 @@ var searchData=
   ['printf_5fp',['printf_P',['../group__libcio.html#ga8836f9438db121ba9b1784d38858f3e2',1,'printf_p.c']]],
   ['putb',['putb',['../group__python-sys.html#ga3204199ac550a6eda84b5670aeda17e1',1,'sys']]],
   ['putc',['putc',['../group__stl.html#ga5ddd46e0ecc254c25529b150257bf7b3',1,'CharacterDevice::putc()'],['../class_e_e_p_r_o_m.html#a63704361fdc2b661e9e41036a259cb77',1,'EEPROM::putc()'],['../group__stl.html#ga63704361fdc2b661e9e41036a259cb77',1,'SRAM::putc()'],['../group__libcio.html#gaee02f1b1796d41b51f814f95e890ed44',1,'putc():&#160;putc.c']]],
-  ['putchar',['putchar',['../group__libcio.html#gaf4de2514b7778805db3815e8dd6cf09a',1,'putchar.c']]]
+  ['putchar',['putchar',['../group__libcio.html#gaf4de2514b7778805db3815e8dd6cf09a',1,'putchar.c']]],
+  ['pwm_5fget_5fchip',['pwm_get_chip',['../group__pwm.html#ga2a21e1f475e3b7478c18249982db40aa',1,'pwm-core.c']]],
+  ['pwm_5fregister_5fchip',['pwm_register_chip',['../group__pwm.html#gaef04ebaed4e1e2e598f7ac65f0793b5d',1,'pwm-core.c']]],
+  ['pwm_5fstart',['pwm_start',['../group__pwm.html#gaaf7c340e635f084f0ea49e627a66d428',1,'pwm-core.c']]],
+  ['pwm_5fstop',['pwm_stop',['../group__pwm.html#gab7980b81a7810770122792f182ce8fbb',1,'pwm-core.c']]],
+  ['pwm_5fupdate_5fchannel',['pwm_update_channel',['../group__pwm.html#ga41217b5ef048e2bac3e3a3b7a7c359b3',1,'pwm-core.c']]],
+  ['pwm_5fupdate_5ffrequency',['pwm_update_frequency',['../group__pwm.html#gaaca2c2d7fca4b6cb2d0b4398d9781e6e',1,'pwm-core.c']]]
 ];

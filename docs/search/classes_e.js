@@ -6,5 +6,6 @@ var searchData=
   ['spi_5fmsg',['spi_msg',['../structspi__msg.html',1,'']]],
   ['spidev',['spidev',['../structspidev.html',1,'']]],
   ['sram',['sram',['../structsram.html',1,'sram'],['../class_s_r_a_m.html',1,'SRAM']]],
+  ['sram',['SRAM',['../classsram_1_1_s_r_a_m.html',1,'sram']]],
   ['sync_5ft',['sync_t',['../structsync__t.html',1,'']]]
 ];

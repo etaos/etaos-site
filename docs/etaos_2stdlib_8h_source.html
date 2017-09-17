@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.1</a>
+                        <a class="navbar-brand">5.1.0</a>
 		    </div>
 	        </div>
             </div>
@@ -143,19 +143,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">char</span> *<a class="code" href="group__libc.html#gae19bd40ad70d698198d020500fc66988">itoa</a>(<span class="keywordtype">int</span> num, <span class="keywordtype">char</span> *str, <span class="keywordtype">int</span> base);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;CDECL_END</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#define malloc(__num) kmalloc(__num)</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#define zalloc(__num) kzalloc(__num)</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#define realloc(__old, __new) krealloc(__old, __new)</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#define calloc(__s1, __s2) kcalloc(__s1, __s2)</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#ifdef CONFIG_MM_DEBUG</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#define free(__p) mm_free(__p, __FILE__, __LINE__)</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define free(__num)   kfree(__num)</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __STDLIB_H__ */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="group__libc.html#gae7b142b904e0ed204c178255fdd9c66b">   49</a></span>&#160;<span class="preprocessor">#define malloc(__num) kmalloc(__num)</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="group__libc.html#ga95d4603387c9e1392b480659c0889f1e">   57</a></span>&#160;<span class="preprocessor">#define zalloc(__num) kzalloc(__num)</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#define realloc(__old, __new) krealloc(__old, __new)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#define calloc(__s1, __s2) kcalloc(__s1, __s2)</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#ifdef CONFIG_MM_DEBUG</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define free(__p) mm_free(__p, __FILE__, __LINE__)</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define free(__num)   kfree(__num)</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __STDLIB_H__ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="group__libc_html_gae19bd40ad70d698198d020500fc66988"><div class="ttname"><a href="group__libc.html#gae19bd40ad70d698198d020500fc66988">itoa</a></div><div class="ttdeci">char * itoa(int num, char *str, int base)</div><div class="ttdoc">Convert an integer to a null-terminated string. </div><div class="ttdef"><b>Definition:</b> itoa.c:34</div></div>
 <div class="ttc" id="mem_8h_html"><div class="ttname"><a href="mem_8h.html">mem.h</a></div></div>
 <div class="ttc" id="group__libc_html_ga1de0f30e08cf806ce72025c63b00fba0"><div class="ttname"><a href="group__libc.html#ga1de0f30e08cf806ce72025c63b00fba0">labs</a></div><div class="ttdeci">long labs(long num)</div><div class="ttdoc">Compute the absolute value of a long integer. </div><div class="ttdef"><b>Definition:</b> labs.c:32</div></div>
@@ -179,7 +180,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 17 2017 15:21:41 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 17 2017 20:47:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -1,6 +1,8 @@
 <map id="include/etaos/gpio.h" name="include/etaos/gpio.h">
-<area shape="rect" id="node2" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="5,80,135,121"/>
-<area shape="rect" id="node3" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="159,87,301,114"/>
-<area shape="rect" id="node4" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="325,87,476,114"/>
-<area shape="rect" id="node5" href="$stl_2cpu_8h.html" title="include/etaos/stl/cpu.h" alt="" coords="500,87,653,114"/>
+<area shape="rect" id="node2" href="$include_2etaos_2pwm_8h_source.html" title="include/etaos/pwm.h" alt="" coords="5,87,148,114"/>
+<area shape="rect" id="node3" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="172,80,301,121"/>
+<area shape="rect" id="node4" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="325,87,468,114"/>
+<area shape="rect" id="node5" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="492,87,643,114"/>
+<area shape="rect" id="node6" href="$stl_2cpu_8h.html" title="include/etaos/stl/cpu.h" alt="" coords="667,87,820,114"/>
+<area shape="rect" id="node7" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="845,87,949,114"/>
 </map>

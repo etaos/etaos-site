@@ -23,6 +23,7 @@ var searchData=
   ['mm_5fnode_5fsize',['mm_node_size',['../group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1',1,'mm_node_size(void *ptr):&#160;heap.c'],['../group__mm.html#ga6628ff23c1a4f10cc9b11409afce63b1',1,'mm_node_size(void *ptr):&#160;heap.c']]],
   ['mm_5fworst_5ffit_5falloc',['mm_worst_fit_alloc',['../group__wf.html#gaedb42b4101d5e5e8e41658b352ee2660',1,'mm_worst_fit_alloc(size_t size):&#160;worst-fit.c'],['../group__wf.html#gaedb42b4101d5e5e8e41658b352ee2660',1,'mm_worst_fit_alloc(size_t size):&#160;worst-fit.c']]],
   ['mm_5fworst_5ffit_5fcompare',['mm_worst_fit_compare',['../group__wf.html#ga6a5278354282a5cebd97c579f70d7567',1,'mm_worst_fit_compare(struct heap_node *prev, struct heap_node *current):&#160;worst-fit.c'],['../group__wf.html#ga6a5278354282a5cebd97c579f70d7567',1,'mm_worst_fit_compare(struct heap_node *prev, struct heap_node *current):&#160;worst-fit.c']]],
+  ['mod',['mod',['../group__python-math.html#gade2d46e3f2a4cfa41544e0b3a2e45b20',1,'math']]],
   ['months',['months',['../classtime_1_1_time.html#a64fbca76bbeef75def13a13633895427',1,'time::Time']]],
   ['mount',['mount',['../group__libc.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;mount.c'],['../group__libc.html#ga9c5dd508e53e51f6d1e10226c41e3f72',1,'mount(struct fs_driver *fs, const char *path):&#160;mount.c']]],
   ['mutex_5finit',['mutex_init',['../group__mutex.html#ga863625fd3252b5ebdadafaa6509ddb6d',1,'mutex.h']]],

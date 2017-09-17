@@ -1,0 +1,4 @@
+<map id="condition_init" name="condition_init">
+<area shape="rect" id="node2" href="$group__thread.html#ga512d7ca8d457038cebefec83b3b02065" title="Initialise a thread queue during run time. " alt="" coords="283,5,407,32"/>
+<area shape="rect" id="node3" href="$group__mutex.html#ga863625fd3252b5ebdadafaa6509ddb6d" title="Initialise a mutex. " alt="" coords="152,31,235,57"/>
+</map>

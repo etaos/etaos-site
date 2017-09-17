@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.1</a>
+                        <a class="navbar-brand">5.1.0</a>
 		    </div>
 	        </div>
             </div>
@@ -120,10 +120,10 @@ Indentation</h2>
 <p>Indentation is done using tabs, and tabs are 8 characters long. There are some disgusting movements on the web trying to change standards to 4 or even 2 characters (<em>cough</em> hello Ruby <em>cough</em>). All this nonsense should be ignored. <b>Patches not using 8-character indentation will be rejected.</b></p>
 <p>Now the main 'issue' with 8 character indents is that nested indentations move your code over the 80 character limit way to fast. The actual issue is that you have to many indentation levels and you should stop producing 'wtf code'.</p>
 <p>Don't ever put statements on a single line. Use</p>
-<div class="fragment"><div class="line"><span class="keywordflow">if</span>(condition)</div>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span>(<a class="code" href="structcondition.html">condition</a>)</div>
 <div class="line">      yo_bro();</div>
 </div><!-- fragment --><p>instead of</p>
-<div class="fragment"><div class="line"><span class="keywordflow">if</span>(condition) yo_bro();</div>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span>(<a class="code" href="structcondition.html">condition</a>) yo_bro();</div>
 </div><!-- fragment --><h3><a class="anchor" id="indent-switch"></a>
 Switch statements</h3>
 <p>Switch statements are somewhat special. Don't double indent the case statements. A proper example of a switch statement </p><div class="fragment"><div class="line"><span class="keywordflow">switch</span>(letter) {</div>
@@ -147,25 +147,25 @@ Braces and spaces</h2>
 <div class="line">{</div>
 <div class="line">        <span class="keyword">function</span> body</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>Normal example: </p><div class="fragment"><div class="line"><span class="keywordflow">if</span>(condition is <span class="keyword">true</span>) {</div>
+</div><!-- fragment --><p>Normal example: </p><div class="fragment"><div class="line"><span class="keywordflow">if</span>(<a class="code" href="structcondition.html">condition</a> is <span class="keyword">true</span>) {</div>
 <div class="line">        <span class="keywordflow">do</span> <span class="keyword">this</span>;</div>
 <div class="line">        and that;</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>As said the closing brace is on the next empty line, except in the cases where it is followed by a continuation of the same statement (i.e. do-while, if-else).</p>
-<div class="fragment"><div class="line"><span class="keywordflow">if</span>(condition is <span class="keyword">true</span>) {</div>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span>(<a class="code" href="structcondition.html">condition</a> is <span class="keyword">true</span>) {</div>
 <div class="line">        <span class="keywordflow">do</span> <span class="keyword">this</span>;</div>
 <div class="line">        and that;</div>
-<div class="line">} <span class="keywordflow">else</span> <span class="keywordflow">if</span>(another condition is <span class="keyword">true</span>) {</div>
+<div class="line">} <span class="keywordflow">else</span> <span class="keywordflow">if</span>(another <a class="code" href="structcondition.html">condition</a> is <span class="keyword">true</span>) {</div>
 <div class="line">        <span class="keywordflow">do</span> it now then;</div>
 <div class="line">        sup_brah();</div>
 <div class="line">} <span class="keywordflow">else</span> {</div>
 <div class="line">        <a class="code" href="group__python-sys.html#gabf45d6eb9e0803f71b96387da92c03e6">exit</a>();</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Do not place braces when they are not necessary:</p>
-<div class="fragment"><div class="line"><span class="keywordflow">if</span>(condition is <span class="keyword">true</span>)</div>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span>(<a class="code" href="structcondition.html">condition</a> is <span class="keyword">true</span>)</div>
 <div class="line">      do_this;</div>
 </div><!-- fragment --><p>The last rule doesn't apply when only 1 branch of a conditional statement is a single line:</p>
-<div class="fragment"><div class="line"><span class="keywordflow">if</span>(condition is <span class="keyword">true</span>) {</div>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span>(<a class="code" href="structcondition.html">condition</a> is <span class="keyword">true</span>) {</div>
 <div class="line">      do_this;</div>
 <div class="line">      do_that;</div>
 <div class="line">} <span class="keywordflow">else</span> {</div>
@@ -242,7 +242,7 @@ Thunderbird</h3>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 17 2017 15:21:41 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 17 2017 20:47:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -8,5 +8,6 @@ var searchData=
   ['hrtimer_5finit',['hrtimer_init',['../group__hrtimer.html#ga15d582408c059a762b6f41e809c1bdc3',1,'hrtimer.c']]],
   ['hrtimer_5fstop',['hrtimer_stop',['../group__hrtimer.html#ga81e22a598d8dc4d06229eeabbdc5fd4a',1,'hrtimer.c']]],
   ['hrtimer_5ftick',['hrtimer_tick',['../group__hrtimer.html#gaeeb4b92d6fa211fb613e8af4246ef1b9',1,'hrtimer_tick(struct irq_data *data, void *arg):&#160;irq.c'],['../group__tm.html#gaeeb4b92d6fa211fb613e8af4246ef1b9',1,'hrtimer_tick(struct irq_data *data, void *arg):&#160;irq.c']]],
-  ['hrtimer_5fto_5fsource',['hrtimer_to_source',['../group__hrtimer.html#ga951da26b412997ce0d96beb4b778624d',1,'hrtimer.h']]]
+  ['hrtimer_5fto_5fsource',['hrtimer_to_source',['../group__hrtimer.html#ga951da26b412997ce0d96beb4b778624d',1,'hrtimer.h']]],
+  ['hypot',['hypot',['../group__math.html#ga6d6a905f61d535f8454190433b8c0ea5',1,'hypot():&#160;math.h'],['../group__python-math.html#ga75b56d73ce259eeef61a084ad16873a2',1,'math.hypot()']]]
 ];

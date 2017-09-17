@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.1</a>
+                        <a class="navbar-brand">5.1.0</a>
 		    </div>
 	        </div>
             </div>
@@ -105,6 +105,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga09fe2982d63e7311c8b6ce8a7238bf23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#ga09fe2982d63e7311c8b6ce8a7238bf23">cpu_request_irq</a> (struct <a class="el" href="structirq__data.html">irq_data</a> *data)</td></tr>
 <tr class="memdesc:ga09fe2982d63e7311c8b6ce8a7238bf23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the hardware registers for the IRQ.  <a href="#ga09fe2982d63e7311c8b6ce8a7238bf23">More...</a><br /></td></tr>
 <tr class="separator:ga09fe2982d63e7311c8b6ce8a7238bf23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e8b93cc41ce8c225d0943653cbc150c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#ga9e8b93cc41ce8c225d0943653cbc150c">cpu_trigger_irq</a> (struct <a class="el" href="structirq__data.html">irq_data</a> *data)</td></tr>
+<tr class="memdesc:ga9e8b93cc41ce8c225d0943653cbc150c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to software trigger an interrupt.  <a href="#ga9e8b93cc41ce8c225d0943653cbc150c">More...</a><br /></td></tr>
+<tr class="separator:ga9e8b93cc41ce8c225d0943653cbc150c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaddf161a845a51a829878634b612b3b5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__arch_a_p_i.html#gaddf161a845a51a829878634b612b3b5a">arch_irq_restore_flags</a> (unsigned long *flags)</td></tr>
 <tr class="memdesc:gaddf161a845a51a829878634b612b3b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the IRQ flags.  <a href="#gaddf161a845a51a829878634b612b3b5a">More...</a><br /></td></tr>
 <tr class="separator:gaddf161a845a51a829878634b612b3b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -336,6 +339,17 @@ Stacks</h1>
   </dd>
 </dl>
 
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arch_a_p_i_ga09fe2982d63e7311c8b6ce8a7238bf23_cgraph.png" border="0" usemap="#group__arch_a_p_i_ga09fe2982d63e7311c8b6ce8a7238bf23_cgraph" alt=""/></div>
+<map name="group__arch_a_p_i_ga09fe2982d63e7311c8b6ce8a7238bf23_cgraph" id="group__arch_a_p_i_ga09fe2982d63e7311c8b6ce8a7238bf23_cgraph">
+<area shape="rect" id="node2" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="168,5,233,32"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="gaa79e3c72ee6f1dee4720d0f00958009b"></a>
@@ -404,14 +418,57 @@ Stacks</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The run queue of <code>cpu</code>. </dd></dl>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arch_a_p_i_gabc3ea24600f8a7b491077f26ccbbd5c8_cgraph.png" border="0" usemap="#group__arch_a_p_i_gabc3ea24600f8a7b491077f26ccbbd5c8_cgraph" alt=""/></div>
 <map name="group__arch_a_p_i_gabc3ea24600f8a7b491077f26ccbbd5c8_cgraph" id="group__arch_a_p_i_gabc3ea24600f8a7b491077f26ccbbd5c8_cgraph">
 <area shape="rect" id="node2" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="132,5,239,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga9e8b93cc41ce8c225d0943653cbc150c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cpu_trigger_irq </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structirq__data.html">irq_data</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attempt to software trigger an interrupt. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>IRQ to soft-trigger. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>This function is allowed to return before the interrupt triggered. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>An error code. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>On success. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__arch_a_p_i_ga9e8b93cc41ce8c225d0943653cbc150c_cgraph.png" border="0" usemap="#group__arch_a_p_i_ga9e8b93cc41ce8c225d0943653cbc150c_cgraph" alt=""/></div>
+<map name="group__arch_a_p_i_ga9e8b93cc41ce8c225d0943653cbc150c_cgraph" id="group__arch_a_p_i_ga9e8b93cc41ce8c225d0943653cbc150c_cgraph">
+<area shape="rect" id="node2" href="arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="696,35,761,62"/><area shape="rect" id="node3" href="group__gpiolib.html#gaae67b44542e3ae6c2be5f5815f25617f" title="Write a boolean value to a GPIO pin. " alt="" coords="160,60,265,87"/><area shape="rect" id="node4" href="group__gpiolib.html#ga8e156c1d8cf571da44b66ae88983dc13" title="Configure a pin as input. " alt="" coords="313,140,451,167"/><area shape="rect" id="node7" href="group__gpiolib.html#gaba62ab29aee995a91a86fc97b14b2bb6" title="Write a boolean value to a GPIO pin. " alt="" coords="315,35,449,62"/><area shape="rect" id="node5" href="group__gpiolib.html#ga8fbe91e2588187126c557cdb97541665" title="Configure a pin as input. " alt="" coords="500,137,644,178"/><area shape="rect" id="node6" href="arch_2avr_2include_2asm_2bitops_8h.html#af859dcc9aae25796813cd9b3cb375f18" title="Clear a bit in register. " alt="" coords="693,144,764,171"/><area shape="rect" id="node8" href="group__gpiolib.html#ga5d2389cb21a58fd4e4d55d79637e6eee" title="Write a boolean value to a GPIO pin. " alt="" coords="499,35,645,62"/></map>
 </div>
 </p>
 
@@ -489,11 +546,11 @@ Stacks</h1>
   </dd>
 </dl>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arch_a_p_i_gaed72f26eb7fa076193388c2200e2571a_cgraph.png" border="0" usemap="#group__arch_a_p_i_gaed72f26eb7fa076193388c2200e2571a_cgraph" alt=""/></div>
 <map name="group__arch_a_p_i_gaed72f26eb7fa076193388c2200e2571a_cgraph" id="group__arch_a_p_i_gaed72f26eb7fa076193388c2200e2571a_cgraph">
 <area shape="rect" id="node2" href="group__libc.html#gaa4075a014de11292d9105188ddbeb216" title="Fill a block of memory. " alt="" coords="192,13,261,39"/></map>
@@ -525,11 +582,11 @@ Stacks</h1>
 </dl>
 <dl class="section warning"><dt>Warning</dt><dd>The thread should NEVER be executed again after a call to this function. </dd></dl>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arch_a_p_i_gaf680731a9b2e0753de2dfa185b0a13d2_cgraph.png" border="0" usemap="#group__arch_a_p_i_gaf680731a9b2e0753de2dfa185b0a13d2_cgraph" alt=""/></div>
 <map name="group__arch_a_p_i_gaf680731a9b2e0753de2dfa185b0a13d2_cgraph" id="group__arch_a_p_i_gaf680731a9b2e0753de2dfa185b0a13d2_cgraph">
 <area shape="rect" id="node2" href="group__libc.html#ga069f85a5001d71bc44d8be6532a4e432" title="Free an allocated memory region. " alt="" coords="219,5,269,32"/><area shape="rect" id="node3" href="group__mm.html#gac906c2d7849a485d955a895120068e12" title="Free a previously allocated memory region. " alt="" coords="317,5,391,32"/></map>
@@ -555,11 +612,11 @@ Stacks</h1>
 <p>Get the scheduling clock source. </p>
 <dl class="section return"><dt>Returns</dt><dd>The scheduling clock source. </dd></dl>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arch_a_p_i_ga3ca01585011904bb8042cbb540be767e_cgraph.png" border="0" usemap="#group__arch_a_p_i_ga3ca01585011904bb8042cbb540be767e_cgraph" alt=""/></div>
 <map name="group__arch_a_p_i_ga3ca01585011904bb8042cbb540be767e_cgraph" id="group__arch_a_p_i_ga3ca01585011904bb8042cbb540be767e_cgraph">
 <area shape="rect" id="node2" href="group__atmega.html#gac3ce4787ec47a3681c9a238d1117e151" title="Getter for the ATmega AVR system clock. " alt="" coords="173,5,291,32"/></map>
@@ -586,11 +643,11 @@ Stacks</h1>
 <dl class="section return"><dt>Returns</dt><dd>The selected run queue.</dd></dl>
 <p>The most effecient run queue is returned (i.e. the run queue with the least amount of threads already on it. </p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__arch_a_p_i_gab090ee79717fcdd58de691ed935f6445_cgraph.png" border="0" usemap="#group__arch_a_p_i_gab090ee79717fcdd58de691ed935f6445_cgraph" alt=""/></div>
 <map name="group__arch_a_p_i_gab090ee79717fcdd58de691ed935f6445_cgraph" id="group__arch_a_p_i_gab090ee79717fcdd58de691ed935f6445_cgraph">
 <area shape="rect" id="node2" href="group__sched.html#gaa01fb719e9758591f358e30bfb4729ff" title="Get the global run queue. " alt="" coords="171,5,277,32"/></map>
@@ -608,7 +665,7 @@ Stacks</h1>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 17 2017 15:21:42 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 17 2017 20:47:03 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

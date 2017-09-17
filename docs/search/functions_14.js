@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tan',['tan',['../group__math.html#gaa2c2303658b8b2555bc97cce3f806bda',1,'math.h']]],
+  ['tan',['tan',['../group__math.html#gaa2c2303658b8b2555bc97cce3f806bda',1,'tan():&#160;math.h'],['../group__python-math.html#ga62fe50d8abf5ccc65ab334caaef44b1b',1,'math.tan()']]],
   ['test_5fand_5fclear_5fbit',['test_and_clear_bit',['../arch_2avr_2include_2asm_2bitops_8h.html#a262511af13cb368a79082ebf51cad0c7',1,'bitops.h']]],
   ['test_5fand_5fset_5fbit',['test_and_set_bit',['../arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a',1,'bitops.h']]],
   ['test_5fbit',['test_bit',['../arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178',1,'test_bit(unsigned nr, volatile void *addr):&#160;bitops.h'],['../include_2etaos_2bitops_8h.html#a4e6f4a87976eb1eadcfa494c8d4aecb1',1,'test_bit(unsigned bit, volatile unsigned long *flags):&#160;bitops.h']]],

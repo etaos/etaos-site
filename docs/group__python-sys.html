@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.0.1</a>
+                        <a class="navbar-brand">5.1.0</a>
 		    </div>
 	        </div>
             </div>
@@ -137,8 +137,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga820ecd2aa0748b82ff2138ee1ba39775"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__python-sys.html#ga820ecd2aa0748b82ff2138ee1ba39775">clock</a></td></tr>
 <tr class="memdesc:ga820ecd2aa0748b82ff2138ee1ba39775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of milliseconds since the PyMite VM was initialized.  <a href="#ga820ecd2aa0748b82ff2138ee1ba39775">More...</a><br /></td></tr>
 <tr class="separator:ga820ecd2aa0748b82ff2138ee1ba39775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafec4ee9708ac4fddb1580c2b4f440ec9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__python-sys.html#gafec4ee9708ac4fddb1580c2b4f440ec9">sys_yield</a></td></tr>
+<tr class="memdesc:gafec4ee9708ac4fddb1580c2b4f440ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yield the PythonVM.  <a href="#gafec4ee9708ac4fddb1580c2b4f440ec9">More...</a><br /></td></tr>
+<tr class="separator:gafec4ee9708ac4fddb1580c2b4f440ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaeddf24cab5015db4ee94755820455656"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__python-sys.html#gaeddf24cab5015db4ee94755820455656">thread_yield</a></td></tr>
-<tr class="memdesc:gaeddf24cab5015db4ee94755820455656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yield the PythonVM.  <a href="#gaeddf24cab5015db4ee94755820455656">More...</a><br /></td></tr>
+<tr class="memdesc:gaeddf24cab5015db4ee94755820455656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yield the current python thread.  <a href="#gaeddf24cab5015db4ee94755820455656">More...</a><br /></td></tr>
 <tr class="separator:gaeddf24cab5015db4ee94755820455656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa54a8ca456d4efe4ba5b4187241b007a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__python-sys.html#gaa54a8ca456d4efe4ba5b4187241b007a">wait</a></td></tr>
 <tr class="memdesc:gaa54a8ca456d4efe4ba5b4187241b007a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits in a busy loop for the given number of milliseconds.  <a href="#gaa54a8ca456d4efe4ba5b4187241b007a">More...</a><br /></td></tr>
@@ -471,6 +474,27 @@ return retval;
 
 </div>
 </div>
+<a class="anchor" id="gafec4ee9708ac4fddb1580c2b4f440ec9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def sys.sys_yield </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Yield the PythonVM. </p>
+<dl class="section return"><dt>Returns</dt><dd>None. <pre class="fragment">__NATIVE__
+yield();
+return PM_RET_OK;
+</pre> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gaeddf24cab5015db4ee94755820455656"></a>
 <div class="memitem">
 <div class="memproto">
@@ -484,9 +508,10 @@ return retval;
       </table>
 </div><div class="memdoc">
 
-<p>Yield the PythonVM. </p>
-<dl class="section return"><dt>Returns</dt><dd>None. <pre class="fragment">__NATIVE__
-yield();
+<p>Yield the current python thread. </p>
+<dl class="section return"><dt>Returns</dt><dd>None <pre class="fragment">__NATIVE__
+interp_setRescheduleFlag(true);
+NATIVE_SET_TOS(PM_NONE);
 return PM_RET_OK;
 </pre> </dd></dl>
 
@@ -522,7 +547,7 @@ return PM_RET_OK;
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__python-sys_gaa54a8ca456d4efe4ba5b4187241b007a_cgraph.png" border="0" usemap="#group__python-sys_gaa54a8ca456d4efe4ba5b4187241b007a_cgraph" alt=""/></div>
 <map name="group__python-sys_gaa54a8ca456d4efe4ba5b4187241b007a_cgraph" id="group__python-sys_gaa54a8ca456d4efe4ba5b4187241b007a_cgraph">
-<area shape="rect" id="node2" href="group__python-sys.html#ga820ecd2aa0748b82ff2138ee1ba39775" title="Returns the number of milliseconds since the PyMite VM was initialized. " alt="" coords="100,5,153,32"/></map>
+<area shape="rect" id="node2" href="group__python-sys.html#ga820ecd2aa0748b82ff2138ee1ba39775" title="Returns the number of milliseconds since the PyMite VM was initialized. " alt="" coords="119,5,173,32"/><area shape="rect" id="node3" href="group__python-sys.html#ga2f17e3134854ed811bba00fc14fb4d6b" title="Runs the Garbage Collector. " alt="" coords="127,56,165,83"/><area shape="rect" id="node4" href="group__python-sys.html#gaeddf24cab5015db4ee94755820455656" title="Yield the current python thread. " alt="" coords="100,107,192,133"/></map>
 </div>
 </p>
 
@@ -537,7 +562,7 @@ return PM_RET_OK;
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 17 2017 15:21:42 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 17 2017 20:47:03 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
