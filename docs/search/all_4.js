@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['c_5fstr',['c_str',['../group__stl.html#ga6d17f2a16f431286639ba88420373d56',1,'String']]],
   ['calloc',['calloc',['../group__libc.html#ga7b3d8b7cea59b137b167878ec88eb8d6',1,'kcalloc.c']]],
   ['calypso_5fexit',['CALYPSO_EXIT',['../test_8h.html#a7388cb673892b7540f9e4eec1af89226',1,'test.h']]],
   ['ceil',['ceil',['../group__math.html#ga61470611f23ceef5d3e9cf63d84cd8a7',1,'ceil():&#160;math.h'],['../group__python-math.html#gaf92e20551600ebd76ebf0d3e29c706f5',1,'math.ceil()']]],
@@ -30,6 +31,8 @@ var searchData=
   ['co_5fnames',['co_names',['../group__python-func.html#ga42cb8816a0920d246546fc3512dd1c46',1,'func']]],
   ['code_20of_20conduct',['Code of Conduct',['../coc.html',1,'']]],
   ['coding_20style',['Coding style',['../codestyle.html',1,'']]],
+  ['compareto',['compareTo',['../group__stl.html#ga0f6f0d2cbf7fda95e6b26b2a8b25505e',1,'String']]],
+  ['concat',['concat',['../group__stl.html#ga58728f7326d40fc2b67864b58c73a0c5',1,'String::concat(const char *str)'],['../class_string.html#a621b3da1db9f6de402ce695a53d8f2fd',1,'String::concat(const String &amp;str)'],['../group__stl.html#gabe45e0c4ca6f5749821564235613e1c5',1,'String::concat(int x)'],['../class_string.html#ab2856dfa68e421e2c758bec597ecd3d0',1,'String::concat(char x)'],['../group__stl.html#ga1ac6111f2ac2457116cdb49b261c5f1e',1,'String::concat(long x)'],['../group__stl.html#gad0058afd55bd70b71694a7a70946bd56',1,'String::concat(unsigned char x)'],['../group__stl.html#gaa3d17c15d8c8145ccb9695cd16117309',1,'String::concat(unsigned int x)'],['../group__stl.html#ga4b21b3869d1c9a82632bc4118f5b95e5',1,'String::concat(unsigned long x)'],['../group__stl.html#ga0cfbca088f84857f8d75a571b890a08b',1,'String::concat(float x)']]],
   ['condition',['condition',['../structcondition.html',1,'condition'],['../group__condition.html',1,'(Global Namespace)']]],
   ['condition_5fbcast',['condition_bcast',['../group__condition.html#ga3136329912967e2555ec98d5e846bc60',1,'condition.c']]],
   ['condition_5finit',['condition_init',['../group__condition.html#ga71b0234fa41c409f08a14f56bd0499e2',1,'condition.c']]],
@@ -67,5 +70,6 @@ var searchData=
   ['cycle',['cycle',['../structpwm__state.html#a0ff3aafecfd40f6de04774a1c3fc3729',1,'pwm_state']]],
   ['c_20runtime_20library',['C runtime library',['../group__libc.html',1,'']]],
   ['cpu',['CPU',['../group__python-cpu.html',1,'']]],
-  ['c_2b_2b_20runtime_20library',['C++ runtime library',['../group__stl.html',1,'']]]
+  ['c_2b_2b_20runtime_20library',['C++ runtime library',['../group__stl.html',1,'']]],
+  ['call_20trace_20api',['Call trace API',['../group__trace.html',1,'']]]
 ];

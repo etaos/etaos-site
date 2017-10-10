@@ -17,6 +17,8 @@ var searchData=
   ['eeprom_5fput',['eeprom_put',['../group__ee.html#gabc8da5c346d2430606d7f9d2430da71c',1,'eeprom.c']]],
   ['eeprom_5fread',['eeprom_read',['../group__ee.html#ga14667c61f1a9060a903e83b5dec4bc80',1,'eeprom.c']]],
   ['eeprom_5fwrite',['eeprom_write',['../group__ee.html#gaca25c00254089a032c335dbd340125e9',1,'eeprom.c']]],
+  ['empty',['empty',['../class_string.html#ac6e61de369e994009e36f344f99c15ad',1,'String']]],
+  ['equals',['equals',['../group__stl.html#ga4611a14c55b1ca8adb234867eb551916',1,'String::equals(const String &amp;s) const '],['../group__stl.html#ga2d2a4aeb3ecca3cb1631ef4ea7982c45',1,'String::equals(const char *str) const ']]],
   ['eval',['eval',['../group__python-builtin.html#ga90c07e0375ae4dd1caf9944cc781b333',1,'__bi']]],
   ['event_5fnotify',['event_notify',['../group__evm.html#ga2192b6e38f6927a3b4e59cffcc03bf68',1,'event.c']]],
   ['event_5fnotify_5firq',['event_notify_irq',['../group__evm.html#ga442d104bf2f6cd10c847ec41e5fa1684',1,'event.c']]],

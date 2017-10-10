@@ -7,5 +7,6 @@ var searchData=
   ['timeperiod',['TimePeriod',['../classtime_1_1_time_period.html',1,'time']]],
   ['timer',['timer',['../structtimer.html',1,'']]],
   ['tm',['tm',['../structtm.html',1,'']]],
-  ['tmp36',['TMP36',['../classtmp36_1_1_t_m_p36.html',1,'tmp36']]]
+  ['tmp36',['TMP36',['../classtmp36_1_1_t_m_p36.html',1,'tmp36']]],
+  ['trace_5finfo_5ft',['trace_info_t',['../structtrace__info__t.html',1,'']]]
 ];

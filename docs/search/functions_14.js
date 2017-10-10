@@ -32,5 +32,7 @@ var searchData=
   ['tmp36_5fset_5fanalog_5fdevice',['tmp36_set_analog_device',['../group__tmp36.html#ga8d9100e3eda1bdd324d2c7d8ec2b1e2f',1,'tmp36.c']]],
   ['to_5fsram_5fchip',['to_sram_chip',['../group__sram.html#ga350fd5102917c58a2246437f6897c01d',1,'sram.c']]],
   ['to_5fstring',['to_string',['../classtime_1_1_time.html#a63a791f4f77ac1585bf7c91ec6a4384e',1,'time::Time']]],
+  ['trace_5finfo_5finvalidate',['trace_info_invalidate',['../group__trace.html#ga1216beec5897cca7faf7ebb1559be417',1,'trace_info_invalidate(trace_info_t *info):&#160;trace.c'],['../group__trace.html#ga1216beec5897cca7faf7ebb1559be417',1,'trace_info_invalidate(trace_info_t *info):&#160;trace.c']]],
+  ['trace_5finfo_5fset',['trace_info_set',['../group__trace.html#gad76493e0f7cb174994265b6ce47143af',1,'trace_info_set(trace_info_t *info, const char *file, int line, bool alloc):&#160;trace.c'],['../group__trace.html#gad76493e0f7cb174994265b6ce47143af',1,'trace_info_set(trace_info_t *info, const char *file, int line, bool alloc):&#160;trace.c']]],
   ['type',['type',['../group__python-builtin.html#ga25420df74fdf02ffe8bebd57c6f264d7',1,'__bi']]]
 ];

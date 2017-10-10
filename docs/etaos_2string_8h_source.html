@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.0</a>
+                        <a class="navbar-brand">5.1.1</a>
 		    </div>
 	        </div>
             </div>
@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -150,16 +149,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__libc.html#ga7f886f6fb9d16724acb21dca4110ec29">stricmp</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *s1, <span class="keyword">const</span> <span class="keywordtype">char</span> *s2);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="group__libc.html#ga7667a5db3ccb2462398e8b721a180681">strnicmp</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *s1, <span class="keyword">const</span> <span class="keywordtype">char</span> *s2, <span class="keywordtype">int</span> n);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;CDECL_END</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#ifndef __HARVARD__</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#ifdef CONFIG_EXT_STRING</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">char</span> **strsplit(<span class="keyword">const</span> <span class="keywordtype">char</span> *str, <span class="keyword">const</span> <span class="keywordtype">char</span> delim);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="group__libc.html#ga363a24bd0fbf968073e8d47e8b12553a">   66</a></span>&#160;<span class="preprocessor">#define memcpy_P(x,y,z) memcpy(x,y,z)</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#define strlen_P(c) strlen(c)</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define PSTR(s) (s)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;CDECL_END</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#ifndef __HARVARD__</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="group__libc.html#ga363a24bd0fbf968073e8d47e8b12553a">   70</a></span>&#160;<span class="preprocessor">#define memcpy_P(x,y,z) memcpy(x,y,z)</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#define strlen_P(c) strlen(c)</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#define PSTR(s) (s)</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="group__libc_html_ga16d6b0bd660cc3f9910924c6b6f4af8e"><div class="ttname"><a href="group__libc.html#ga16d6b0bd660cc3f9910924c6b6f4af8e">memchr</a></div><div class="ttdeci">void * memchr(const void *s, int c, size_t n)</div><div class="ttdoc">Find the first occurance of a byte. </div><div class="ttdef"><b>Definition:</b> memchr.c:37</div></div>
 <div class="ttc" id="group__libc_html_ga8fa9cf67dfd810893d4e6d6c53edacc9"><div class="ttname"><a href="group__libc.html#ga8fa9cf67dfd810893d4e6d6c53edacc9">strtok</a></div><div class="ttdeci">char * strtok(char *s, const char *delimeter)</div><div class="ttdoc">Find the first occurrance of a string. </div><div class="ttdef"><b>Definition:</b> strtok.c:37</div></div>
 <div class="ttc" id="group__libc_html_ga11bd144d7d44914099a3aeddf1c8567d"><div class="ttname"><a href="group__libc.html#ga11bd144d7d44914099a3aeddf1c8567d">strcmp</a></div><div class="ttdeci">int strcmp(const char *s1, const char *s2)</div><div class="ttdoc">Compare two strings. </div><div class="ttdef"><b>Definition:</b> strcmp.c:37</div></div>
@@ -188,7 +191,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 17 2017 20:47:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 10 2017 12:47:59 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

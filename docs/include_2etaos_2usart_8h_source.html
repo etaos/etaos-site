@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.0</a>
+                        <a class="navbar-brand">5.1.1</a>
 		    </div>
 	        </div>
             </div>
@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -132,7 +131,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structusart.html#a493b57f443cc38b3d3df9c1e584d9d82">   41</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structusart.html#a493b57f443cc38b3d3df9c1e584d9d82">timeout</a>; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="structmutex__t.html">mutex_t</a> rx, tx;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="structusart.html#adfc9dbc9a621f3bed34215a242da5fd7">   44</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="structdevice.html">device</a> <a class="code" href="structusart.html#adfc9dbc9a621f3bed34215a242da5fd7">dev</a>; </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="structusart.html#adfc9dbc9a621f3bed34215a242da5fd7">   44</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="namespacedevice.html">device</a> <a class="code" href="structusart.html#adfc9dbc9a621f3bed34215a242da5fd7">dev</a>; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structusart.html#a183c2dbca2436692b2873763ebbe25c3">   52</a></span>&#160;        int (*<a class="code" href="structusart.html#a183c2dbca2436692b2873763ebbe25c3">write</a>)(<span class="keyword">struct </span><a class="code" href="structusart.html">usart</a> *uart, <span class="keyword">const</span> <span class="keywordtype">void</span> *tx,</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                        <span class="keywordtype">size_t</span> txlen);</div>
@@ -157,10 +156,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="group__python-builtin_html_ga39a4ae10474e5e94d339db8a8a0ad0be"><div class="ttname"><a href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be">__bi.len</a></div><div class="ttdeci">def len</div><div class="ttdoc">Return the length of s. </div><div class="ttdef"><b>Definition:</b> __bi.py:332</div></div>
 <div class="ttc" id="structusart_html_adfc9dbc9a621f3bed34215a242da5fd7"><div class="ttname"><a href="structusart.html#adfc9dbc9a621f3bed34215a242da5fd7">usart::dev</a></div><div class="ttdeci">struct device dev</div><div class="ttdoc">Backend USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:44</div></div>
-<div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:55</div></div>
+<div class="ttc" id="namespacedevice_html"><div class="ttname"><a href="namespacedevice.html">device</a></div><div class="ttdef"><b>Definition:</b> device.py:1</div></div>
 <div class="ttc" id="structusart_html_a183c2dbca2436692b2873763ebbe25c3"><div class="ttname"><a href="structusart.html#a183c2dbca2436692b2873763ebbe25c3">usart::write</a></div><div class="ttdeci">int(* write)(struct usart *uart, const void *tx, size_t txlen)</div><div class="ttdoc">Write to the USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:52</div></div>
 <div class="ttc" id="structusart_html_aa00ced81deecb3716c3cc31fc5e069f2"><div class="ttname"><a href="structusart.html#aa00ced81deecb3716c3cc31fc5e069f2">usart::putc</a></div><div class="ttdeci">int(* putc)(struct usart *uart, int c)</div><div class="ttdoc">Write a single byte to the USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:60</div></div>
-<div class="ttc" id="structmutex__t_html"><div class="ttname"><a href="structmutex__t.html">mutex_t</a></div><div class="ttdoc">Recursive mutex data structure. </div><div class="ttdef"><b>Definition:</b> mutex.h:36</div></div>
+<div class="ttc" id="structmutex__t_html"><div class="ttname"><a href="structmutex__t.html">mutex_t</a></div><div class="ttdoc">Recursive mutex data structure. </div><div class="ttdef"><b>Definition:</b> mutex.h:37</div></div>
 <div class="ttc" id="structusart_html_a1ba5588c95558238d0a5fdbcce1bf7b1"><div class="ttname"><a href="structusart.html#a1ba5588c95558238d0a5fdbcce1bf7b1">usart::getc</a></div><div class="ttdeci">int(* getc)(struct usart *uart)</div><div class="ttdoc">Read a single byte from the USART. </div><div class="ttdef"><b>Definition:</b> usart.h:66</div></div>
 <div class="ttc" id="device_8h_html"><div class="ttname"><a href="device_8h.html">device.h</a></div></div>
 <div class="ttc" id="structusart_html_a150aa721cb1b5d3a88b0fba83d55704d"><div class="ttname"><a href="structusart.html#a150aa721cb1b5d3a88b0fba83d55704d">usart::read</a></div><div class="ttdeci">int(* read)(struct usart *uart, void *rx, size_t len)</div><div class="ttdoc">Read from a USART device. </div><div class="ttdef"><b>Definition:</b> usart.h:73</div></div>
@@ -175,7 +174,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 17 2017 20:47:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 10 2017 12:47:59 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

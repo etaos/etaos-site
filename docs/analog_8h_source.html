@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.0</a>
+                        <a class="navbar-brand">5.1.1</a>
 		    </div>
 	        </div>
             </div>
@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -134,7 +133,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">struct </span><a class="code" href="structanalog__pin.html">analog_pin</a> *pins; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structanalog__pin.html#abea371f9030e15a5d2a4c181576833d8">num</a>; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">struct </span><a class="code" href="structanalog__pin.html">analog_pin</a> *selected_pin; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">struct </span><a class="code" href="structdevice.html">device</a> dev; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">struct </span><a class="code" href="namespacedevice.html">device</a> dev; </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        int (*<span class="keyword">get</span>)(<span class="keyword">struct </span><a class="code" href="structanalog__pin.html">analog_pin</a> *pin);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        int (*<a class="code" href="group__libcio.html#gad80dd68a15cdbb62ab57decaee670625">ioctl</a>)(<span class="keyword">struct </span>analog_chip *chip, <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> reg, <span class="keywordtype">void</span> *arg);</div>
@@ -192,9 +191,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="group__analog_html_ga268d54a08be0f9f8cb8fbdf166136523"><div class="ttname"><a href="group__analog.html#ga268d54a08be0f9f8cb8fbdf166136523">analog_chip_to_name</a></div><div class="ttdeci">static const char * analog_chip_to_name(struct analog_chip *chip)</div><div class="ttdoc">Get the name of an ADC. </div><div class="ttdef"><b>Definition:</b> analog.h:99</div></div>
 <div class="ttc" id="kernel_8h_html"><div class="ttname"><a href="kernel_8h.html">kernel.h</a></div></div>
 <div class="ttc" id="group__analog_html_ga52916dc9f10e4cfa3641b474bbf20cd1"><div class="ttname"><a href="group__analog.html#ga52916dc9f10e4cfa3641b474bbf20cd1">analog_read</a></div><div class="ttdeci">int analog_read(struct analog_pin *pin)</div><div class="ttdoc">Read from the ADC. </div><div class="ttdef"><b>Definition:</b> analog.c:65</div></div>
+<div class="ttc" id="namespacedevice_html"><div class="ttname"><a href="namespacedevice.html">device</a></div><div class="ttdef"><b>Definition:</b> device.py:1</div></div>
 <div class="ttc" id="include_2etaos_2types_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="include_2etaos_2types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdoc">Unsigned 8-bit integer. </div><div class="ttdef"><b>Definition:</b> types.h:51</div></div>
 <div class="ttc" id="group__analog_html_ga42f959f996964fe3026b56407c5c2d8c"><div class="ttname"><a href="group__analog.html#ga42f959f996964fe3026b56407c5c2d8c">analog_ioctl_t</a></div><div class="ttdeci">analog_ioctl_t</div><div class="ttdoc">Analog ioctl registers. </div><div class="ttdef"><b>Definition:</b> analog.h:67</div></div>
-<div class="ttc" id="structdevice_html"><div class="ttname"><a href="structdevice.html">device</a></div><div class="ttdoc">Device driver descriptor. </div><div class="ttdef"><b>Definition:</b> device.h:55</div></div>
 <div class="ttc" id="group__libcio_html_gad80dd68a15cdbb62ab57decaee670625"><div class="ttname"><a href="group__libcio.html#gad80dd68a15cdbb62ab57decaee670625">ioctl</a></div><div class="ttdeci">int ioctl(struct file *stream, unsigned long reg, void *buf)</div><div class="ttdoc">Drive file control options. </div><div class="ttdef"><b>Definition:</b> ioctl.c:37</div></div>
 <div class="ttc" id="structanalog__pin_html_abea371f9030e15a5d2a4c181576833d8"><div class="ttname"><a href="structanalog__pin.html#abea371f9030e15a5d2a4c181576833d8">analog_pin::num</a></div><div class="ttdeci">uint8_t num</div><div class="ttdoc">Pin number. </div><div class="ttdef"><b>Definition:</b> analog.h:39</div></div>
 <div class="ttc" id="group__analog_html_gaadcbb6165bb31a24e5d679b5e3ff0b79"><div class="ttname"><a href="group__analog.html#gaadcbb6165bb31a24e5d679b5e3ff0b79">analog_chip_init</a></div><div class="ttdeci">int analog_chip_init(struct analog_chip *chip)</div><div class="ttdoc">Initialise a new ADC chip. </div><div class="ttdef"><b>Definition:</b> analog.c:148</div></div>
@@ -211,7 +210,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 17 2017 20:47:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 10 2017 12:47:59 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

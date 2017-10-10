@@ -9,8 +9,9 @@
 <area shape="rect" id="node9" href="$group__python-lm36.html" title="LM36 temperature driver. " alt="" coords="177,360,268,387"/>
 <area shape="rect" id="node10" href="$group__python-tmp35.html" title="TMP35 temperature driver. " alt="" coords="173,411,273,437"/>
 <area shape="rect" id="node11" href="$group__python-dict.html" title="Python dictionary module. " alt="" coords="177,461,268,488"/>
-<area shape="rect" id="node12" href="$group__python-sram.html" title="Python SRAM device driver. " alt="" coords="192,512,253,539"/>
-<area shape="rect" id="node13" href="$group__python-cpu.html" title="Python CPU module. " alt="" coords="197,563,248,589"/>
-<area shape="rect" id="node14" href="$group__python-eeprom.html" title="Python EEPROM drivers. " alt="" coords="183,613,263,640"/>
-<area shape="rect" id="node15" href="$group__python-time.html" title="Python time functions / classes. " alt="" coords="184,664,261,691"/>
+<area shape="rect" id="node12" href="$group__python-device.html" title="Python device module. " alt="" coords="191,512,254,539"/>
+<area shape="rect" id="node13" href="$group__python-sram.html" title="Python SRAM device driver. " alt="" coords="192,563,253,589"/>
+<area shape="rect" id="node14" href="$group__python-cpu.html" title="Python CPU module. " alt="" coords="197,613,248,640"/>
+<area shape="rect" id="node15" href="$group__python-eeprom.html" title="Python EEPROM drivers. " alt="" coords="183,664,263,691"/>
+<area shape="rect" id="node16" href="$group__python-time.html" title="Python time functions / classes. " alt="" coords="184,715,261,741"/>
 </map>

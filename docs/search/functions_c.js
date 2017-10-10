@@ -2,6 +2,7 @@ var searchData=
 [
   ['labs',['labs',['../group__libc.html#ga1de0f30e08cf806ce72025c63b00fba0',1,'labs(long num):&#160;labs.c'],['../group__libc.html#ga1de0f30e08cf806ce72025c63b00fba0',1,'labs(long num):&#160;labs.c']]],
   ['len',['len',['../group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be',1,'__bi']]],
+  ['length',['length',['../class_string.html#a2edf269e5cd490f7863c9150bb910c85',1,'String']]],
   ['list_5fdel',['list_del',['../list_8h.html#ab1708206f0f7e0a56550b35372203ba5',1,'list.h']]],
   ['list_5fempty',['list_empty',['../list_8h.html#a6601e54d8f27ab290ee6819f7e2127b7',1,'list.h']]],
   ['list_5fhead_5finit',['list_head_init',['../list_8h.html#a1a568374cf24e55d65a537408bd323e4',1,'list.h']]],

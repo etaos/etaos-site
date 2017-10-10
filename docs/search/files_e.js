@@ -9,5 +9,6 @@ var searchData=
   ['sram_2eh',['sram.h',['../sram_8h.html',1,'']]],
   ['strchr_2ec',['strchr.c',['../strchr_8c.html',1,'']]],
   ['strcmp_2ec',['strcmp.c',['../strcmp_8c.html',1,'']]],
+  ['string_2eh',['string.h',['../etaos_2stl_2string_8h.html',1,'']]],
   ['strlen_2ec',['strlen.c',['../strlen_8c.html',1,'']]]
 ];

@@ -1,14 +1,15 @@
 <map id="spi_driver" name="spi_driver">
-<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="592,5,667,83"/>
-<area shape="rect" id="node8" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="460,329,567,597"/>
-<area shape="rect" id="node9" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="586,145,673,267"/>
-<area shape="rect" id="node10" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="698,381,790,546"/>
-<area shape="rect" id="node12" href="$structrq.html" title="Run queue descriptor. " alt="" coords="683,917,794,1024"/>
-<area shape="rect" id="node3" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="278,1087,349,1179"/>
-<area shape="rect" id="node4" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="283,1271,410,1436"/>
-<area shape="rect" id="node5" href="$structmutex__t.html" title="Recursive mutex data structure. " alt="" coords="161,1094,231,1171"/>
-<area shape="rect" id="node6" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="146,932,246,1009"/>
-<area shape="rect" id="node7" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="322,675,441,855"/>
-<area shape="rect" id="node11" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="464,726,547,803"/>
-<area shape="rect" id="node13" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="672,726,720,803"/>
+<area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="636,5,711,83"/>
+<area shape="rect" id="node7" href="$structthread.html" title="Thread descriptor.All information available for a thread is stored in this structure. " alt="" coords="504,329,611,597"/>
+<area shape="rect" id="node10" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="630,145,717,267"/>
+<area shape="rect" id="node11" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="743,381,835,546"/>
+<area shape="rect" id="node13" href="$structrq.html" title="Run queue descriptor. " alt="" coords="693,1009,803,1116"/>
+<area shape="rect" id="node3" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="190,1179,261,1271"/>
+<area shape="rect" id="node4" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="195,1363,322,1528"/>
+<area shape="rect" id="node5" href="$structmutex__t.html" title="Recursive mutex data structure. " alt="" coords="76,1186,145,1263"/>
+<area shape="rect" id="node6" href="$structtrace__info__t.html" title="Call trace info structure. " alt="" coords="45,879,136,985"/>
+<area shape="rect" id="node8" href="$structthread__queue.html" title="Thread queue descriptor. " alt="" coords="241,1024,341,1101"/>
+<area shape="rect" id="node9" href="$structsched__class.html" title="Scheduling class descriptor. " alt="" coords="390,675,509,855"/>
+<area shape="rect" id="node12" href="$structrr__entity.html" title="Round robin entity. " alt="" coords="707,726,789,803"/>
+<area shape="rect" id="node14" href="$structrr__rq.html" title="Round robin run queue. " alt="" coords="813,726,861,803"/>
 </map>

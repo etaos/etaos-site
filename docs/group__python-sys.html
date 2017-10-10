@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.0</a>
+                        <a class="navbar-brand">5.1.1</a>
 		    </div>
 	        </div>
             </div>
@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -134,6 +133,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5ffb784f4a0da321b242087fc2cf914a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__python-sys.html#ga5ffb784f4a0da321b242087fc2cf914a">run</a></td></tr>
 <tr class="memdesc:ga5ffb784f4a0da321b242087fc2cf914a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the given function in a thread sharing the current global namespace.  <a href="#ga5ffb784f4a0da321b242087fc2cf914a">More...</a><br /></td></tr>
 <tr class="separator:ga5ffb784f4a0da321b242087fc2cf914a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacda43d37591b5b053badd78889c1c2f0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__python-sys.html#gacda43d37591b5b053badd78889c1c2f0">sizeof</a></td></tr>
+<tr class="memdesc:gacda43d37591b5b053badd78889c1c2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bytes a given object takes in memory.  <a href="#gacda43d37591b5b053badd78889c1c2f0">More...</a><br /></td></tr>
+<tr class="separator:gacda43d37591b5b053badd78889c1c2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0cd605f8f55175c5773806ca21fe5ec"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__python-sys.html#gad0cd605f8f55175c5773806ca21fe5ec">raw_sizeof</a></td></tr>
+<tr class="memdesc:gad0cd605f8f55175c5773806ca21fe5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the raw size of <code>var</code>.  <a href="#gad0cd605f8f55175c5773806ca21fe5ec">More...</a><br /></td></tr>
+<tr class="separator:gad0cd605f8f55175c5773806ca21fe5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga820ecd2aa0748b82ff2138ee1ba39775"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__python-sys.html#ga820ecd2aa0748b82ff2138ee1ba39775">clock</a></td></tr>
 <tr class="memdesc:ga820ecd2aa0748b82ff2138ee1ba39775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of milliseconds since the PyMite VM was initialized.  <a href="#ga820ecd2aa0748b82ff2138ee1ba39775">More...</a><br /></td></tr>
 <tr class="separator:ga820ecd2aa0748b82ff2138ee1ba39775"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -429,6 +434,60 @@ return retval;
 
 </div>
 </div>
+<a class="anchor" id="gad0cd605f8f55175c5773806ca21fe5ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def sys.raw_sizeof </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the raw size of <code>var</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">var</td><td>Object to get the raw size of. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The raw size of <code>var</code>. <pre class="fragment">__NATIVE__
+PmReturn_t retval;
+pPmObj_t obj, rv;
+int size;
+
+if(NATIVE_GET_NUM_ARGS() != 1) {
+        PM_RAISE(retval, PM_RET_EX_TYPE);
+        return retval;
+}
+
+obj = NATIVE_GET_LOCAL(0);
+switch(OBJ_GET_TYPE(obj)) {
+case OBJ_TYPE_INT:
+        size = sizeof(int32_t);
+        break;
+case OBJ_TYPE_FLT:
+        size = sizeof(float);
+        break;
+case OBJ_TYPE_BOOL:
+        size = sizeof(bool);
+        break;
+default:
+        size = OBJ_GET_SIZE(obj);
+        break;
+}
+
+retval = int_new(size, &amp;rv);
+NATIVE_SET_TOS(rv);
+return retval;
+</pre> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga5ffb784f4a0da321b242087fc2cf914a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -469,6 +528,100 @@ if (OBJ_GET_TYPE(pf) != OBJ_TYPE_FXN) {
 
 retval = interp_addThread((pPmFunc_t)pf);
 NATIVE_SET_TOS(PM_NONE);
+return retval;
+</pre> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gacda43d37591b5b053badd78889c1c2f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def sys.sizeof </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the number of bytes a given object takes in memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>Object to get the size for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of bytes <code>obj</code> takes up in memory. <pre class="fragment">__NATIVE__
+pPmObj_t pobj;
+pPmObj_t psize;
+int32_t n;
+PmReturn_t retval = PM_RET_OK;
+int32_t static size[] = {
+    sizeof(PmObj_t), /* None type */
+    sizeof(PmInt_t),
+    sizeof(PmFloat_t),
+    sizeof(PmString_t),
+    sizeof(PmTuple_t),
+    sizeof(PmCo_t),
+    sizeof(PmFunc_t), /* Module Obj uses func struct */
+    sizeof(PmClass_t),
+    sizeof(PmFunc_t),
+    sizeof(PmClass_t), /* Class instance */
+    0, /* CIM */
+    0, /* NIM */
+    sizeof(PmCo_t), /* NOB */
+    sizeof(PmThread_t),
+    sizeof(PmClass_t), /* Exception instance */
+    sizeof(PmBoolean_t),
+    sizeof(PmCodeImgObj_t),
+    sizeof(PmList_t),
+    sizeof(PmDict_t),
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    sizeof(PmFrame_t),
+    sizeof(PmBlock_t),
+    sizeof(Segment_t),
+    sizeof(Seglist_t),
+    sizeof(PmSeqIter_t),
+    sizeof(PmNativeFrame_t),
+};
+
+/* If wrong number of args, raise TypeError */
+if (NATIVE_GET_NUM_ARGS() != 1)
+{
+    PM_RAISE(retval, PM_RET_EX_TYPE);
+    return retval;
+}
+
+pobj = NATIVE_GET_LOCAL(0);
+if (OBJ_GET_TYPE(pobj) == OBJ_TYPE_INT)
+{
+    n = ((pPmInt_t)pobj)-&gt;val;
+    if ((n &gt;= 0) &amp;&amp; (n &lt; 32))
+    {
+        /* Return the size of the type represented by the integer */
+        retval = int_new(size[n], &amp;psize);
+    }
+    else
+    {
+        /* Return the size of an integer object */
+        retval = int_new(OBJ_GET_SIZE(pobj), &amp;psize);
+    }
+}
+else
+{
+    /* Return the size of the given non-integer object */
+    retval = int_new(OBJ_GET_SIZE(pobj), &amp;psize);
+}
+
+NATIVE_SET_TOS(psize);
 return retval;
 </pre> </dd></dl>
 
@@ -562,7 +715,7 @@ return PM_RET_OK;
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 17 2017 20:47:03 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 10 2017 12:48:00 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

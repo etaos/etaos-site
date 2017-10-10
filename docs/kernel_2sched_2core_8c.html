@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.0</a>
+                        <a class="navbar-brand">5.1.1</a>
 		    </div>
 	        </div>
             </div>
@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -263,9 +262,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf73c5dc7cda9379cb9e99169b92dbbee"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gaf73c5dc7cda9379cb9e99169b92dbbee">sched_switch_count</a> (void)</td></tr>
 <tr class="memdesc:gaf73c5dc7cda9379cb9e99169b92dbbee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of thread switches on the current <a class="el" href="class_c_p_u.html" title="Utility class to provide access to hardware. ">CPU</a>.  <a href="group__sched.html#gaf73c5dc7cda9379cb9e99169b92dbbee">More...</a><br /></td></tr>
 <tr class="separator:gaf73c5dc7cda9379cb9e99169b92dbbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga761312d2768cc26c49b7f53de33c8477"><td class="memItemLeft" align="right" valign="top">static void __hot&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga761312d2768cc26c49b7f53de33c8477">rq_switch_context</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *prev, struct <a class="el" href="structthread.html">thread</a> *new)</td></tr>
-<tr class="memdesc:ga761312d2768cc26c49b7f53de33c8477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch context on a given run queue.  <a href="group__sched.html#ga761312d2768cc26c49b7f53de33c8477">More...</a><br /></td></tr>
-<tr class="separator:ga761312d2768cc26c49b7f53de33c8477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga65b901825618b5227439a55822e9785a"><td class="memItemLeft" align="right" valign="top">static void __sched__&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga65b901825618b5227439a55822e9785a">rq_switch_context</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *prev, struct <a class="el" href="structthread.html">thread</a> *new)</td></tr>
+<tr class="memdesc:ga65b901825618b5227439a55822e9785a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch context on a given run queue.  <a href="group__sched.html#ga65b901825618b5227439a55822e9785a">More...</a><br /></td></tr>
+<tr class="separator:ga65b901825618b5227439a55822e9785a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga21bff5f2e0f402ef8b0ccb687570a2fa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa">rq_signal_event_queue</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
 <tr class="memdesc:ga21bff5f2e0f402ef8b0ccb687570a2fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal a thread on a wake queue.  <a href="group__sched.html#ga21bff5f2e0f402ef8b0ccb687570a2fa">More...</a><br /></td></tr>
 <tr class="separator:ga21bff5f2e0f402ef8b0ccb687570a2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,33 +286,33 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8e0a4597581707f45d23f718106be969"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga8e0a4597581707f45d23f718106be969">__schedule_prepare</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *prev, struct <a class="el" href="structthread.html">thread</a> *next, unsigned long irqs)</td></tr>
 <tr class="memdesc:ga8e0a4597581707f45d23f718106be969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare the a reschedule.  <a href="group__sched.html#ga8e0a4597581707f45d23f718106be969">More...</a><br /></td></tr>
 <tr class="separator:ga8e0a4597581707f45d23f718106be969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa7887e8e5c82701d2a90a29761a97ed"><td class="memItemLeft" align="right" valign="top">static int __sched__&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gaaa7887e8e5c82701d2a90a29761a97ed">reschedule_decide</a> (struct <a class="el" href="structthread.html">thread</a> *cur, struct <a class="el" href="structthread.html">thread</a> *next)</td></tr>
+<tr class="memdesc:gaaa7887e8e5c82701d2a90a29761a97ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule policy.  <a href="group__sched.html#gaaa7887e8e5c82701d2a90a29761a97ed">More...</a><br /></td></tr>
+<tr class="separator:gaaa7887e8e5c82701d2a90a29761a97ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0d44902c5d3430ff04e4aacd738af0b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga0d44902c5d3430ff04e4aacd738af0b8">sched_mark_remote_kill</a> (struct <a class="el" href="structthread.html">thread</a> *tp)</td></tr>
 <tr class="memdesc:ga0d44902c5d3430ff04e4aacd738af0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark a thread for termination.  <a href="group__sched.html#ga0d44902c5d3430ff04e4aacd738af0b8">More...</a><br /></td></tr>
 <tr class="separator:ga0d44902c5d3430ff04e4aacd738af0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2a33aa8e229c79764e00338e98b512ad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga2a33aa8e229c79764e00338e98b512ad">sched_remote_kill_if</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>)</td></tr>
 <tr class="memdesc:ga2a33aa8e229c79764e00338e98b512ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kill the current thread if its marked for removal.  <a href="group__sched.html#ga2a33aa8e229c79764e00338e98b512ad">More...</a><br /></td></tr>
 <tr class="separator:ga2a33aa8e229c79764e00338e98b512ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf1e5f36155c3619302723e71d64d3e55"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gaf1e5f36155c3619302723e71d64d3e55">schedule_decide</a> (struct <a class="el" href="structthread.html">thread</a> *cur, struct <a class="el" href="structthread.html">thread</a> *next)</td></tr>
-<tr class="memdesc:gaf1e5f36155c3619302723e71d64d3e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule policy.  <a href="group__sched.html#gaf1e5f36155c3619302723e71d64d3e55">More...</a><br /></td></tr>
-<tr class="separator:gaf1e5f36155c3619302723e71d64d3e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga902ac489886eb8c3c23a644234e98bb1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga902ac489886eb8c3c23a644234e98bb1">preempt_check</a> (struct <a class="el" href="structrq.html">rq</a> *<a class="el" href="structrq.html">rq</a>, struct <a class="el" href="structthread.html">thread</a> *cur, struct <a class="el" href="structthread.html">thread</a> *nxt)</td></tr>
 <tr class="memdesc:ga902ac489886eb8c3c23a644234e98bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the algorithm wants to preempt the current thread.  <a href="group__sched.html#ga902ac489886eb8c3c23a644234e98bb1">More...</a><br /></td></tr>
 <tr class="separator:ga902ac489886eb8c3c23a644234e98bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga835c9de7e384665a6e425fc55f63872a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a> __hot&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga835c9de7e384665a6e425fc55f63872a">__schedule</a> (int cpu)</td></tr>
-<tr class="memdesc:ga835c9de7e384665a6e425fc55f63872a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule the current run queue.  <a href="group__sched.html#ga835c9de7e384665a6e425fc55f63872a">More...</a><br /></td></tr>
-<tr class="separator:ga835c9de7e384665a6e425fc55f63872a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9897609e91b475d0c8214b63fd0a7312"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a> __sched__&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga9897609e91b475d0c8214b63fd0a7312">__schedule</a> (int cpu)</td></tr>
+<tr class="memdesc:ga9897609e91b475d0c8214b63fd0a7312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule the current run queue.  <a href="group__sched.html#ga9897609e91b475d0c8214b63fd0a7312">More...</a><br /></td></tr>
+<tr class="separator:ga9897609e91b475d0c8214b63fd0a7312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa502c4a92f7b7008c0eca9c374d7f671"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="include_2etaos_2types_8h.html#a97a80ca1602ebf2303258971a2c938e2">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671">need_resched</a> ()</td></tr>
 <tr class="memdesc:gaa502c4a92f7b7008c0eca9c374d7f671"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a reschedule is required.  <a href="group__sched.html#gaa502c4a92f7b7008c0eca9c374d7f671">More...</a><br /></td></tr>
 <tr class="separator:gaa502c4a92f7b7008c0eca9c374d7f671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac48128e72b303ea22d8ec641a9516b15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gac48128e72b303ea22d8ec641a9516b15">schedule</a> (void)</td></tr>
 <tr class="memdesc:gac48128e72b303ea22d8ec641a9516b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule the current run queue.  <a href="group__sched.html#gac48128e72b303ea22d8ec641a9516b15">More...</a><br /></td></tr>
 <tr class="separator:gac48128e72b303ea22d8ec641a9516b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga974353847ed3f08a28c54aa2aa9046a1"><td class="memItemLeft" align="right" valign="top">void __hot&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga974353847ed3f08a28c54aa2aa9046a1">preempt_schedule_irq</a> (void)</td></tr>
-<tr class="memdesc:ga974353847ed3f08a28c54aa2aa9046a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preempt a thread from IRQ context.  <a href="group__sched.html#ga974353847ed3f08a28c54aa2aa9046a1">More...</a><br /></td></tr>
-<tr class="separator:ga974353847ed3f08a28c54aa2aa9046a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga066f92644adbfa1f42b75cdaaaa5ef47"><td class="memItemLeft" align="right" valign="top">void __hot&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga066f92644adbfa1f42b75cdaaaa5ef47">preempt_schedule</a> (void)</td></tr>
-<tr class="memdesc:ga066f92644adbfa1f42b75cdaaaa5ef47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule the current run queue with preemption in mind.  <a href="group__sched.html#ga066f92644adbfa1f42b75cdaaaa5ef47">More...</a><br /></td></tr>
-<tr class="separator:ga066f92644adbfa1f42b75cdaaaa5ef47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f4e83cfa8c21a06dafa66a7c8d20465"><td class="memItemLeft" align="right" valign="top">void __sched__&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga9f4e83cfa8c21a06dafa66a7c8d20465">preempt_schedule_irq</a> (void)</td></tr>
+<tr class="memdesc:ga9f4e83cfa8c21a06dafa66a7c8d20465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preempt a thread from IRQ context.  <a href="group__sched.html#ga9f4e83cfa8c21a06dafa66a7c8d20465">More...</a><br /></td></tr>
+<tr class="separator:ga9f4e83cfa8c21a06dafa66a7c8d20465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf4485e5837438cf0f2106c05f9ccdb70"><td class="memItemLeft" align="right" valign="top">void __sched__&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#gaf4485e5837438cf0f2106c05f9ccdb70">preempt_schedule</a> (void)</td></tr>
+<tr class="memdesc:gaf4485e5837438cf0f2106c05f9ccdb70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reschedule the current run queue with preemption in mind.  <a href="group__sched.html#gaf4485e5837438cf0f2106c05f9ccdb70">More...</a><br /></td></tr>
+<tr class="separator:gaf4485e5837438cf0f2106c05f9ccdb70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga406ed4d86e3f2e062e6d7b0930c69de1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sched.html#ga406ed4d86e3f2e062e6d7b0930c69de1">sched_start</a> (void)</td></tr>
 <tr class="memdesc:ga406ed4d86e3f2e062e6d7b0930c69de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the scheduler.  <a href="group__sched.html#ga406ed4d86e3f2e062e6d7b0930c69de1">More...</a><br /></td></tr>
 <tr class="separator:ga406ed4d86e3f2e062e6d7b0930c69de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -351,7 +350,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 17 2017 20:47:02 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 10 2017 12:47:59 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -5,6 +5,7 @@ var searchData=
   ['architectures',['Architectures',['../group__arch.html',1,'']]],
   ['architecture_20api',['Architecture API',['../group__arch_a_p_i.html',1,'']]],
   ['atmega_20avr',['ATmega AVR',['../group__atmega.html',1,'']]],
+  ['atmega_20flash_20drivers',['ATmega FLASH drivers',['../group__atmega-flash.html',1,'']]],
   ['atmega_20gpio_20driver',['ATmega GPIO driver',['../group__atmega-gpio.html',1,'']]],
   ['atmega_20pwm',['ATmega PWM',['../group__atmpwm.html',1,'']]],
   ['atmega_20i2c_20driver',['ATmega I2C driver',['../group__i2c-atmega.html',1,'']]],
