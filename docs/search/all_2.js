@@ -64,5 +64,6 @@ var searchData=
   ['application_20examples',['Application examples',['../examples.html',1,'']]],
   ['atmega_20i2c_20driver',['ATmega I2C driver',['../group__i2c-atmega.html',1,'']]],
   ['atmega_20spi_20driver',['ATmega SPI driver',['../group__spi-atmega.html',1,'']]],
-  ['atmega_20usart',['ATmega USART',['../group__usart-atmega.html',1,'']]]
+  ['atmega_20usart',['ATmega USART',['../group__usart-atmega.html',1,'']]],
+  ['atmega_20usart1',['ATmega USART1',['../group__usart1-atmega.html',1,'']]]
 ];

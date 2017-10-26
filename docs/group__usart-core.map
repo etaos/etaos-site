@@ -1,4 +1,5 @@
 <map id="USART API" name="USART API">
-<area shape="rect" id="node1" href="$group__dev.html" title="Standard device I/O functions. " alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node2" href="$group__usart-atmega.html" title="ATmega USART I/O device. " alt="" coords="303,5,424,32"/>
+<area shape="rect" id="node1" href="$group__dev.html" title="Standard device I/O functions. " alt="" coords="5,31,112,57"/>
+<area shape="rect" id="node2" href="$group__usart-atmega.html" title="ATmega USART I/O device. " alt="" coords="306,5,427,32"/>
+<area shape="rect" id="node3" href="$group__usart1-atmega.html" title="ATmega USART1. " alt="" coords="303,56,431,83"/>
 </map>
