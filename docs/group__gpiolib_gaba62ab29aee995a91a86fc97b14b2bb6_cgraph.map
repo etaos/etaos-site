@@ -1,4 +1,3 @@
 <map id="raw_gpio_pin_write" name="raw_gpio_pin_write">
 <area shape="rect" id="node2" href="$group__gpiolib.html#ga5d2389cb21a58fd4e4d55d79637e6eee" title="Write a boolean value to a GPIO pin. " alt="" coords="187,5,333,32"/>
-<area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178" title="Return the value of bit nr. " alt="" coords="381,5,447,32"/>
 </map>

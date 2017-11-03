@@ -11,7 +11,7 @@ var searchData=
   ['analog_5fopen',['analog_open',['../group__analog.html#ga5f5c8e4b08fe34585412c567ae29f9ff',1,'analog.c']]],
   ['analog_5fread',['analog_read',['../group__analog.html#ga52916dc9f10e4cfa3641b474bbf20cd1',1,'analog_read():&#160;analog.c'],['../group__python-cpu.html#gae3ace00e9795eb9f7c66304930b20b2e',1,'cpu.analog_read()']]],
   ['append',['append',['../group__python-list.html#gaf5fb3b7dbde16ada7dd1468cdee24726',1,'list']]],
-  ['arch_5fdelay_5fus',['arch_delay_us',['../group__atmega.html#ga1184747f0327e7b083b5d7bf4bd17d03',1,'arch_delay_us(double __us):&#160;timer.c'],['../group__arch_a_p_i.html#gac4164aa469d190964a6def1e29650e90',1,'arch_delay_us(double us):&#160;timer.c']]],
+  ['arch_5fdelay_5fus',['arch_delay_us',['../group__atmega.html#ga9ee8b8c7011a2667a49937c3b5d90113',1,'arch_delay_us(unsigned int us):&#160;timer.c'],['../group__arch_a_p_i.html#ga9ee8b8c7011a2667a49937c3b5d90113',1,'arch_delay_us(unsigned int us):&#160;timer.c']]],
   ['arch_5fget_5firq_5fchip',['arch_get_irq_chip',['../group__atmega.html#ga353087fc5cc6faea34c6591d370e3e83',1,'arch_get_irq_chip(void):&#160;cpu.c'],['../group__arch_a_p_i.html#ga353087fc5cc6faea34c6591d370e3e83',1,'arch_get_irq_chip(void):&#160;cpu.c']]],
   ['arch_5fhibernate',['arch_hibernate',['../group__arch_a_p_i.html#ga86150eb1ffba3e876d2beeb0990cf7bc',1,'arch_hibernate(void):&#160;power.c'],['../group__arch_a_p_i.html#ga86150eb1ffba3e876d2beeb0990cf7bc',1,'arch_hibernate(void):&#160;power.c']]],
   ['arch_5firq_5fdisable',['arch_irq_disable',['../group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6',1,'arch_irq_disable(void):&#160;irq.c'],['../group__arch_a_p_i.html#gafe72a49160d521a33bb905eca461a3d6',1,'arch_irq_disable():&#160;irq.c']]],

@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['i2c_5fset_5fspeed',['I2C_SET_SPEED',['../group__i2c.html#gga959f71dc73216bb24a1640a4ea619522ad2c694d9f11c6ae20a28e90df0d2ca88',1,'i2c.h']]],
-  ['irq_5fenter',['IRQ_ENTER',['../group__kernel.html#ggad6d9db91247652a54cb6b13d774d61ebabb8494f0ab1fff99b931f3339fbf7bf8',1,'cpu.h']]],
-  ['irq_5fexit',['IRQ_EXIT',['../group__kernel.html#ggad6d9db91247652a54cb6b13d774d61ebaf3fcfe94f5ee00419b2adac357ac0d9b',1,'cpu.h']]],
-  ['irq_5fhandled',['IRQ_HANDLED',['../group__irq.html#ggac994ac3cabeec5dfa2e596bad98f2bb3a1707b885b9788d0de4a3fad62fb83d58',1,'irq.h']]],
-  ['irq_5fnone',['IRQ_NONE',['../group__irq.html#ggac994ac3cabeec5dfa2e596bad98f2bb3a50ee62715ba09bc0d6938e1813bf972c',1,'irq.h']]],
-  ['irq_5fwake_5fowner',['IRQ_WAKE_OWNER',['../group__irq.html#ggac994ac3cabeec5dfa2e596bad98f2bb3a77bb0742b389a1bbc49fa1c8279dfdb2',1,'irq.h']]]
+  ['first_5ffit',['FIRST_FIT',['../group__mm.html#gga1e27d70e872f8eead5fef5ca3e916bbea8dba223d467d98a5827105bfb9e1f7f9',1,'mem.h']]],
+  ['fs_5fdir_5fcreate',['FS_DIR_CREATE',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67ca6cb451d89aa681581fd7dda6ccdb3712',1,'vfs.h']]],
+  ['fs_5fdir_5fopen',['FS_DIR_OPEN',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67ca42c0732bbf00584117bcf2eebc803ced',1,'vfs.h']]],
+  ['fs_5fdir_5fread',['FS_DIR_READ',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67ca1502d1102edc917f2e2627a7f2a9f470',1,'vfs.h']]],
+  ['fs_5ffile_5fclose',['FS_FILE_CLOSE',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67cabc213cbe222468c82723ebd934f2762e',1,'vfs.h']]],
+  ['fs_5ffile_5fopen',['FS_FILE_OPEN',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67ca687f3d26737b6f93d818c8c9c772c83d',1,'vfs.h']]],
+  ['fs_5ffile_5fread',['FS_FILE_READ',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67caf1d690702101a4a5b77e0f675da92c87',1,'vfs.h']]],
+  ['fs_5ffile_5funlink',['FS_FILE_UNLINK',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67cad3882225ed324d8700ef2b079b533c91',1,'vfs.h']]],
+  ['fs_5ffile_5fwrite',['FS_FILE_WRITE',['../vfs_8h.html#a0617d78add7ebacffcef53b6f7a0c67ca898761de0a893643c7be2506bdfd3c28',1,'vfs.h']]]
 ];

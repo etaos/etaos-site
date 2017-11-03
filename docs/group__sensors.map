@@ -1,0 +1,4 @@
+<map id="Sensor drivers" name="Sensor drivers">
+<area shape="rect" id="node1" href="$group__bmp085.html" title="BMP085 barometric sensor driver. " alt="" coords="160,5,232,32"/>
+<area shape="rect" id="node2" href="$group__dht11.html" title="Device driver for the DHT11 humidity sensor. " alt="" coords="164,56,228,83"/>
+</map>

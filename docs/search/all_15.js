@@ -12,7 +12,7 @@ var searchData=
   ['test_5fand_5fset_5fbit',['test_and_set_bit',['../arch_2avr_2include_2asm_2bitops_8h.html#adf26f5ce21ef30b29b5163e6bb62ef4a',1,'bitops.h']]],
   ['test_5fbit',['test_bit',['../arch_2avr_2include_2asm_2bitops_8h.html#a885c4e4b78de84afaf562fffdf93f178',1,'test_bit(unsigned nr, volatile void *addr):&#160;bitops.h'],['../include_2etaos_2bitops_8h.html#a4e6f4a87976eb1eadcfa494c8d4aecb1',1,'test_bit(unsigned bit, volatile unsigned long *flags):&#160;bitops.h']]],
   ['thead',['thead',['../structclocksource.html#aef1e65e59d4c4c7b4e0f8935a30c49bf',1,'clocksource']]],
-  ['thread',['thread',['../structthread.html',1,'thread'],['../class_thread.html',1,'Thread'],['../group__stl.html#ga5ba3e4e8c1f6e60224b3f6bcfe88e0a6',1,'Thread::Thread()'],['../group__thread.html#ga0997164986a1455f439bfa7e62df0faf',1,'THREAD():&#160;thread.h'],['../group__thread.html',1,'(Global Namespace)']]],
+  ['thread',['Thread',['../class_thread.html',1,'Thread'],['../structthread.html',1,'thread'],['../group__stl.html#ga5ba3e4e8c1f6e60224b3f6bcfe88e0a6',1,'Thread::Thread()'],['../group__thread.html#ga0997164986a1455f439bfa7e62df0faf',1,'THREAD():&#160;thread.h'],['../group__thread.html',1,'(Global Namespace)']]],
   ['thread_2eh',['thread.h',['../thread_8h.html',1,'']]],
   ['thread_5fadd_5fto_5fkill_5fq',['thread_add_to_kill_q',['../group__sched.html#ga943138ae9f6509d01235bbd1e35bdccb',1,'core.c']]],
   ['thread_5fadd_5fto_5fwake_5fq',['thread_add_to_wake_q',['../group__sched.html#ga746679e5490fa2dfd8c9184594bc8d7b',1,'core.c']]],

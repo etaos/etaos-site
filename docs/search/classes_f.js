@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['thread',['thread',['../structthread.html',1,'thread'],['../class_thread.html',1,'Thread']]],
+  ['thread',['Thread',['../class_thread.html',1,'Thread'],['../structthread.html',1,'thread']]],
   ['thread_5fattr_5ft',['thread_attr_t',['../structthread__attr__t.html',1,'']]],
   ['thread_5fqueue',['thread_queue',['../structthread__queue.html',1,'']]],
   ['time',['Time',['../classtime_1_1_time.html',1,'time']]],
