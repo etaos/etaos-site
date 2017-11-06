@@ -105,6 +105,5 @@ var searchData=
   ['pwm_5fupdate_5ffrequency',['pwm_update_frequency',['../group__pwm.html#gaaca2c2d7fca4b6cb2d0b4398d9781e6e',1,'pwm-core.c']]],
   ['python_20stl',['Python STL',['../group__python.html',1,'']]],
   ['python_20avr',['Python AVR',['../group__python-avr.html',1,'']]],
-  ['pyusrlib_2ec',['pyusrlib.c',['../python_2pyusrlib_8c.html',1,'']]],
-  ['pyusrlib_2ec',['pyusrlib.c',['../stress_2pyusrlib_8c.html',1,'']]]
+  ['pyusrlib_2ec',['pyusrlib.c',['../pyusrlib_8c.html',1,'']]]
 ];

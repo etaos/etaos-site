@@ -7,6 +7,5 @@ var searchData=
   ['preempt_2eh',['preempt.h',['../preempt_8h.html',1,'']]],
   ['printf_2ec',['printf.c',['../printf_8c.html',1,'']]],
   ['putc_2ec',['putc.c',['../putc_8c.html',1,'']]],
-  ['pyusrlib_2ec',['pyusrlib.c',['../python_2pyusrlib_8c.html',1,'']]],
-  ['pyusrlib_2ec',['pyusrlib.c',['../stress_2pyusrlib_8c.html',1,'']]]
+  ['pyusrlib_2ec',['pyusrlib.c',['../pyusrlib_8c.html',1,'']]]
 ];

@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.4</a>
+                        <a class="navbar-brand">5.1.5</a>
 		    </div>
 	        </div>
             </div>
@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="summary">
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">BMP085<div class="ingroups"><a class="el" href="group__sensors.html">Sensor drivers</a></div></div>  </div>
@@ -106,6 +107,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </td></tr></table></center>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga22edaaafe203c63fcacd82568d7017d4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bmp085.html#ga22edaaafe203c63fcacd82568d7017d4">bmp085_ioctl_t</a> </td></tr>
+<tr class="memdesc:ga22edaaafe203c63fcacd82568d7017d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">BMP085 <code><a class="el" href="group__libcio.html#gad80dd68a15cdbb62ab57decaee670625" title="Drive file control options. ">ioctl()</a></code> options.  <a href="group__bmp085.html#ga22edaaafe203c63fcacd82568d7017d4">More...</a><br /></td></tr>
+<tr class="separator:ga22edaaafe203c63fcacd82568d7017d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga3ffc5a58e39108ad204ddd403f714fa9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__bmp085.html#ga3ffc5a58e39108ad204ddd403f714fa9">bmp_open</a> (struct <a class="el" href="structfile.html">file</a> *<a class="el" href="structfile.html">file</a>)</td></tr>
@@ -121,6 +128,29 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>BMP085 barometric sensor driver. </p>
 <p>The BMP085 sensor measures the air pressure in Pascals. The device driver works through the device file system. The device file for this driver is found in <code>/dev/bmp085</code>. </p>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga22edaaafe203c63fcacd82568d7017d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__bmp085.html#ga22edaaafe203c63fcacd82568d7017d4">bmp085_ioctl_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>BMP085 <code><a class="el" href="group__libcio.html#gad80dd68a15cdbb62ab57decaee670625" title="Drive file control options. ">ioctl()</a></code> options. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga22edaaafe203c63fcacd82568d7017d4ad06d3e5777804eb33a14022a4776771d"></a>BMP_MEASURE_TEMPERATURE&#160;</td><td class="fielddoc">
+<p>Switch to the temperature sensor. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga22edaaafe203c63fcacd82568d7017d4a8bdcb27a5a1ec25f4346b19e38929bc9"></a>BMP_MEASURE_PRESSURE&#160;</td><td class="fielddoc">
+<p>Switch to the pressure sensor. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ga43cdc240fd79db10bc4118d2871f0cb3"></a>
 <div class="memitem">
@@ -238,6 +268,17 @@ Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>The length of buf must be <code>sizeof(int32_t)</code>. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of bytes read or an error code. </dd></dl>
 
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__bmp085_ga9c484640b3fb5c792262aee6093802f1_cgraph.png" border="0" usemap="#group__bmp085_ga9c484640b3fb5c792262aee6093802f1_cgraph" alt=""/></div>
+<map name="group__bmp085_ga9c484640b3fb5c792262aee6093802f1_cgraph" id="group__bmp085_ga9c484640b3fb5c792262aee6093802f1_cgraph">
+<area shape="rect" id="node2" href="group__python-builtin.html#ga39a4ae10474e5e94d339db8a8a0ad0be" title="Return the length of s. " alt="" coords="132,5,199,32"/></map>
+</div>
+</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -249,7 +290,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 3 2017 22:18:09 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 6 2017 20:44:20 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
