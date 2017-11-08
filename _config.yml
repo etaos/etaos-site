@@ -23,7 +23,7 @@ author :
   feedburner :
 
 project :
-  download : https://git.bietje.net/etaos/etaos/repository/archive.tar.gz?ref=v5.1.5
+  download : https://git.bietje.net/etaos/etaos/repository/archive.tar.gz?ref=v5.1.6
   browse : https://git.bietje.net/etaos/etaos
   issue : https://git.bietje.net/etaos/etaos/issues/new
   docs : http://etaos.bietje.net/docs
