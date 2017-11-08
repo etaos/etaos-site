@@ -1,0 +1,5 @@
+<map id="~BMP085" name="~BMP085">
+<area shape="rect" id="node2" href="$group__libcio.html#gaafbcde67669a1b96577e735ddebd8634" title="Close a file. " alt="" coords="133,5,187,32"/>
+<area shape="rect" id="node3" href="$group__vfs.html#ga60d1dba40888b0dadfbb4f0a30e1cb89" title="Close an open file. " alt="" coords="235,5,313,32"/>
+<area shape="rect" id="node4" href="$group__vfs.html#gae70d2b52d02913247aa5bc9bae05a32a" title="Remove a file from the FD array. " alt="" coords="361,5,451,32"/>
+</map>

@@ -1,19 +1,20 @@
 <map id="include/etaos/device.h" name="include/etaos/device.h">
-<area shape="rect" id="node2" href="$include_2etaos_2usart_8h.html" title="include/etaos/usart.h" alt="" coords="93,80,236,107"/>
-<area shape="rect" id="node4" href="$gpio_8h.html" title="include/etaos/gpio.h" alt="" coords="655,80,794,107"/>
-<area shape="rect" id="node8" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="1243,162,1393,189"/>
-<area shape="rect" id="node11" href="$analog_8h.html" title="include/etaos/analog.h" alt="" coords="347,80,499,107"/>
-<area shape="rect" id="node13" href="$i2c_8h.html" title="include/etaos/i2c.h" alt="" coords="973,80,1103,107"/>
-<area shape="rect" id="node14" href="$include_2etaos_2eeprom_8h.html" title="include/etaos/eeprom.h" alt="" coords="1127,80,1285,107"/>
-<area shape="rect" id="node15" href="$flash_8h_source.html" title="include/etaos/flash.h" alt="" coords="1309,80,1452,107"/>
-<area shape="rect" id="node16" href="$spi_8h.html" title="include/etaos/spi.h" alt="" coords="818,80,949,107"/>
-<area shape="rect" id="node17" href="$sram_8h.html" title="include/etaos/sram.h" alt="" coords="1528,80,1671,107"/>
+<area shape="rect" id="node2" href="$include_2etaos_2usart_8h.html" title="include/etaos/usart.h" alt="" coords="179,80,321,107"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="include/etaos/gpio.h" alt="" coords="718,80,857,107"/>
+<area shape="rect" id="node8" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="976,162,1127,189"/>
+<area shape="rect" id="node12" href="$analog_8h.html" title="include/etaos/analog.h" alt="" coords="1149,80,1301,107"/>
+<area shape="rect" id="node14" href="$i2c_8h.html" title="include/etaos/i2c.h" alt="" coords="1325,80,1455,107"/>
+<area shape="rect" id="node15" href="$include_2etaos_2eeprom_8h.html" title="include/etaos/eeprom.h" alt="" coords="1479,80,1637,107"/>
+<area shape="rect" id="node16" href="$flash_8h_source.html" title="include/etaos/flash.h" alt="" coords="1661,80,1804,107"/>
+<area shape="rect" id="node17" href="$spi_8h.html" title="include/etaos/spi.h" alt="" coords="471,80,602,107"/>
+<area shape="rect" id="node18" href="$sram_8h.html" title="include/etaos/sram.h" alt="" coords="981,80,1124,107"/>
 <area shape="rect" id="node3" href="$arch_2avr_2include_2asm_2usart_8h_source.html" title="arch/avr/include/asm\l/usart.h" alt="" coords="5,155,148,196"/>
-<area shape="rect" id="node5" href="$include_2etaos_2pwm_8h_source.html" title="include/etaos/pwm.h" alt="" coords="653,162,796,189"/>
-<area shape="rect" id="node6" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="987,155,1116,196"/>
-<area shape="rect" id="node7" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="820,162,963,189"/>
-<area shape="rect" id="node9" href="$stl_2cpu_8h.html" title="include/etaos/stl/cpu.h" alt="" coords="347,162,500,189"/>
-<area shape="rect" id="node10" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="525,162,629,189"/>
-<area shape="rect" id="node12" href="$tmp36_8h_source.html" title="include/etaos/tmp36.h" alt="" coords="172,162,323,189"/>
-<area shape="rect" id="node18" href="$stl_2sram_8h.html" title="include/etaos/stl/sram.h" alt="" coords="1519,162,1680,189"/>
+<area shape="rect" id="node5" href="$include_2etaos_2pwm_8h_source.html" title="include/etaos/pwm.h" alt="" coords="492,162,635,189"/>
+<area shape="rect" id="node6" href="$spi_2atmega-bus_8c.html" title="drivers/spi/atmega\l&#45;bus.c" alt="" coords="172,155,301,196"/>
+<area shape="rect" id="node7" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="325,162,468,189"/>
+<area shape="rect" id="node9" href="$stl_2cpu_8h.html" title="include/etaos/stl/cpu.h" alt="" coords="1151,162,1304,189"/>
+<area shape="rect" id="node10" href="$stl_2dht11_8h_source.html" title="include/etaos/stl/dht11.h" alt="" coords="659,162,823,189"/>
+<area shape="rect" id="node11" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="847,162,951,189"/>
+<area shape="rect" id="node13" href="$tmp36_8h_source.html" title="include/etaos/tmp36.h" alt="" coords="1513,162,1664,189"/>
+<area shape="rect" id="node19" href="$stl_2sram_8h.html" title="include/etaos/stl/sram.h" alt="" coords="1328,162,1489,189"/>
 </map>

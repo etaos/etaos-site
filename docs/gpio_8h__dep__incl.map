@@ -4,5 +4,6 @@
 <area shape="rect" id="node4" href="$spi-core_8c.html" title="drivers/spi/spi&#45;core.c" alt="" coords="325,87,468,114"/>
 <area shape="rect" id="node5" href="$23k256_8c.html" title="drivers/sram/23k256.c" alt="" coords="492,87,643,114"/>
 <area shape="rect" id="node6" href="$stl_2cpu_8h.html" title="include/etaos/stl/cpu.h" alt="" coords="667,87,820,114"/>
-<area shape="rect" id="node7" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="845,87,949,114"/>
+<area shape="rect" id="node7" href="$stl_2dht11_8h_source.html" title="include/etaos/stl/dht11.h" alt="" coords="844,87,1008,114"/>
+<area shape="rect" id="node8" href="$kernel_2irq_2irq_8c.html" title="kernel/irq/irq.c" alt="" coords="1033,87,1137,114"/>
 </map>
