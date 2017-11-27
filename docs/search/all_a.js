@@ -50,8 +50,6 @@ var searchData=
   ['irq_5fchip',['irq_chip',['../structirq__chip.html',1,'']]],
   ['irq_5fchip_5fadd_5firq',['irq_chip_add_irq',['../group__irq.html#ga057e55d6efd0bb132c836994d4c03f59',1,'irq_chip_add_irq(struct irq_chip *chip, struct irq_data *irq):&#160;irqchip.c'],['../group__irqchip.html#ga057e55d6efd0bb132c836994d4c03f59',1,'irq_chip_add_irq(struct irq_chip *chip, struct irq_data *irq):&#160;irqchip.c']]],
   ['irq_5fchip_5finit',['irq_chip_init',['../group__irq.html#ga38e874e863c05ae617182cd136b97b55',1,'irq_chip_init(struct irq_chip *chip, const char *name):&#160;irqchip.c'],['../group__irqchip.html#ga38e874e863c05ae617182cd136b97b55',1,'irq_chip_init(struct irq_chip *chip, const char *name):&#160;irqchip.c']]],
-  ['irq_5fchip_5fset_5fresume',['irq_chip_set_resume',['../group__irq.html#gad13adea29e7c50b491c0e36ab79ef695',1,'irq.h']]],
-  ['irq_5fchip_5fset_5fsleep',['irq_chip_set_sleep',['../group__irq.html#gaae474ddbbd8aaa64f1b33c67551c481c',1,'irq.h']]],
   ['irq_5fdata',['irq_data',['../structirq__data.html',1,'']]],
   ['irq_5fdisable',['irq_disable',['../group__irq.html#gacd9ccf0612b51a0f07d76826341e469b',1,'irq.h']]],
   ['irq_5fenable',['irq_enable',['../group__irq.html#ga6a0439b28db6fee1e7eb3d1b56d3294a',1,'irq.h']]],

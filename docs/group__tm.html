@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.6</a>
+                        <a class="navbar-brand">5.1.7</a>
 		    </div>
 	        </div>
             </div>
@@ -155,9 +155,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gafff3055bcb127ea4f7f8381c3cf10b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#gafff3055bcb127ea4f7f8381c3cf10b71">delay</a> (unsigned int ms)</td></tr>
 <tr class="memdesc:gafff3055bcb127ea4f7f8381c3cf10b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delay for a certain amount of miliseconds.  <a href="#gafff3055bcb127ea4f7f8381c3cf10b71">More...</a><br /></td></tr>
 <tr class="separator:gafff3055bcb127ea4f7f8381c3cf10b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4e10bb7a0a1ed6912358daf0d8684af9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#ga4e10bb7a0a1ed6912358daf0d8684af9">clocksource_init</a> (const char *name, struct <a class="el" href="structclocksource.html">clocksource</a> *cs, unsigned long freq, int(*enable)(struct <a class="el" href="structclocksource.html">clocksource</a> *cs), void(*disable)(struct <a class="el" href="structclocksource.html">clocksource</a> *cs))</td></tr>
-<tr class="memdesc:ga4e10bb7a0a1ed6912358daf0d8684af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialise a new clock source.  <a href="#ga4e10bb7a0a1ed6912358daf0d8684af9">More...</a><br /></td></tr>
-<tr class="separator:ga4e10bb7a0a1ed6912358daf0d8684af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga042413bf7630f679cfcc2491ddca60cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#ga042413bf7630f679cfcc2491ddca60cb">clocksource_init</a> (const char *name, struct <a class="el" href="structclocksource.html">clocksource</a> *cs, unsigned long freq)</td></tr>
+<tr class="memdesc:ga042413bf7630f679cfcc2491ddca60cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialise a new clock source.  <a href="#ga042413bf7630f679cfcc2491ddca60cb">More...</a><br /></td></tr>
+<tr class="separator:ga042413bf7630f679cfcc2491ddca60cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga05fdfd13f6665f01fb26189f7202e668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2etaos_2types_8h.html#a7f5991675a84025dc7c24754a9b257c0">time_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tm.html#ga05fdfd13f6665f01fb26189f7202e668">clocksource_get_seconds</a> (struct <a class="el" href="structclocksource.html">clocksource</a> *src)</td></tr>
 <tr class="memdesc:ga05fdfd13f6665f01fb26189f7202e668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the clock count of a clocksource in seconds.  <a href="#ga05fdfd13f6665f01fb26189f7202e668">More...</a><br /></td></tr>
 <tr class="separator:ga05fdfd13f6665f01fb26189f7202e668"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -404,7 +404,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga4e10bb7a0a1ed6912358daf0d8684af9"></a>
+<a class="anchor" id="ga042413bf7630f679cfcc2491ddca60cb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -424,19 +424,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>freq</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int(*)(struct <a class="el" href="structclocksource.html">clocksource</a> *cs)&#160;</td>
-          <td class="paramname"><em>enable</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)(struct <a class="el" href="structclocksource.html">clocksource</a> *cs)&#160;</td>
-          <td class="paramname"><em>disable</em>&#160;</td>
+          <td class="paramname"><em>freq</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -452,8 +440,6 @@ Functions</h2></td></tr>
     <tr><td class="paramname">name</td><td>Name of the clocksource. </td></tr>
     <tr><td class="paramname">cs</td><td>Clock source which has to be initialised. </td></tr>
     <tr><td class="paramname">freq</td><td>Frequency of the clock source. </td></tr>
-    <tr><td class="paramname">enable</td><td>Function pointer to enable the source. </td></tr>
-    <tr><td class="paramname">disable</td><td>Function pointer to disable the source. </td></tr>
   </table>
   </dd>
 </dl>
@@ -464,8 +450,8 @@ Functions</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="group__tm_ga4e10bb7a0a1ed6912358daf0d8684af9_cgraph.png" border="0" usemap="#group__tm_ga4e10bb7a0a1ed6912358daf0d8684af9_cgraph" alt=""/></div>
-<map name="group__tm_ga4e10bb7a0a1ed6912358daf0d8684af9_cgraph" id="group__tm_ga4e10bb7a0a1ed6912358daf0d8684af9_cgraph">
+<div class="center"><img src="group__tm_ga042413bf7630f679cfcc2491ddca60cb_cgraph.png" border="0" usemap="#group__tm_ga042413bf7630f679cfcc2491ddca60cb_cgraph" alt=""/></div>
+<map name="group__tm_ga042413bf7630f679cfcc2491ddca60cb_cgraph" id="group__tm_ga042413bf7630f679cfcc2491ddca60cb_cgraph">
 <area shape="rect" id="node2" href="list_8h.html#a1a568374cf24e55d65a537408bd323e4" title="Dynamic list initialiser. " alt="" coords="169,5,268,32"/></map>
 </div>
 </p>
@@ -791,7 +777,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 8 2017 19:31:59 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 27 2017 23:44:47 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

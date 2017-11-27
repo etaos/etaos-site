@@ -5,7 +5,6 @@ var searchData=
   ['read',['read',['../structdev__file__ops.html#aea820c8825dade6f0eb69786ff7a94a1',1,'dev_file_ops::read()'],['../structeeprom.html#aa26c7b753c53e7504ff08ed574362247',1,'eeprom::read()'],['../structsram.html#ae0989fd1c8681fda24a2668310b91379',1,'sram::read()'],['../structfile.html#aea820c8825dade6f0eb69786ff7a94a1',1,'file::read()'],['../structusart.html#a150aa721cb1b5d3a88b0fba83d55704d',1,'usart::read()'],['../structfs__driver.html#aea820c8825dade6f0eb69786ff7a94a1',1,'fs_driver::read()']]],
   ['read_5fbyte',['read_byte',['../structeeprom.html#ad5c6ca81e12a8c170c5dcfd4a6fd36b6',1,'eeprom::read_byte()'],['../structsram.html#af451661ba0b5e17a8dc9200a65563497',1,'sram::read_byte()']]],
   ['release',['release',['../structdevice.html#a8326df2cce042f8d9f4bb4a3f6916ddd',1,'device']]],
-  ['resume',['resume',['../structirq__chip.html#a0b4dc10d9c403b0fe21d8d49a7cc95e8',1,'irq_chip']]],
   ['retries',['retries',['../structi2c__bus.html#aa08098f316260c0d74039e1f7520abb7',1,'i2c_bus::retries()'],['../structspi__driver.html#aa08098f316260c0d74039e1f7520abb7',1,'spi_driver::retries()']]],
   ['rm_5fthread',['rm_thread',['../structsched__class.html#a43307eb0742b086fa326202322d14702',1,'sched_class']]],
   ['romfs',['romfs',['../group__romfs.html#ga99d724a74f00deeedafbd593e3fd196b',1,'romfs():&#160;romfs.c'],['../group__romfs.html#ga99d724a74f00deeedafbd593e3fd196b',1,'romfs():&#160;romfs.c']]],

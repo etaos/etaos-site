@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.6</a>
+                        <a class="navbar-brand">5.1.7</a>
 		    </div>
 	        </div>
             </div>
@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>Interrupt management</li>
 <li>Timer management</li>
 <li>Driver core</li>
-<li>Bunch of basic drivers (USART etc..)</li>
+<li>Several device and sensor drivers</li>
 </ul>
 <h2>License </h2>
 <p>ETA/OS is licenced as GNU Lesser General Public Licence version 3 or newer. The COPYING file should contian more information about the licence, or if it's not included, look at <a href="http://www.gnu.org/licences/">http://www.gnu.org/licences/</a>. </p><pre class="fragment">ETA/OS
@@ -117,31 +117,7 @@ GNU Lesser Lesser General Public License for more details.
 You should have received a copy of the GNU Lesser Lesser General Public License
 along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
 </pre><h2>Compiling ETA/OS </h2>
-<p>To retrieve and build ETA/OS the following tools are required:</p>
-<p>Retreiving:</p><ul>
-<li>Git or</li>
-<li>a tarball download</li>
-</ul>
-<p>Build tools (for the host and target system):</p><ul>
-<li>GCC tool chain (binutils and gcc)<ul>
-<li>gcc</li>
-<li>ld</li>
-<li>as</li>
-<li>objcopy</li>
-</ul>
-</li>
-<li>A working Linux distribution (windows isn't supported (yet))</li>
-</ul>
-<p>To test:</p><ul>
-<li>simulavr or</li>
-<li>embedded hardware (arduino's etc..)</li>
-</ul>
-<p>Before you can build ETA/OS you have to configure it. Run </p><pre class="fragment">make menuconfig ARCH=archname
-</pre><p>to start the configuration process.</p>
-<p>When you are finished configuring the project run the following make commands to fully build ETA/OS: </p><pre class="fragment">make prepare ARCH=archname
-make all ARCH=archname
-make modules_install ARCH=archname INSTALL_MOD_PATH=path
-</pre><p>After that, you are ready to compile an application. To compile an application you need application sources and Kbuild file in a sepperate directory (anywhere). See the usr/tests/ directory for some examples.</p>
+<p>In order to build ETA/OS you need a working cross compile toolchain and a host toolchain to build the DevOps applications. The entire setup process is described <a href="http://etaos.bietje.net/docs/env-setup.html">here</a>. The build scripts has a builtin help function. Run <code>make help ARCH=&lt;arch&gt;</code> to see all available targets.</p>
 <h2>Testing </h2>
 <p>ETA/OS comes with a set of unit tests, which can be found in the <code>usr/tests</code> directory. These tests can be ran manually, ofcourse, or the running process can be automated for most tests using a tool called Calypso. Calypso can be download as a Ruby gem:</p>
 <p><code>user@pc# gem install calypso</code></p>
@@ -170,7 +146,7 @@ make modules_install ARCH=archname INSTALL_MOD_PATH=path
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 8 2017 19:32:03 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 27 2017 23:44:51 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

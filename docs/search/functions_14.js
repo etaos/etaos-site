@@ -14,6 +14,8 @@ var searchData=
   ['thread_5finit',['thread_init',['../group__thread.html#ga3142f0195219ab376bf1b2f5b8710865',1,'thread.c']]],
   ['thread_5finitialise',['thread_initialise',['../group__thread.html#ga7a58f6105b0e8ab06bffff191cbb36df',1,'thread.c']]],
   ['thread_5fis_5fidle',['thread_is_idle',['../group__sched.html#ga0e68a5e318862b42f5472c212668056e',1,'core.c']]],
+  ['thread_5fmax_5frelative_5fstack_5flength',['thread_max_relative_stack_length',['../group__thread.html#ga85e9b32bfb4098cd838528d9d95ea6c4',1,'thread.h']]],
+  ['thread_5fmax_5fstack_5flength',['thread_max_stack_length',['../group__thread.html#ga2518e9d5b36544eccb787e6f362b22d7',1,'thread.h']]],
   ['thread_5fqueue_5finit',['thread_queue_init',['../group__thread.html#ga512d7ca8d457038cebefec83b3b02065',1,'thread_queue_init(struct thread_queue *qp):&#160;core.c'],['../group__sched.html#ga512d7ca8d457038cebefec83b3b02065',1,'thread_queue_init(struct thread_queue *qp):&#160;core.c']]],
   ['thread_5fqueue_5fwait',['thread_queue_wait',['../group__sched.html#gaf884d02ac7bc14a91b776fb092c45094',1,'core.c']]],
   ['thread_5fremove_5ffrom_5fkill_5fq',['thread_remove_from_kill_q',['../group__sched.html#ga3a14953a27abbba377438f48843c7b03',1,'sched.h']]],

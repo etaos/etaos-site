@@ -1,7 +1,7 @@
 <map id="pwm_channel" name="pwm_channel">
 <area shape="rect" id="node2" href="$structpwm.html" title="PWM chip datastructure. " alt="" coords="290,557,381,679"/>
 <area shape="rect" id="node3" href="$structpwm__driver.html" title="PWM chip driver. " alt="" coords="195,351,332,473"/>
-<area shape="rect" id="node4" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="75,329,167,495"/>
+<area shape="rect" id="node4" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="75,344,167,480"/>
 <area shape="rect" id="node6" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="5,557,92,679"/>
 <area shape="rect" id="node5" href="$structlist__head.html" title="Linked list structure. " alt="" coords="23,167,98,245"/>
 <area shape="rect" id="node7" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="417,160,488,252"/>

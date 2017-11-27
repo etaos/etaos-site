@@ -22,8 +22,6 @@ var searchData=
   ['irq_5fassign_5fpin',['irq_assign_pin',['../group__irq.html#ga255bbc0d38bd6fa5ccbb227e1d7e73fb',1,'irq.c']]],
   ['irq_5fchip_5fadd_5firq',['irq_chip_add_irq',['../group__irq.html#ga057e55d6efd0bb132c836994d4c03f59',1,'irq_chip_add_irq(struct irq_chip *chip, struct irq_data *irq):&#160;irqchip.c'],['../group__irqchip.html#ga057e55d6efd0bb132c836994d4c03f59',1,'irq_chip_add_irq(struct irq_chip *chip, struct irq_data *irq):&#160;irqchip.c']]],
   ['irq_5fchip_5finit',['irq_chip_init',['../group__irq.html#ga38e874e863c05ae617182cd136b97b55',1,'irq_chip_init(struct irq_chip *chip, const char *name):&#160;irqchip.c'],['../group__irqchip.html#ga38e874e863c05ae617182cd136b97b55',1,'irq_chip_init(struct irq_chip *chip, const char *name):&#160;irqchip.c']]],
-  ['irq_5fchip_5fset_5fresume',['irq_chip_set_resume',['../group__irq.html#gad13adea29e7c50b491c0e36ab79ef695',1,'irq.h']]],
-  ['irq_5fchip_5fset_5fsleep',['irq_chip_set_sleep',['../group__irq.html#gaae474ddbbd8aaa64f1b33c67551c481c',1,'irq.h']]],
   ['irq_5fhandle',['irq_handle',['../group__irq.html#gad8e072612e98b45b6c5230cf3676ac34',1,'handle.c']]],
   ['irq_5fhandle_5ffn',['irq_handle_fn',['../group__irq.html#ga3bc3313bad893c5e73c47dbdf69d3bbe',1,'irq_handle_fn(void *data):&#160;core.c'],['../group__sched.html#ga3bc3313bad893c5e73c47dbdf69d3bbe',1,'irq_handle_fn(void *data):&#160;core.c']]],
   ['irq_5fhandle_5fhard_5firq',['irq_handle_hard_irq',['../group__irq.html#gaeef2d552ee81c4cb13ca06f6442d6ba1',1,'handle.c']]],

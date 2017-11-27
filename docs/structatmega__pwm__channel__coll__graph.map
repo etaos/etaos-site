@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$structpwm__channel.html" title="PWM channel data. " alt="" coords="508,373,611,451"/>
 <area shape="rect" id="node3" href="$structpwm.html" title="PWM chip datastructure. " alt="" coords="267,557,358,679"/>
 <area shape="rect" id="node4" href="$structpwm__driver.html" title="PWM chip driver. " alt="" coords="196,351,333,473"/>
-<area shape="rect" id="node5" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="77,329,169,495"/>
+<area shape="rect" id="node5" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="77,344,169,480"/>
 <area shape="rect" id="node7" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="5,557,92,679"/>
 <area shape="rect" id="node6" href="$structlist__head.html" title="Linked list structure. " alt="" coords="23,167,98,245"/>
 <area shape="rect" id="node8" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="419,160,489,252"/>

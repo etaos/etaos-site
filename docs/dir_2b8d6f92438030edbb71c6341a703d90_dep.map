@@ -1,11 +1,11 @@
 <map id="drivers" name="drivers">
 <area shape="rect" id="node2" href="dir_32364fa785d384658cd7bd2860f387d7.html" title="analog" alt="" coords="1083,27,1155,75"/>
 <area shape="rect" id="node14" href="dir_1dd79d4dca7038082c645a7093a3b4d1.html" title="include" alt="" coords="555,123,627,171"/>
-<area shape="rect" id="edge9-headlabel" href="dir_000029_000005.html" title="17" alt="" coords="638,143,653,158"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000031_000005.html" title="17" alt="" coords="638,143,653,158"/>
 <area shape="rect" id="node3" href="dir_c6ff9a7f3686ed3622438458bee677d0.html" title="core" alt="" coords="987,27,1059,75"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000030_000005.html" title="11" alt="" coords="638,146,653,160"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000032_000005.html" title="11" alt="" coords="638,146,653,160"/>
 <area shape="rect" id="node4" href="dir_61c11d9620e853f6d09c3a86a291f066.html" title="eeprom" alt="" coords="891,27,963,75"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000012_000005.html" title="17" alt="" coords="639,142,653,156"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000014_000005.html" title="17" alt="" coords="639,142,653,156"/>
 <area shape="rect" id="node5" href="dir_94063f86a3d201521760418b9a8558c2.html" title="flash" alt="" coords="795,27,867,75"/>
 <area shape="rect" id="edge7-headlabel" href="dir_000034_000005.html" title="5" alt="" coords="643,134,651,149"/>
 <area shape="rect" id="node6" href="dir_7522d5b305d908ff2a4edbb50846cb1c.html" title="gpio" alt="" coords="699,27,771,75"/>

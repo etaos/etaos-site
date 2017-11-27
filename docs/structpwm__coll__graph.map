@@ -1,11 +1,11 @@
 <map id="pwm" name="pwm">
-<area shape="rect" id="node3" href="$structpwm__channel.html" title="PWM channel data. " alt="" coords="235,616,337,693"/>
-<area shape="rect" id="node2" href="$structpwm__driver.html" title="PWM chip driver. " alt="" coords="324,182,461,303"/>
-<area shape="rect" id="node4" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="67,403,137,495"/>
-<area shape="rect" id="node5" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="5,572,132,737"/>
-<area shape="rect" id="node6" href="$structpwm__state.html" title="PWM channel settings. " alt="" coords="207,410,293,487"/>
-<area shape="rect" id="node7" href="$unionduty__cycle__t.html" title="Channel duty cycle. " alt="" coords="202,197,298,289"/>
-<area shape="rect" id="node8" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="512,160,604,325"/>
-<area shape="rect" id="node10" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="569,388,656,509"/>
+<area shape="rect" id="node3" href="$structpwm__channel.html" title="PWM channel data. " alt="" coords="235,587,337,664"/>
+<area shape="rect" id="node2" href="$structpwm__driver.html" title="PWM chip driver. " alt="" coords="324,167,461,289"/>
+<area shape="rect" id="node4" href="$structgpio__pin.html" title="GPIO pin descriptor. " alt="" coords="67,373,137,465"/>
+<area shape="rect" id="node5" href="$structgpio__chip.html" title="GPIO chip descriptor. " alt="" coords="5,543,132,708"/>
+<area shape="rect" id="node6" href="$structpwm__state.html" title="PWM channel settings. " alt="" coords="207,381,293,458"/>
+<area shape="rect" id="node7" href="$unionduty__cycle__t.html" title="Channel duty cycle. " alt="" coords="202,182,298,274"/>
+<area shape="rect" id="node8" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="512,160,604,296"/>
+<area shape="rect" id="node10" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="569,359,656,480"/>
 <area shape="rect" id="node9" href="$structlist__head.html" title="Linked list structure. " alt="" coords="594,5,669,83"/>
 </map>

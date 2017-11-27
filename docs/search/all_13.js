@@ -50,7 +50,6 @@ var searchData=
   ['release',['release',['../structdevice.html#a8326df2cce042f8d9f4bb4a3f6916ddd',1,'device']]],
   ['remove',['remove',['../group__python-list.html#ga40bf167cbe7dc81d668ffebaa9ae0581',1,'list']]],
   ['reschedule_5fdecide',['reschedule_decide',['../group__sched.html#gaaa7887e8e5c82701d2a90a29761a97ed',1,'core.c']]],
-  ['resume',['resume',['../structirq__chip.html#a0b4dc10d9c403b0fe21d8d49a7cc95e8',1,'irq_chip']]],
   ['retries',['retries',['../structi2c__bus.html#aa08098f316260c0d74039e1f7520abb7',1,'i2c_bus::retries()'],['../structspi__driver.html#aa08098f316260c0d74039e1f7520abb7',1,'spi_driver::retries()']]],
   ['rm_5fthread',['rm_thread',['../structsched__class.html#a43307eb0742b086fa326202322d14702',1,'sched_class']]],
   ['romfs',['romfs',['../structromfs.html',1,'romfs'],['../group__romfs.html#ga99d724a74f00deeedafbd593e3fd196b',1,'romfs():&#160;romfs.c'],['../group__romfs.html#ga99d724a74f00deeedafbd593e3fd196b',1,'romfs():&#160;romfs.c']]],

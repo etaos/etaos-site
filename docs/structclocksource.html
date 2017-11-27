@@ -31,7 +31,7 @@
 			<img class="logo" alt="Logo" src="etaos-logo.svg"/>
 		    </div>
 		    <div class="col-sm-2 project-number">
-                        <a class="navbar-brand">5.1.6</a>
+                        <a class="navbar-brand">5.1.7</a>
 		    </div>
 	        </div>
             </div>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="structclocksource__coll__graph.png" border="0" usemap="#clocksource_coll__map" alt="Collaboration graph"/></div>
 <map name="clocksource_coll__map" id="clocksource_coll__map">
-<area shape="rect" id="node3" href="structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="37,388,124,509"/><area shape="rect" id="node2" href="structlist__head.html" title="Linked list structure. " alt="" coords="69,5,143,83"/></map>
+<area shape="rect" id="node3" href="structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="37,359,124,480"/><area shape="rect" id="node2" href="structlist__head.html" title="Linked list structure. " alt="" coords="69,5,143,83"/></map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -120,12 +120,6 @@ Data Fields</h2></td></tr>
 const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structclocksource.html#a8f8f80d37794cde9472343e4487ba3eb">name</a></td></tr>
 <tr class="memdesc:a8f8f80d37794cde9472343e4487ba3eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer name. <br /></td></tr>
 <tr class="separator:a8f8f80d37794cde9472343e4487ba3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a738f5b01c2368ff353d32a95b1c88976"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structclocksource.html#a738f5b01c2368ff353d32a95b1c88976">enable</a> )(struct <a class="el" href="structclocksource.html">clocksource</a> *cs)</td></tr>
-<tr class="memdesc:a738f5b01c2368ff353d32a95b1c88976"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the timer.  <a href="#a738f5b01c2368ff353d32a95b1c88976">More...</a><br /></td></tr>
-<tr class="separator:a738f5b01c2368ff353d32a95b1c88976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a313b4cb0f5b62908bfc7da718e31def7"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structclocksource.html#a313b4cb0f5b62908bfc7da718e31def7">disable</a> )(struct <a class="el" href="structclocksource.html">clocksource</a> *cs)</td></tr>
-<tr class="memdesc:a313b4cb0f5b62908bfc7da718e31def7"><td class="mdescLeft">&#160;</td><td class="mdescRight">disable the timer.  <a href="#a313b4cb0f5b62908bfc7da718e31def7">More...</a><br /></td></tr>
-<tr class="separator:a313b4cb0f5b62908bfc7da718e31def7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43558a8f9511b5c375d0e236a783f362"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43558a8f9511b5c375d0e236a783f362"></a>
 unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structclocksource.html#a43558a8f9511b5c375d0e236a783f362">freq</a></td></tr>
 <tr class="memdesc:a43558a8f9511b5c375d0e236a783f362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency of the source (in Hz). <br /></td></tr>
@@ -157,48 +151,7 @@ struct <a class="el" href="structtimer.html">timer</a> *&#160;</td><td class="me
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The clocksource describes the source of a hardware time. </p>
-</div><h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="a313b4cb0f5b62908bfc7da718e31def7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* disable)(struct <a class="el" href="structclocksource.html">clocksource</a> *cs)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>disable the timer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cs</td><td>Clocksource to disable. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a738f5b01c2368ff353d32a95b1c88976"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int(* enable)(struct <a class="el" href="structclocksource.html">clocksource</a> *cs)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enable the timer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cs</td><td>Clocksource to enable. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/etaos/<a class="el" href="clocksource_8h_source.html">clocksource.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -210,7 +163,7 @@ struct <a class="el" href="structtimer.html">timer</a> *&#160;</td><td class="me
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 8 2017 19:32:00 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 27 2017 23:44:48 for ETA/OS by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

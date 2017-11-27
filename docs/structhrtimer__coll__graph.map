@@ -1,5 +1,5 @@
 <map id="hrtimer" name="hrtimer">
 <area shape="rect" id="node2" href="$structlist__head.html" title="Linked list structure. " alt="" coords="140,5,215,83"/>
-<area shape="rect" id="node3" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="131,160,223,325"/>
-<area shape="rect" id="node4" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="217,388,303,509"/>
+<area shape="rect" id="node3" href="$structclocksource.html" title="The clocksource describes the source of a hardware time. " alt="" coords="131,160,223,296"/>
+<area shape="rect" id="node4" href="$structtimer.html" title="Describes a single (virtual) timer. " alt="" coords="217,359,303,480"/>
 </map>
